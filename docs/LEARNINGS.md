@@ -310,6 +310,19 @@ _Tartan Dictionary data has an NC-ND upstream and no stated licence._
 
 - **Status:** resolved
 
+### sentences-from-generator-script
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** W2-A (this PR)
+
+- **Detail:** Hand-writing token lists for 48 sentences is error-prone. A throwaway script that takes plain Gaelic text, looks each word up in the lexeme and form YAML by surface form, and fails on any word that is missing or ambiguous (for example `air`, `ann`, which are both a lexeme and a 3sg-m form) caught every link problem before `npm run content` ran.
+
+- **Resolution:** For future sentence batches, keep the script outside the repo (scratchpad), use `word|id` overrides for ambiguous surface forms, and map lenited forms to their base lexeme explicitly. A corpus lookup was not possible in this session, so every sentence is `review: generated`.
+
+- **Status:** open
+
 ### content-prs-regenerate-json
 
 _Content PRs must commit the regenerated `src/content/generated/`._
