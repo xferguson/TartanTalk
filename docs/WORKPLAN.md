@@ -207,7 +207,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-M
 
-- **Status:** in progress (claude/w1-m-80fs64)
+- **Status:** done (#35)
 
 **Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio.
 
