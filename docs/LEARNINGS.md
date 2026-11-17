@@ -513,3 +513,17 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Resolution:** Screen tasks update the smoke test's expected heading in the same PR and note it as outside their Owns paths. Run `npm run e2e` before pushing.
 
 - **Status:** open
+
+### L19. Raw content tags and dead-end session screens reached learners
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** this PR
+
+- **Detail:** The New scarf and Scarf screens showed machine tags (`topic:love`, `prep:aig`), and the Loom ended every batch, or a wait on a missed thread, with only "Back to the shelf", so a learner could not keep weaving.
+
+- **Resolution:** `tagLabel` (src/domain/tagLabel.ts) is the one place that turns a tag into display text; `TagPicker` takes a `format` prop. A finished or resting Loom offers "Keep weaving", which starts the next batch. Any screen that shows content to a learner should format it, and no end state should lack a way forward.
+
+- **Status:** resolved

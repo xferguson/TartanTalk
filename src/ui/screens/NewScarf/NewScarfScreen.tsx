@@ -6,6 +6,7 @@ import { db, type TartanDB } from '../../../db/db';
 import { putScarf } from '../../../db/repo';
 import { Button } from '../../components/Button';
 import { Card } from '../../components/Card';
+import { tagLabel } from '../../../domain/tagLabel';
 import { TagPicker } from '../../components/TagPicker';
 import { TartanSwatch } from './TartanSwatch';
 import {
@@ -89,14 +90,14 @@ export function NewScarfScreen({ content, database = db, now = Date.now, newId =
             }}
           />
         )}
-        <TagPicker label="Topic tags" tags={tags.topic} selected={selected} onToggle={toggleTag} />
+        <TagPicker label="Topic tags" tags={tags.topic} format={tagLabel} selected={selected} onToggle={toggleTag} />
       </fieldset>
 
       {tags.grammar.length > 0 && (
         <fieldset className={styles.field}>
           <legend className={styles.label}>Grammar</legend>
           <div lang="gd">
-            <TagPicker label="Grammar tags" tags={tags.grammar} selected={selected} onToggle={toggleTag} />
+            <TagPicker label="Grammar tags" tags={tags.grammar} format={tagLabel} selected={selected} onToggle={toggleTag} />
           </div>
         </fieldset>
       )}

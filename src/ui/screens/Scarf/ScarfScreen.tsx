@@ -6,6 +6,7 @@ import { db } from '../../../db/db';
 import { formatLength } from '../../../domain/length';
 import { Button, ButtonRow } from '../../components/Button';
 import { ScarfCanvas } from '../../components/ScarfCanvas';
+import { tagLabel } from '../../../domain/tagLabel';
 import { TagPicker } from '../../components/TagPicker';
 import { buildScarfView, rulerLabels } from './scarfView';
 import styles from './ScarfScreen.module.css';
@@ -74,7 +75,7 @@ export function ScarfScreen({ now = Date.now }: { now?: () => number }) {
             items: {counts.words} words, {counts.forms} forms, {counts.sentences} sentences
           </p>
           <p className={styles.fact}><b>{view.holes.length}</b>moth holes waiting</p>
-          <TagPicker tags={scarf.tagFilter} label="Tags" />
+          <TagPicker tags={scarf.tagFilter} format={tagLabel} label="Tags" />
         </div>
       </div>
 

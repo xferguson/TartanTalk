@@ -131,13 +131,17 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
           {strip}
           <p className={styles.plain} role="status">
             {s.waitUntil !== null
-              ? 'The next thread is resting a moment. Come back soon.'
+              ? 'The next thread is resting a moment. Weave on with something new, or come back soon.'
               : s.total === 0
                 ? 'Nothing new to weave right now.'
                 : 'That is all for this session. The scarf is a little longer.'}
           </p>
           <ButtonRow>
-            <Button to="/">Back to the shelf</Button>
+            {/* Resting or finished only ends a batch: the learner decides when to stop. */}
+            {s.total > 0 && (
+              <Button onClick={() => void store.getState().startLearning(scarf.id)} autoFocus>Keep weaving</Button>
+            )}
+            <Button to="/" variant={s.total > 0 ? 'ghost' : undefined}>Back to the shelf</Button>
             <Button to={`/scarf/${scarf.id}`} variant="ghost">See the scarf</Button>
           </ButtonRow>
         </Card>
