@@ -99,8 +99,49 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 2
-- **Seen in:** #12, #9
-- **Detail:** `npx vitest` failed with "Cannot find package 'vitest'" until dependencies were installed.
-- **Resolution:** Run `npm ci` before the first test run in a new session.
+- **Tally:** 3
+- **Seen in:** #12, #13, #11
+- **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
+- **Resolution:** Run `npm ci` before the first check in a new session.
+- **Proposal:** A SessionStart hook (`.claude/settings.json`) that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready to lint, typecheck and test.
+- **Status:** proposal pending user
+
+### L12. Testing-library does not auto-clean between tests here
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** #13
+- **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
+- **Resolution:** Call `afterEach(cleanup)` in each component test file (or add it to `tests/setup.ts` in a task that owns it).
 - **Status:** open
+
+### L12. Off-by-one between a step counter and the contract's meaning
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** #10
+- **Detail:** `markLearned` set `seededStep: 0`, which re-used the 1-day interval on the first review. The contract comment in `types.ts` ("0 = next interval 1d, 1 = 4d …") was right, and the tests caught the mismatch.
+- **Resolution:** Read the contract's field comments before implementing, and write the test against the contract's wording.
+- **Status:** resolved
+
+### L13. Parallel sessions pick the same next learning ID
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** #10
+- **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
+- **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
+- **Status:** resolved
+
+### L14. Parking work while an earlier PR on the same branch is in CI
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #15
+- **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
+- **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
+- **Status:** resolved
+
+### L14. LEARNINGS.md edits inside task PRs cause repeated merge conflicts
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** #11
+- **Detail:** Parallel task PRs all edited `docs/LEARNINGS.md` (and WORKPLAN rows), so squash-merging needed several conflict-resolving syncs.
+- **Resolution:** Update `LEARNINGS.md` only in a separate docs-only PR after the task PR has merged (user decision). Merge conflicts themselves are not tallied.
+- **Status:** resolved
