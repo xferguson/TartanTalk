@@ -13,8 +13,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L1. Agents cannot approve PRs opened under the user's account
 - **Type:** issue
-- **Tally:** 4
-- **Seen in:** #1, #2, #3, #4
+- **Tally:** 5
+- **Seen in:** #1, #2, #3, #4, #5
 - **Detail:** GitHub rejects the approval ("Can not approve your own pull request") because the agent's PRs are authored by the user's account.
 - **Resolution:** Merge on green CI is the approval step (written into `CLAUDE.md`).
 - **Proposal:** A `ship-pr` skill (`.claude/skills/ship-pr/SKILL.md`) that runs the whole ship sequence:
@@ -38,7 +38,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L3. Controlled inputs backed by async IndexedDB live queries lag
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** F1 PR
+- **Seen in:** #5
 - **Detail:** The theme radio didn't visibly change on click until the Dexie live query returned. Playwright reported "Clicking the checkbox did not change its state".
 - **Resolution:** Keep optimistic local state, persist in the background, and clear the optimistic value once the stored value matches. Use this pattern for all settings.
 - **Status:** resolved
@@ -69,7 +69,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L7. A chained shell command can abort part-way
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** F1 PR
+- **Seen in:** #5
 - **Detail:** `git rm` refused files with local changes, which stopped the rest of the `&&` chain, so files that should have been removed were left behind.
 - **Resolution:** Check `git status` after file moves, and prefer explicit `rm` for untracked or edited files.
 - **Status:** resolved
@@ -77,7 +77,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L8. Installing every dependency up front avoids lockfile conflicts
 - **Type:** efficiency
 - **Tally:** 1
-- **Seen in:** F1 PR
+- **Seen in:** #5
 - **Detail:** `package.json` and `package-lock.json` conflict whenever parallel PRs add dependencies.
 - **Resolution:** F1 installs all vertical-slice dependencies once. Later dependencies go through a dedicated `deps:` PR.
 - **Status:** resolved
@@ -85,6 +85,6 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L9. Building UI straight from mock-ups leads to loose interpretation
 - **Type:** difficulty
 - **Tally:** 1
-- **Seen in:** F2 PR
+- **Seen in:** #5
 - **Resolution:** The tech lead transcribes mock-ups into exact specs (`docs/WORKPLAN.md` Appendix B) before UI tasks start. Agents build to the spec.
 - **Status:** resolved
