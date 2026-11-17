@@ -1,0 +1,66 @@
+# Pronominal forms of "de" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:de.1sg
+  lexemeId: lex:de
+  gd: "dhìom"
+  en: "of me"
+  person: 1sg
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.2sg
+  lexemeId: lex:de
+  gd: "dhìot"
+  en: "of you"
+  person: 2sg
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.3sg-m
+  lexemeId: lex:de
+  gd: "dheth"
+  en: "of him"
+  person: 3sg-m
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.3sg-f
+  lexemeId: lex:de
+  gd: "dhith"
+  en: "of her"
+  person: 3sg-f
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.1pl
+  lexemeId: lex:de
+  gd: "dhinn"
+  en: "of us"
+  person: 1pl
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.2pl
+  lexemeId: lex:de
+  gd: "dhibh"
+  en: "of you (plural or formal)"
+  person: 2pl
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:de.3pl
+  lexemeId: lex:de
+  gd: "dhiubh"
+  en: "of them"
+  person: 3pl
+  tags: [prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
