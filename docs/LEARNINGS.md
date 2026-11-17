@@ -178,3 +178,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** One Tartan Dictionary page names `thetartan/tartan-database` (CC BY-NC-ND 4.0) in its data chain, which clashes with our CC BY-SA content licence. WebFetch summaries also garble sett strings (some stripe codes look wrong), so none can be marked verified. Guessed page URLs often 404.
 - **Resolution:** Setts are `verified: false` and `content/tartans/SOURCES.md` lists the licence risk. The user should decide whether to clear, replace or drop them.
 - **Status:** proposal pending user (decision on the licence risk)
+
+### L19. Content PRs must commit the regenerated `src/content/generated/`
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** #29
+- **Detail:** CI runs `npm run content` and fails if `src/content/generated` differs. A data-only PR (W1-I) added tartans without regenerating, so CI went red. That folder is outside a data task's Owns paths.
+- **Resolution:** After changing anything under `content/`, run `npm run content` and commit the generated JSON in the same PR.
+- **Status:** resolved
