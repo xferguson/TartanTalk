@@ -147,7 +147,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-I
 
-- **Status:** blocked (no licence-compatible sett source yet; see W-TARTAN-SOURCES)
+- **Status:** in progress (w1-i-approx-setts): approximate placeholder setts for now; exact setts tracked in W-TARTAN-EXACT-SETTS
 
 **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
 
@@ -342,6 +342,16 @@ Not part of any wave. Scheduled when the time is right.
 - **Owns:** `content/tartans/**`
 
 - **Depends on:** W1-H
+
+### W-TARTAN-EXACT-SETTS
+
+- **Status:** todo (needs W-TARTAN-SOURCES first)
+
+**Replace the approximate setts with real ones.** The 26 files in `content/tartans/` are placeholders: the colours are right in spirit, but the stripe counts are not the real setts. Once W-TARTAN-SOURCES settles a usable source, replace each sett, set `provenance` to the real source, and flip `verified` only after checking against a keeper such as the Scottish Register of Tartans. Remove the "Approximate placeholder" wording as each one is replaced.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W-TARTAN-SOURCES
 
 ## Parallelism at a glance
 - **Wave 1 can run up to 15 sessions at once.** Code tasks own disjoint files, and data tasks own disjoint YAML folders.
