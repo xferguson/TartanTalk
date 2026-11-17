@@ -43,8 +43,8 @@ A dev-only clock override lets testers fast-forward time to see moths.
 ## Wave 0: Foundations (sequential, lead only)
 | ID | Task | Owns | Depends on | Status |
 |---|---|---|---|---|
-| F1 | UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed** | `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts` | none | in progress (claude/tartan-talk-design-pbd3z0) |
-| F2 | Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs | `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore) | none | in progress (claude/tartan-talk-design-pbd3z0) |
+| F1 | UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed** | `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts` | none | done (#5) |
+| F2 | Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs | `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore) | none | done (#5) |
 
 ## Wave 1: fully parallel (each depends only on Wave 0)
 Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML and research with no code.
