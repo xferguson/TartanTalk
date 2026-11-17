@@ -282,6 +282,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### ell-weighting-has-no-owner-yet
+
+_The spec says per-kind length weighting is "in W2-B", but a screen needs it first._
+
+- **Type:** difficulty
+
+- **Seen in:** W2-D
+
+- **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
+
+- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent.
+
+- **Status:** open
+
 ### skill-proposal-threshold
 
 _Skill and hook proposals now wait for a tally of 5, not 3._
