@@ -169,3 +169,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** `tests/unit/db.test.ts` (from F1) tests the settings helpers, but W1-K owns `tests/unit/db/**`, so the new tests went in that folder and the old file was left alone.
 - **Resolution:** Keep `db.ts`'s v1 exports (`getSetting`, `setSetting`, `db`) unchanged so it keeps passing. Move it into `tests/unit/db/` in a later tidy-up.
 - **Status:** open
+
+### L18. A PR that conflicts with `main` never gets CI, so the session waits forever
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** (this PR)
+- **Detail:** GitHub does not start `pull_request` workflows for a PR that cannot merge cleanly. `ship-pr` waited for a check-suite event that never came, and the user had to notice. Most conflicts are in `docs/WORKPLAN.md` and `docs/LEARNINGS.md`, where every session edits the same table rows or appends at the end of the file.
+- **Resolution:** `ship-pr` step 5 now reads `mergeable_state` straight after opening the PR, schedules a `send_later` fallback, and re-checks on every wake. `.github/workflows/conflict-notifier.yml` comments on open PRs that conflict after `main` moves. A stale "mark done" commit left on a reused branch also caused one; check the branch against `origin/main` before starting. Splitting learnings and status into one file per entry would remove most docs conflicts, but was not adopted yet.
+- **Status:** adopted (skill and workflow, approved by the user)
