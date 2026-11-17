@@ -297,6 +297,20 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 
 - **Status:** resolved
 
+### ell-weighting-has-no-owner-yet
+
+_The spec says per-kind length weighting is "in W2-B", but a screen needs it first._
+
+- **Type:** difficulty
+
+- **Seen in:** W2-D, W2-B
+
+- **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
+
+- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it.
+
+- **Status:** open
+
 ### skill-proposal-threshold
 
 _Skill and hook proposals now wait for a tally of 5, not 3._
@@ -324,6 +338,19 @@ _Tartan Dictionary data has an NC-ND upstream and no stated licence._
 - **Resolution:** The user chose to drop the setts. They were removed before merge, `content/tartans/SOURCES.md` records what is still needed, and the follow-up is `W-TARTAN-SOURCES` in the workplan Backlog. Before copying data from any site, check its licence and its upstream chain.
 
 - **Status:** resolved
+
+### sentences-from-generator-script
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** #36
+
+- **Detail:** Hand-writing token lists for 48 sentences is error-prone. A throwaway script that takes plain Gaelic text, looks each word up in the lexeme and form YAML by surface form, and fails on any word that is missing or ambiguous (for example `air`, `ann`, which are both a lexeme and a 3sg-m form) caught every link problem before `npm run content` ran.
+
+- **Resolution:** For future sentence batches, keep the script outside the repo (scratchpad), use `word|id` overrides for ambiguous surface forms, and map lenited forms to their base lexeme explicitly. A corpus lookup was not possible in this session, so every sentence is `review: generated`.
+
+- **Status:** open
 
 ### content-prs-regenerate-json
 

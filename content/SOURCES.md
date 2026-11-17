@@ -30,4 +30,12 @@ Files: `content/lexemes/core-nouns.yaml` (50), `core-verbs.yaml` (50, root form)
 `content/topics.yaml` lists every starter theme in the PRD. Only **love and feelings** and **talking about languages** have vocabulary (`topic-love.yaml`, `topic-languages.yaml`) so far.
 
 ## Sentences
-Owned by W2-A.
+Files: `content/sentences/love.yaml` (24) and `content/sentences/languages.yaml` (24), W2-A.
+
+- **No corpus lookup was possible.** The drafting session did not query a Gaelic corpus or sentence database, and no external sentence was copied. Every sentence is an **AI draft** built by hand from the W1-J vocabulary, so all are `review: generated` with `source.ref` saying so. Nothing is claimed as sourced or verified.
+- **Candidate corpus for a later pass:** Tatoeba (CC BY 2.0 FR, compatible with CC BY-SA content) has Scottish Gaelic sentences. Check its terms and attribution rules before importing, and set `review: sourced` only for lines actually taken from it.
+- **Construction:** short, high-regularity patterns so each sentence unlocks from few words: `tha` + noun + `aig` + person (possession and language ability), `tha` + noun + `air` + person (feeling idioms such as `Tha eagal orm`), `tha` + person + adjective, plus a few imperatives and conjoined sentences. Every word is linked to a `lex:` or `form:` id; only punctuation has `itemId: null`.
+- **Lenition:** a lenited surface form (`thoilichte`, `bhòidheach`) links to its base lexeme.
+- **Translations** are natural English, so `Tha Gàidhlig agam` is "I speak Gaelic" rather than the literal "I have Gaelic".
+- **Review needed:** W3-B or a Gaelic speaker should check every sentence for grammar and naturalness and set `verified` or `flagged`. Likely queries: `Tha Albais agaibh` (formal or plural), `Tha thu gràdhach` and `Tha an cù snog`.
+

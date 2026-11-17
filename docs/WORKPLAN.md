@@ -219,7 +219,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 ## Wave 2: assembly (parallel within the wave once dependencies are met)
 ### W2-A
 
-- **Status:** todo
+- **Status:** done (#36)
 
 **Sentences.** Sentences and idioms built from J1-J3 vocabulary with full token links, patterns, tags and provenance (corpus first, then AI-generated and labelled). Enough for the love and languages scarves to unlock at least 2 sentences per batch.
 
@@ -259,7 +259,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-D
 
-- **Status:** todo
+- **Status:** in progress (ccr-c66ac743-zz5ffo)
 
 **Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags.
 
