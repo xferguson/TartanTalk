@@ -330,6 +330,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### preselect-link-needs-other-screen
+
+_A link from one screen that pre-fills another is two tasks, because each screen has its own owner._
+
+- **Type:** difficulty
+
+- **Seen in:** W2-F
+
+- **Detail:** B9 says "Use for a new scarf" opens `/new` with the tartan pre-selected, but `NewScarfScreen` belongs to W2-E and was already merged.
+
+- **Resolution:** The Library navigates to `/new?tartan=<id>` and the New scarf side was added as W2-E2 instead of editing outside Owns. Specs for cross-screen links should name the query parameter up front.
+
+- **Status:** resolved
+
 ### settings-control-outside-owns
 _A task's UI hook-up can fall outside its Owns paths: split it into its own task._
 
