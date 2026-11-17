@@ -1,0 +1,66 @@
+# Pronominal forms of "le" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:le.1sg
+  lexemeId: lex:le
+  gd: "leam"
+  en: "with me"
+  person: 1sg
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.2sg
+  lexemeId: lex:le
+  gd: "leat"
+  en: "with you"
+  person: 2sg
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.3sg-m
+  lexemeId: lex:le
+  gd: "leis"
+  en: "with him"
+  person: 3sg-m
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.3sg-f
+  lexemeId: lex:le
+  gd: "leatha"
+  en: "with her"
+  person: 3sg-f
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.1pl
+  lexemeId: lex:le
+  gd: "leinn"
+  en: "with us"
+  person: 1pl
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.2pl
+  lexemeId: lex:le
+  gd: "leibh"
+  en: "with you (plural or formal)"
+  person: 2pl
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:le.3pl
+  lexemeId: lex:le
+  gd: "leotha"
+  en: "with them"
+  person: 3pl
+  tags: [prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

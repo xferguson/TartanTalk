@@ -1,0 +1,169 @@
+# Languages vocabulary (W1-J3). cànan lives in core-nouns.yaml and carries the topic tag there.
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:gaidhlig
+  gd: "Gàidhlig"
+  en: "Gaelic (Scottish Gaelic)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beurla
+  gd: "Beurla"
+  en: "English (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fraingis
+  gd: "Fraingis"
+  en: "French (language)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gearmailtis
+  gd: "Gearmailtis"
+  en: "German (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:spainntis
+  gd: "Spàinntis"
+  en: "Spanish (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuimris
+  gd: "Cuimris"
+  en: "Welsh (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gaeilge
+  gd: "Gaeilge"
+  en: "Irish (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:albais
+  gd: "Albais"
+  en: "Scots (language)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cainnt
+  gd: "cainnt"
+  en: "speech, speaking"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionnsachadh
+  gd: "ionnsachadh"
+  en: "learning"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tidsear
+  gd: "tidsear"
+  en: "teacher"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oileanach
+  gd: "oileanach"
+  en: "student"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mearachd
+  gd: "mearachd"
+  en: "mistake"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slaodach
+  gd: "slaodach"
+  en: "slow"
+  pos: adjective
+  tags: [pos:adjective, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luath
+  gd: "luath"
+  en: "fast"
+  pos: adjective
+  tags: [pos:adjective, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:furasta
+  gd: "furasta"
+  en: "easy"
+  pos: adjective
+  tags: [pos:adjective, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:doirbh
+  gd: "doirbh"
+  en: "difficult"
+  pos: adjective
+  tags: [pos:adjective, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beagan
+  gd: "beagan"
+  en: "a little"
+  pos: adverb
+  tags: [pos:adverb, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:alba
+  gd: "Alba"
+  en: "Scotland"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
