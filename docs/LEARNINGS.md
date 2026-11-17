@@ -303,7 +303,7 @@ _The spec says per-kind length weighting is "in W2-B", but a screen needs it fir
 
 - **Type:** difficulty
 
-- **Seen in:** W2-D, W2-B
+- **Seen in:** #37, W2-B
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
