@@ -97,10 +97,10 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
 
-### L6. Fresh sessions have no node_modules, so lint/typecheck/test fail with module-not-found
+### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** W1-B
-- **Detail:** `vitest`, `eslint` and `tsc` errored (`ERR_MODULE_NOT_FOUND`, missing `vite/client` types) until `npm ci` was run.
-- **Resolution:** Run `npm ci` first in a new cloud session.
+- **Tally:** 2
+- **Seen in:** #12, #9
+- **Detail:** `npx vitest` failed with "Cannot find package 'vitest'" until dependencies were installed.
+- **Resolution:** Run `npm ci` before the first test run in a new session.
 - **Status:** open
