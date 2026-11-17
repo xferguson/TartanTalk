@@ -342,7 +342,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-E2
 
-- **Status:** todo
+- **Status:** in progress (ccr-5f18eda6-7zvabx)
 
 **Pre-select a tartan from the Library.** The Library's "Use for a new scarf" goes to `/new?tartan=<id>`. The New scarf screen must read `tartan` from the query string and start with that tartan chosen (ignoring an unknown id).
 
