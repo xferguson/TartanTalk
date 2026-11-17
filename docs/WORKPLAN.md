@@ -147,7 +147,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-I
 
-- **Status:** in progress (w1-i-approx-setts): approximate placeholder setts for now; exact setts tracked in W-TARTAN-EXACT-SETTS
+- **Status:** done (#44): approximate placeholder setts only; exact setts tracked in W-TARTAN-EXACT-SETTS
 
 **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
 
@@ -269,7 +269,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-E
 
-- **Status:** in progress (w2-e-new-scarf)
+- **Status:** done (#45)
 
 **New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create.
 
@@ -279,7 +279,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-F
 
-- **Status:** todo
+- **Status:** in progress (ccr-5f18eda6-7zvabx)
 
 **Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note.
 
@@ -339,6 +339,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** all of Wave 2
 
+
+### W2-E2
+
+- **Status:** todo
+
+**Pre-select a tartan from the Library.** The Library's "Use for a new scarf" goes to `/new?tartan=<id>`. The New scarf screen must read `tartan` from the query string and start with that tartan chosen (ignoring an unknown id).
+
+- **Owns:** `src/ui/screens/NewScarf/**`, `tests/unit/screens/NewScarfScreen.test.tsx`
+
+- **Depends on:** W2-E, W2-F
 
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.

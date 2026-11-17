@@ -256,6 +256,54 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 New entries use a short slug heading (`### some-short-slug`) and go in **alphabetical order** in this section, not at the end. Different insertion points are what keep parallel PRs from conflicting. Keep a blank line between fields. Entries above this line keep their original `L` numbers, which other docs refer to.
 
+### allowed-host-lag-in-webfetch
+
+_After allowing a host, `curl` worked but `WebFetch` still said ENOTFOUND._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** #45
+
+- **Detail:** Adding Wikipedia and Wikimedia hosts to the environment allowlist took effect for `curl` within seconds, while `WebFetch` kept failing for several minutes. Wikimedia's API also rate-limited a few quick requests.
+
+- **Resolution:** After an allowlist change, test with `curl` first, space out requests, and retry `WebFetch` later. Gutenberg also returned 503 with a one-hour `Retry-After`, so it may rate-limit the session proxy.
+
+- **Status:** open
+
+### approximate-setts-unblock-ui
+
+_Real setts were blocked on licences, so UI work waited._
+
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** #44, #45
+
+- **Detail:** W1-I stayed blocked on a licence-compatible source, which also held back W2-E and W2-F. Placeholder setts written from general knowledge of each tartan's colours unblock the screens, as long as they are labelled honestly.
+
+- **Resolution:** 26 placeholders were added with `verified: false` and "Approximate placeholder" in the provenance. `W-TARTAN-EXACT-SETTS` tracks replacing them. When data is blocked, ship clearly labelled stand-ins plus a follow-up task rather than waiting.
+
+- **Status:** resolved
+
+### no-project-details-in-user-agent
+
+_A descriptive User-Agent nearly carried the project owner's handle to an outside service._
+
+- **Type:** mistake
+
+- **Tally:** 1
+
+- **Seen in:** #45
+
+- **Detail:** When Wikimedia rate-limited `curl`, a retry with a descriptive User-Agent included the repository owner's GitHub handle. The permission classifier blocked it.
+
+- **Resolution:** Use a generic client name in headers sent to outside services. Never put the user's name, repo or contact details there without their approval.
+
+- **Status:** resolved
+
 ### conflicted-pr-never-gets-ci
 
 _A PR that conflicts with `main` never gets CI, so the session waits forever._
@@ -281,6 +329,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 - **Resolution:** Each task is its own block with its **Status** on its own line, and every field is separated by a blank line. Learnings have no stored tally (count the PRs in **Seen in**), a blank line between fields, and new entries go in alphabetical order by slug instead of at the end. Splitting into one file per entry was rejected as heavier than needed.
 
 - **Status:** adopted
+
+### preselect-link-needs-other-screen
+
+_A link from one screen that pre-fills another is two tasks, because each screen has its own owner._
+
+- **Type:** difficulty
+
+- **Seen in:** W2-F
+
+- **Detail:** B9 says "Use for a new scarf" opens `/new` with the tartan pre-selected, but `NewScarfScreen` belongs to W2-E and was already merged.
+
+- **Resolution:** The Library navigates to `/new?tartan=<id>` and the New scarf side was added as W2-E2 instead of editing outside Owns. Specs for cross-screen links should name the query parameter up front.
+
+- **Status:** resolved
 
 ### settings-control-outside-owns
 _A task's UI hook-up can fall outside its Owns paths: split it into its own task._
