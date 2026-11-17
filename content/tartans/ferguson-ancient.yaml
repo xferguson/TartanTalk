@@ -1,0 +1,12 @@
+# Licence: CC BY-SA 4.0
+id: ferguson-ancient
+name: Ferguson (Ancient)
+clan: Ferguson
+variant: Ancient
+sett: "LG/32 K4 LB28 K4 LG32 R4"
+colours: { K: "#1c1c1c", LB: "#6f9bd1", LG: "#7aa86b", R: "#c4202f" }
+scale: 0.5
+provenance:
+  ref: "Approximate placeholder sett (not transcribed from any source)"
+  notes: "Written from general knowledge of the tartan's colours only. The stripe counts are NOT the real sett. Replace under W-TARTAN-SOURCES."
+verified: false

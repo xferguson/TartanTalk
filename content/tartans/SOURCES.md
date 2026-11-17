@@ -1,6 +1,8 @@
 # Tartan sources: still to be settled
 
-**There are no setts in `content/tartans/` yet, on purpose.** A first pass transcribed 16 setts from Tartan Dictionary, whose licence is unstated and whose upstream data includes a CC BY-NC-ND 4.0 database. That does not fit our CC BY-SA 4.0 content licence, so those files were removed before merge. Their thread counts are not kept anywhere in this repo.
+**The 26 setts in `content/tartans/` are approximate placeholders.** They were written from general knowledge of each tartan's colours, not transcribed from any source, and the stripe counts are not the real setts. All are `verified: false`. Replacing them is tracked as `W-TARTAN-EXACT-SETTS` in `docs/WORKPLAN.md`.
+
+**History: no real setts were added, on purpose.** A first pass transcribed 16 setts from Tartan Dictionary, whose licence is unstated and whose upstream data includes a CC BY-NC-ND 4.0 database. That does not fit our CC BY-SA 4.0 content licence, so those files were removed before merge. Their thread counts are not kept anywhere in this repo.
 
 We still need a list of sources we can use. The follow-up task is `W-TARTAN-SOURCES` in `docs/WORKPLAN.md` (Backlog). It is not part of this wave or the next; we will schedule it when the time is right.
 
