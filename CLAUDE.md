@@ -41,7 +41,7 @@ Use the `ship-pr` skill (`.claude/skills/ship-pr/SKILL.md`) to ship any change. 
 Update `docs/LEARNINGS.md` in a separate docs-only PR **after** the task PR has merged, never inside the task PR, to avoid merge conflicts. Merge conflicts themselves are not tallied.
 - Record every mistake you made or found, issue dealt with, difficulty, or efficiency discovered. Check the existing entries first.
 - If the learning already exists, add your PR number to its **Seen in** line (the tally is the number of PRs listed). Otherwise add a new entry in alphabetical order by slug under "Entries by slug", never at the end of the file.
-- **When an entry reaches a tally of 3,** evaluate whether a skill (`.claude/skills/<name>/SKILL.md`) or a hook (`.claude/settings.json`) would make the problem avoidable, predictable or faster.
+- **When an entry reaches a tally of 5,** evaluate whether a skill (`.claude/skills/<name>/SKILL.md`) or a hook (`.claude/settings.json`) would make the problem avoidable, predictable or faster.
   - Write the proposal into the entry under **Proposal**.
   - Present it to the user and ask whether to adopt it. Do not add skills or hooks without the user's approval.
   - Approved skills and hooks are committed to the repo, so every session benefits. Then mark the entry `adopted`.

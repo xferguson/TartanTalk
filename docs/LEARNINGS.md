@@ -6,7 +6,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Tally** is the number of PRs in **Seen in**. When you meet an existing entry again, add your PR number to that line. There is no separate Tally line.
 
-- **At a tally of 3:** write a **Proposal** for a skill or hook that would prevent or speed up the problem. Present it to the user, record their decision in **Status**, and commit adopted skills to `.claude/skills/` or adopted hooks to `.claude/settings.json`.
+- **At a tally of 5:** write a **Proposal** for a skill or hook that would prevent or speed up the problem. Present it to the user, record their decision in **Status**, and commit adopted skills to `.claude/skills/` or adopted hooks to `.claude/settings.json`.
 
 **Types:** `mistake` · `issue` · `difficulty` · `efficiency`
 **Status:** `open` · `proposal pending user` · `adopted` · `declined` · `resolved`
@@ -82,7 +82,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Proposal:** A short `research-sources` skill listing which hosts work with which tool (WebFetch vs curl) and their licence terms, so data tasks skip the trial and error.
 
-- **Status:** proposal pending user
+- **Status:** adopted (`.claude/skills/research-sources/SKILL.md`, approved by the user)
 
 ### L6. A brand-new repo has no `main` branch, so PRs can't be opened
 
@@ -279,6 +279,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 - **Detail:** Git reports a conflict only when two changes touch the same or adjacent lines. Table rows in `docs/WORKPLAN.md` (status at the end of a long line, neighbours directly below) and entries appended to the end of `docs/LEARNINGS.md` collided every time sessions ran in parallel.
 
 - **Resolution:** Each task is its own block with its **Status** on its own line, and every field is separated by a blank line. Learnings have no stored tally (count the PRs in **Seen in**), a blank line between fields, and new entries go in alphabetical order by slug instead of at the end. Splitting into one file per entry was rejected as heavier than needed.
+
+- **Status:** adopted
+
+### skill-proposal-threshold
+
+_Skill and hook proposals now wait for a tally of 5, not 3._
+
+- **Type:** efficiency
+
+- **Seen in:** #32
+
+- **Detail:** At a tally of 3 the proposals came up often (L5 hit 3 in its third PR), and each needed the user's attention. Proposals named in plain terms also confused: "the resources skill" was misnamed in chat before it was explained.
+
+- **Resolution:** The user raised the threshold to 5 in `CLAUDE.md`, this file and `ship-pr`. When asking about a proposal, give its exact name and say in two lines what it is and what it saves.
 
 - **Status:** adopted
 
