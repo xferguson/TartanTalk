@@ -132,7 +132,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L14. Parking work while an earlier PR on the same branch is in CI
 - **Type:** difficulty
 - **Tally:** 1
-- **Seen in:** W1-F PR
+- **Seen in:** #15
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
 - **Status:** resolved
