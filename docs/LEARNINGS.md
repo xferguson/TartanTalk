@@ -53,8 +53,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L5. Some research sites are blocked by the session's network policy
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** #2
+- **Tally:** 2
+- **Seen in:** #2, #22
 - **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets.
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 - **Status:** open
@@ -99,8 +99,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 3
-- **Seen in:** #12, #13, #11
+- **Tally:** 4
+- **Seen in:** #12, #13, #11, #9
 - **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
 - **Proposal:** A SessionStart hook that installs npm dependencies in cloud sessions. Measured: a clean install takes about 5 seconds, and a repeat run is skipped in about 4 ms.
@@ -125,7 +125,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L13. Parallel sessions pick the same next learning ID
 - **Type:** issue
 - **Tally:** 2
-- **Seen in:** #10, W1-G
+- **Seen in:** #10, #20
 - **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
 - **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
 - **Status:** resolved
@@ -145,3 +145,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** Parallel task PRs all edited `docs/LEARNINGS.md` (and WORKPLAN rows), so squash-merging needed several conflict-resolving syncs.
 - **Resolution:** Update `LEARNINGS.md` only in a separate docs-only PR after the task PR has merged (user decision). Merge conflicts themselves are not tallied.
 - **Status:** resolved
+
+### L15. Data tasks with no dictionary access can only produce unreviewed drafts
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #22
+- **Detail:** W1-J (prepositions, core vocabulary, topics) needed frequency evidence, but no dictionary or corpus host was reachable. Vocabulary came from model knowledge, so there are no honest `freqRank` values.
+- **Resolution:** Mark every entry `review: unreviewed`, omit `freqRank`, and state the limits in `content/SOURCES.md`. A Gaelic speaker or W3-B should verify. Also tallied against L5.
+- **Status:** open
