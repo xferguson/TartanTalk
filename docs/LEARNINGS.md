@@ -329,7 +329,7 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 
 - **Tally:** 1
 
-- **Seen in:** W1-L
+- **Seen in:** #33
 
 - **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
 
