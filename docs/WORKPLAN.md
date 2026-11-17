@@ -147,7 +147,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-I
 
-- **Status:** todo
+- **Status:** blocked (no licence-compatible sett source yet; see W-TARTAN-SOURCES)
 
 **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
 
@@ -329,6 +329,19 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** all of Wave 2
 
+
+## Backlog (unscheduled)
+Not part of any wave. Scheduled when the time is right.
+
+### W-TARTAN-SOURCES
+
+- **Status:** todo
+
+**Tartan sett sources.** Settle which sources we may take thread counts from under our CC BY-SA 4.0 content licence (see `content/tartans/SOURCES.md`), then transcribe the setts W1-I needs: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Candidates: the public-domain 1893 *Old and Rare Scottish Tartans* (Project Gutenberg 70853), Logan 1831/1845, Wikipedia, or written permission from the Scottish Register of Tartans or another keeper. Needs `gutenberg.org` (and perhaps `en.wikipedia.org`) in the session's allowed hosts. Finishing it completes W1-I, and unblocks the tartan content for W2-E and W2-F.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W1-H
 
 ## Parallelism at a glance
 - **Wave 1 can run up to 15 sessions at once.** Code tasks own disjoint files, and data tasks own disjoint YAML folders.

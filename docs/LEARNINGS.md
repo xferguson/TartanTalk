@@ -74,13 +74,15 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** difficulty
 
-- **Seen in:** #2, #22
+- **Seen in:** #2, #22, #29
 
-- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets.
+- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions (curl), so sett data came from search-result snippets. In W1-I it was reachable through WebFetch, and `tartanregister.gov.uk` loads but hides thread counts behind a login.
 
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 
-- **Status:** open
+- **Proposal:** A short `research-sources` skill listing which hosts work with which tool (WebFetch vs curl) and their licence terms, so data tasks skip the trial and error.
+
+- **Status:** proposal pending user
 
 ### L6. A brand-new repo has no `main` branch, so PRs can't be opened
 
@@ -279,3 +281,31 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 - **Resolution:** Each task is its own block with its **Status** on its own line, and every field is separated by a blank line. Learnings have no stored tally (count the PRs in **Seen in**), a blank line between fields, and new entries go in alphabetical order by slug instead of at the end. Splitting into one file per entry was rejected as heavier than needed.
 
 - **Status:** adopted
+
+### tartan-dictionary-licence
+
+_Tartan Dictionary data has an NC-ND upstream and no stated licence._
+
+- **Type:** issue
+
+- **Seen in:** #29
+
+- **Detail:** One Tartan Dictionary page names `thetartan/tartan-database` (CC BY-NC-ND 4.0) in its data chain, which clashes with our CC BY-SA content licence. WebFetch summaries also garble sett strings (some stripe codes look wrong), so none can be marked verified. Guessed page URLs often 404.
+
+- **Resolution:** The user chose to drop the setts. They were removed before merge, `content/tartans/SOURCES.md` records what is still needed, and the follow-up is `W-TARTAN-SOURCES` in the workplan Backlog. Before copying data from any site, check its licence and its upstream chain.
+
+- **Status:** resolved
+
+### content-prs-regenerate-json
+
+_Content PRs must commit the regenerated `src/content/generated/`._
+
+- **Type:** mistake
+
+- **Seen in:** #29
+
+- **Detail:** CI runs `npm run content` and fails if `src/content/generated` differs. A data-only PR (W1-I) added tartans without regenerating, so CI went red. That folder is outside a data task's Owns paths.
+
+- **Resolution:** After changing anything under `content/`, run `npm run content` and commit the generated JSON in the same PR.
+
+- **Status:** resolved
