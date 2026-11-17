@@ -1,0 +1,321 @@
+<title>Tartan Talk Hearth</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: design-review board for round 2. Token sheet, then a row of six phone screens (wrapping), then icon variants and a home-screen test. */
+:root {
+  --bg: #f1eadf;
+  --surface: #fbf7f0;
+  --ink: #2c221c;
+  --muted: #6f6157;
+  --line: #ddd0bf;
+  --accent: #6b3b5a;
+  --display: 'Fraunces', Georgia, serif;
+  --body: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #1a1411; --surface: #241c17; --ink: #f1e6d6; --muted: #b19c88; --line: #3d3027; --accent: #d39cbc; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #1a1411; --surface: #241c17; --ink: #f1e6d6; --muted: #b19c88; --line: #3d3027; --accent: #d39cbc; color-scheme: dark; }
+
+*, *::before, *::after { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-block: 32px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 52px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; font-weight: 700; }
+h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.1rem; }
+.lede, .note { max-width: 68ch; color: var(--muted); margin: 6px 0 0; }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.75rem; font-weight: 700; color: var(--accent); }
+section { display: grid; gap: 18px; }
+
+/* ---------- Token sheet ---------- */
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.theme { border-radius: 18px; padding: 18px; background: var(--m-bg); color: var(--m-ink); font-family: var(--m-body); display: grid; gap: 12px; border: 1px solid var(--line); }
+.theme h3 { font-family: var(--m-display); }
+.theme p { margin: 0; color: var(--m-muted); font-size: 0.92rem; }
+.tokens { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 8px; }
+.tok { display: grid; grid-template-columns: 30px 1fr; gap: 8px; align-items: center; font-size: 0.8rem; }
+.tok span { width: 30px; height: 30px; border-radius: 8px; border: 1px solid rgba(0,0,0,.12); }
+.tok b { display: block; font-weight: 600; }
+.tok small { color: var(--m-muted); font-variant-numeric: tabular-nums; }
+.typeline { font-family: var(--m-display); font-size: 1.6rem; line-height: 1.2; }
+.typeline em { font-style: italic; color: var(--m-heather); }
+
+/* ---------- Phone screens ---------- */
+.screens { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; align-items: start; }
+.screen { display: grid; gap: 8px; min-width: 0; }
+.screen > p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.phone { border-radius: 30px; padding: 18px 16px 12px; background: var(--m-bg); color: var(--m-ink); font-family: var(--m-body); box-shadow: 0 10px 30px rgba(40,20,10,.14); border: 1px solid rgba(0,0,0,.08); display: grid; gap: 12px; max-width: 340px; width: 100%; min-height: 600px; align-content: start; font-size: 15px; }
+.day   { --m-bg:#efe4d2; --m-surface:#fbf5ea; --m-surface2:#f4e8d6; --m-ink:#33241c; --m-muted:#7d6655; --m-line:#d8c8b2; --m-heather:#6b3b5a; --m-amber:#b5703a; --m-moss:#4f6b3a; --m-rust:#a4452c; --m-on:#fbf5ea; --m-display:'Fraunces', Georgia, serif; --m-body:'Source Sans 3', system-ui, sans-serif; }
+.night { --m-bg:#1d1612; --m-surface:#2a201a; --m-surface2:#33271f; --m-ink:#f1e6d6; --m-muted:#b49e88; --m-line:#47372b; --m-heather:#c98bb0; --m-amber:#e09a55; --m-moss:#9bbb7a; --m-rust:#e07d5f; --m-on:#1d1612; --m-display:'Fraunces', Georgia, serif; --m-body:'Source Sans 3', system-ui, sans-serif; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.top b { font-family: var(--m-display); font-size: 1.45rem; }
+.top small, .muted { color: var(--m-muted); }
+.lbl { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.66rem; font-weight: 700; color: var(--m-muted); }
+.card { background: var(--m-surface); border-radius: 14px; padding: 12px; display: grid; gap: 8px; }
+.scarf canvas { width: 100%; height: 44px; display: block; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.name { font-family: var(--m-display); font-weight: 700; }
+.sub { font-size: 0.78rem; color: var(--m-muted); }
+.len { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.chip { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 2px 9px; border-radius: 99px; background: var(--m-surface2); color: var(--m-amber); }
+.chip.heather { color: var(--m-heather); }
+.btn { display: inline-flex; justify-content: center; align-items: center; gap: 6px; font-weight: 700; border-radius: 99px; padding: 9px 16px; font-size: 0.9rem; background: var(--m-heather); color: var(--m-on); }
+.btn.ghost { background: transparent; color: var(--m-heather); border: 1.5px solid var(--m-heather); }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; border-top: 1px solid var(--m-line); padding-top: 10px; margin-top: auto; text-align: center; font-size: 0.72rem; color: var(--m-muted); }
+.nav span.on { color: var(--m-heather); font-weight: 700; }
+.nav i { display: block; width: 18px; height: 18px; margin: 0 auto 2px; border-radius: 6px; background: currentColor; opacity: .35; }
+.nav span.on i { opacity: 1; }
+.detail { display: grid; grid-template-columns: 64px 26px 1fr; gap: 10px; align-items: start; }
+.detail canvas.tall { width: 64px; height: 380px; display: block; }
+.ruler { position: relative; height: 380px; font-size: 0.68rem; color: var(--m-muted); font-variant-numeric: tabular-nums; }
+.ruler span { position: absolute; left: 0; transform: translateY(-50%); }
+.facts { display: grid; gap: 10px; font-size: 0.88rem; }
+.facts b { font-family: var(--m-display); font-size: 1.6rem; display: block; line-height: 1.1; }
+.prompt { font-family: var(--m-display); font-size: 1.3rem; line-height: 1.3; }
+.input { border: 1.5px solid var(--m-amber); border-radius: 10px; padding: 9px 11px; background: var(--m-surface2); font-family: var(--m-display); font-size: 1.1rem; }
+.hint { font-size: 0.85rem; color: var(--m-amber); }
+.keys { display: flex; gap: 6px; }
+.keys span { flex: 1; text-align: center; padding: 6px 0; border-radius: 8px; background: var(--m-surface2); font-family: var(--m-display); font-size: 1.1rem; }
+.rate { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.rate span { text-align: center; padding: 9px 0; border-radius: 10px; border: 1.5px solid var(--m-line); font-weight: 700; font-size: 0.9rem; }
+.rate span small { display: block; font-weight: 400; font-size: 0.7rem; color: var(--m-muted); }
+.rate span.on { border-color: var(--m-moss); background: var(--m-moss); color: var(--m-on); }
+.rate span.on small { color: var(--m-on); opacity: .8; }
+.choices { display: grid; gap: 6px; }
+.choices span { padding: 9px 12px; border-radius: 10px; border: 1.5px solid var(--m-line); }
+.choices span.ok { border-color: var(--m-moss); color: var(--m-moss); font-weight: 700; }
+.mend canvas { width: 100%; height: 120px; display: block; }
+.progress { height: 6px; border-radius: 3px; background: var(--m-surface2); overflow: hidden; }
+.progress i { display: block; height: 100%; width: 66%; background: var(--m-amber); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tags span { padding: 5px 11px; border-radius: 99px; border: 1.5px solid var(--m-line); font-size: 0.85rem; }
+.tags span.on { background: var(--m-heather); border-color: var(--m-heather); color: var(--m-on); font-weight: 600; }
+.search { border: 1.5px solid var(--m-line); border-radius: 10px; padding: 8px 11px; color: var(--m-muted); font-size: 0.9rem; }
+.pick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.pick div { display: grid; gap: 4px; font-size: 0.72rem; text-align: center; }
+.pick canvas { width: 100%; height: 54px; border-radius: 8px; display: block; border: 2px solid transparent; }
+.pick .on canvas { border-color: var(--m-heather); }
+
+/* ---------- Icons ---------- */
+.icons { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.icon { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+.icon .sizes { display: flex; gap: 14px; align-items: flex-end; flex-wrap: wrap; }
+.icon canvas { display: block; }
+.icon p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.homes { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+.home { border-radius: 22px; padding: 22px 18px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 10px; justify-items: center; }
+.home.light { background: linear-gradient(160deg, #d9cbb5, #b9a58a); }
+.home.dark { background: linear-gradient(160deg, #2b2420, #12100e); }
+.home div { display: grid; gap: 5px; justify-items: center; font-size: 0.7rem; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.5); }
+.home .blank { width: 56px; height: 56px; border-radius: 14px; background: rgba(255,255,255,.28); }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Design round 2 · Cozy hearth</div>
+    <h1>The Hearth direction, in depth</h1>
+    <p class="lede">Hearth now has a daytime theme and a “peat fire” evening theme, five core screens, and variations on the tartan speech-bubble icon. Mark what to keep or change and this becomes the app's design system.</p>
+  </header>
+
+  <section>
+    <div class="eyebrow">Tokens</div>
+    <h2>Two themes, one hearth</h2>
+    <div class="themes" id="themes"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Screens</div>
+    <h2>Shelf, scarf, loom, reweaving, new scarf</h2>
+    <div class="screens" id="screens"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Icon</div>
+    <h2>Tartan speech bubble variations</h2>
+    <p class="note">Each one is shown at 112, 48 and 24 px (24 px is roughly a browser tab). Below them is a home-screen test on light and dark wallpaper.</p>
+    <div class="icons" id="icons"></div>
+    <div class="homes">
+      <div class="home light" id="homeLight"></div>
+      <div class="home dark" id="homeDark"></div>
+    </div>
+  </section>
+</div>
+
+<script>
+// ---------- Prototype twill renderer (same as round 1) ----------
+const COLORS = { K:'#141414', G:'#0b5a3a', B:'#2c4084', DB:'#1c2a55', R:'#c4202f', W:'#efece4', Y:'#e3b23c' };
+const TARTANS = {
+  fergusonOld: { name:'Ferguson (Old)', sett:'B/30 R4 G/34', scale:0.55 },
+  balquhidder: { name:'Ferguson of Balquhidder', sett:'K/4 G24 K24 R2 DB24 G/4', scale:0.6 },
+  mackenzie:   { name:'MacKenzie (Murchison)', sett:'B/24 K4 B4 K4 B4 K20 G24 K4 W/4', scale:0.5 },
+};
+function parseSett(sett, scale = 1) {
+  const toks = sett.trim().split(/\s+/).map(t => { const m = t.match(/^([A-Z]+)(\/?)(\d+)$/); return { c: m[1], n: Math.max(1, Math.round(+m[3] * scale)), pivot: m[2] === '/' }; });
+  const sym = toks[0].pivot || toks[toks.length - 1].pivot;
+  const seq = sym ? toks.concat(toks.slice(1, -1).reverse()) : toks;
+  const out = []; for (const t of seq) for (let i = 0; i < t.n; i++) out.push(t.c); return out;
+}
+const hexRgb = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function hash(x, y) { let h = (x * 374761393 + y * 668265263) | 0; h = (h ^ (h >>> 13)) * 1274126177; return ((h ^ (h >>> 16)) >>> 0) / 4294967295; }
+const tiles = new Map();
+function tile(key, tpx) {
+  const id = key + tpx; if (tiles.has(id)) return tiles.get(id);
+  const t = TARTANS[key], th = parseSett(t.sett, t.scale).map(c => hexRgb(COLORS[c])), L = th.length, S = L * tpx;
+  const cv = document.createElement('canvas'); cv.width = cv.height = S; const ctx = cv.getContext('2d'); const img = ctx.createImageData(S, S), d = img.data;
+  for (let Y = 0; Y < S; Y++) for (let X = 0; X < S; X++) {
+    const x = (X / tpx) | 0, y = (Y / tpx) | 0, warp = ((x + y) & 3) < 2, c = warp ? th[x] : th[y];
+    let f = warp ? 1.05 : 0.93; const ix = X % tpx, iy = Y % tpx;
+    if (warp && (ix === 0 || ix === tpx - 1)) f *= 0.86; if (!warp && (iy === 0 || iy === tpx - 1)) f *= 0.86;
+    f *= 1 + (hash(X, Y) - 0.5) * 0.09; const o = (Y * S + X) * 4;
+    d[o] = Math.min(255, c[0] * f + 6); d[o + 1] = Math.min(255, c[1] * f + 6); d[o + 2] = Math.min(255, c[2] * f + 6); d[o + 3] = 255;
+  }
+  ctx.putImageData(img, 0, 0); tiles.set(id, cv); return cv;
+}
+const pat = (ctx, key, tpx = 2) => ctx.createPattern(tile(key, tpx), 'repeat');
+function setup(cv, w, h, fluid = true) {
+  const dpr = Math.min(2, window.devicePixelRatio || 1); cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+  if (!fluid) cv.style.width = w + 'px'; cv.style.height = h + 'px';
+  const ctx = cv.getContext('2d'); ctx.scale(dpr, dpr); return ctx;
+}
+function moth(ctx, x, y, s, wing = '#cdb79c', body = '#5b4a3d', wingFill = null, rot = 0) {
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rot);
+  ctx.strokeStyle = body; ctx.lineWidth = Math.max(1, s * .05); ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(-s * .08, -s * .28); ctx.quadraticCurveTo(-s * .2, -s * .55, -s * .32, -s * .52); ctx.moveTo(s * .08, -s * .28); ctx.quadraticCurveTo(s * .2, -s * .55, s * .32, -s * .52); ctx.stroke();
+  for (const sd of [-1, 1]) { ctx.fillStyle = wingFill || wing; ctx.beginPath(); ctx.ellipse(sd * s * .3, -s * .02, s * .32, s * .24, sd * -.5, 0, 7); ctx.fill(); ctx.beginPath(); ctx.ellipse(sd * s * .24, s * .2, s * .2, s * .15, sd * .6, 0, 7); ctx.fill(); }
+  ctx.fillStyle = body; ctx.beginPath(); ctx.ellipse(0, 0, s * .12, s * .3, 0, 0, 7); ctx.fill();
+  for (const sd of [-1, 1]) { ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(sd * s * .06, -s * .2, s * .055, 0, 7); ctx.fill(); ctx.fillStyle = '#1a1410'; ctx.beginPath(); ctx.arc(sd * s * .06, -s * .19, s * .028, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+function hole(ctx, cx, cy, r, fill, seed) {
+  ctx.beginPath(); for (let a = 0; a <= 12; a++) { const g = a / 12 * Math.PI * 2, q = r * (.75 + hash(seed + a, 7) * .5); ctx.lineTo(cx + Math.cos(g) * q, cy + Math.sin(g) * q); }
+  ctx.closePath(); ctx.fillStyle = fill; ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.lineWidth = 1; ctx.stroke();
+}
+function fringe(ctx, key, x0, x1, y0, y1, horizontal) {
+  const th = parseSett(TARTANS[key].sett, TARTANS[key].scale); ctx.lineCap = 'round'; ctx.lineWidth = 1.6;
+  if (horizontal) for (let i = y0; i < y1; i += 3) { ctx.strokeStyle = COLORS[th[(i * 2) % th.length]]; ctx.beginPath(); ctx.moveTo(x0, i + 1); ctx.lineTo(x0 - 8 + (i % 2), i + 2); ctx.moveTo(x1, i + 1); ctx.lineTo(x1 + 8 - (i % 2), i + 2); ctx.stroke(); }
+  else for (let i = x0; i < x1; i += 3) { ctx.strokeStyle = COLORS[th[(i * 2) % th.length]]; ctx.beginPath(); ctx.moveTo(i + 1, y0); ctx.lineTo(i + 2, y0 - 8 + (i % 2)); ctx.moveTo(i + 1, y1); ctx.lineTo(i + 2, y1 + 8 - (i % 2)); ctx.stroke(); }
+}
+function strip(cv, key, holes, surface, mothCol) {
+  const w = cv.clientWidth || 280, h = 44, ctx = setup(cv, w, h);
+  ctx.fillStyle = pat(ctx, key); ctx.fillRect(10, 0, w - 20, h); fringe(ctx, key, 10, w - 10, 0, h, true);
+  holes.forEach((p, k) => { const cx = 10 + p[0] * (w - 20), cy = p[1] * h; hole(ctx, cx, cy, p[2], surface, k * 31); if (!k) moth(ctx, cx + p[2] + 13, Math.max(13, cy - 4), 22, mothCol); });
+}
+
+// ---------- Tokens ----------
+const THEMES = [
+  { cls:'day', title:'Daylight', blurb:'Undyed wool and lamplit oak. The default.', toks:[['bg','#efe4d2'],['surface','#fbf5ea'],['ink','#33241c'],['muted','#7d6655'],['heather','#6b3b5a'],['amber','#b5703a'],['moss','#4f6b3a'],['rust','#a4452c']] },
+  { cls:'night', title:'Peat fire', blurb:'Evening theme: embers on dark peat. Follows the system setting.', toks:[['bg','#1d1612'],['surface','#2a201a'],['ink','#f1e6d6'],['muted','#b49e88'],['heather','#c98bb0'],['amber','#e09a55'],['moss','#9bbb7a'],['rust','#e07d5f']] },
+];
+const roles = { heather:'primary actions', amber:'moths, attention', moss:'correct, woven', rust:'miss (gentle)' };
+document.getElementById('themes').innerHTML = THEMES.map(t => `<div class="theme ${t.cls}"><h3>${t.title}</h3><p>${t.blurb}</p>
+  <div class="tokens">${t.toks.map(([n, v]) => `<div class="tok"><span style="background:${v}"></span><div><b>${n}</b><small>${roles[n] || v}</small></div></div>`).join('')}</div>
+  <div class="typeline" lang="gd">Tha gaol agam ort. <em>Madainn mhath!</em></div><p>Fraunces for display and Gaelic prompts; Source Sans 3 for interface text. Both cover à è ì ò ù.</p></div>`).join('');
+
+// ---------- Screens ----------
+const SCARVES = [
+  { key:'fergusonOld', name:'Love and feelings', sub:'aig · air · gaol', len:'2.4 ells', moths:2, holes:[[.3,.45,5],[.72,.6,3.5]] },
+  { key:'mackenzie', name:'Talking about languages', sub:'aig · Gàidhlig · bruidhinn', len:'1.1 ells', moths:0, holes:[] },
+  { key:'balquhidder', name:'Weather', sub:'air · fuar · fliuch', len:'0.6 ells', moths:1, holes:[[.55,.4,4.5]] },
+];
+const nav = on => `<div class="nav">${['Shelf','Loom','Tangles','Library'].map(n => `<span class="${n === on ? 'on' : ''}"><i></i>${n}</span>`).join('')}</div>`;
+const shelf = cls => `<div class="phone ${cls}">
+  <div class="top"><div><b lang="gd">Madainn mhath!</b><br><small>Good morning. Two scarves have visitors.</small></div></div>
+  <div class="lbl">Your shelf · 4.1 ells woven</div>
+  ${SCARVES.map((s, i) => `<div class="card scarf"><canvas data-strip="${i}"></canvas><div class="row"><div><div class="name">${s.name}</div><div class="sub" lang="gd">${s.sub}</div></div><div style="text-align:right"><div class="len">${s.len}</div>${s.moths ? `<span class="chip">${s.moths} moth hole${s.moths > 1 ? 's' : ''}</span>` : '<span class="chip heather">resting</span>'}</div></div></div>`).join('')}
+  <div class="btns"><span class="btn">Reweave 3 holes</span><span class="btn ghost">Start a new scarf</span></div>
+  ${nav('Shelf')}</div>`;
+const SCREENS = [
+  { title:'Shelf · Daylight', note:'Home: every scarf, its length and its moths.', html: shelf('day') },
+  { title:'Scarf · Love and feelings', note:'Tap a scarf: it hangs full length, with an ell ruler. Tap a hole to reweave it.', html:`<div class="phone day">
+    <div class="top"><div><b>Love and feelings</b><br><small>Ferguson (Old) · begun 3 Nov</small></div></div>
+    <div class="detail"><canvas class="tall" id="tall"></canvas><div class="ruler">${[0,.5,1,1.5,2,2.4].map(v => `<span style="top:${380 - v / 2.4 * 370 - 5}px">${v}</span>`).join('')}</div>
+      <div class="facts"><div><b>2.4</b>ells woven</div><div><b>41</b>items: 22 words, 12 forms, 7 sentences</div><div><b>2</b>moth holes waiting</div><div class="tags"><span lang="gd">aig</span><span lang="gd">air</span><span>love</span></div></div></div>
+    <div class="btns"><span class="btn">Weave new</span><span class="btn ghost">Reweave 2</span></div>${nav('Shelf')}</div>` },
+  { title:'Loom · typed answer', note:'Accent-only slip: counted correct, nudged, capped at Hard.', html:`<div class="phone day">
+    <div class="top"><small>Love and feelings · new item 3 of 4</small></div>
+    <div class="progress"><i></i></div>
+    <div class="card"><div class="lbl">Type the Gaelic</div><div class="prompt">I have Gaelic.</div>
+      <div class="input" lang="gd">Tha Gaidhlig agam</div>
+      <div class="hint">Almost: it's <b lang="gd">Gàidhlig</b>, with a grave accent on the à.</div>
+      <div class="keys" lang="gd"><span>à</span><span>è</span><span>ì</span><span>ò</span><span>ù</span></div></div>
+    <div class="lbl">How did that feel?</div>
+    <div class="rate"><span class="on">Hard<small>sooner</small></span><span>Good<small>4 days</small></span><span>Easy<small>later</small></span></div>
+    <p class="muted" style="margin:0;font-size:.82rem">Typing the full sentence also counts as a review for <span lang="gd">tha</span> and <span lang="gd">agam</span>.</p>${nav('Loom')}</div>` },
+  { title:'Reweaving', note:'Mending a hole: the moth flutters off as the thread goes back in.', html:`<div class="phone day">
+    <div class="top"><small>Reweaving · Love and feelings · 2 of 3</small></div>
+    <div class="card mend"><canvas id="mend"></canvas></div>
+    <div class="card"><div class="lbl">What does this mean?</div><div class="prompt" lang="gd">agad</div>
+      <div class="choices"><span>at me</span><span class="ok">at you ✓</span><span>at him</span></div></div>
+    <p class="muted" style="margin:0;font-size:.82rem"><span lang="gd">Math dhèanta!</span> Well done. One hole left.</p>
+    <span class="btn">Next thread</span>${nav('Loom')}</div>` },
+  { title:'New scarf', note:'Pick tags, see what you will learn, choose a tartan.', html:`<div class="phone day">
+    <div class="top"><b>A new scarf</b></div>
+    <div class="lbl">What would you like to talk about?</div>
+    <div class="tags"><span class="on">Love</span><span class="on">Feelings</span><span>Weather</span><span>Food and drink</span><span>Music</span><span>Folklore</span></div>
+    <div class="lbl">Grammar</div>
+    <div class="tags" lang="gd"><span class="on">aig</span><span class="on">air</span><span>le</span><span>ann</span><span>do</span></div>
+    <div class="card"><div class="row"><span><b>18</b> new items</span><span class="muted">6 already woven elsewhere</span></div></div>
+    <div class="lbl">Choose a tartan</div><div class="search">Search clans and families: Ferguson, Murchison…</div>
+    <div class="pick">${Object.keys(TARTANS).map((k, i) => `<div class="${i ? '' : 'on'}"><canvas data-sw="${k}"></canvas>${TARTANS[k].name}</div>`).join('')}</div>
+    <span class="btn">Set up the loom</span></div>` },
+  { title:'Shelf · Peat fire', note:'The evening theme, following the system setting.', html: shelf('night') },
+];
+const sRoot = document.getElementById('screens');
+sRoot.innerHTML = SCREENS.map(s => `<div class="screen"><h3>${s.title}</h3><p>${s.note}</p>${s.html}</div>`).join('');
+sRoot.querySelectorAll('.phone').forEach(ph => {
+  const cs = getComputedStyle(ph), surface = cs.getPropertyValue('--m-surface').trim(), night = ph.classList.contains('night');
+  ph.querySelectorAll('canvas[data-strip]').forEach(cv => { const s = SCARVES[+cv.dataset.strip]; strip(cv, s.key, s.holes, surface, night ? '#d8c7ad' : '#cdb79c'); });
+  ph.querySelectorAll('canvas[data-sw]').forEach(cv => { const ctx = setup(cv, cv.clientWidth || 90, 54); ctx.fillStyle = pat(ctx, cv.dataset.sw); ctx.fillRect(0, 0, cv.clientWidth || 90, 54); });
+});
+{ // tall scarf
+  const cv = document.getElementById('tall'), ctx = setup(cv, 64, 380, false), surface = '#efe4d2';
+  ctx.fillStyle = pat(ctx, 'fergusonOld'); ctx.fillRect(4, 10, 56, 360); fringe(ctx, 'fergusonOld', 4, 60, 10, 370, false);
+  ctx.strokeStyle = 'rgba(255,255,255,.12)'; for (let y = 10; y < 370; y += 9) { ctx.beginPath(); ctx.moveTo(4, y); ctx.lineTo(60, y); ctx.stroke(); }
+  hole(ctx, 22, 120, 6, surface, 3); hole(ctx, 44, 262, 5, surface, 9); moth(ctx, 40, 104, 22);
+}
+{ // mending scene
+  const cv = document.getElementById('mend'), w = cv.clientWidth || 280, ctx = setup(cv, w, 120);
+  ctx.fillStyle = pat(ctx, 'fergusonOld', 3); ctx.fillRect(0, 0, w, 120);
+  hole(ctx, w * .42, 64, 14, '#fbf5ea', 5);
+  ctx.strokeStyle = '#e3b23c'; ctx.lineWidth = 2.5; ctx.setLineDash([5, 4]); ctx.beginPath(); ctx.moveTo(w * .42 - 22, 64); ctx.quadraticCurveTo(w * .42, 40, w * .42 + 26, 66); ctx.stroke(); ctx.setLineDash([]);
+  moth(ctx, w * .78, 34, 34, '#d9c6ab', '#5b4a3d', null, .35);
+  ctx.strokeStyle = 'rgba(255,255,255,.7)'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(w * .55, 58); ctx.quadraticCurveTo(w * .62, 70, w * .7, 46); ctx.stroke();
+}
+
+// ---------- Icon variants ----------
+function rr(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+function bubble(ctx, x = 12, y = 14, w = 76, h = 56, r = 16) {
+  ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.lineTo(x + 34, y + h); ctx.lineTo(x + 16, y + h + 17); ctx.lineTo(x + 20, y + h); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+function bg(ctx, c) { rr(ctx, 0, 0, 100, 100, 22); ctx.fillStyle = c; ctx.fill(); }
+function tfill(ctx, key, S, mult = 1.6) { const p = pat(ctx, key); p.setTransform(new DOMMatrix().scale(100 / S / mult)); return p; }
+const ICONS = [
+  { name:'A · Classic', note:'Round 1 bubble, Ferguson (Old) on undyed wool.', draw(ctx, S) { bg(ctx, '#efe4d2'); bubble(ctx); ctx.fillStyle = tfill(ctx, 'fergusonOld', S); ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = 'rgba(51,36,28,.35)'; ctx.stroke(); } },
+  { name:'B · Heather ground', note:'Same bubble on the heather accent with a cream outline. Pops on busy wallpapers.', draw(ctx, S) { bg(ctx, '#6b3b5a'); bubble(ctx); ctx.lineWidth = 7; ctx.strokeStyle = '#fbf5ea'; ctx.stroke(); ctx.fillStyle = tfill(ctx, 'fergusonOld', S); ctx.fill(); } },
+  { name:'C · Fringed', note:'The bubble is a scarf end: a fringe hangs from its bottom edge. Ties it to weaving.', draw(ctx, S) {
+      bg(ctx, '#efe4d2'); rr(ctx, 12, 12, 76, 58, 14); ctx.fillStyle = tfill(ctx, 'fergusonOld', S); ctx.fill();
+      ctx.lineCap = 'round'; ctx.lineWidth = 3.2; const cols = ['#2c4084', '#0b5a3a', '#c4202f'];
+      for (let i = 0; i < 9; i++) { ctx.strokeStyle = cols[i % 3]; const x = 18 + i * 8; ctx.beginPath(); ctx.moveTo(x, 70); ctx.lineTo(x + (i === 1 ? -6 : 0), i === 1 ? 90 : 80); ctx.stroke(); } } },
+  { name:'D · With a moth', note:'Tiny moth perched on the bubble’s corner. Charming at 112 px, lost at 24 px.', draw(ctx, S) { bg(ctx, '#efe4d2'); bubble(ctx, 10, 20, 74, 54); ctx.fillStyle = tfill(ctx, 'fergusonOld', S); ctx.fill(); moth(ctx, 80, 22, 26, '#d9c6ab', '#4a3a2f'); } },
+  { name:'E · Bold sett', note:'Larger weave scale so stripes read clearly at small sizes; thicker bubble.', draw(ctx, S) { bg(ctx, '#efe4d2'); bubble(ctx, 8, 10, 84, 62, 20); ctx.fillStyle = tfill(ctx, 'fergusonOld', S, 0.9); ctx.fill(); } },
+  { name:'F · Peat fire', note:'Dark variant for the evening theme and dark home screens.', draw(ctx, S) { bg(ctx, '#1d1612'); bubble(ctx); ctx.fillStyle = tfill(ctx, 'fergusonOld', S); ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#e09a55'; ctx.stroke(); } },
+];
+const iRoot = document.getElementById('icons');
+function drawIcon(cv, ic, S) { const ctx = setup(cv, S, S, false); ctx.scale(S / 100, S / 100); ic.draw(ctx, S); }
+ICONS.forEach(ic => {
+  const el = document.createElement('article'); el.className = 'icon';
+  el.innerHTML = `<div class="sizes"><canvas></canvas><canvas></canvas><canvas></canvas></div><h3>${ic.name}</h3><p>${ic.note}</p>`;
+  iRoot.appendChild(el); const [a, b, c] = el.querySelectorAll('canvas'); drawIcon(a, ic, 112); drawIcon(b, ic, 48); drawIcon(c, ic, 24);
+});
+['homeLight', 'homeDark'].forEach(id => {
+  const root = document.getElementById(id);
+  ICONS.forEach(ic => { const d = document.createElement('div'); const cv = document.createElement('canvas'); d.appendChild(cv); d.append(ic.name.split(' · ')[0]); root.appendChild(d); drawIcon(cv, ic, 56); });
+  for (let i = 0; i < 2; i++) { const d = document.createElement('div'); d.innerHTML = '<span class="blank"></span>App'; root.appendChild(d); }
+});
+</script>
