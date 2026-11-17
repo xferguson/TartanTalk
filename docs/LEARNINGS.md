@@ -337,7 +337,7 @@ _The Scarf screen links a hole to `/reweave/:id?item=…`, but the session store
 
 - **Tally:** 1
 
-- **Seen in:** W2-H
+- **Seen in:** #49
 
 - **Detail:** Spec B5 says a tapped hole opens the reweave "focused on that item". `startReweave` only takes a scarf id and orders by overdue, and the store is outside W2-H's Owns paths, so the screen ignores `?item=`.
 
@@ -381,7 +381,7 @@ _Reweave and Tangles needed the B6 question card before the Loom screen (W2-G) e
 
 - **Tally:** 1
 
-- **Seen in:** W2-H
+- **Seen in:** #49
 
 - **Detail:** B7 and B11 reuse the Loom's exercise card, feedback line and typed input. W2-G owns `src/ui/screens/Loom/**`, so W2-H built `Reweave/ExercisePanel` and Tangles imports it.
 
