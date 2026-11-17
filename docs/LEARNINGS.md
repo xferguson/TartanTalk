@@ -99,8 +99,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** W1-E
-- **Detail:** `npm run lint` and `typecheck` fail with missing-module and missing-type errors until `npm ci` has run.
-- **Resolution:** Run `npm ci` first in a fresh checkout.
+- **Tally:** 2
+- **Seen in:** W1-C, W1-E
+- **Detail:** `npx vitest`, `lint` and `typecheck` fail with missing-package and missing-type errors until dependencies are installed.
+- **Resolution:** Run `npm ci` before the first check in a new session.
 - **Status:** open
