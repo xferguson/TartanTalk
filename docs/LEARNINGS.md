@@ -282,6 +282,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### shelf-length-and-owned-paths
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-C
+
+- **Detail:** W2-C needs a scarf's length in ells, but the per-kind weighting belongs to W2-B (not a dependency). W2-C also owns only `src/ui/screens/Shelf/**`, while vitest only runs `tests/unit/**` and the e2e smoke test hard-coded the morning greeting that B4 makes time-dependent.
+
+- **Resolution:** Kept the ell constants (word 0.02, form 0.03, sentence 0.06) in `Shelf/shelfModel.ts`, to move into W2-B's services. Put tests in `tests/unit/shelf/`. Made the smoke test accept either greeting. "Reweave {N} holes" uses the hole count of the target scarf, which B4 leaves ambiguous.
+
+- **Status:** open
+
 ### skill-proposal-threshold
 
 _Skill and hook proposals now wait for a tally of 5, not 3._
