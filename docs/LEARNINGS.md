@@ -96,3 +96,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** The mock-up had four nav items but the theme setting needed a home.
 - **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
+
+### L6. Fresh sessions have no node_modules, so lint/typecheck/test fail with module-not-found
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-B
+- **Detail:** `vitest`, `eslint` and `tsc` errored (`ERR_MODULE_NOT_FOUND`, missing `vite/client` types) until `npm ci` was run.
+- **Resolution:** Run `npm ci` first in a new cloud session.
+- **Status:** open
