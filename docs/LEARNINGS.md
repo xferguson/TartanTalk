@@ -96,3 +96,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** The mock-up had four nav items but the theme setting needed a home.
 - **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
+
+### L11. Fresh cloud sessions have no `node_modules`
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-E
+- **Detail:** `npm run lint` and `typecheck` fail with missing-module and missing-type errors until `npm ci` has run.
+- **Resolution:** Run `npm ci` first in a fresh checkout.
+- **Status:** open
