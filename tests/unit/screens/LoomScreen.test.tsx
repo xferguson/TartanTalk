@@ -101,17 +101,18 @@ describe('LoomScreen', () => {
   it.each([
     ['finished a batch', { done: true }],
     ['waiting on a missed thread', { waitUntil: T0 + 600_000 }],
-  ])('lets the learner keep weaving after %s', async (_name, state) => {
+  ])('lets the learner learn more words after %s', async (_name, state) => {
     const { store } = await open('/loom/:id');
     await screen.findByText(/new item 1 of/);
     store.setState({ card: null, itemId: null, exercise: null, ...state });
-    fireEvent.click(await screen.findByRole('button', { name: 'Keep weaving' }));
+    fireEvent.click(await screen.findByRole('button', { name: 'Learn more words' }));
     expect(await screen.findByText(/new item 1 of/)).toBeTruthy();
   });
 
   it('tells the learner when there is nothing to weave', async () => {
     await open('/loom/:id', ['topic:nothing']);
-    expect(await screen.findByText('Nothing new to weave right now.')).toBeTruthy();
+    expect(await screen.findByText(/woven every word on this scarf/)).toBeTruthy();
+    expect(screen.queryByRole('button', { name: 'Learn more words' })).toBeNull();
     expect(screen.getByRole('link', { name: 'Back to the shelf' }).getAttribute('href')).toBe('/');
   });
 });

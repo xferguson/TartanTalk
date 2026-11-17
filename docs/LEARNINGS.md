@@ -518,12 +518,12 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 
 - **Type:** issue
 
-- **Tally:** 1
+- **Tally:** 2
 
-- **Seen in:** this PR
+- **Seen in:** #54, and the follow-up that carries resting items into a new batch
 
 - **Detail:** The New scarf and Scarf screens showed machine tags (`topic:love`, `prep:aig`), and the Loom ended every batch, or a wait on a missed thread, with only "Back to the shelf", so a learner could not keep weaving.
 
-- **Resolution:** `tagLabel` (src/domain/tagLabel.ts) is the one place that turns a tag into display text; `TagPicker` takes a `format` prop. A finished or resting Loom offers "Keep weaving", which starts the next batch. Any screen that shows content to a learner should format it, and no end state should lack a way forward.
+- **Resolution:** (follow-up) "Keep weaving" alone was not enough: while a missed item rested, it re-offered that same item. `startLearning` now takes the previous session, skips its resting items and carries them into the next batch; when a scarf has no new words left the Loom recommends subjects to add (`recommendTopics`).  `tagLabel` (src/domain/tagLabel.ts) is the one place that turns a tag into display text; `TagPicker` takes a `format` prop. A finished or resting Loom offers "Keep weaving", which starts the next batch. Any screen that shows content to a learner should format it, and no end state should lack a way forward.
 
 - **Status:** resolved
