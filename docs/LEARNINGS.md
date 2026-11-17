@@ -153,3 +153,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** W1-J (prepositions, core vocabulary, topics) needed frequency evidence, but no dictionary or corpus host was reachable. Vocabulary came from model knowledge, so there are no honest `freqRank` values.
 - **Resolution:** Mark every entry `review: unreviewed`, omit `freqRank`, and state the limits in `content/SOURCES.md`. A Gaelic speaker or W3-B should verify. Also tallied against L5.
 - **Status:** open
+
+### L16. A pre-existing test sits outside the task's owned test folder
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #26
+- **Detail:** `tests/unit/db.test.ts` (from F1) tests the settings helpers, but W1-K owns `tests/unit/db/**`, so the new tests went in that folder and the old file was left alone.
+- **Resolution:** Keep `db.ts`'s v1 exports (`getSetting`, `setSetting`, `db`) unchanged so it keeps passing. Move it into `tests/unit/db/` in a later tidy-up.
+- **Status:** open
