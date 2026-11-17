@@ -1,0 +1,31 @@
+.group {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+  padding: 12px 16px;
+  margin: 0;
+  display: grid;
+  gap: 4px;
+}
+.group legend {
+  font-weight: 700;
+  padding: 0 4px;
+}
+.option {
+  min-height: var(--tap);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.option input {
+  accent-color: var(--heather);
+  width: 20px;
+  height: 20px;
+}
+.option span {
+  display: grid;
+}
+.option small {
+  color: var(--muted);
+}
