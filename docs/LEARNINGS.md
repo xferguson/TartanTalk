@@ -153,3 +153,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** W1-J (prepositions, core vocabulary, topics) needed frequency evidence, but no dictionary or corpus host was reachable. Vocabulary came from model knowledge, so there are no honest `freqRank` values.
 - **Resolution:** Mark every entry `review: unreviewed`, omit `freqRank`, and state the limits in `content/SOURCES.md`. A Gaelic speaker or W3-B should verify. Also tallied against L5.
 - **Status:** open
+
+### L16. A validator that needs data nobody has written yet
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #21
+- **Detail:** W1-H must require Ferguson and Murchison tartans, but `content/` was empty until the data tasks landed, so a strict check would have failed CI on day one. Main also moved twice during CI, each time conflicting in `docs/WORKPLAN.md`.
+- **Resolution:** The required-clan check applies only once a tartan exists, and warns otherwise. Generated JSON is committed and CI fails if `npm run content` changes it. After resolving a conflict, re-run `npm run content` in case newly merged data changes the output.
+- **Status:** resolved
