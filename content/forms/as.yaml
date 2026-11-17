@@ -1,0 +1,66 @@
+# Pronominal forms of "à" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:as.1sg
+  lexemeId: lex:as
+  gd: "asam"
+  en: "out of me"
+  person: 1sg
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.2sg
+  lexemeId: lex:as
+  gd: "asad"
+  en: "out of you"
+  person: 2sg
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.3sg-m
+  lexemeId: lex:as
+  gd: "às"
+  en: "out of him"
+  person: 3sg-m
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.3sg-f
+  lexemeId: lex:as
+  gd: "aiste"
+  en: "out of her"
+  person: 3sg-f
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.1pl
+  lexemeId: lex:as
+  gd: "asainn"
+  en: "out of us"
+  person: 1pl
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.2pl
+  lexemeId: lex:as
+  gd: "asaibh"
+  en: "out of you (plural or formal)"
+  person: 2pl
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:as.3pl
+  lexemeId: lex:as
+  gd: "asta"
+  en: "out of them"
+  person: 3pl
+  tags: [prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
