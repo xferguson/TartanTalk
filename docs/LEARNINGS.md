@@ -99,12 +99,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 3
-- **Seen in:** #11, #12, #13
+- **Tally:** 2
+- **Seen in:** #12, #13
 - **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
-- **Proposal:** A SessionStart hook (`.claude/settings.json`) that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready to lint, typecheck and test.
-- **Status:** proposal pending user
+- **Status:** open
 
 ### L12. Testing-library does not auto-clean between tests here
 - **Type:** mistake
