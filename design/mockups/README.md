@@ -13,3 +13,6 @@ The twill renderer here is a prototype for M1 (`src/weave`). Sett thread counts 
 ## Rounds
 - Round 1 (`body.html`, Pages `/mockups/`): four palette directions and nine icon concepts.
 - Round 2 (`round2.html`, Pages `/mockups/round2/`): the chosen Cozy hearth direction with Daylight and Peat fire themes, five screens, and tartan speech-bubble icon variants A to F. Regenerate its copy the same way, writing to `public/mockups/round2/index.html`.
+
+## App icon
+Chosen: variant A "Classic" (tartan speech bubble, Ferguson (Old) on undyed wool). Source: `design/icon/icon.html`. Regenerate the PNGs in `public/icons/` with `npm run icons`.
