@@ -1,0 +1,33 @@
+:root {
+  --bg: #f6efe3;
+  --ink: #2e2420;
+  --muted: #7a6a5f;
+  --accent: #5b2a3c;
+  color-scheme: light dark;
+  font-family: Georgia, 'Iowan Old Style', serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1f1a18;
+    --ink: #f1e8dc;
+    --muted: #b3a294;
+    --accent: #d58aa3;
+  }
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+.shelf {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+h1 {
+  color: var(--accent);
+}
+.en,
+.muted {
+  color: var(--muted);
+}

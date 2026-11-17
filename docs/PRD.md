@@ -91,12 +91,11 @@ Tartan Talk is a Scottish Gaelic language-learning PWA that replaces streaks and
 ## 8. Delivery
 - **Design first:** palette and icon mock-up round (section 6), then pick a direction.
 - **Milestone 1:** vertical slice of the full loop (scarf setup, learning ladder, SRS, weaving renderer, moths and reweaving, tartan library) on a meaningful slice of the v1 content base. Then expand content in batches.
-- **Process (to save in repo agent file CLAUDE.md after plan mode):** always use a PR. A draft PR may be marked ready and approved by the agent without user approval once CI is green, unless this plan marks that area as requiring user approval (none marked yet; decide in tech phase).
+- **Process (see CLAUDE.md):** always use a PR. Once CI is green the agent marks it ready, approves and merges it. The user's approval is needed only when they explicitly ask for it on a specific change.
 - Save the final PRD to `docs/PRD.md`, then run a separate plan phase with a tech-lead persona.
 
 ## 9. Open questions
 - Tuning of sentence-unlock pacing, similarity measure, and implicit-credit weights (ship with telemetry-free, on-device logging for the learner's own insight, or manual tuning via test learners).
 - Moth timing: how holes grow the longer an item is overdue (size/number), and any cap so scarves never look ruined.
 - Frequency-list and sentence-corpus sources and licences; audio sourcing.
-- Stack, FSRS implementation, tartan renderer (canvas/SVG twill), IndexedDB schema and tag/dependency model.
-- Code and content licences; which areas require user approval on PRs.
+- Technical decisions are in `docs/TECH_PLAN.md` (stack, FSRS, renderer, schema, licences: MIT code, CC BY-SA 4.0 content).
