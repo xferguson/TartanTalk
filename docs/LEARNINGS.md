@@ -99,8 +99,33 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 2
-- **Seen in:** W1-C, W1-E
-- **Detail:** `npx vitest`, `lint` and `typecheck` fail with missing-package and missing-type errors until dependencies are installed.
+- **Tally:** 3
+- **Seen in:** #11, #12, #13
+- **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
+- **Proposal:** A SessionStart hook (`.claude/settings.json`) that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready to lint, typecheck and test.
+- **Status:** proposal pending user
+
+### L12. Testing-library does not auto-clean between tests here
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** #13
+- **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
+- **Resolution:** Call `afterEach(cleanup)` in each component test file (or add it to `tests/setup.ts` in a task that owns it).
 - **Status:** open
+
+### L12. Off-by-one between a step counter and the contract's meaning
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** W1-D PR
+- **Detail:** `markLearned` set `seededStep: 0`, which re-used the 1-day interval on the first review. The contract comment in `types.ts` ("0 = next interval 1d, 1 = 4d …") was right, and the tests caught the mismatch.
+- **Resolution:** Read the contract's field comments before implementing, and write the test against the contract's wording.
+- **Status:** resolved
+
+### L13. Parallel sessions pick the same next learning ID
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** #10
+- **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
+- **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
+- **Status:** resolved

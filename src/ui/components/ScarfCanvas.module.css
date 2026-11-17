@@ -1,0 +1,25 @@
+.wrap { position: relative; display: block; width: 100%; }
+.detail { width: 64px; }
+.canvas { display: block; }
+
+/* Holes are real buttons over the canvas so they can be focused and tapped. */
+.hole {
+  position: absolute;
+  width: var(--tap);
+  height: var(--tap);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.hole:focus-visible { outline: 2px solid var(--heather); outline-offset: -2px; }
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
