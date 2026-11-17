@@ -197,7 +197,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-L
 
-- **Status:** in progress (claude/w1-l-prjf7c)
+- **Status:** done (#33)
 
 **UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests.
 
