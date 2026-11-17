@@ -64,7 +64,7 @@ describe('ScarfScreen', () => {
     expect(screen.getByText('Ferguson (Old) · begun 2 Mar')).toBeTruthy();
     expect(screen.getByText('items: 1 words, 1 forms, 1 sentences')).toBeTruthy();
     expect(screen.getByText('moth holes waiting')).toBeTruthy();
-    expect(screen.getByText('topic:love')).toBeTruthy();
+    expect(screen.getByText('Love')).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Weave new' }).getAttribute('href')).toBe('/loom/s1');
   });
 

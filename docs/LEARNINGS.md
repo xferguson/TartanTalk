@@ -193,9 +193,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L14. Parking work while an earlier PR on the same branch is in CI
 
 - **Type:** difficulty
-
+- **Tally:** 1
 - **Seen in:** #15
-
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
@@ -514,3 +513,17 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Resolution:** Screen tasks update the smoke test's expected heading in the same PR and note it as outside their Owns paths. Run `npm run e2e` before pushing.
 
 - **Status:** open
+
+### L19. Raw content tags and dead-end session screens reached learners
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** this PR
+
+- **Detail:** The New scarf and Scarf screens showed machine tags (`topic:love`, `prep:aig`), and the Loom ended every batch, or a wait on a missed thread, with only "Back to the shelf", so a learner could not keep weaving.
+
+- **Resolution:** `tagLabel` (src/domain/tagLabel.ts) is the one place that turns a tag into display text; `TagPicker` takes a `format` prop. A finished or resting Loom offers "Keep weaving", which starts the next batch. Any screen that shows content to a learner should format it, and no end state should lack a way forward.
+
+- **Status:** resolved
