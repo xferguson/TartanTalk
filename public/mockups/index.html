@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+</head>
+<body>
+<title>Tartan Talk Mock-ups</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Alegreya:ital,wght@0,500;0,700;1,500&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&family=Spectral:wght@500;700&family=Inter:wght@400;600&family=Bitter:wght@500;700&family=Karla:wght@400;600&display=swap">
+<style>
+/* Layout: a design-review board. Intro, then four phone mock-ups side by side (wrapping), then an icon sheet. */
+:root {
+  --bg: #f1eee8;
+  --surface: #fbfaf7;
+  --ink: #26221f;
+  --muted: #6c645c;
+  --line: #d9d3c9;
+  --accent: #6b3b5a;
+  --display: 'Alegreya', Georgia, serif;
+  --body: 'Alegreya Sans', 'Segoe UI', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #1b1917; --surface: #24211e; --ink: #eee8df; --muted: #a99f93; --line: #3a3531; --accent: #d49bc0; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #1b1917; --surface: #24211e; --ink: #eee8df; --muted: #a99f93; --line: #3a3531; --accent: #d49bc0; color-scheme: dark; }
+
+*, *::before, *::after { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-block: 32px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
+h2 { font-size: 1.6rem; }
+.lede { max-width: 65ch; color: var(--muted); margin: 8px 0 0; }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.75rem; font-weight: 700; color: var(--accent); }
+section { display: grid; gap: 20px; }
+.note { max-width: 70ch; color: var(--muted); font-size: 0.95rem; margin: 0; }
+
+/* ---------- Palette directions ---------- */
+.directions { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 28px; align-items: start; }
+.direction { display: grid; gap: 12px; min-width: 0; }
+.direction header { display: grid; gap: 2px; }
+.direction header p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+.swatches { display: flex; gap: 6px; flex-wrap: wrap; }
+.swatches span { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line); }
+
+.phone { --r: 28px; border-radius: var(--r); padding: 18px 16px 20px; background: var(--m-bg); color: var(--m-ink); font-family: var(--m-body); box-shadow: 0 1px 0 var(--line), 0 10px 30px rgba(0,0,0,.12); display: grid; gap: 14px; max-width: 340px; width: 100%; border: 1px solid rgba(0,0,0,.08); }
+.phone .greet { display: grid; gap: 0; }
+.phone .greet b { font-family: var(--m-display); font-size: 1.5rem; font-weight: 700; color: var(--m-ink); }
+.phone .greet i { font-style: normal; color: var(--m-muted); font-size: 0.85rem; }
+.phone .label { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.68rem; font-weight: 600; color: var(--m-muted); }
+.shelf { display: grid; gap: 10px; }
+.scarf { background: var(--m-surface); border-radius: 14px; padding: 10px 10px 12px; display: grid; gap: 8px; }
+.scarf canvas { width: 100%; height: 46px; display: block; }
+.scarf .meta { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.scarf .name { font-family: var(--m-display); font-weight: 700; font-size: 1rem; }
+.scarf .sub { font-size: 0.78rem; color: var(--m-muted); }
+.scarf .len { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 0.9rem; white-space: nowrap; }
+.chip { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 8px; border-radius: 99px; background: var(--m-chip); color: var(--m-chip-ink); }
+.workshop { background: var(--m-surface); border-radius: 14px; padding: 14px; display: grid; gap: 10px; }
+.workshop .prompt { font-family: var(--m-display); font-size: 1.35rem; }
+.workshop .prompt u { text-decoration: none; border-bottom: 2px solid var(--m-accent); padding: 0 1.2em; }
+.workshop .en { color: var(--m-muted); font-size: 0.85rem; margin-top: -6px; }
+.choices { display: flex; gap: 8px; flex-wrap: wrap; }
+.choices span { padding: 6px 14px; border-radius: 10px; border: 1.5px solid var(--m-line); font-family: var(--m-display); font-size: 1rem; }
+.choices span.on { background: var(--m-accent); border-color: var(--m-accent); color: var(--m-on-accent); }
+.ladder { display: flex; gap: 6px; align-items: center; font-size: 0.72rem; color: var(--m-muted); }
+.ladder i { width: 18px; height: 5px; border-radius: 3px; background: var(--m-line); }
+.ladder i.done { background: var(--m-accent2); }
+.cta { justify-self: start; background: var(--m-accent); color: var(--m-on-accent); font-weight: 600; border-radius: 99px; padding: 8px 16px; font-size: 0.9rem; }
+
+/* Direction palettes (each mock-up deliberately keeps one fixed look) */
+.d-hearth  { --m-bg:#efe4d2; --m-surface:#fbf5ea; --m-ink:#33241c; --m-muted:#7d6655; --m-line:#d8c8b2; --m-accent:#6b3b5a; --m-accent2:#b5703a; --m-on-accent:#fbf5ea; --m-chip:#f0dccf; --m-chip-ink:#7a3a2a; --m-display:'Fraunces', Georgia, serif; --m-body:'Source Sans 3', system-ui, sans-serif; }
+.d-misty   { --m-bg:#dfe5e4; --m-surface:#f3f6f5; --m-ink:#1f2b30; --m-muted:#5c6c70; --m-line:#c3cdcc; --m-accent:#2f5f7a; --m-accent2:#7d8b5a; --m-on-accent:#f3f6f5; --m-chip:#dde6ec; --m-chip-ink:#2f5f7a; --m-display:'Spectral', Georgia, serif; --m-body:'Inter', system-ui, sans-serif; }
+.d-rowan   { --m-bg:#f2e4df; --m-surface:#fff8f5; --m-ink:#2e1416; --m-muted:#7a5255; --m-line:#e2c8c2; --m-accent:#9e1b25; --m-accent2:#c98a2c; --m-on-accent:#fff8f5; --m-chip:#f6dcd7; --m-chip-ink:#8a1f27; --m-display:'Alegreya', Georgia, serif; --m-body:'Alegreya Sans', system-ui, sans-serif; }
+.d-pine    { --m-bg:#14231d; --m-surface:#1e3329; --m-ink:#f1ead6; --m-muted:#a7b39e; --m-line:#335244; --m-accent:#e0a526; --m-accent2:#86b596; --m-on-accent:#14231d; --m-chip:#3a3420; --m-chip-ink:#f0c35a; --m-display:'Bitter', Georgia, serif; --m-body:'Karla', system-ui, sans-serif; }
+
+/* ---------- Icons ---------- */
+.icons { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+.icon { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+.icon .sizes { display: flex; gap: 14px; align-items: flex-end; }
+.icon canvas { display: block; }
+.icon h3 { font-size: 1.1rem; }
+.icon p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.icon.pick { border-color: var(--accent); }
+.icon .tag { font-size: 0.7rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: .1em; }
+
+.library { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.sett { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: grid; }
+.sett canvas { width: 100%; height: 110px; display: block; }
+.sett div { padding: 10px 12px; display: grid; gap: 2px; }
+.sett b { font-family: var(--display); }
+.sett code { font-size: 0.75rem; color: var(--muted); overflow-wrap: anywhere; }
+.sett small { color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .moth-flutter { animation: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Design round 1</div>
+    <h1>Tartan Talk mock-ups</h1>
+    <p class="lede">Four palette directions for the scarf shelf and a workshop card, then a sheet of app-icon concepts. Every tartan here is drawn by a prototype 2/2 twill renderer from real thread counts, so the cloth looks the way the app will weave it. Pick a direction (or a blend) and one or two icons to refine.</p>
+  </header>
+
+  <section>
+    <div class="eyebrow">Palette directions</div>
+    <h2>Shelf and workshop, four ways</h2>
+    <div class="directions" id="directions"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Icon concepts</div>
+    <h2>App icon, shown at 112 px and 48 px</h2>
+    <p class="note">The 48 px size is the real test: it is about what a phone home screen shows. Concepts marked “new” are ideas beyond the ones we discussed.</p>
+    <div class="icons" id="icons"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Tartan library sample</div>
+    <h2>Setts used in these mock-ups</h2>
+    <p class="note">Thread counts come from public tartan listings and are for mock-ups only. Each sett still needs its provenance and licence checked before it ships. Murchison is a sept of Clan MacKenzie and is commonly linked to the MacKenzie tartan; the sett below is an approximation, and we still need to research Murchison-specific variants.</p>
+    <div class="library" id="library"></div>
+  </section>
+</div>
+
+<script>
+// ---------- Tartan data (mock-up only; provenance to be verified) ----------
+const COLORS = { K:'#141414', G:'#0b5a3a', DG:'#143d2a', B:'#2c4084', DB:'#1c2a55', R:'#c4202f', W:'#efece4', Y:'#e3b23c', P:'#5d3a6b' };
+const TARTANS = {
+  fergusonOld:   { name:'Ferguson (Old)', sett:'B/30 R4 G/34', scale:0.55, note:'3-colour clan sett' },
+  balquhidder:   { name:'Ferguson of Balquhidder', sett:'K/4 G24 K24 R2 DB24 G/4', scale:0.6, note:'named by D.C. Stewart' },
+  ferguson1831:  { name:'Ferguson (1831 sett)', sett:'G/8 DB48 R4 K48 G48 K8 G48 K48 R4 DB48 G/4', scale:0.28, note:'dated 1831 in listings' },
+  mackenzie:     { name:'MacKenzie, for Murchison', sett:'B/24 K4 B4 K4 B4 K20 G24 K4 W/4', scale:0.5, note:'approximate; Murchison is a MacKenzie sept' },
+};
+
+function parseSett(sett, scale = 1) {
+  const toks = sett.trim().split(/\s+/).map(t => {
+    const m = t.match(/^([A-Z]+)(\/?)(\d+)$/);
+    return { c: m[1], n: Math.max(1, Math.round(+m[3] * scale)), pivot: m[2] === '/' };
+  });
+  const symmetric = toks[0].pivot || toks[toks.length - 1].pivot;
+  const seq = symmetric ? toks.concat(toks.slice(1, -1).reverse()) : toks;
+  const threads = [];
+  for (const t of seq) for (let i = 0; i < t.n; i++) threads.push(t.c);
+  return threads;
+}
+const hexRgb = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function hash(x, y) { let h = (x * 374761393 + y * 668265263) | 0; h = (h ^ (h >>> 13)) * 1274126177; return ((h ^ (h >>> 16)) >>> 0) / 4294967295; }
+
+// 2/2 twill: warp shows where (x + y) mod 4 < 2, else weft. Each thread is `tpx` pixels.
+const tileCache = new Map();
+function twillTile(key, tpx) {
+  const id = key + ':' + tpx;
+  if (tileCache.has(id)) return tileCache.get(id);
+  const t = TARTANS[key];
+  const threads = parseSett(t.sett, t.scale).map(c => hexRgb(COLORS[c]));
+  const L = threads.length, S = L * tpx;
+  const cv = document.createElement('canvas'); cv.width = cv.height = S;
+  const ctx = cv.getContext('2d'); const img = ctx.createImageData(S, S); const d = img.data;
+  for (let Y = 0; Y < S; Y++) for (let X = 0; X < S; X++) {
+    const x = (X / tpx) | 0, y = (Y / tpx) | 0;
+    const warp = ((x + y) & 3) < 2;
+    const c = warp ? threads[x] : threads[y];
+    let f = warp ? 1.05 : 0.93;
+    const inX = X % tpx, inY = Y % tpx;
+    if (warp && (inX === 0 || inX === tpx - 1)) f *= 0.86;
+    if (!warp && (inY === 0 || inY === tpx - 1)) f *= 0.86;
+    f *= 1 + (hash(X, Y) - 0.5) * 0.09;
+    const o = (Y * S + X) * 4;
+    d[o] = Math.min(255, c[0] * f + 6); d[o + 1] = Math.min(255, c[1] * f + 6); d[o + 2] = Math.min(255, c[2] * f + 6); d[o + 3] = 255;
+  }
+  ctx.putImageData(img, 0, 0);
+  tileCache.set(id, cv);
+  return cv;
+}
+function tartanPattern(ctx, key, tpx) { return ctx.createPattern(twillTile(key, tpx), 'repeat'); }
+
+function setupCanvas(cv, w, h) {
+  const dpr = Math.min(2, window.devicePixelRatio || 1);
+  cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+  cv.style.width = w + 'px'; cv.style.height = h + 'px';
+  const ctx = cv.getContext('2d'); ctx.scale(dpr, dpr); return ctx;
+}
+
+// ---------- Moth (cute and mischievous) ----------
+function drawMoth(ctx, x, y, s, wing = '#c9b8a6', body = '#6b5a4c', wingFill = null) {
+  ctx.save(); ctx.translate(x, y);
+  ctx.strokeStyle = body; ctx.lineWidth = Math.max(1, s * 0.05); ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(-s * .08, -s * .28); ctx.quadraticCurveTo(-s * .2, -s * .55, -s * .32, -s * .52); ctx.moveTo(s * .08, -s * .28); ctx.quadraticCurveTo(s * .2, -s * .55, s * .32, -s * .52); ctx.stroke();
+  for (const side of [-1, 1]) {
+    ctx.beginPath(); ctx.ellipse(side * s * .3, -s * .02, s * .32, s * .24, side * -0.5, 0, Math.PI * 2);
+    ctx.fillStyle = wingFill || wing; ctx.fill();
+    ctx.beginPath(); ctx.ellipse(side * s * .24, s * .2, s * .2, s * .15, side * 0.6, 0, Math.PI * 2);
+    ctx.fillStyle = wingFill || wing; ctx.fill();
+  }
+  ctx.beginPath(); ctx.ellipse(0, 0, s * .12, s * .3, 0, 0, Math.PI * 2); ctx.fillStyle = body; ctx.fill();
+  for (const side of [-1, 1]) {
+    ctx.beginPath(); ctx.arc(side * s * .06, -s * .2, s * .055, 0, Math.PI * 2); ctx.fillStyle = '#fff'; ctx.fill();
+    ctx.beginPath(); ctx.arc(side * s * .06, -s * .19, s * .028, 0, Math.PI * 2); ctx.fillStyle = '#1a1410'; ctx.fill();
+  }
+  ctx.restore();
+}
+
+// ---------- Scarf strip with fringe and moth holes ----------
+function drawScarf(cv, key, holes, surface, mothCol) {
+  const w = cv.clientWidth || 280, h = 46;
+  const ctx = setupCanvas(cv, w, h); cv.style.width = '100%';
+  const fr = 10;
+  ctx.fillStyle = tartanPattern(ctx, key, 2); ctx.fillRect(fr, 0, w - fr * 2, h);
+  const threads = parseSett(TARTANS[key].sett, TARTANS[key].scale);
+  for (let i = 0; i < h; i += 3) {
+    ctx.strokeStyle = COLORS[threads[(i * 2) % threads.length]]; ctx.lineWidth = 1.6; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(fr, i + 1); ctx.lineTo(2 + (i % 2), i + 2); ctx.moveTo(w - fr, i + 1); ctx.lineTo(w - 2 - (i % 2), i + 2); ctx.stroke();
+  }
+  holes.forEach((hl, k) => {
+    const cx = fr + hl[0] * (w - fr * 2), cy = hl[1] * h, r = hl[2];
+    ctx.beginPath();
+    for (let a = 0; a <= 12; a++) { const ang = a / 12 * Math.PI * 2, rr = r * (0.75 + hash(k * 31 + a, 7) * 0.5); ctx.lineTo(cx + Math.cos(ang) * rr, cy + Math.sin(ang) * rr); }
+    ctx.closePath(); ctx.fillStyle = surface; ctx.fill();
+    ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.lineWidth = 1; ctx.stroke();
+    if (k === 0) drawMoth(ctx, cx + r + 13, Math.max(13, cy - 4), 22, mothCol);
+  });
+}
+
+// ---------- Directions ----------
+const DIRECTIONS = [
+  { id:'hearth', title:'1 · Cozy hearth', blurb:'Warm wool and peat smoke, heather purple, lamplight amber.', sw:['#efe4d2','#fbf5ea','#33241c','#6b3b5a','#b5703a'], moth:'#cdb79c' },
+  { id:'misty', title:'2 · Misty highlands', blurb:'Cool loch blue, mist greys and bracken green. Calm and airy.', sw:['#dfe5e4','#f3f6f5','#1f2b30','#2f5f7a','#7d8b5a'], moth:'#b7c1c0' },
+  { id:'rowan', title:'3 · Rowan and claret', blurb:'Red-led: rowan berry, claret and warm gold on a blush ground.', sw:['#f2e4df','#fff8f5','#2e1416','#9e1b25','#c98a2c'], moth:'#d8bcb4' },
+  { id:'pine', title:'4 · Pine and saffron', blurb:'Dark forest green with saffron light. Cozy at night, crisp by day.', sw:['#14231d','#1e3329','#f1ead6','#e0a526','#86b596'], moth:'#c8c0a4' },
+];
+const SCARVES = [
+  { key:'fergusonOld', name:'Love and feelings', sub:'aig · air · gaol', len:'2.4 ells', moths:2, holes:[[0.32,0.45,5],[0.71,0.6,3.5]] },
+  { key:'mackenzie', name:'Talking about languages', sub:'aig · Gàidhlig · bruidhinn', len:'1.1 ells', moths:0, holes:[] },
+  { key:'balquhidder', name:'Weather', sub:'air · fuar · fliuch', len:'0.6 ells', moths:1, holes:[[0.55,0.4,4.5]] },
+];
+const dirRoot = document.getElementById('directions');
+for (const d of DIRECTIONS) {
+  const el = document.createElement('article'); el.className = 'direction';
+  el.innerHTML = `<header><h3>${d.title}</h3><p>${d.blurb}</p></header>
+    <div class="swatches">${d.sw.map(c => `<span style="background:${c}" title="${c}"></span>`).join('')}</div>
+    <div class="phone d-${d.id}">
+      <div class="greet"><b lang="gd">Madainn mhath!</b><i>Good morning. Two scarves have visitors.</i></div>
+      <div class="label">Your shelf</div>
+      <div class="shelf">${SCARVES.map((s, i) => `<div class="scarf"><canvas data-i="${i}"></canvas>
+        <div class="meta"><div><div class="name">${s.name}</div><div class="sub" lang="gd">${s.sub}</div></div>
+        <div style="text-align:right"><div class="len">${s.len}</div>${s.moths ? `<span class="chip">${s.moths} moth hole${s.moths > 1 ? 's' : ''}</span>` : ''}</div></div></div>`).join('')}</div>
+      <div class="label">At the loom</div>
+      <div class="workshop">
+        <div class="prompt" lang="gd">Tha gaol <u>&nbsp;</u> ort.</div>
+        <div class="en">I love you.</div>
+        <div class="choices" lang="gd"><span class="on">agam</span><span>agad</span><span>aige</span></div>
+        <div class="ladder"><i class="done"></i><i></i><i></i> choose · fill · type</div>
+      </div>
+      <span class="cta">Reweave 3 holes</span>
+    </div>`;
+  dirRoot.appendChild(el);
+  const surface = getComputedStyle(el.querySelector('.phone')).getPropertyValue('--m-surface').trim();
+  el.querySelectorAll('canvas').forEach(cv => { const s = SCARVES[+cv.dataset.i]; drawScarf(cv, s.key, s.holes, surface, d.moth); });
+}
+
+// ---------- Icon drawing helpers (unit space 0..100) ----------
+function rr(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+function bubble(ctx, x = 12, y = 14, w = 76, h = 56, r = 16, tail = 'left') {
+  ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  if (tail === 'left') { ctx.lineTo(x + 34, y + h); ctx.lineTo(x + 16, y + h + 17); ctx.lineTo(x + 20, y + h); }
+  else { ctx.lineTo(x + w - 20, y + h); ctx.lineTo(x + w - 16, y + h + 17); ctx.lineTo(x + w - 34, y + h); }
+  ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+function bg(ctx, col) { rr(ctx, 0, 0, 100, 100, 22); ctx.fillStyle = col; ctx.fill(); }
+function patternFill(ctx, key, size) { const p = tartanPattern(ctx, key, 2); p.setTransform(new DOMMatrix().scale(100 / size / 1.6)); return p; }
+function thistle(ctx, cx, cy, s, bloom = '#8e4c9e', head = '#3f7a4a', stem = '#3f7a4a') {
+  ctx.save(); ctx.lineCap = 'round';
+  ctx.strokeStyle = stem; ctx.lineWidth = s * 0.07; ctx.beginPath(); ctx.moveTo(cx, cy + s * 0.2); ctx.lineTo(cx, cy + s * 0.62); ctx.stroke();
+  for (let i = 0; i <= 12; i++) { const a = -Math.PI * (0.88 - i * 0.063); ctx.strokeStyle = i % 2 ? bloom : shade(bloom, 1.18); ctx.lineWidth = s * 0.06; ctx.beginPath(); ctx.moveTo(cx, cy - s * 0.05); ctx.lineTo(cx + Math.cos(a) * s * 0.42, cy - s * 0.05 + Math.sin(a) * s * 0.42); ctx.stroke(); }
+  ctx.beginPath(); ctx.ellipse(cx, cy + s * 0.08, s * 0.2, s * 0.17, 0, 0, Math.PI * 2); ctx.fillStyle = head; ctx.fill();
+  ctx.strokeStyle = shade(head, 0.7); ctx.lineWidth = s * 0.025;
+  for (let k = -2; k <= 2; k++) { ctx.beginPath(); ctx.moveTo(cx + k * s * 0.08 - s * 0.12, cy - s * 0.04); ctx.lineTo(cx + k * s * 0.08 + s * 0.06, cy + s * 0.24); ctx.moveTo(cx + k * s * 0.08 + s * 0.12, cy - s * 0.04); ctx.lineTo(cx + k * s * 0.08 - s * 0.06, cy + s * 0.24); ctx.stroke(); }
+  ctx.fillStyle = stem; for (const side of [-1, 1]) { ctx.beginPath(); ctx.moveTo(cx, cy + s * 0.45); ctx.quadraticCurveTo(cx + side * s * 0.3, cy + s * 0.3, cx + side * s * 0.36, cy + s * 0.22); ctx.quadraticCurveTo(cx + side * s * 0.22, cy + s * 0.44, cx, cy + s * 0.52); ctx.fill(); }
+  ctx.restore();
+}
+function shade(hex, f) { const c = hexRgb(hex).map(v => Math.max(0, Math.min(255, Math.round(v * f)))); return `rgb(${c.join(',')})`; }
+
+const ICONS = [
+  { name:'Tartan speech bubble', note:'Language and tartan in one shape. Strong at small sizes.', draw(ctx, S) {
+      bg(ctx, '#f3ead9'); bubble(ctx); ctx.fillStyle = patternFill(ctx, 'fergusonOld', S); ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.stroke(); } },
+  { name:'Thistle speech bubble', pick:true, note:'The thistle head is the bubble: purple bloom bursting from a green calyx shaped like a speech bubble.', draw(ctx) {
+      bg(ctx, '#f6efe1');
+      ctx.save(); ctx.lineCap = 'round';
+      for (let i = 0; i <= 16; i++) { const a = -Math.PI * (0.9 - i * 0.05); ctx.strokeStyle = i % 2 ? '#8e4c9e' : '#a967b8'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(50, 46); ctx.lineTo(50 + Math.cos(a) * 36, 46 + Math.sin(a) * 34); ctx.stroke(); }
+      ctx.restore();
+      bubble(ctx, 22, 40, 56, 38, 14); ctx.fillStyle = '#3f7a4a'; ctx.fill();
+      ctx.save(); ctx.clip(); ctx.strokeStyle = '#2c5a35'; ctx.lineWidth = 2.2; for (let k = -6; k < 10; k++) { ctx.beginPath(); ctx.moveTo(k * 10, 40); ctx.lineTo(k * 10 + 45, 95); ctx.moveTo(k * 10 + 45, 40); ctx.lineTo(k * 10, 95); ctx.stroke(); } ctx.restore(); } },
+  { name:'Thistle in a bubble', note:'A cream bubble holding a thistle on a heather ground. Quiet and classic.', draw(ctx) {
+      bg(ctx, '#5d3a6b'); bubble(ctx, 14, 12, 72, 60, 18); ctx.fillStyle = '#f6efe1'; ctx.fill(); thistle(ctx, 50, 40, 40); } },
+  { name:'Shuttle and thread', note:'A wooden shuttle is the bar of a T; its thread falls to make the stem.', draw(ctx) {
+      bg(ctx, '#1e3329');
+      ctx.beginPath(); ctx.moveTo(14, 30); ctx.quadraticCurveTo(50, 16, 86, 30); ctx.quadraticCurveTo(50, 44, 14, 30); ctx.fillStyle = '#c98a4a'; ctx.fill();
+      rr(ctx, 40, 26, 20, 8, 3); ctx.fillStyle = '#7a4f26'; ctx.fill();
+      ctx.strokeStyle = '#e0a526'; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(50, 34); ctx.bezierCurveTo(50, 55, 56, 66, 50, 84); ctx.stroke(); } },
+  { name:'Folded scarf with moth', note:'Tells the whole story, but busy at 48 px.', draw(ctx, S) {
+      bg(ctx, '#efe4d2');
+      ctx.save(); ctx.translate(50, 56); ctx.rotate(-0.12);
+      rr(ctx, -34, -6, 68, 26, 6); ctx.fillStyle = patternFill(ctx, 'balquhidder', S); ctx.fill();
+      rr(ctx, -30, -24, 64, 24, 6); ctx.fillStyle = patternFill(ctx, 'fergusonOld', S); ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,.3)'; ctx.lineWidth = 1.5; ctx.stroke();
+      ctx.restore(); drawMoth(ctx, 74, 26, 22, '#d6c2a8', '#5b4a3d'); } },
+  { name:'Thistle in plaid', note:'Very Scottish and recognisable, but a common motif.', draw(ctx, S) {
+      bg(ctx, '#2a2a2a'); rr(ctx, 6, 6, 88, 88, 18); ctx.fillStyle = patternFill(ctx, 'mackenzie', S); ctx.fill(); thistle(ctx, 50, 42, 44, '#c98ad8', '#e7efe0', '#e7efe0'); } },
+  { name:'Tartan moth', isNew:true, note:'The mascot as the icon: a friendly moth with tartan wings. Charming and ownable.', draw(ctx, S) {
+      bg(ctx, '#f2e4df'); const p = patternFill(ctx, 'fergusonOld', S); drawMoth(ctx, 50, 54, 78, null, '#3a2a22', p); } },
+  { name:'Woven à', isNew:true, note:'A Gaelic grave-accent letter on a tartan tile; the accent reads as a shuttle stroke.', draw(ctx, S) {
+      rr(ctx, 0, 0, 100, 100, 22); ctx.fillStyle = patternFill(ctx, 'balquhidder', S); ctx.fill();
+      ctx.fillStyle = 'rgba(0,0,0,.28)'; rr(ctx, 0, 0, 100, 100, 22); ctx.fill();
+      ctx.fillStyle = '#f6efe1'; ctx.font = '700 64px Alegreya, Georgia, serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic'; ctx.fillText('à', 50, 78); } },
+  { name:'Warp and weft bubbles', isNew:true, note:'Two speech bubbles cross like warp and weft: a conversation woven together.', draw(ctx) {
+      bg(ctx, '#dfe5e4');
+      ctx.save(); bubble(ctx, 8, 12, 58, 44, 14, 'left'); ctx.clip(); for (let x = 0; x < 70; x += 8) { ctx.fillStyle = x % 16 ? '#2f5f7a' : '#7d8b5a'; ctx.fillRect(x, 0, 8, 100); } ctx.restore();
+      ctx.save(); bubble(ctx, 34, 34, 58, 44, 14, 'right'); ctx.clip(); for (let y = 0; y < 100; y += 8) { ctx.fillStyle = y % 16 ? '#9e1b25' : '#e3b23c'; ctx.fillRect(0, y, 100, 8); }
+      ctx.restore(); ctx.save(); bubble(ctx, 34, 34, 58, 44, 14, 'right'); ctx.strokeStyle = '#dfe5e4'; ctx.lineWidth = 3; ctx.stroke(); ctx.restore(); } },
+];
+const iconRoot = document.getElementById('icons');
+function renderIcon(cv, ic, S) { const ctx = setupCanvas(cv, S, S); ctx.scale(S / 100, S / 100); ic.draw(ctx, S); }
+for (const ic of ICONS) {
+  const el = document.createElement('article'); el.className = 'icon' + (ic.pick ? ' pick' : '');
+  el.innerHTML = `${ic.pick ? '<span class="tag">Your seed idea</span>' : ic.isNew ? '<span class="tag">New</span>' : ''}<div class="sizes"><canvas></canvas><canvas></canvas></div><h3>${ic.name}</h3><p>${ic.note}</p>`;
+  iconRoot.appendChild(el);
+  const [big, small] = el.querySelectorAll('canvas'); renderIcon(big, ic, 112); renderIcon(small, ic, 48);
+}
+
+// ---------- Library ----------
+const libRoot = document.getElementById('library');
+for (const [key, t] of Object.entries(TARTANS)) {
+  const el = document.createElement('article'); el.className = 'sett';
+  el.innerHTML = `<canvas></canvas><div><b>${t.name}</b><code>${t.sett}</code><small>${t.note}</small></div>`;
+  libRoot.appendChild(el);
+  const cv = el.querySelector('canvas'); const w = cv.clientWidth || 220; const ctx = setupCanvas(cv, w, 110); cv.style.width = '100%';
+  ctx.fillStyle = tartanPattern(ctx, key, 3); ctx.fillRect(0, 0, w, 110);
+}
+// Re-draw text-based icons once web fonts arrive.
+document.fonts && document.fonts.ready.then(() => { iconRoot.querySelectorAll('.icon').forEach((el, i) => { const [b, s] = el.querySelectorAll('canvas'); renderIcon(b, ICONS[i], 112); renderIcon(s, ICONS[i], 48); }); });
+</script>
+
+</body>
+</html>
