@@ -116,7 +116,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L12. Off-by-one between a step counter and the contract's meaning
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** W1-D PR
+- **Seen in:** #10
 - **Detail:** `markLearned` set `seededStep: 0`, which re-used the 1-day interval on the first review. The contract comment in `types.ts` ("0 = next interval 1d, 1 = 4d …") was right, and the tests caught the mismatch.
 - **Resolution:** Read the contract's field comments before implementing, and write the test against the contract's wording.
 - **Status:** resolved
@@ -127,4 +127,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Seen in:** #10
 - **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
 - **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
+- **Status:** resolved
+
+### L14. Parking work while an earlier PR on the same branch is in CI
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-F PR
+- **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
+- **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
 - **Status:** resolved
