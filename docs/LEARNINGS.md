@@ -100,7 +100,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
 - **Tally:** 1
-- **Seen in:** W1-C
+- **Seen in:** #12
 - **Detail:** `npx vitest` failed with "Cannot find package 'vitest'" until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first test run in a new session.
 - **Status:** open
