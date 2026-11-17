@@ -279,7 +279,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-F
 
-- **Status:** in progress (ccr-5f18eda6-7zvabx)
+- **Status:** done (#47)
 
 **Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note.
 

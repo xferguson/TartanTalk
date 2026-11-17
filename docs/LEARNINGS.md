@@ -336,7 +336,7 @@ _A link from one screen that pre-fills another is two tasks, because each screen
 
 - **Type:** difficulty
 
-- **Seen in:** W2-F
+- **Seen in:** #47
 
 - **Detail:** B9 says "Use for a new scarf" opens `/new` with the tartan pre-selected, but `NewScarfScreen` belongs to W2-E and was already merged.
 
