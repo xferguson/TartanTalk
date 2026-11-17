@@ -99,16 +99,16 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** W1-A
-- **Detail:** `npm run lint`, `typecheck` and `test` all failed with missing-package errors until dependencies were installed.
-- **Resolution:** Run `npm ci` first in a new session.
+- **Tally:** 2
+- **Seen in:** #12, #13
+- **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
+- **Resolution:** Run `npm ci` before the first check in a new session.
 - **Status:** open
 
 ### L12. Testing-library does not auto-clean between tests here
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** W1-A
+- **Seen in:** #13
 - **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
 - **Resolution:** Call `afterEach(cleanup)` in each component test file (or add it to `tests/setup.ts` in a task that owns it).
 - **Status:** open
