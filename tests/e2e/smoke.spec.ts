@@ -14,7 +14,7 @@ test('bottom navigation reaches every room', async ({ page }) => {
   for (const [label, heading] of [
     ['Library', 'Tartan library'],
     ['Tangles', 'Tangles'],
-    ['Loom', 'At the loom'],
+    ['Loom', 'Choose a scarf to weave'],
     ['Settings', 'Settings'],
     ['Shelf', GREETING],
   ]) {
