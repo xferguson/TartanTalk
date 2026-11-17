@@ -29,19 +29,36 @@ export function geometry(variant: ScarfVariant, width = 280): Geometry {
 
 export interface Band { index: number; itemId: ItemId; rect: Rect }
 
+/** Strip width one woven item adds, until the strip is full. */
+export const STRIP_BAND_WIDTH = 16;
+
+const bandSize = (g: Geometry, n: number) =>
+  g.variant === 'strip' ? Math.min(STRIP_BAND_WIDTH, g.cloth.w / n) : Math.min(DETAIL_BAND_HEIGHT, g.cloth.h / n);
+
 /**
- * One band per woven item, in weaving order. The detail scarf hangs from the top in 9px bands
- * (squeezed if there are too many to fit); the strip spreads its bands evenly along its length.
+ * The part of the cloth that has been woven. An empty scarf has none, and it
+ * grows by one band per woven item until it fills the loom, so the strip shows real progress.
+ */
+export function wovenRect(count: number, g: Geometry): Rect {
+  const c = g.cloth;
+  if (count === 0) return { ...c, w: g.variant === 'strip' ? 0 : c.w, h: g.variant === 'strip' ? c.h : 0 };
+  const size = bandSize(g, count) * count;
+  return g.variant === 'strip' ? { ...c, w: size } : { ...c, h: size };
+}
+
+/**
+ * One band per woven item. The strip is woven left to right. The detail scarf hangs from the
+ * top and grows downward, with the newest band at the top (the older bands move down); both
+ * squeeze their bands once the cloth is full.
  */
 export function layoutBands(order: ItemId[], g: Geometry): Band[] {
   const n = order.length;
   if (n === 0) return [];
+  const size = bandSize(g, n);
   if (g.variant === 'strip') {
-    const bw = g.cloth.w / n;
-    return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x + index * bw, y: g.cloth.y, w: bw, h: g.cloth.h } }));
+    return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x + index * size, y: g.cloth.y, w: size, h: g.cloth.h } }));
   }
-  const bh = Math.min(DETAIL_BAND_HEIGHT, g.cloth.h / n);
-  return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x, y: g.cloth.y + index * bh, w: g.cloth.w, h: bh } }));
+  return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x, y: g.cloth.y + (n - 1 - index) * size, w: g.cloth.w, h: size } }));
 }
 
 const HOLE_RADIUS: Record<ScarfVariant, Record<MothSize, number>> = {

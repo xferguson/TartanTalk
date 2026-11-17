@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { hash, seedOf } from '../../../src/weave/hash';
 import { hexToRgb, parseSett, threadColours } from '../../../src/weave/sett';
 import { twillPixels } from '../../../src/weave/twill';
-import { geometry, layoutBands, mothPosition, placeHoles, textAlternative } from '../../../src/weave/layout';
+import { geometry, layoutBands, mothPosition, placeHoles, textAlternative, wovenRect } from '../../../src/weave/layout';
 
 describe('hash', () => {
   it('is deterministic and within 0..1', () => {
@@ -71,13 +71,30 @@ describe('layout', () => {
     expect([d.width, d.height]).toEqual([64, 380]);
     expect(d.cloth).toEqual({ x: 4, y: 10, w: 56, h: 360 });
   });
-  it('lays detail bands 9px high in weaving order, squeezing when full', () => {
+  it('lays detail bands 9px high, newest at the top, squeezing when full', () => {
     const d = geometry('detail');
     const bands = layoutBands(['a', 'b', 'c'], d);
-    expect(bands.map((b) => b.rect.y)).toEqual([10, 19, 28]);
+    expect(bands.map((b) => b.rect.y)).toEqual([28, 19, 10]);
     expect(bands[0].rect.h).toBe(9);
     const many = layoutBands(Array.from({ length: 90 }, (_, i) => `i${i}`), d);
-    expect(many[89].rect.y + many[89].rect.h).toBeCloseTo(370);
+    expect(many[0].rect.y + many[0].rect.h).toBeCloseTo(370);
+    expect(many[89].rect.y).toBe(10);
+  });
+  it('weaves the strip left to right, 16px per item, until it is full', () => {
+    const s = geometry('strip', 300);
+    expect(layoutBands(['a', 'b'], s).map((b) => [b.rect.x, b.rect.w])).toEqual([[10, 16], [26, 16]]);
+    const many = layoutBands(Array.from({ length: 40 }, (_, i) => `i${i}`), s);
+    expect(many[39].rect.x + many[39].rect.w).toBeCloseTo(290);
+  });
+  it('grows the woven cloth from nothing as items are woven', () => {
+    const s = geometry('strip', 300);
+    const d = geometry('detail');
+    expect(wovenRect(0, s).w).toBe(0);
+    expect(wovenRect(3, s)).toEqual({ x: 10, y: 0, w: 48, h: 44 });
+    expect(wovenRect(100, s).w).toBeCloseTo(280);
+    expect(wovenRect(0, d).h).toBe(0);
+    expect(wovenRect(3, d)).toEqual({ x: 4, y: 10, w: 56, h: 27 });
+    expect(wovenRect(100, d).h).toBeCloseTo(360);
   });
   it('places holes on their item band, largest first, with radii by variant', () => {
     const d = geometry('detail');
@@ -89,7 +106,7 @@ describe('layout', () => {
     expect(placed.map((p) => p.itemId)).toEqual(['a', 'b']);
     expect(placed[0].r).toBe(8);
     expect(placed[1].r).toBe(5);
-    expect(placed[0].cy).toBeCloseTo(14.5);
+    expect(placed[0].cy).toBeCloseTo(23.5); // 'a' is the older band, so it sits below 'b'
     const strip = placeHoles([{ itemId: 'a', size: 'medium' }], ['a'], geometry('strip'));
     expect(strip[0].r).toBe(5);
   });
