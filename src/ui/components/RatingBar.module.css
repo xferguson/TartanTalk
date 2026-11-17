@@ -1,0 +1,21 @@
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.btn {
+  display: grid;
+  justify-items: center;
+  min-height: var(--tap);
+  padding: 9px 0;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 150ms ease-out;
+}
+.btn:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; }
+.hint { font-size: 0.7rem; font-weight: 400; color: var(--muted); }
+.on { background: var(--moss); border-color: var(--moss); color: var(--on-accent); }
+.on .hint { color: var(--on-accent); opacity: 0.8; }
+@media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
