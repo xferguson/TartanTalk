@@ -1,0 +1,156 @@
+# Love and feelings vocabulary (W1-J3). cridhe and caraid live in core-nouns.yaml and carry the topic tags there.
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:gaol
+  gd: "gaol"
+  en: "love"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gradh
+  gd: "gràdh"
+  en: "love, affection"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leannan
+  gd: "leannan"
+  en: "sweetheart, lover"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:boidheach
+  gd: "bòidheach"
+  en: "beautiful"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:briagha
+  gd: "briagha"
+  en: "lovely, pretty"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toilichte
+  gd: "toilichte"
+  en: "happy"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duilich
+  gd: "duilich"
+  en: "sad, sorry, difficult"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgith
+  gd: "sgìth"
+  en: "tired"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuar
+  gd: "fuar"
+  en: "cold"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beo
+  gd: "beò"
+  en: "alive, lively"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:snog
+  gd: "snog"
+  en: "nice, lovely"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gradhach
+  gd: "gràdhach"
+  en: "loving, dear"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pog
+  gd: "pòg"
+  en: "kiss"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fearg
+  gd: "fearg"
+  en: "anger"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eagal
+  gd: "eagal"
+  en: "fear"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aighear
+  gd: "aighear"
+  en: "joy, mirth"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bron
+  gd: "bròn"
+  en: "sorrow"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deidh
+  gd: "dèidh"
+  en: "liking, fondness (as in \"tha dèidh agam air\")"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
