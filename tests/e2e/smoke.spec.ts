@@ -1,8 +1,11 @@
 import { expect, test } from '@playwright/test';
 
+// The shelf greets by time of day (B4), so the test must not depend on when it runs.
+const GREETING = /^(Madainn mhath|Feasgar math)!$/;
+
 test('shelf loads with a Gaelic greeting', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Madainn mhath!' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: GREETING })).toBeVisible();
 });
 
 test('bottom navigation reaches every room', async ({ page }) => {
@@ -13,7 +16,7 @@ test('bottom navigation reaches every room', async ({ page }) => {
     ['Tangles', 'Tangles'],
     ['Loom', 'At the loom'],
     ['Settings', 'Settings'],
-    ['Shelf', 'Madainn mhath!'],
+    ['Shelf', GREETING],
   ]) {
     await nav.getByRole('link', { name: label }).click();
     await expect(page.getByRole('heading', { level: 1, name: heading })).toBeVisible();
@@ -40,7 +43,7 @@ test('works offline after first load, including fonts', async ({ page, context }
   await page.reload();
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByRole('heading', { name: 'Madainn mhath!' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: GREETING })).toBeVisible();
   const fontsLoaded = await page.evaluate(async () => {
     await document.fonts.ready;
     return document.fonts.check('700 16px "Fraunces Variable"') && document.fonts.check('16px "Source Sans 3 Variable"');

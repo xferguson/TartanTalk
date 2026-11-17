@@ -1,0 +1,1262 @@
+[
+  {
+    "kind": "form",
+    "id": "form:aig.1pl",
+    "lexemeId": "lex:aig",
+    "gd": "againn",
+    "en": "at us",
+    "person": "1pl",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.1sg",
+    "lexemeId": "lex:aig",
+    "gd": "agam",
+    "en": "at me",
+    "person": "1sg",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.2pl",
+    "lexemeId": "lex:aig",
+    "gd": "agaibh",
+    "en": "at you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.2sg",
+    "lexemeId": "lex:aig",
+    "gd": "agad",
+    "en": "at you",
+    "person": "2sg",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.3pl",
+    "lexemeId": "lex:aig",
+    "gd": "aca",
+    "en": "at them",
+    "person": "3pl",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.3sg-f",
+    "lexemeId": "lex:aig",
+    "gd": "aice",
+    "en": "at her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:aig.3sg-m",
+    "lexemeId": "lex:aig",
+    "gd": "aige",
+    "en": "at him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.1pl",
+    "lexemeId": "lex:air",
+    "gd": "oirnn",
+    "en": "on us",
+    "person": "1pl",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.1sg",
+    "lexemeId": "lex:air",
+    "gd": "orm",
+    "en": "on me",
+    "person": "1sg",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.2pl",
+    "lexemeId": "lex:air",
+    "gd": "oirbh",
+    "en": "on you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.2sg",
+    "lexemeId": "lex:air",
+    "gd": "ort",
+    "en": "on you",
+    "person": "2sg",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.3pl",
+    "lexemeId": "lex:air",
+    "gd": "orra",
+    "en": "on them",
+    "person": "3pl",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.3sg-f",
+    "lexemeId": "lex:air",
+    "gd": "oirre",
+    "en": "on her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:air.3sg-m",
+    "lexemeId": "lex:air",
+    "gd": "air",
+    "en": "on him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.1pl",
+    "lexemeId": "lex:ann",
+    "gd": "annainn",
+    "en": "in us",
+    "person": "1pl",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.1sg",
+    "lexemeId": "lex:ann",
+    "gd": "annam",
+    "en": "in me",
+    "person": "1sg",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.2pl",
+    "lexemeId": "lex:ann",
+    "gd": "annaibh",
+    "en": "in you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.2sg",
+    "lexemeId": "lex:ann",
+    "gd": "annad",
+    "en": "in you",
+    "person": "2sg",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.3pl",
+    "lexemeId": "lex:ann",
+    "gd": "annta",
+    "en": "in them",
+    "person": "3pl",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.3sg-f",
+    "lexemeId": "lex:ann",
+    "gd": "innte",
+    "en": "in her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ann.3sg-m",
+    "lexemeId": "lex:ann",
+    "gd": "ann",
+    "en": "in him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.1pl",
+    "lexemeId": "lex:as",
+    "gd": "asainn",
+    "en": "out of us",
+    "person": "1pl",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.1sg",
+    "lexemeId": "lex:as",
+    "gd": "asam",
+    "en": "out of me",
+    "person": "1sg",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.2pl",
+    "lexemeId": "lex:as",
+    "gd": "asaibh",
+    "en": "out of you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.2sg",
+    "lexemeId": "lex:as",
+    "gd": "asad",
+    "en": "out of you",
+    "person": "2sg",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.3pl",
+    "lexemeId": "lex:as",
+    "gd": "asta",
+    "en": "out of them",
+    "person": "3pl",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.3sg-f",
+    "lexemeId": "lex:as",
+    "gd": "aiste",
+    "en": "out of her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:as.3sg-m",
+    "lexemeId": "lex:as",
+    "gd": "às",
+    "en": "out of him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.1pl",
+    "lexemeId": "lex:bho",
+    "gd": "bhuainn",
+    "en": "from us",
+    "person": "1pl",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.1sg",
+    "lexemeId": "lex:bho",
+    "gd": "bhuam",
+    "en": "from me",
+    "person": "1sg",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.2pl",
+    "lexemeId": "lex:bho",
+    "gd": "bhuaibh",
+    "en": "from you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.2sg",
+    "lexemeId": "lex:bho",
+    "gd": "bhuat",
+    "en": "from you",
+    "person": "2sg",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.3pl",
+    "lexemeId": "lex:bho",
+    "gd": "bhuapa",
+    "en": "from them",
+    "person": "3pl",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.3sg-f",
+    "lexemeId": "lex:bho",
+    "gd": "bhuaipe",
+    "en": "from her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:bho.3sg-m",
+    "lexemeId": "lex:bho",
+    "gd": "bhuaithe",
+    "en": "from him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.1pl",
+    "lexemeId": "lex:de",
+    "gd": "dhinn",
+    "en": "of us",
+    "person": "1pl",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.1sg",
+    "lexemeId": "lex:de",
+    "gd": "dhìom",
+    "en": "of me",
+    "person": "1sg",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.2pl",
+    "lexemeId": "lex:de",
+    "gd": "dhibh",
+    "en": "of you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.2sg",
+    "lexemeId": "lex:de",
+    "gd": "dhìot",
+    "en": "of you",
+    "person": "2sg",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.3pl",
+    "lexemeId": "lex:de",
+    "gd": "dhiubh",
+    "en": "of them",
+    "person": "3pl",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.3sg-f",
+    "lexemeId": "lex:de",
+    "gd": "dhith",
+    "en": "of her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:de.3sg-m",
+    "lexemeId": "lex:de",
+    "gd": "dheth",
+    "en": "of him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.1pl",
+    "lexemeId": "lex:do",
+    "gd": "dhuinn",
+    "en": "to us",
+    "person": "1pl",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.1sg",
+    "lexemeId": "lex:do",
+    "gd": "dhomh",
+    "en": "to me",
+    "person": "1sg",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.2pl",
+    "lexemeId": "lex:do",
+    "gd": "dhuibh",
+    "en": "to you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.2sg",
+    "lexemeId": "lex:do",
+    "gd": "dhut",
+    "en": "to you",
+    "person": "2sg",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.3pl",
+    "lexemeId": "lex:do",
+    "gd": "dhaibh",
+    "en": "to them",
+    "person": "3pl",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.3sg-f",
+    "lexemeId": "lex:do",
+    "gd": "dhi",
+    "en": "to her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:do.3sg-m",
+    "lexemeId": "lex:do",
+    "gd": "dha",
+    "en": "to him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.1pl",
+    "lexemeId": "lex:le",
+    "gd": "leinn",
+    "en": "with us",
+    "person": "1pl",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.1sg",
+    "lexemeId": "lex:le",
+    "gd": "leam",
+    "en": "with me",
+    "person": "1sg",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.2pl",
+    "lexemeId": "lex:le",
+    "gd": "leibh",
+    "en": "with you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.2sg",
+    "lexemeId": "lex:le",
+    "gd": "leat",
+    "en": "with you",
+    "person": "2sg",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.3pl",
+    "lexemeId": "lex:le",
+    "gd": "leotha",
+    "en": "with them",
+    "person": "3pl",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.3sg-f",
+    "lexemeId": "lex:le",
+    "gd": "leatha",
+    "en": "with her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:le.3sg-m",
+    "lexemeId": "lex:le",
+    "gd": "leis",
+    "en": "with him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.1pl",
+    "lexemeId": "lex:mu",
+    "gd": "umainn",
+    "en": "about us",
+    "person": "1pl",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.1sg",
+    "lexemeId": "lex:mu",
+    "gd": "umam",
+    "en": "about me",
+    "person": "1sg",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.2pl",
+    "lexemeId": "lex:mu",
+    "gd": "umaibh",
+    "en": "about you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.2sg",
+    "lexemeId": "lex:mu",
+    "gd": "umad",
+    "en": "about you",
+    "person": "2sg",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.3pl",
+    "lexemeId": "lex:mu",
+    "gd": "umpa",
+    "en": "about them",
+    "person": "3pl",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.3sg-f",
+    "lexemeId": "lex:mu",
+    "gd": "uimpe",
+    "en": "about her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:mu.3sg-m",
+    "lexemeId": "lex:mu",
+    "gd": "uime",
+    "en": "about him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.1pl",
+    "lexemeId": "lex:ri",
+    "gd": "ruinn",
+    "en": "to us",
+    "person": "1pl",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.1sg",
+    "lexemeId": "lex:ri",
+    "gd": "rium",
+    "en": "to me",
+    "person": "1sg",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.2pl",
+    "lexemeId": "lex:ri",
+    "gd": "ribh",
+    "en": "to you (plural or formal)",
+    "person": "2pl",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.2sg",
+    "lexemeId": "lex:ri",
+    "gd": "riut",
+    "en": "to you",
+    "person": "2sg",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.3pl",
+    "lexemeId": "lex:ri",
+    "gd": "riutha",
+    "en": "to them",
+    "person": "3pl",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.3sg-f",
+    "lexemeId": "lex:ri",
+    "gd": "rithe",
+    "en": "to her",
+    "person": "3sg-f",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "form",
+    "id": "form:ri.3sg-m",
+    "lexemeId": "lex:ri",
+    "gd": "ris",
+    "en": "to him",
+    "person": "3sg-m",
+    "tags": [
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  }
+]
