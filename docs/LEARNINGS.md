@@ -124,8 +124,8 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L13. Parallel sessions pick the same next learning ID
 - **Type:** issue
-- **Tally:** 1
-- **Seen in:** #10
+- **Tally:** 2
+- **Seen in:** #10, W1-G
 - **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
 - **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
 - **Status:** resolved
