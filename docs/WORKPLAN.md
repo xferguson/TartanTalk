@@ -147,7 +147,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W1-I
 
-- **Status:** in progress (w1-i-approx-setts): approximate placeholder setts for now; exact setts tracked in W-TARTAN-EXACT-SETTS
+- **Status:** done (#44): approximate placeholder setts only; exact setts tracked in W-TARTAN-EXACT-SETTS
 
 **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
 
@@ -269,7 +269,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-E
 
-- **Status:** in progress (w2-e-new-scarf)
+- **Status:** done (#45)
 
 **New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create.
 
