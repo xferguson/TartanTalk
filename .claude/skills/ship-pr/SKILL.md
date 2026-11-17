@@ -12,7 +12,7 @@ Follow these steps in order. Do not skip any. They encode `CLAUDE.md` rules and 
 git fetch origin main
 git merge --no-edit origin/main
 ```
-Resolve any conflicts locally. For conflicts in `docs/WORKPLAN.md` or `docs/LEARNINGS.md`, keep both sides' rows and tallies. Never rebase or force-push a branch that already has an open PR.
+Resolve any conflicts locally. For conflicts in `docs/WORKPLAN.md` or `docs/LEARNINGS.md`, keep both sides' entries and PR numbers. Never rebase or force-push a branch that already has an open PR.
 
 ## 2. Run the checks
 Skip this step only if the diff is docs or Markdown only.
@@ -22,8 +22,8 @@ npm run lint && npm run typecheck && npm test && npm run build && npm run e2e
 Fix any failure before continuing. Never skip, disable or weaken a test.
 
 ## 3. Update the shared docs in the same PR
-- `docs/WORKPLAN.md`: your task's row says `in progress (<branch>)` (set it now if it doesn't).
-- `docs/LEARNINGS.md`: add new learnings from this work, or add this PR to existing entries and bump their tallies. If any entry reaches tally 3, write a **Proposal** (a skill or hook) and plan to ask the user.
+- `docs/WORKPLAN.md`: your task's Status line says `in progress (<branch>)` (set it now if it doesn't).
+- `docs/LEARNINGS.md`: add new learnings from this work, or add this PR to the **Seen in** line of existing entries. Insert new entries alphabetically by slug, never at the end. If any entry reaches tally 3, write a **Proposal** (a skill or hook) and plan to ask the user.
 - UI work: confirm the result matches the task's spec in `docs/WORKPLAN.md` Appendix B, and list any deviations in the PR body.
 
 ## 4. Commit, push and open a draft PR
