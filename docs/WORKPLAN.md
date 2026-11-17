@@ -65,7 +65,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 | W1-J3 | **Starter topics.** `content/topics.yaml` (all starter topics from the PRD) plus slice topic vocabulary for **love and feelings** and **languages**. | `content/topics.yaml`, `content/lexemes/topic-*.yaml` | F1 | todo |
 | W1-K | **Database v2 and repositories.** Dexie version 2 with `progress`, `reviewLog` and `scarves` tables; repository functions (get, put, list due, append review, scarf CRUD); export/import JSON; migration tests. | `src/db/**`, `tests/unit/db/**` | F1 | todo |
 | W1-L | **UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests. | `src/ui/components/{Button,Chip,Card,TagPicker,RatingBar,AccentKeys,ProgressBar,MothSprite}*`, `tests/unit/components/**` | F1 | todo |
-| W1-M | **Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio. | `docs/research/audio.md` | none | todo |
+| W1-M | **Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio. | `docs/research/audio.md` | none | in progress (claude/w1-m-80fs64) |
 
 ## Wave 2: assembly (parallel within the wave once dependencies are met)
 | ID | Task | Owns | Depends on | Status |

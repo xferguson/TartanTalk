@@ -53,9 +53,9 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L5. Some research sites are blocked by the session's network policy
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** #2
-- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets.
+- **Tally:** 2
+- **Seen in:** #2, W1-M (PR pending)
+- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets. W1-M also hit `isca-archive.org`, `learn.microsoft.com`, `docs.cloud.google.com` and `commonvoice.mozilla.org`; its findings are search-snippet only and marked unverified.
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 - **Status:** open
 
