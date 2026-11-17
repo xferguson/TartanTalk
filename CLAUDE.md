@@ -35,12 +35,12 @@ Use the `ship-pr` skill (`.claude/skills/ship-pr/SKILL.md`) to ship any change. 
 - Task PR merged: set it to `done (#PR)`.
 - Blocked: set it to `blocked (<reason>)` and add a learning.
 - Status updates and `docs/LEARNINGS.md` updates are documentation-only changes. CI skips PRs that only touch `docs/**` or Markdown files, so as long as there is no merge conflict you can open them and merge them immediately, without waiting for CI. Do not bundle learnings into the task PR.
-- Edit only your own task row. Add new tasks as new rows with owned paths and dependencies.
+- Edit only your own task's **Status** line. Add new tasks as new blocks with owned paths and dependencies. Keep the blank lines between fields; they keep parallel edits from conflicting.
 
 ## Self-learning process
 Update `docs/LEARNINGS.md` in a separate docs-only PR **after** the task PR has merged, never inside the task PR, to avoid merge conflicts. Merge conflicts themselves are not tallied.
 - Record every mistake you made or found, issue dealt with, difficulty, or efficiency discovered. Check the existing entries first.
-- If the learning already exists, add your PR number to its **Seen in** list and increment its **Tally**. Otherwise add a new entry with tally 1.
+- If the learning already exists, add your PR number to its **Seen in** line (the tally is the number of PRs listed). Otherwise add a new entry in alphabetical order by slug under "Entries by slug", never at the end of the file.
 - **When an entry reaches a tally of 3,** evaluate whether a skill (`.claude/skills/<name>/SKILL.md`) or a hook (`.claude/settings.json`) would make the problem avoidable, predictable or faster.
   - Write the proposal into the entry under **Proposal**.
   - Present it to the user and ask whether to adopt it. Do not add skills or hooks without the user's approval.
