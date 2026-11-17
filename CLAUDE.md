@@ -22,6 +22,8 @@ No streaks, no guilt, no lost progress. Local-only data, no accounts. Free and o
 4. Work only inside the task's **Owns** paths. Needing a file outside them is a signal: stop, then split the work or coordinate through the workplan.
 
 ## Git and PR workflow
+Use the `ship-pr` skill (`.claude/skills/ship-pr/SKILL.md`) to ship any change. It runs the steps below.
+
 - Never commit to `main` directly. Always work on a branch and open a PR. Open it as a draft while work is in progress.
 - **Sync with `main` before every push and before opening or updating a PR.** Run `git fetch origin main`, then merge `origin/main` into your branch. Resolve conflicts locally and re-run the checks. Only then push. This prevents surprise conflicts and failed PRs.
 - Once CI is green, mark the draft PR ready and merge it (squash) without asking the user. Wait for the user only when they have explicitly said to for that specific change. GitHub does not let an agent approve PRs opened under the user's account, so a merge on green is the approval step.

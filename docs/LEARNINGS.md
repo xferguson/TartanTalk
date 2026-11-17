@@ -25,7 +25,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
   5. Update `docs/WORKPLAN.md` and `docs/LEARNINGS.md`.
 
   It removes repeated manual steps and the failed approve call.
-- **Status:** proposal pending user
+- **Status:** adopted (`.claude/skills/ship-pr/SKILL.md`, approved by the user)
 
 ### L2. Vitest 2 bundles its own Vite 5 types, which clash with Vite 6
 - **Type:** issue
@@ -87,4 +87,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Tally:** 1
 - **Seen in:** #5
 - **Resolution:** The tech lead transcribes mock-ups into exact specs (`docs/WORKPLAN.md` Appendix B) before UI tasks start. Agents build to the spec.
+- **Status:** resolved
+
+### L10. Placing settings in the navigation
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #5
+- **Detail:** The mock-up had four nav items but the theme setting needed a home.
+- **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
