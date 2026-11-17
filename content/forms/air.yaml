@@ -1,0 +1,66 @@
+# Pronominal forms of "air" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:air.1sg
+  lexemeId: lex:air
+  gd: "orm"
+  en: "on me"
+  person: 1sg
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.2sg
+  lexemeId: lex:air
+  gd: "ort"
+  en: "on you"
+  person: 2sg
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.3sg-m
+  lexemeId: lex:air
+  gd: "air"
+  en: "on him"
+  person: 3sg-m
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.3sg-f
+  lexemeId: lex:air
+  gd: "oirre"
+  en: "on her"
+  person: 3sg-f
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.1pl
+  lexemeId: lex:air
+  gd: "oirnn"
+  en: "on us"
+  person: 1pl
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.2pl
+  lexemeId: lex:air
+  gd: "oirbh"
+  en: "on you (plural or formal)"
+  person: 2pl
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:air.3pl
+  lexemeId: lex:air
+  gd: "orra"
+  en: "on them"
+  person: 3pl
+  tags: [prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
