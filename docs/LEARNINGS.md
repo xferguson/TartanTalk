@@ -99,11 +99,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 2
-- **Seen in:** #12, #13
+- **Tally:** 3
+- **Seen in:** #12, #13, W1-K
 - **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
-- **Status:** open
+- **Proposal:** A `SessionStart` hook in `.claude/settings.json` that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready to lint, typecheck and test.
+- **Status:** proposal pending user
 
 ### L12. Testing-library does not auto-clean between tests here
 - **Type:** mistake
@@ -136,3 +137,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
 - **Status:** resolved
+
+### L15. A pre-existing test sits outside the task's owned test folder
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-K
+- **Detail:** `tests/unit/db.test.ts` (from F1) tests the settings helpers, but W1-K owns `tests/unit/db/**`, so the new tests went in that folder and the old file was left alone.
+- **Resolution:** Keep `db.ts`'s v1 exports (`getSetting`, `setSetting`, `db`) unchanged so it keeps passing. Move it into `tests/unit/db/` in a later tidy-up.
+- **Status:** open
