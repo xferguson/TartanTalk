@@ -37,12 +37,19 @@ Fix any failure before continuing. Never skip, disable or weaken a test.
 - Subscribe to PR activity.
 
 ## 5. Wait for CI and merge
-- Wait for the check-suite event; don't poll.
-- **Green:** mark the PR ready, then squash-merge it, passing `expectedHeadSha`.
-  - Do not try to approve it. GitHub refuses approval on PRs authored by the user's account (L1). Merge on green is the approval step.
-  - If the user explicitly asked to review this change first, stop and ask them instead.
-- **Red:** find the root cause, push a fix (after re-syncing with main), and wait again.
-- Docs-only PRs get no CI run. Merge them directly once you've confirmed there's no conflict.
+CI never runs on a PR that conflicts with `main`, so "waiting for the check-suite event" can hang forever. Never wait without checking mergeability first.
+
+1. Right after opening the PR, read it with `pull_request_read` and check `mergeable_state`.
+   - `dirty` (conflicts): `git fetch origin main`, merge it, resolve locally, re-run the checks, push. Check again.
+   - `behind`: call `update_pull_request_branch`, or merge `origin/main` and push.
+   - `unknown`: GitHub is still computing it. Read again after a short while.
+2. Schedule a fallback with `send_later` (about 10 minutes, message "Re-check PR #N: mergeable_state and CI"). If no check-suite event has arrived by then, read the PR again and go back to step 1. Cancel the reminder with `delete_trigger` once CI reports.
+3. Wake on any PR event (including the conflict-notifier comment from `.github/workflows/conflict-notifier.yml`) by re-checking `mergeable_state` before anything else.
+4. **Green:** mark the PR ready, then squash-merge it, passing `expectedHeadSha`.
+   - Do not try to approve it. GitHub refuses approval on PRs authored by the user's account (L1). Merge on green is the approval step.
+   - If the user explicitly asked to review this change first, stop and ask them instead.
+5. **Red:** find the root cause, push a fix (after re-syncing with main), and wait again.
+6. Docs-only PRs get no CI run. Merge them directly once `mergeable_state` is clean.
 
 ## 6. Close the loop
 - Unsubscribe from the PR.
