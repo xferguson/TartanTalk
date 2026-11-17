@@ -297,7 +297,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Detail view:** tap a card for a large swatch (220px), the full sett, a colour key (swatch dots with codes), the provenance link and notes, and the button "Use for a new scarf", which goes to `/new` with that tartan pre-selected.
 
 ### B10. Bottom navigation (F1, already built)
-- The mock-up shows four items (Shelf, Loom, Tangles, Library). F1 adds **Settings** as a fifth item, because the theme override needs a home.
+- The mock-up shows four items (Shelf, Loom, Tangles, Library). F1 adds **Settings** as a fifth item, because the theme override needs a home (approved by the user).
 - Layout: a grid of equal columns with a 1px `--line` top border and 6px padding, on `--surface`. Each item is ≥44px tall, has an 18px rounded-square icon placeholder (radius 6, current colour, 0.35 opacity) and a 0.75rem label.
 - Active item: `--heather`, weight 700, icon at full opacity.
 - Real icons are a later design task (B11).
