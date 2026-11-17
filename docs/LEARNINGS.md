@@ -297,17 +297,31 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 
 - **Status:** resolved
 
+### shelf-length-and-owned-paths
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-C
+
+- **Detail:** W2-C needs a scarf's length in ells, but the per-kind weighting belongs to W2-B (not a dependency). W2-C also owns only `src/ui/screens/Shelf/**`, while vitest only runs `tests/unit/**` and the e2e smoke test hard-coded the morning greeting that B4 makes time-dependent.
+
+- **Resolution:** Kept the ell constants (word 0.02, form 0.03, sentence 0.06) in `Shelf/shelfModel.ts`, to move into W2-B's services. Put tests in `tests/unit/shelf/`. Made the smoke test accept either greeting. "Reweave {N} holes" uses the hole count of the target scarf, which B4 leaves ambiguous.
+
+- **Status:** open
+
 ### ell-weighting-has-no-owner-yet
 
 _The spec says per-kind length weighting is "in W2-B", but a screen needs it first._
 
 - **Type:** difficulty
 
-- **Seen in:** #37, W2-B
+- **Seen in:** #37, #39, W2-B
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
-- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it.
+- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it. Shelf currently uses different numbers (0.02, 0.03, 0.06), so the two screens disagree until they do.
 
 - **Status:** open
 

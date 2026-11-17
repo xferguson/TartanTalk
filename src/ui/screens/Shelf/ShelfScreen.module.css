@@ -1,11 +1,69 @@
 .greeting h1 {
-  font-size: 1.8rem;
-}
-.greeting p,
-.total {
   margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+.greeting p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.label {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.66rem;
+  font-weight: 700;
   color: var(--muted);
 }
 .empty {
   margin: 0;
+}
+/* The strip's canvas and the name link share one card; the link's ::after makes the whole card tappable. */
+.scarfCard {
+  position: relative;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+.name::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-m);
+}
+.name:focus-visible {
+  outline: 2px solid var(--heather);
+  outline-offset: 2px;
+}
+.sub {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.length {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+/* Hole buttons must stay tappable above the card-wide link. */
+.scarfCard > :first-child {
+  position: relative;
+  z-index: 1;
 }

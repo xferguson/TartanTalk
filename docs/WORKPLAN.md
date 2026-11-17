@@ -249,7 +249,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-C
 
-- **Status:** todo
+- **Status:** in progress (ccr-f28319b8-hate96)
 
 **Shelf screen.** Spec: Appendix B4. Real scarves from the DB, ScarfCanvas strips, length in ells, moth-hole chips, and Reweave / Start a new scarf actions.
 
