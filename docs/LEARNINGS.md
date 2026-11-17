@@ -527,3 +527,17 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Resolution:** (follow-up) "Keep weaving" alone was not enough: while a missed item rested, it re-offered that same item. `startLearning` now takes the previous session, skips its resting items and carries them into the next batch; when a scarf has no new words left the Loom recommends subjects to add (`recommendTopics`).  `tagLabel` (src/domain/tagLabel.ts) is the one place that turns a tag into display text; `TagPicker` takes a `format` prop. A finished or resting Loom offers "Keep weaving", which starts the next batch. Any screen that shows content to a learner should format it, and no end state should lack a way forward.
 
 - **Status:** resolved
+
+### L20. The scarf was drawn full-size from the first moment
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** this PR
+
+- **Detail:** `paintScarf` filled the whole cloth every time. Woven items only placed moth holes and the shuttle sweep, so a brand-new scarf looked finished and never changed as the learner wove. The B2 spec said bands spread evenly along the strip, which hid the problem: nothing said what an empty or part-woven scarf looks like.
+
+- **Resolution:** `wovenRect` gives the woven part of the cloth. The strip grows left to right by 16px per item, and the detail scarf grows downward with the newest band at the top. The unwoven part is a dashed outline. Specs for any progress visual must describe the empty, part-woven and full states.
+
+- **Status:** resolved
