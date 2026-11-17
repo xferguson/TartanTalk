@@ -1,0 +1,66 @@
+# Pronominal forms of "mu" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:mu.1sg
+  lexemeId: lex:mu
+  gd: "umam"
+  en: "about me"
+  person: 1sg
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.2sg
+  lexemeId: lex:mu
+  gd: "umad"
+  en: "about you"
+  person: 2sg
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.3sg-m
+  lexemeId: lex:mu
+  gd: "uime"
+  en: "about him"
+  person: 3sg-m
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.3sg-f
+  lexemeId: lex:mu
+  gd: "uimpe"
+  en: "about her"
+  person: 3sg-f
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.1pl
+  lexemeId: lex:mu
+  gd: "umainn"
+  en: "about us"
+  person: 1pl
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.2pl
+  lexemeId: lex:mu
+  gd: "umaibh"
+  en: "about you (plural or formal)"
+  person: 2pl
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:mu.3pl
+  lexemeId: lex:mu
+  gd: "umpa"
+  en: "about them"
+  person: 3pl
+  tags: [prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
