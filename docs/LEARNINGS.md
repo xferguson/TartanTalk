@@ -330,6 +330,21 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### reweave-item-focus-needs-store-api
+_The Scarf screen links a hole to `/reweave/:id?item=…`, but the session store cannot start on a chosen item._
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** W2-H
+
+- **Detail:** Spec B5 says a tapped hole opens the reweave "focused on that item". `startReweave` only takes a scarf id and orders by overdue, and the store is outside W2-H's Owns paths, so the screen ignores `?item=`.
+
+- **Resolution:** Follow-up: let `startReweave(scarfId, firstItemId?)` move that item to the front of the queue (W2-B owner), then read the param in `ReweaveScreen`.
+
+- **Status:** open
+
 ### settings-control-outside-owns
 _A task's UI hook-up can fall outside its Owns paths: split it into its own task._
 
@@ -344,6 +359,21 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 - **Resolution:** Built the clock service and its persistence in W2-B and added W2-B2 for the Settings control, instead of editing outside Owns.
 
 - **Status:** resolved
+
+### shared-exercise-panel-before-loom
+_Reweave and Tangles needed the B6 question card before the Loom screen (W2-G) existed._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-H
+
+- **Detail:** B7 and B11 reuse the Loom's exercise card, feedback line and typed input. W2-G owns `src/ui/screens/Loom/**`, so W2-H built `Reweave/ExercisePanel` and Tangles imports it.
+
+- **Resolution:** When W2-G lands, move `ExercisePanel` to `src/ui/components/` in a small refactor PR and use it from all three screens (second real use; avoid duplicating it).
+
+- **Status:** open
 
 ### shelf-length-and-owned-paths
 

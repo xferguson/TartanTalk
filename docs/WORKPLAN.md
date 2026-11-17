@@ -299,7 +299,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-H
 
-- **Status:** todo
+- **Status:** in progress (ccr-6f660b01-w0gmxg)
 
 **Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice.
 
