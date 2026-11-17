@@ -96,3 +96,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** The mock-up had four nav items but the theme setting needed a home.
 - **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
+
+### L11. Off-by-one between a step counter and the contract's meaning
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** W1-D PR
+- **Detail:** `markLearned` set `seededStep: 0`, which re-used the 1-day interval on the first review. The contract comment in `types.ts` ("0 = next interval 1d, 1 = 4d …") was right, and the tests caught the mismatch.
+- **Resolution:** Read the contract's field comments before implementing, and write the test against the contract's wording.
+- **Status:** resolved
