@@ -282,6 +282,21 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### settings-control-outside-owns
+_A task's UI hook-up can fall outside its Owns paths: split it into its own task._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-B
+
+- **Detail:** W2-B asked for a dev time-travel control in Settings, but `src/ui/screens/Settings/**` and `src/main.tsx` belong to no W2-B path.
+
+- **Resolution:** Built the clock service and its persistence in W2-B and added W2-B2 for the Settings control, instead of editing outside Owns.
+
+- **Status:** resolved
+
 ### skill-proposal-threshold
 
 _Skill and hook proposals now wait for a tally of 5, not 3._
@@ -334,5 +349,20 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 - **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
 
 - **Resolution:** Component test files call `afterEach(cleanup)`.
+
+- **Status:** resolved
+
+### word-ladder-has-no-cloze
+_Words and forms have no sentence to blank, so the ladder's middle rung needs a rule._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-B
+
+- **Detail:** The ladder is recognise, cloze, type, but `buildCloze` only takes sentences. A word on the cloze rung had no exercise. A recognise card with fewer than two options (a tiny scarf) was also unanswerable.
+
+- **Resolution:** `buildExercise` falls back to typing for a word on the cloze rung, and for any choice with fewer than two options. Review questions use choice for the first two reviews, then typing. If the PRD wants words in context, that needs sentences and belongs in a later task.
 
 - **Status:** resolved
