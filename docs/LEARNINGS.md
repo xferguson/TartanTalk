@@ -323,3 +323,16 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 - **Resolution:** After changing anything under `content/`, run `npm run content` and commit the generated JSON in the same PR.
 
 - **Status:** resolved
+
+### L18. Testing Library does not auto-clean without Vitest globals
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W1-L
+
+- **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
+
+- **Resolution:** Component test files call `afterEach(cleanup)`.
+
+- **Status:** resolved
