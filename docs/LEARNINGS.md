@@ -351,11 +351,11 @@ _A link from one screen that pre-fills another is two tasks, because each screen
 
 - **Type:** difficulty
 
-- **Seen in:** W2-F
+- **Seen in:** #47
 
 - **Detail:** B9 says "Use for a new scarf" opens `/new` with the tartan pre-selected, but `NewScarfScreen` belongs to W2-E and was already merged.
 
-- **Resolution:** The Library navigates to `/new?tartan=<id>` and the New scarf side was added as W2-E2 instead of editing outside Owns. Specs for cross-screen links should name the query parameter up front.
+- **Resolution:** The Library navigates to `/new?tartan=<id>` and the New scarf side was added as W2-E2 instead of editing outside Owns. Specs for cross-screen links should name the query parameter up front. W2-E2 then added the `?tartan=` handling, including paging so a tartan beyond the first nine is visible.
 
 - **Status:** resolved
 

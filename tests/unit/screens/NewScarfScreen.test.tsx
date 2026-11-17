@@ -34,10 +34,10 @@ const bundle = (tartanCount: number): ContentBundle => ({
   })),
 });
 
-function setup(tartanCount = 10) {
+function setup(tartanCount = 10, path = '/new') {
   database = new TartanDB(`w2e-${n++}`);
   render(
-    <MemoryRouter initialEntries={['/new']}>
+    <MemoryRouter initialEntries={[path]}>
       <Routes>
         <Route path="/new" element={<NewScarfScreen content={bundle(tartanCount)} database={database} now={() => 99} newId={() => 'abc'} />} />
         <Route path="/loom/:id" element={<p>loom abc</p>} />
@@ -87,5 +87,15 @@ describe('NewScarfScreen', () => {
     expect(await listScarves(database)).toEqual([
       { id: 'abc', name: 'Love and feelings', tagFilter: ['topic:love'], tartanId: 't0', createdAt: 99, pausedAt: null, wovenOrder: [] },
     ]);
+  });
+
+  it('starts with the tartan named in the query string chosen, even past the first page', () => {
+    setup(12, '/new?tartan=t11');
+    expect(screen.getByRole('button', { name: 'Tartan 11' })).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  it('ignores an unknown tartan in the query string', () => {
+    setup(10, '/new?tartan=nope');
+    expect(screen.queryAllByRole('button', { pressed: true })).toHaveLength(0);
   });
 });

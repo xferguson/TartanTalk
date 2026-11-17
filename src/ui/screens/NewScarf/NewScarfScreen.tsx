@@ -1,6 +1,6 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { loadContent, type ContentBundle } from '../../../content';
 import { db, type TartanDB } from '../../../db/db';
 import { putScarf } from '../../../db/repo';
@@ -32,10 +32,13 @@ interface Props {
 export function NewScarfScreen({ content, database = db, now = Date.now, newId = () => crypto.randomUUID() }: Props) {
   const bundle = useMemo(() => content ?? loadContent(), [content]);
   const navigate = useNavigate();
+  // The Library links here with ?tartan=<id>; an unknown id is ignored.
+  const [params] = useSearchParams();
+  const preselected = bundle.tartans.findIndex((t) => t.id === params.get('tartan'));
   const [selected, setSelected] = useState<string[]>([]);
-  const [tartanId, setTartanId] = useState<string | null>(null);
+  const [tartanId, setTartanId] = useState<string | null>(preselected >= 0 ? bundle.tartans[preselected].id : null);
   const [query, setQuery] = useState('');
-  const [shown, setShown] = useState(PAGE);
+  const [shown, setShown] = useState(Math.max(PAGE, Math.ceil((preselected + 1) / PAGE) * PAGE));
   const [name, setName] = useState('');
 
   const items = useMemo(() => [...bundle.lexemes, ...bundle.forms, ...bundle.sentences], [bundle]);
