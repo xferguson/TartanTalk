@@ -1,0 +1,3272 @@
+[
+  {
+    "kind": "lexeme",
+    "id": "lex:a",
+    "gd": "a",
+    "en": "to, her, who (a common particle)",
+    "pos": "particle",
+    "tags": [
+      "pos:particle"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:a-maireach",
+    "gd": "a-màireach",
+    "en": "tomorrow",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:abair",
+    "gd": "abair",
+    "en": "say",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ach",
+    "gd": "ach",
+    "en": "but",
+    "pos": "conjunction",
+    "tags": [
+      "pos:conjunction"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:agus",
+    "gd": "agus",
+    "en": "and",
+    "pos": "conjunction",
+    "tags": [
+      "pos:conjunction"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:aig",
+    "gd": "aig",
+    "en": "at (possession: \"have\")",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:aig",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:aighear",
+    "gd": "aighear",
+    "en": "joy, mirth",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:aimsir",
+    "gd": "aimsir",
+    "en": "weather, time",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ainm",
+    "gd": "ainm",
+    "en": "name",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:air",
+    "gd": "air",
+    "en": "on",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:air",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:airgead",
+    "gd": "airgead",
+    "en": "money, silver",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:alba",
+    "gd": "Alba",
+    "en": "Scotland",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:albais",
+    "gd": "Albais",
+    "en": "Scots (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:am",
+    "gd": "àm",
+    "en": "time",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:an",
+    "gd": "an",
+    "en": "the (article, before most consonants)",
+    "pos": "article",
+    "tags": [
+      "pos:article"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:an-de",
+    "gd": "an-dè",
+    "en": "yesterday",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:an-diugh",
+    "gd": "an-diugh",
+    "en": "today",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:an-seo",
+    "gd": "an-seo",
+    "en": "here",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:an-sin",
+    "gd": "an-sin",
+    "en": "there",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ann",
+    "gd": "ann an",
+    "en": "in",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:ann",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:aon",
+    "gd": "aon",
+    "en": "one",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:as",
+    "gd": "à",
+    "en": "out of, from",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:as",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:athair",
+    "gd": "athair",
+    "en": "father",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:baile",
+    "gd": "baile",
+    "en": "town, village",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bainne",
+    "gd": "bainne",
+    "en": "milk",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:balach",
+    "gd": "balach",
+    "en": "boy",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bata",
+    "gd": "bàta",
+    "en": "boat",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:beagan",
+    "gd": "beagan",
+    "en": "a little",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bean",
+    "gd": "bean",
+    "en": "woman, wife",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:beinn",
+    "gd": "beinn",
+    "en": "mountain",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:beo",
+    "gd": "beò",
+    "en": "alive, lively",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:beurla",
+    "gd": "Beurla",
+    "en": "English (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bha",
+    "gd": "bha",
+    "en": "was, were",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bho",
+    "gd": "bho",
+    "en": "from",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:bho",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bi",
+    "gd": "bi",
+    "en": "be",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:biadh",
+    "gd": "biadh",
+    "en": "food",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bidh",
+    "gd": "bidh",
+    "en": "will be, is (habitually)",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bliadhna",
+    "gd": "bliadhna",
+    "en": "year",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:boidheach",
+    "gd": "bòidheach",
+    "en": "beautiful",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:brathair",
+    "gd": "bràthair",
+    "en": "brother",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:briagha",
+    "gd": "briagha",
+    "en": "lovely, pretty",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bron",
+    "gd": "bròn",
+    "en": "sorrow",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:bruidhinn",
+    "gd": "bruidhinn",
+    "en": "speak",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:buail",
+    "gd": "buail",
+    "en": "hit, meet",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:caidil",
+    "gd": "caidil",
+    "en": "sleep",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cainnt",
+    "gd": "cainnt",
+    "en": "speech, speaking",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:caite",
+    "gd": "càite",
+    "en": "where",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:canan",
+    "gd": "cànan",
+    "en": "language",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:caraid",
+    "gd": "caraid",
+    "en": "friend",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:carson",
+    "gd": "carson",
+    "en": "why",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cas",
+    "gd": "cas",
+    "en": "foot, leg",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cat",
+    "gd": "cat",
+    "en": "cat",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ceann",
+    "gd": "ceann",
+    "en": "head",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ceannaich",
+    "gd": "ceannaich",
+    "en": "buy",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ceist",
+    "gd": "ceist",
+    "en": "question",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ceithir",
+    "gd": "ceithir",
+    "en": "four",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ceol",
+    "gd": "ceòl",
+    "en": "music",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cha",
+    "gd": "cha",
+    "en": "not (negative particle)",
+    "pos": "particle",
+    "tags": [
+      "pos:particle"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cia-mheud",
+    "gd": "cia mheud",
+    "en": "how many",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ciamar",
+    "gd": "ciamar",
+    "en": "how",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cluich",
+    "gd": "cluich",
+    "en": "play",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cluinn",
+    "gd": "cluinn",
+    "en": "hear",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:co",
+    "gd": "cò",
+    "en": "who",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:coig",
+    "gd": "còig",
+    "en": "five",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:coimhead",
+    "gd": "coimhead",
+    "en": "look, watch",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:coisich",
+    "gd": "coisich",
+    "en": "walk",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cord",
+    "gd": "còrd",
+    "en": "please, agree",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:creid",
+    "gd": "creid",
+    "en": "believe",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cridhe",
+    "gd": "cridhe",
+    "en": "heart",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love",
+      "topic:feelings"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:criochnaich",
+    "gd": "crìochnaich",
+    "en": "finish",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cu",
+    "gd": "cù",
+    "en": "dog",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuideigin",
+    "gd": "cuideigin",
+    "en": "someone",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuidich",
+    "gd": "cuidich",
+    "en": "help",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuimhnich",
+    "gd": "cuimhnich",
+    "en": "remember",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuimris",
+    "gd": "Cuimris",
+    "en": "Welsh (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuin",
+    "gd": "cuin",
+    "en": "when",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cuir",
+    "gd": "cuir",
+    "en": "put, send",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:cum",
+    "gd": "cùm",
+    "en": "keep, hold",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:de",
+    "gd": "de",
+    "en": "of, off",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:de",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:de-what",
+    "gd": "dè",
+    "en": "what",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:dean",
+    "gd": "dèan",
+    "en": "do, make",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:deich",
+    "gd": "deich",
+    "en": "ten",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:deidh",
+    "gd": "dèidh",
+    "en": "liking, fondness (as in \"tha dèidh agam air\")",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:dha",
+    "gd": "dhà",
+    "en": "two",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:diochuimhnich",
+    "gd": "dìochuimhnich",
+    "en": "forget",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:do",
+    "gd": "do",
+    "en": "to, for",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:do",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:doirbh",
+    "gd": "doirbh",
+    "en": "difficult",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:doras",
+    "gd": "doras",
+    "en": "door",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:duilich",
+    "gd": "duilich",
+    "en": "sad, sorry, difficult",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:duin",
+    "gd": "dùin",
+    "en": "close",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:duine",
+    "gd": "duine",
+    "en": "man, person",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:e",
+    "gd": "e",
+    "en": "he, him, it",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:each",
+    "gd": "each",
+    "en": "horse",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:eagal",
+    "gd": "eagal",
+    "en": "fear",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:eilean",
+    "gd": "eilean",
+    "en": "island",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:eirich",
+    "gd": "èirich",
+    "en": "rise, get up",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:facal",
+    "gd": "facal",
+    "en": "word",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fag",
+    "gd": "fàg",
+    "en": "leave",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:faic",
+    "gd": "faic",
+    "en": "see",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:faigh",
+    "gd": "faigh",
+    "en": "get, find",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fearg",
+    "gd": "fearg",
+    "en": "anger",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:feasgar",
+    "gd": "feasgar",
+    "en": "afternoon, evening",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:feuch",
+    "gd": "feuch",
+    "en": "try, look",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fosgail",
+    "gd": "fosgail",
+    "en": "open",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fraingis",
+    "gd": "Fraingis",
+    "en": "French (language)",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fuar",
+    "gd": "fuar",
+    "en": "cold",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:fuirich",
+    "gd": "fuirich",
+    "en": "stay, wait",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:furasta",
+    "gd": "furasta",
+    "en": "easy",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gabh",
+    "gd": "gabh",
+    "en": "take, accept",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gaeilge",
+    "gd": "Gaeilge",
+    "en": "Irish (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gaidhlig",
+    "gd": "Gàidhlig",
+    "en": "Gaelic (Scottish Gaelic)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gaol",
+    "gd": "gaol",
+    "en": "love",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gearmailtis",
+    "gd": "Gearmailtis",
+    "en": "German (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gle",
+    "gd": "glè",
+    "en": "very",
+    "pos": "adverb",
+    "tags": [
+      "pos:adverb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gradh",
+    "gd": "gràdh",
+    "en": "love, affection",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gradhach",
+    "gd": "gràdhach",
+    "en": "loving, dear",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:gu",
+    "gd": "gu",
+    "en": "to, until (also links an adjective to a verb)",
+    "pos": "particle",
+    "tags": [
+      "pos:particle"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:i",
+    "gd": "i",
+    "en": "she, her, it",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:iad",
+    "gd": "iad",
+    "en": "they, them",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:iarr",
+    "gd": "iarr",
+    "en": "ask for, want",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:innis",
+    "gd": "innis",
+    "en": "tell",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ionnsachadh",
+    "gd": "ionnsachadh",
+    "en": "learning",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ionnsaich",
+    "gd": "ionnsaich",
+    "en": "learn",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:is",
+    "gd": "is",
+    "en": "is (the copula)",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ith",
+    "gd": "ith",
+    "en": "eat",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:lamh",
+    "gd": "làmh",
+    "en": "hand",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:latha",
+    "gd": "latha",
+    "en": "day",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:le",
+    "gd": "le",
+    "en": "with",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:le",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:leabhar",
+    "gd": "leabhar",
+    "en": "book",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:leanabh",
+    "gd": "leanabh",
+    "en": "child, baby",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:leannan",
+    "gd": "leannan",
+    "en": "sweetheart, lover",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:leugh",
+    "gd": "leugh",
+    "en": "read",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:litir",
+    "gd": "litir",
+    "en": "letter",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:loch",
+    "gd": "loch",
+    "en": "loch, lake",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:lorg",
+    "gd": "lorg",
+    "en": "find",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:luath",
+    "gd": "luath",
+    "en": "fast",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:madainn",
+    "gd": "madainn",
+    "en": "morning",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:mathair",
+    "gd": "màthair",
+    "en": "mother",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:mearachd",
+    "gd": "mearachd",
+    "en": "mistake",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:mi",
+    "gd": "mi",
+    "en": "I, me",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:mu",
+    "gd": "mu",
+    "en": "about",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:mu",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:na",
+    "gd": "na",
+    "en": "the (plural article)",
+    "pos": "article",
+    "tags": [
+      "pos:article"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:nach",
+    "gd": "nach",
+    "en": "not (negative question and subordinate)",
+    "pos": "particle",
+    "tags": [
+      "pos:particle"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:naoi",
+    "gd": "naoi",
+    "en": "nine",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:nighean",
+    "gd": "nighean",
+    "en": "girl, daughter",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:no",
+    "gd": "no",
+    "en": "or",
+    "pos": "conjunction",
+    "tags": [
+      "pos:conjunction"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:nuair",
+    "gd": "nuair",
+    "en": "when",
+    "pos": "conjunction",
+    "tags": [
+      "pos:conjunction"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:obair",
+    "gd": "obair",
+    "en": "work",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:obraich",
+    "gd": "obraich",
+    "en": "work",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ochd",
+    "gd": "ochd",
+    "en": "eight",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:oidhche",
+    "gd": "oidhche",
+    "en": "night",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:oileanach",
+    "gd": "oileanach",
+    "en": "student",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:oir",
+    "gd": "oir",
+    "en": "because",
+    "pos": "conjunction",
+    "tags": [
+      "pos:conjunction"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ol",
+    "gd": "òl",
+    "en": "drink",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:piuthar",
+    "gd": "piuthar",
+    "en": "sister",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:pog",
+    "gd": "pòg",
+    "en": "kiss",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:rach",
+    "gd": "rach",
+    "en": "go",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:rathad",
+    "gd": "rathad",
+    "en": "road",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ri",
+    "gd": "ri",
+    "en": "to, against",
+    "pos": "preposition",
+    "tags": [
+      "pos:preposition",
+      "prep:ri",
+      "grammar:pronominal-preposition"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:rud",
+    "gd": "rud",
+    "en": "thing",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:ruith",
+    "gd": "ruith",
+    "en": "run",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:saoil",
+    "gd": "saoil",
+    "en": "suppose, wonder",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:seachd",
+    "gd": "seachd",
+    "en": "seven",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:seachdain",
+    "gd": "seachdain",
+    "en": "week",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:seinn",
+    "gd": "seinn",
+    "en": "sing",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:seo",
+    "gd": "seo",
+    "en": "this, here",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sgith",
+    "gd": "sgìth",
+    "en": "tired",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sgoil",
+    "gd": "sgoil",
+    "en": "school",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sgriobh",
+    "gd": "sgrìobh",
+    "en": "write",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sia",
+    "gd": "sia",
+    "en": "six",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sibh",
+    "gd": "sibh",
+    "en": "you (plural or formal)",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sin",
+    "gd": "sin",
+    "en": "that, there",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sinn",
+    "gd": "sinn",
+    "en": "we, us",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:slaodach",
+    "gd": "slaodach",
+    "en": "slow",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:smaoinich",
+    "gd": "smaoinich",
+    "en": "think",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:snog",
+    "gd": "snog",
+    "en": "nice, lovely",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:spainntis",
+    "gd": "Spàinntis",
+    "en": "Spanish (language)",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:stad",
+    "gd": "stad",
+    "en": "stop",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:sud",
+    "gd": "sud",
+    "en": "yonder, that over there",
+    "pos": "other",
+    "tags": [
+      "pos:other"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:suidh",
+    "gd": "suidh",
+    "en": "sit",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:suil",
+    "gd": "sùil",
+    "en": "eye",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:taigh",
+    "gd": "taigh",
+    "en": "house",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:teagaisg",
+    "gd": "teagaisg",
+    "en": "teach",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:teine",
+    "gd": "teine",
+    "en": "fire",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tha",
+    "gd": "tha",
+    "en": "is, am, are",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:thig",
+    "gd": "thig",
+    "en": "come",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:thoir",
+    "gd": "thoir",
+    "en": "give, take",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:thu",
+    "gd": "thu",
+    "en": "you (singular)",
+    "pos": "pronoun",
+    "tags": [
+      "pos:pronoun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tidsear",
+    "gd": "tidsear",
+    "en": "teacher",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun",
+      "topic:languages"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tir",
+    "gd": "tìr",
+    "en": "land, country",
+    "pos": "noun",
+    "gender": "f",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tog",
+    "gd": "tog",
+    "en": "lift, build",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:toilichte",
+    "gd": "toilichte",
+    "en": "happy",
+    "pos": "adjective",
+    "tags": [
+      "pos:adjective",
+      "topic:love"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:toisich",
+    "gd": "tòisich",
+    "en": "begin",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tri",
+    "gd": "trì",
+    "en": "three",
+    "pos": "numeral",
+    "tags": [
+      "pos:numeral"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:tuig",
+    "gd": "tuig",
+    "en": "understand",
+    "pos": "verb",
+    "tags": [
+      "pos:verb"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  },
+  {
+    "kind": "lexeme",
+    "id": "lex:uisge",
+    "gd": "uisge",
+    "en": "water, rain",
+    "pos": "noun",
+    "gender": "m",
+    "tags": [
+      "pos:noun"
+    ],
+    "source": {
+      "ref": "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://www.faclair.com"
+    },
+    "review": "unreviewed"
+  }
+]
