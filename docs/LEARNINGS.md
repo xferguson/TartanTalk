@@ -303,7 +303,7 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 
 - **Tally:** 1
 
-- **Seen in:** W2-C
+- **Seen in:** #39
 
 - **Detail:** W2-C needs a scarf's length in ells, but the per-kind weighting belongs to W2-B (not a dependency). W2-C also owns only `src/ui/screens/Shelf/**`, while vitest only runs `tests/unit/**` and the e2e smoke test hard-coded the morning greeting that B4 makes time-dependent.
 
