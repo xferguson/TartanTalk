@@ -12,6 +12,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: { globPatterns: ['**/*.{js,css,html,png,svg,woff2,json}'] },
       includeAssets: ['icons/favicon-32.png', 'icons/apple-touch-icon.png'],
       manifest: {
         name: 'Tartan Talk',
@@ -31,7 +32,9 @@ export default defineConfig({
     }),
   ],
   test: {
-    include: ['tests/unit/**/*.test.ts'],
+    include: ['tests/unit/**/*.test.{ts,tsx}'],
     environment: 'node',
+    // Component tests opt in per file with: // @vitest-environment jsdom
+    setupFiles: ['tests/setup.ts'],
   },
 });

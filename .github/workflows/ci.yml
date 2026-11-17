@@ -2,8 +2,15 @@ name: CI
 
 on:
   pull_request:
+    # Documentation-only changes (workplan status, learnings) skip CI and can merge immediately.
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md'
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md'
 
 jobs:
   check:
