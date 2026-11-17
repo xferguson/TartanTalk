@@ -249,7 +249,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-D
 
-- **Status:** todo
+- **Status:** done (#37)
 
 **Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags.
 
