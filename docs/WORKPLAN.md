@@ -15,7 +15,7 @@ A dev-only clock override lets testers fast-forward time to see moths.
 
 ## How to use this plan (for every agent session)
 1. Pick a task whose **Status** is `todo` and whose **Depends on** tasks are all `done`. Take only one task per session unless it says otherwise.
-2. In a docs-only PR, or as the first commit of your task PR, set the task's status to `in progress (<branch>)`. Edit only your own row.
+2. In a docs-only PR, or as the first commit of your task PR, set the task's status to `in progress (<branch>)`. Edit only your own task's Status line.
 3. Stay inside the task's **Owns** paths. If you must touch a path someone else owns, stop and note it in your PR and in `docs/LEARNINGS.md`, or split the change into a separate small PR.
 4. When your PR merges, set the status to `done (#PR)` in a docs-only follow-up. CI skips docs-only PRs, so these merge straight away.
 
@@ -27,8 +27,8 @@ A dev-only clock override lets testers fast-forward time to see moths.
 | `src/app/router.tsx` | All routes are already registered. Screen tasks edit only their own `src/ui/screens/<Screen>/` folder. |
 | `src/db/db.ts` | Owned by W1-K after F1. Others use its repository functions. |
 | `.github/workflows/*` | Owned by W1-H (to add the content step). Otherwise leave unchanged. |
-| `docs/WORKPLAN.md` | Edit only your own task row, or add new rows at the bottom of a wave. |
-| `docs/LEARNINGS.md` | Append entries; update a tally by adding your PR number to an existing entry. |
+| `docs/WORKPLAN.md` | Edit only your own task's **Status** line, or add a new task block at the bottom of a wave. Keep the blank lines between fields: they stop parallel edits from conflicting. |
+| `docs/LEARNINGS.md` | Add a new entry in alphabetical position under "Entries by slug" (never at the end). To record a repeat, add your PR number to that entry's **Seen in** line. |
 
 ### Engineering rules (summary; full text in `CLAUDE.md`)
 - Write the failing test first (red), make it pass (green), then refactor.
@@ -41,50 +41,327 @@ A dev-only clock override lets testers fast-forward time to see moths.
 ---
 
 ## Wave 0: Foundations (sequential, lead only)
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| F1 | UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed** | `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts` | none | done (#5) |
-| F2 | Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs | `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore) | none | done (#5) |
+### F1
+
+- **Status:** done (#5)
+
+UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed**
+
+- **Owns:** `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts`
+
+- **Depends on:** none
+
+### F2
+
+- **Status:** done (#5)
+
+Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs
+
+- **Owns:** `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore)
+
+- **Depends on:** none
+
 
 ## Wave 1: fully parallel (each depends only on Wave 0)
 Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML and research with no code.
 
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W1-A | **Weave engine.** Spec: Appendix B2. Port the prototype from `design/mockups/round2.html`: sett parser (symmetric and asymmetric), 2/2 twill tile renderer (deterministic shading, cache), scarf layout from `wovenOrder` (band height by item kind), fringe, hole overlay drawing. Includes the `ScarfCanvas` React component (DPR, ResizeObserver, shuttle animation, reduced-motion) and a text alternative. | `src/weave/**`, `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**` | F1 | done (#13) |
-| W1-B | **Moth holes.** `mothHoles(items, now, opts)` returns small, medium or large holes at 0×, 1× and 3× of the last interval overdue, caps visible damage at about 15% of the scarf, and returns any overflow as an extra-moths count. | `src/domain/moths.ts`, `tests/unit/moths.test.ts` | F1 | todo |
-| W1-C | **Answer checking.** NFC normalisation, case folding, punctuation and apostrophe handling, accent-insensitive near match (correct, capped at Hard, with a nudge), `altGd` alternatives, and returning which token was wrong. | `src/domain/answer.ts`, `tests/unit/answer.test.ts` | F1 | done (#12) |
-| W1-D | **Scheduler.** Seeded ladder of 1, 4 and 16 days (Hard/Easy nudge within a step), then a ts-fsrs wrapper with desired retention. Again on a miss; two consecutive misses set `tangled`; relearning clears it. Retrievability helper. | `src/domain/scheduler.ts`, `tests/unit/scheduler.test.ts` | F1 | done (#10) |
-| W1-E | **Implicit credit.** A typed sentence gives full credit to every token item. A cloze gives the target full credit and the others weight 0.25, only when retrievability is below 0.9. Positive-only. Takes the "Good outcome" stability function as an injected parameter (no import from W1-D). | `src/domain/credit.ts`, `tests/unit/credit.test.ts` | F1 | todo |
-| W1-F | **Unlock and session builder.** Sentence eligibility (all tokens learned); word batches of 3-4, then their sentences; at most 2 sentences per new item in its first session (the rest held back); a minimum 4-card gap for the same focal item; a same-pattern penalty; relearn at max(10 minutes, end of batch). Owner-scarf assignment (an item is woven only into the scarf that introduced it). | `src/domain/unlock.ts`, `src/domain/session.ts`, `tests/unit/{unlock,session}.test.ts`, `tests/unit/fixtures/slice.ts` | F1 | done (#15) |
-| W1-G | **Exercise builder.** From an item and the known items, build recognise (multiple choice with plausible distractors, e.g. other persons of the same preposition), cloze (blank chosen from the sentence tokens) and produce prompts. | `src/domain/exercises.ts`, `tests/unit/exercises.test.ts` | F1 | todo |
-| W1-H | **Content pipeline.** zod schemas mirroring `types.ts`; `scripts/build-content.ts` (YAML to JSON in `src/content/generated/`) validates ids, token resolution, declared tags, required provenance, and that Ferguson and Murchison are present; a loader in `src/content/`; `content/README.md` (format guide); an npm `content` script; a CI step. | `scripts/build-content.ts`, `src/content/**`, `content/README.md`, `.github/workflows/ci.yml`, `package.json` (scripts only) | F1 | todo |
-| W1-I | **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly. | `content/tartans/**` | F1 (format in Appendix A) | todo |
-| W1-J1 | **Prepositions and pronominal forms.** The 10 most common prepositions with all 7 person forms, sources and frequency evidence. | `content/lexemes/prepositions.yaml`, `content/forms/**` | F1 (format in Appendix A) | todo |
-| W1-J2 | **Core vocabulary.** The 50 most common nouns, 50 most common verbs, and the next most common function words (pronouns, articles, `tha`/`is`, conjunctions, question words, numbers), with a frequency source documented in `content/SOURCES.md` (section "Core"). | `content/lexemes/core-*.yaml`, `content/SOURCES.md#core` | F1 | todo |
-| W1-J3 | **Starter topics.** `content/topics.yaml` (all starter topics from the PRD) plus slice topic vocabulary for **love and feelings** and **languages**. | `content/topics.yaml`, `content/lexemes/topic-*.yaml` | F1 | todo |
-| W1-K | **Database v2 and repositories.** Dexie version 2 with `progress`, `reviewLog` and `scarves` tables; repository functions (get, put, list due, append review, scarf CRUD); export/import JSON; migration tests. | `src/db/**`, `tests/unit/db/**` | F1 | todo |
-| W1-L | **UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests. | `src/ui/components/{Button,Chip,Card,TagPicker,RatingBar,AccentKeys,ProgressBar,MothSprite}*`, `tests/unit/components/**` | F1 | todo |
-| W1-M | **Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio. | `docs/research/audio.md` | none | todo |
+### W1-A
+
+- **Status:** done (#13)
+
+**Weave engine.** Spec: Appendix B2. Port the prototype from `design/mockups/round2.html`: sett parser (symmetric and asymmetric), 2/2 twill tile renderer (deterministic shading, cache), scarf layout from `wovenOrder` (band height by item kind), fringe, hole overlay drawing. Includes the `ScarfCanvas` React component (DPR, ResizeObserver, shuttle animation, reduced-motion) and a text alternative.
+
+- **Owns:** `src/weave/**`, `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**`
+
+- **Depends on:** F1
+
+### W1-B
+
+- **Status:** done (#9)
+
+**Moth holes.** `mothHoles(items, now, opts)` returns small, medium or large holes at 0×, 1× and 3× of the last interval overdue, caps visible damage at about 15% of the scarf, and returns any overflow as an extra-moths count.
+
+- **Owns:** `src/domain/moths.ts`, `tests/unit/moths.test.ts`
+
+- **Depends on:** F1
+
+### W1-C
+
+- **Status:** done (#12)
+
+**Answer checking.** NFC normalisation, case folding, punctuation and apostrophe handling, accent-insensitive near match (correct, capped at Hard, with a nudge), `altGd` alternatives, and returning which token was wrong.
+
+- **Owns:** `src/domain/answer.ts`, `tests/unit/answer.test.ts`
+
+- **Depends on:** F1
+
+### W1-D
+
+- **Status:** done (#10)
+
+**Scheduler.** Seeded ladder of 1, 4 and 16 days (Hard/Easy nudge within a step), then a ts-fsrs wrapper with desired retention. Again on a miss; two consecutive misses set `tangled`; relearning clears it. Retrievability helper.
+
+- **Owns:** `src/domain/scheduler.ts`, `tests/unit/scheduler.test.ts`
+
+- **Depends on:** F1
+
+### W1-E
+
+- **Status:** done (#11)
+
+**Implicit credit.** A typed sentence gives full credit to every token item. A cloze gives the target full credit and the others weight 0.25, only when retrievability is below 0.9. Positive-only. Takes the "Good outcome" stability function as an injected parameter (no import from W1-D).
+
+- **Owns:** `src/domain/credit.ts`, `tests/unit/credit.test.ts`
+
+- **Depends on:** F1
+
+### W1-F
+
+- **Status:** done (#15)
+
+**Unlock and session builder.** Sentence eligibility (all tokens learned); word batches of 3-4, then their sentences; at most 2 sentences per new item in its first session (the rest held back); a minimum 4-card gap for the same focal item; a same-pattern penalty; relearn at max(10 minutes, end of batch). Owner-scarf assignment (an item is woven only into the scarf that introduced it).
+
+- **Owns:** `src/domain/unlock.ts`, `src/domain/session.ts`, `tests/unit/{unlock,session}.test.ts`, `tests/unit/fixtures/slice.ts`
+
+- **Depends on:** F1
+
+### W1-G
+
+- **Status:** done (#20)
+
+**Exercise builder.** From an item and the known items, build recognise (multiple choice with plausible distractors, e.g. other persons of the same preposition), cloze (blank chosen from the sentence tokens) and produce prompts.
+
+- **Owns:** `src/domain/exercises.ts`, `tests/unit/exercises.test.ts`
+
+- **Depends on:** F1
+
+### W1-H
+
+- **Status:** done (#21)
+
+**Content pipeline.** zod schemas mirroring `types.ts`; `scripts/build-content.ts` (YAML to JSON in `src/content/generated/`) validates ids, token resolution, declared tags, required provenance, and that Ferguson and Murchison are present; a loader in `src/content/`; `content/README.md` (format guide); an npm `content` script; a CI step.
+
+- **Owns:** `scripts/build-content.ts`, `src/content/**`, `content/README.md`, `.github/workflows/ci.yml`, `package.json` (scripts only)
+
+- **Depends on:** F1
+
+### W1-I
+
+- **Status:** done (#44): approximate placeholder setts only; exact setts tracked in W-TARTAN-EXACT-SETTS
+
+**Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** F1 (format in Appendix A)
+
+### W1-J1
+
+- **Status:** done (#22)
+
+**Prepositions and pronominal forms.** The 10 most common prepositions with all 7 person forms, sources and frequency evidence.
+
+- **Owns:** `content/lexemes/prepositions.yaml`, `content/forms/**`
+
+- **Depends on:** F1 (format in Appendix A)
+
+### W1-J2
+
+- **Status:** done (#22)
+
+**Core vocabulary.** The 50 most common nouns, 50 most common verbs, and the next most common function words (pronouns, articles, `tha`/`is`, conjunctions, question words, numbers), with a frequency source documented in `content/SOURCES.md` (section "Core").
+
+- **Owns:** `content/lexemes/core-*.yaml`, `content/SOURCES.md#core`
+
+- **Depends on:** F1
+
+### W1-J3
+
+- **Status:** done (#22)
+
+**Starter topics.** `content/topics.yaml` (all starter topics from the PRD) plus slice topic vocabulary for **love and feelings** and **languages**.
+
+- **Owns:** `content/topics.yaml`, `content/lexemes/topic-*.yaml`
+
+- **Depends on:** F1
+
+### W1-K
+
+- **Status:** done (#26)
+
+**Database v2 and repositories.** Dexie version 2 with `progress`, `reviewLog` and `scarves` tables; repository functions (get, put, list due, append review, scarf CRUD); export/import JSON; migration tests.
+
+- **Owns:** `src/db/**`, `tests/unit/db/**`
+
+- **Depends on:** F1
+
+### W1-L
+
+- **Status:** done (#33)
+
+**UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests.
+
+- **Owns:** `src/ui/components/{Button,Chip,Card,TagPicker,RatingBar,AccentKeys,ProgressBar,MothSprite}*`, `tests/unit/components/**`
+
+- **Depends on:** F1
+
+### W1-M
+
+- **Status:** done (#35)
+
+**Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio.
+
+- **Owns:** `docs/research/audio.md`
+
+- **Depends on:** none
+
 
 ## Wave 2: assembly (parallel within the wave once dependencies are met)
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W2-A | **Sentences.** Sentences and idioms built from J1-J3 vocabulary with full token links, patterns, tags and provenance (corpus first, then AI-generated and labelled). Enough for the love and languages scarves to unlock at least 2 sentences per batch. | `content/sentences/**`, `content/SOURCES.md#sentences` | W1-H, W1-J1, W1-J2, W1-J3 | todo |
-| W2-B | **App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service with a dev time-travel control in Settings. | `src/app/services/**`, `src/app/store/**`, `src/app/clock.ts`, `tests/unit/services/**` | W1-B, W1-C, W1-D, W1-E, W1-F, W1-G, W1-K | todo |
-| W2-C | **Shelf screen.** Spec: Appendix B4. Real scarves from the DB, ScarfCanvas strips, length in ells, moth-hole chips, and Reweave / Start a new scarf actions. | `src/ui/screens/Shelf/**` | W1-A, W1-B, W1-K, W1-L | todo |
-| W2-D | **Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags. | `src/ui/screens/Scarf/**` | W1-A, W1-B, W1-K, W1-L | todo |
-| W2-E | **New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create. | `src/ui/screens/NewScarf/**` | W1-H, W1-I, W1-J3, W1-K, W1-L | todo |
-| W2-F | **Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note. | `src/ui/screens/Library/**` | W1-A, W1-H, W1-I | todo |
-| W2-G | **Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note. | `src/ui/screens/Loom/**` | W1-L, W2-B | todo |
-| W2-H | **Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice. | `src/ui/screens/Reweave/**`, `src/ui/screens/Tangles/**` | W1-L, W2-B | todo |
+### W2-A
+
+- **Status:** done (#36)
+
+**Sentences.** Sentences and idioms built from J1-J3 vocabulary with full token links, patterns, tags and provenance (corpus first, then AI-generated and labelled). Enough for the love and languages scarves to unlock at least 2 sentences per batch.
+
+- **Owns:** `content/sentences/**`, `content/SOURCES.md#sentences`
+
+- **Depends on:** W1-H, W1-J1, W1-J2, W1-J3
+
+### W2-B
+
+- **Status:** done (#41)
+
+**App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service (the Settings control is W2-B2).
+
+- **Owns:** `src/app/services/**`, `src/app/store/**`, `src/app/clock.ts`, `tests/unit/services/**`
+
+- **Depends on:** W1-B, W1-C, W1-D, W1-E, W1-F, W1-G, W1-K
+
+### W2-B2
+
+- **Status:** todo
+
+**Dev time-travel control.** Settings gets a developer section (shown only in dev or behind a tap-seven-times toggle) with "+1 day", "+1 week" and "Reset" buttons on `appClock` from W2-B, saving the offset with `saveClockOffset` and loading it at boot with `loadClockOffset`. Split from W2-B because `SettingsScreen` and `src/main.tsx` are outside its Owns paths. W3-A needs it.
+
+- **Owns:** `src/ui/screens/Settings/**`, `src/main.tsx` (boot load only)
+
+- **Depends on:** W2-B
+
+### W2-C
+
+- **Status:** done (#39)
+
+**Shelf screen.** Spec: Appendix B4. Real scarves from the DB, ScarfCanvas strips, length in ells, moth-hole chips, and Reweave / Start a new scarf actions.
+
+- **Owns:** `src/ui/screens/Shelf/**`
+
+- **Depends on:** W1-A, W1-B, W1-K, W1-L
+
+### W2-D
+
+- **Status:** done (#37)
+
+**Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags.
+
+- **Owns:** `src/ui/screens/Scarf/**`
+
+- **Depends on:** W1-A, W1-B, W1-K, W1-L
+
+### W2-E
+
+- **Status:** done (#45)
+
+**New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create.
+
+- **Owns:** `src/ui/screens/NewScarf/**`
+
+- **Depends on:** W1-H, W1-I, W1-J3, W1-K, W1-L
+
+### W2-F
+
+- **Status:** todo
+
+**Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note.
+
+- **Owns:** `src/ui/screens/Library/**`
+
+- **Depends on:** W1-A, W1-H, W1-I
+
+### W2-G
+
+- **Status:** todo
+
+**Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note.
+
+- **Owns:** `src/ui/screens/Loom/**`
+
+- **Depends on:** W1-L, W2-B
+
+### W2-H
+
+- **Status:** todo
+
+**Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice.
+
+- **Owns:** `src/ui/screens/Reweave/**`, `src/ui/screens/Tangles/**`
+
+- **Depends on:** W1-L, W2-B
+
 
 ## Wave 3: integration and hardening
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W3-A | **End-to-end slice test.** A Playwright journey: create a scarf, learn a batch, unlock a sentence, time-travel, see moths, reweave. Fix integration bugs in small PRs. | `tests/e2e/slice.spec.ts` (fixes go in owner paths via separate PRs) | all of Wave 2 | todo |
-| W3-B | **Content QA and flagging.** A "flag error" button that stores the flag locally and can export flags; first review pass over AI content. | `src/ui/components/FlagButton*`, `content/**` review edits | W2-A, W2-G | todo |
-| W3-C | **Accessibility and polish audit.** Contrast in both themes, focus order, reduced motion, 44 px targets, `lang="gd"`, and text alternatives for canvases. | fixes via small PRs in owner paths | all of Wave 2 | todo |
+### W3-A
+
+- **Status:** todo
+
+**End-to-end slice test.** A Playwright journey: create a scarf, learn a batch, unlock a sentence, time-travel, see moths, reweave. Fix integration bugs in small PRs.
+
+- **Owns:** `tests/e2e/slice.spec.ts` (fixes go in owner paths via separate PRs)
+
+- **Depends on:** all of Wave 2
+
+### W3-B
+
+- **Status:** todo
+
+**Content QA and flagging.** A "flag error" button that stores the flag locally and can export flags; first review pass over AI content.
+
+- **Owns:** `src/ui/components/FlagButton*`, `content/**` review edits
+
+- **Depends on:** W2-A, W2-G
+
+### W3-C
+
+- **Status:** todo
+
+**Accessibility and polish audit.** Contrast in both themes, focus order, reduced motion, 44 px targets, `lang="gd"`, and text alternatives for canvases.
+
+- **Owns:** fixes via small PRs in owner paths
+
+- **Depends on:** all of Wave 2
+
+
+## Backlog (unscheduled)
+Not part of any wave. Scheduled when the time is right.
+
+### W-TARTAN-SOURCES
+
+- **Status:** todo
+
+**Tartan sett sources.** Settle which sources we may take thread counts from under our CC BY-SA 4.0 content licence (see `content/tartans/SOURCES.md`), then transcribe the setts W1-I needs: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Candidates: the public-domain 1893 *Old and Rare Scottish Tartans* (Project Gutenberg 70853), Logan 1831/1845, Wikipedia, or written permission from the Scottish Register of Tartans or another keeper. Needs `gutenberg.org` (and perhaps `en.wikipedia.org`) in the session's allowed hosts. Finishing it completes W1-I, and unblocks the tartan content for W2-E and W2-F.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W1-H
+
+### W-TARTAN-EXACT-SETTS
+
+- **Status:** todo (needs W-TARTAN-SOURCES first)
+
+**Replace the approximate setts with real ones.** The 26 files in `content/tartans/` are placeholders: the colours are right in spirit, but the stripe counts are not the real setts. Once W-TARTAN-SOURCES settles a usable source, replace each sett, set `provenance` to the real source, and flip `verified` only after checking against a keeper such as the Scottish Register of Tartans. Remove the "Approximate placeholder" wording as each one is replaced.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W-TARTAN-SOURCES
 
 ## Parallelism at a glance
 - **Wave 1 can run up to 15 sessions at once.** Code tasks own disjoint files, and data tasks own disjoint YAML folders.
