@@ -282,13 +282,27 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### shelf-length-and-owned-paths
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-C
+
+- **Detail:** W2-C needs a scarf's length in ells, but the per-kind weighting belongs to W2-B (not a dependency). W2-C also owns only `src/ui/screens/Shelf/**`, while vitest only runs `tests/unit/**` and the e2e smoke test hard-coded the morning greeting that B4 makes time-dependent.
+
+- **Resolution:** Kept the ell constants (word 0.02, form 0.03, sentence 0.06) in `Shelf/shelfModel.ts`, to move into W2-B's services. Put tests in `tests/unit/shelf/`. Made the smoke test accept either greeting. "Reweave {N} holes" uses the hole count of the target scarf, which B4 leaves ambiguous.
+
+- **Status:** open
+
 ### ell-weighting-has-no-owner-yet
 
 _The spec says per-kind length weighting is "in W2-B", but a screen needs it first._
 
 - **Type:** difficulty
 
-- **Seen in:** #37
+- **Seen in:** #37, #39
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
