@@ -48,12 +48,14 @@ function candidatesFor(deps: ServiceDeps, scarf: Scarf, progress: ReadonlyMap<It
  * Chooses the next batch of new words for a scarf. Sentences already unlocked
  * but held back earlier come with it, tied to the most recently woven words.
  */
-export async function startLearning(deps: ServiceDeps, scarfId: string): Promise<LoomSession | null> {
+export async function startLearning(deps: ServiceDeps, scarfId: string, previous?: LoomSession): Promise<LoomSession | null> {
   const scarf = await getScarf(scarfId, deps.db);
   if (!scarf) return null;
   const progress = await loadProgress(deps);
   const learned = learnedIds(progress);
-  const candidates = candidatesFor(deps, scarf, progress);
+  // Carrying on from a resting session: its missed items come back after their wait, so offer other words meanwhile.
+  const resting = new Set(previous?.session.waiting.flatMap((w) => w.card.focal) ?? []);
+  const candidates = candidatesFor(deps, scarf, progress).filter((c) => !resting.has(c.id));
 
   const batchWords = planWordBatch({ candidates, learned });
   const recent = scarf.wovenOrder.filter((id) => deps.items.get(id)?.kind !== 'sentence').slice(-DEFAULT_BATCH_SIZE);
@@ -66,7 +68,12 @@ export async function startLearning(deps: ServiceDeps, scarfId: string): Promise
   return {
     mode: 'learn',
     scarfId,
-    session: startBatch({ words: batchWords, sentences: backlog, batch: 1 }),
+    session: startBatch({
+      words: batchWords,
+      sentences: backlog,
+      batch: previous ? previous.session.batch + 1 : 1,
+      previous: previous?.session,
+    }),
     batchWords,
     sentencesQueued: false,
     woven: [],

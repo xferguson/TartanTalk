@@ -53,6 +53,8 @@ export interface SessionState {
   /** When the next missed card is ready, if the only cards left are waiting. */
   waitUntil: number | null;
   done: boolean;
+  /** True when the last request for more found no new items left on this scarf. */
+  exhausted: boolean;
   /** Counts for progress bars. */
   total: number;
   answered: number;
@@ -60,6 +62,8 @@ export interface SessionState {
 
 export interface SessionActions {
   startLearning(scarfId: string): Promise<void>;
+  /** Starts another batch of new items on the same scarf, carrying over anything still resting. */
+  keepWeaving(): Promise<void>;
   startTangles(scarfId?: string): Promise<void>;
   startReweave(scarfId?: string): Promise<void>;
   /** Marks a response (chosen option text, or typed Gaelic) and saves what can be saved now. */
@@ -85,6 +89,7 @@ const idle: SessionState = {
   credited: [],
   waitUntil: null,
   done: false,
+  exhausted: false,
   total: 0,
   answered: 0,
 };
@@ -123,6 +128,16 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
         const loom = await startLearning(getDeps(), scarfId);
         if (!loom) return set({ ...idle, done: true });
         await begin('learn', scarfId, loom, []);
+        set({ exhausted: loom.batchWords.length === 0 });
+      },
+
+      async keepWeaving() {
+        const { scarfId, loom } = get();
+        if (!scarfId) return;
+        const next = await startLearning(getDeps(), scarfId, loom ?? undefined);
+        if (!next) return;
+        await begin('learn', scarfId, next, []);
+        set({ exhausted: next.batchWords.length === 0 });
       },
 
       async startTangles(scarfId) {

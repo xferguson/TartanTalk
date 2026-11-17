@@ -55,6 +55,21 @@ describe('starting a scarf', () => {
 });
 
 describe('learning', () => {
+  it('offers different words while a missed item is resting', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const first = (await startLearning(h.deps, scarf.id))!;
+    const card = first.session.queue[0];
+    const ex = await buildExercise(h.deps, card, first.batchWords);
+    const missed = await answerLearning(h.deps, first, card, ex, false);
+
+    const more = (await startLearning(h.deps, scarf.id, missed.loom))!;
+    expect(more.batchWords.length).toBeGreaterThan(0);
+    expect(more.batchWords).not.toContain(card.itemId);
+    expect(more.session.waiting.map((w) => w.card.itemId)).toContain(card.itemId);
+    expect(more.session.batch).toBe(first.session.batch + 1);
+  });
+
   it('weaves a word after two correct answers, once, into its scarf', async () => {
     setup();
     const scarf = await newScarf(h.deps);

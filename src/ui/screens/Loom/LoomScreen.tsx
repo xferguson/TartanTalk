@@ -2,9 +2,10 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { loadContent, indexItems } from '../../../content';
 import { db, type TartanDB } from '../../../db/db';
-import { getProgress, getScarf, listScarves } from '../../../db/repo';
+import { getProgress, getScarf, listScarves, putScarf } from '../../../db/repo';
 import { nextIntervalDays } from '../../../domain/scheduler';
-import type { LearnableItem, Scarf, Tartan } from '../../../domain/types';
+import { recommendTopics, type TopicSuggestion } from '../../../domain/recommend';
+import type { LearnableItem, Progress, Scarf, Tartan } from '../../../domain/types';
 import { useSessionStore } from '../../../app/store/useSessionStore';
 import type { SessionStore } from '../../../app/store/sessionStore';
 import { Button, ButtonRow } from '../../components/Button';
@@ -76,6 +77,7 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
   const [scarf, setScarf] = useState<Scarf | null>(null);
   const [typed, setTyped] = useState('');
   const [goodInterval, setGoodInterval] = useState('');
+  const [suggestions, setSuggestions] = useState<TopicSuggestion[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -91,6 +93,27 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
       live = false;
     };
   }, [scarfId, database, s.answered, s.weaving]);
+
+  // When there is nothing new left, suggest subjects that still have words to learn.
+  const spent = s.exhausted || (s.done && s.total === 0);
+  useEffect(() => {
+    if (!spent || !scarf) return;
+    let live = true;
+    void database.progress.toArray().then((rows: Progress[]) => {
+      if (!live) return;
+      const byId = new Map(rows.map((p) => [p.itemId, p]));
+      setSuggestions(recommendTopics(bundle.topics, [...items.values()], scarf.tagFilter, byId).slice(0, 3));
+    });
+    return () => {
+      live = false;
+    };
+  }, [spent, scarf, database, bundle, items]);
+
+  const addSubject = async (t: TopicSuggestion) => {
+    if (!scarf) return;
+    await putScarf({ ...scarf, tagFilter: [...new Set([...scarf.tagFilter, ...t.topic.tags])] }, database);
+    await store.getState().startLearning(scarf.id);
+  };
 
   // The Good hint under the rating bar is that item's real next interval.
   const awaiting = s.feedback?.awaitingRating ? s.itemId : null;
@@ -130,18 +153,29 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
         <Card>
           {strip}
           <p className={styles.plain} role="status">
-            {s.waitUntil !== null
-              ? 'The next thread is resting a moment. Weave on with something new, or come back soon.'
-              : s.total === 0
-                ? 'Nothing new to weave right now.'
-                : 'That is all for this session. The scarf is a little longer.'}
+            {spent
+              ? 'You have woven every word on this scarf\'s subjects. Add another subject to keep going.'
+              : s.waitUntil !== null
+                ? 'The next thread is resting a moment. Weave on with new words, or come back soon.'
+                : 'That is all for this batch. The scarf is a little longer.'}
           </p>
+          {spent && suggestions.length > 0 && (
+            <ul className={styles.scarfList} aria-label="Subjects to add">
+              {suggestions.map((t, i) => (
+                <li key={t.topic.id}>
+                  <Button variant={i === 0 ? 'primary' : 'ghost'} onClick={() => void addSubject(t)}>
+                    {`Add ${t.topic.name} (${t.fresh} new)`}
+                  </Button>
+                  {i === 0 && <span className={styles.muted}> Suggested next</span>}
+                </li>
+              ))}
+            </ul>
+          )}
           <ButtonRow>
-            {/* Resting or finished only ends a batch: the learner decides when to stop. */}
-            {s.total > 0 && (
-              <Button onClick={() => void store.getState().startLearning(scarf.id)} autoFocus>Keep weaving</Button>
+            {!spent && (
+              <Button onClick={() => void store.getState().keepWeaving()} autoFocus>Learn more words</Button>
             )}
-            <Button to="/" variant={s.total > 0 ? 'ghost' : undefined}>Back to the shelf</Button>
+            <Button to="/" variant={spent ? undefined : 'ghost'}>Back to the shelf</Button>
             <Button to={`/scarf/${scarf.id}`} variant="ghost">See the scarf</Button>
           </ButtonRow>
         </Card>
