@@ -23,7 +23,7 @@ Fix any failure before continuing. Never skip, disable or weaken a test.
 
 ## 3. Update the shared docs in the same PR
 - `docs/WORKPLAN.md`: your task's Status line says `in progress (<branch>)` (set it now if it doesn't).
-- `docs/LEARNINGS.md`: add new learnings from this work, or add this PR to the **Seen in** line of existing entries. Insert new entries alphabetically by slug, never at the end. If any entry reaches tally 3, write a **Proposal** (a skill or hook) and plan to ask the user.
+- `docs/LEARNINGS.md`: add new learnings from this work, or add this PR to the **Seen in** line of existing entries. Insert new entries alphabetically by slug, never at the end. If any entry reaches tally 5, write a **Proposal** (a skill or hook) and plan to ask the user.
 - UI work: confirm the result matches the task's spec in `docs/WORKPLAN.md` Appendix B, and list any deviations in the PR body.
 
 ## 4. Commit, push and open a draft PR
@@ -54,4 +54,4 @@ CI never runs on a PR that conflicts with `main`, so "waiting for the check-suit
 ## 6. Close the loop
 - Unsubscribe from the PR.
 - In a docs-only follow-up PR (or the next PR), set the task to `done (#<PR>)` in `docs/WORKPLAN.md`, and add the PR number to the relevant learnings.
-- Tell the user what merged, and ask them about any learning proposals that reached tally 3.
+- Tell the user what merged, and ask them about any learning proposals that reached tally 5.
