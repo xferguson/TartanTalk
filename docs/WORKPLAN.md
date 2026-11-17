@@ -289,7 +289,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-G
 
-- **Status:** todo
+- **Status:** in progress (ccr-4123406d-l1tmzh)
 
 **Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note.
 
