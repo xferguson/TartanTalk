@@ -469,3 +469,18 @@ _Words and forms have no sentence to blank, so the ladder's middle rung needs a 
 - **Resolution:** `buildExercise` falls back to typing for a word on the cloze rung, and for any choice with fewer than two options. Review questions use choice for the first two reviews, then typing. If the PRD wants words in context, that needs sentences and belongs in a later task.
 
 - **Status:** resolved
+
+### placeholder-headings-in-e2e
+_A smoke test that asserts a placeholder's heading breaks when the real screen lands._
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** #48
+
+- **Detail:** `tests/e2e/smoke.spec.ts` expected the Loom's placeholder heading "At the loom". B6's empty state replaced it, so the nav test failed locally.
+
+- **Resolution:** Screen tasks update the smoke test's expected heading in the same PR and note it as outside their Owns paths. Run `npm run e2e` before pushing.
+
+- **Status:** open
