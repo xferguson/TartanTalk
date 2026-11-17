@@ -1,0 +1,66 @@
+# Pronominal forms of "ri" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:ri.1sg
+  lexemeId: lex:ri
+  gd: "rium"
+  en: "to me"
+  person: 1sg
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.2sg
+  lexemeId: lex:ri
+  gd: "riut"
+  en: "to you"
+  person: 2sg
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.3sg-m
+  lexemeId: lex:ri
+  gd: "ris"
+  en: "to him"
+  person: 3sg-m
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.3sg-f
+  lexemeId: lex:ri
+  gd: "rithe"
+  en: "to her"
+  person: 3sg-f
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.1pl
+  lexemeId: lex:ri
+  gd: "ruinn"
+  en: "to us"
+  person: 1pl
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.2pl
+  lexemeId: lex:ri
+  gd: "ribh"
+  en: "to you (plural or formal)"
+  person: 2pl
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ri.3pl
+  lexemeId: lex:ri
+  gd: "riutha"
+  en: "to them"
+  person: 3pl
+  tags: [prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

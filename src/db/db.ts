@@ -1,4 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie';
+import type { Progress, ReviewEvent, Scarf } from '../domain/types';
 
 export interface SettingRow {
   key: string;
@@ -7,11 +8,21 @@ export interface SettingRow {
 
 export class TartanDB extends Dexie {
   settings!: EntityTable<SettingRow, 'key'>;
+  progress!: EntityTable<Progress, 'itemId'>;
+  reviewLog!: EntityTable<ReviewEvent, 'id'>;
+  scarves!: EntityTable<Scarf, 'id'>;
 
   constructor(name = 'tartan-talk') {
     super(name);
-    // v1: settings only. Progress, review log and scarves arrive with the learning loop.
     this.version(1).stores({ settings: '&key' });
+    // v2 only adds tables, so v1 data upgrades with no migration code. 'fsrs.due' is indexed
+    // to find due reviews; rows without a schedule (fsrs: null) are simply left out of it.
+    this.version(2).stores({
+      settings: '&key',
+      progress: '&itemId, phase, ownerScarfId, tangled, fsrs.due',
+      reviewLog: '++id, itemId, at',
+      scarves: '&id, createdAt',
+    });
   }
 }
 

@@ -1,0 +1,66 @@
+# Pronominal forms of "aig" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:aig.1sg
+  lexemeId: lex:aig
+  gd: "agam"
+  en: "at me"
+  person: 1sg
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.2sg
+  lexemeId: lex:aig
+  gd: "agad"
+  en: "at you"
+  person: 2sg
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.3sg-m
+  lexemeId: lex:aig
+  gd: "aige"
+  en: "at him"
+  person: 3sg-m
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.3sg-f
+  lexemeId: lex:aig
+  gd: "aice"
+  en: "at her"
+  person: 3sg-f
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.1pl
+  lexemeId: lex:aig
+  gd: "againn"
+  en: "at us"
+  person: 1pl
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.2pl
+  lexemeId: lex:aig
+  gd: "agaibh"
+  en: "at you (plural or formal)"
+  person: 2pl
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:aig.3pl
+  lexemeId: lex:aig
+  gd: "aca"
+  en: "at them"
+  person: 3pl
+  tags: [prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
