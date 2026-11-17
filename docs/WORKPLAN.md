@@ -229,7 +229,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-B
 
-- **Status:** in progress (ccr-66d13961-oqmrow)
+- **Status:** done (#41)
 
 **App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service (the Settings control is W2-B2).
 

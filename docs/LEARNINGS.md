@@ -289,7 +289,7 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 
 - **Tally:** 1
 
-- **Seen in:** W2-B
+- **Seen in:** #41
 
 - **Detail:** W2-B asked for a dev time-travel control in Settings, but `src/ui/screens/Settings/**` and `src/main.tsx` belong to no W2-B path.
 
@@ -317,7 +317,7 @@ _The spec says per-kind length weighting is "in W2-B", but a screen needs it fir
 
 - **Type:** difficulty
 
-- **Seen in:** #37, #39, W2-B
+- **Seen in:** #37, #39, #41
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
@@ -400,7 +400,7 @@ _Words and forms have no sentence to blank, so the ladder's middle rung needs a 
 
 - **Tally:** 1
 
-- **Seen in:** W2-B
+- **Seen in:** #41
 
 - **Detail:** The ladder is recognise, cloze, type, but `buildCloze` only takes sentences. A word on the cloze rung had no exercise. A recognise card with fewer than two options (a tiny scarf) was also unanswerable.
 
