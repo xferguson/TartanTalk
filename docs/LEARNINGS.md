@@ -54,7 +54,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L5. Some research sites are blocked by the session's network policy
 - **Type:** difficulty
 - **Tally:** 2
-- **Seen in:** #2, W1-J PR
+- **Seen in:** #2, #22
 - **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets.
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 - **Status:** open
@@ -149,7 +149,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 ### L15. Data tasks with no dictionary access can only produce unreviewed drafts
 - **Type:** difficulty
 - **Tally:** 1
-- **Seen in:** W1-J PR
+- **Seen in:** #22
 - **Detail:** W1-J (prepositions, core vocabulary, topics) needed frequency evidence, but no dictionary or corpus host was reachable. Vocabulary came from model knowledge, so there are no honest `freqRank` values.
 - **Resolution:** Mark every entry `review: unreviewed`, omit `freqRank`, and state the limits in `content/SOURCES.md`. A Gaelic speaker or W3-B should verify. Also tallied against L5.
 - **Status:** open
