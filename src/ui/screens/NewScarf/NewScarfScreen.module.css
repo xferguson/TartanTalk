@@ -1,0 +1,34 @@
+.form { display: grid; gap: 16px; }
+.field { display: grid; gap: 8px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.label { font-weight: 700; font-size: 0.95rem; padding: 0; }
+.row { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.muted { color: var(--muted); }
+.text {
+  width: 100%;
+  min-height: var(--tap);
+  padding: 8px 11px;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+}
+.text:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.swatch {
+  display: grid;
+  gap: 4px;
+  min-height: var(--tap);
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.swatch:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; }
+.swatchOn { border-color: var(--heather); }
+.swatchCanvas { display: block; width: 100%; height: 54px; border-radius: 6px; background: var(--surface-2); }
+.swatchLabel { font-size: 0.72rem; text-align: center; padding-bottom: 2px; }

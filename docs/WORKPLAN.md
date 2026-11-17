@@ -269,7 +269,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-E
 
-- **Status:** todo
+- **Status:** in progress (w2-e-new-scarf)
 
 **New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create.
 
