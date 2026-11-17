@@ -1,0 +1,64 @@
+# Pronominal forms of ann (in)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:ann.1sg
+  lexemeId: lex:ann
+  gd: "annam"
+  en: "in me"
+  person: 1sg
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.2sg
+  lexemeId: lex:ann
+  gd: "annad"
+  en: "in you"
+  person: 2sg
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.3sg-m
+  lexemeId: lex:ann
+  gd: "ann"
+  en: "in him"
+  person: 3sg-m
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.3sg-f
+  lexemeId: lex:ann
+  gd: "innte"
+  en: "in her"
+  person: 3sg-f
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.1pl
+  lexemeId: lex:ann
+  gd: "annainn"
+  en: "in us"
+  person: 1pl
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.2pl
+  lexemeId: lex:ann
+  gd: "annaibh"
+  en: "in you (pl/formal)"
+  person: 2pl
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:ann.3pl
+  lexemeId: lex:ann
+  gd: "annta"
+  en: "in them"
+  person: 3pl
+  tags: [prep:ann, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

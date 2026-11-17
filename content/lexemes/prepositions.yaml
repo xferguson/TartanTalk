@@ -1,0 +1,81 @@
+# The 10 prepositions taught first. Backlog: gu, fo, thar, eadar, ro, tro, seach, gus.
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:aig
+  gd: "aig"
+  en: "at / have"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:aig, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:air
+  gd: "air"
+  en: "on"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:air, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ann
+  gd: "ann"
+  en: "in"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:ann, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:as
+  gd: "à"
+  en: "out of / from"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:as, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bho
+  gd: "bho"
+  en: "from"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:bho, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:do
+  gd: "do"
+  en: "to / for"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:do, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:de
+  gd: "de"
+  en: "of / off"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:de, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:le
+  gd: "le"
+  en: "with"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:le, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mu
+  gd: "mu"
+  en: "about"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:mu, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ri
+  gd: "ri"
+  en: "to / against"
+  pos: preposition
+  tags: [grammar:pronominal-preposition, prep:ri, level:beginner, pos:preposition]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

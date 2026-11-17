@@ -1,0 +1,64 @@
+# Pronominal forms of bho (from)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:bho.1sg
+  lexemeId: lex:bho
+  gd: "bhuam"
+  en: "from me"
+  person: 1sg
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.2sg
+  lexemeId: lex:bho
+  gd: "bhuat"
+  en: "from you"
+  person: 2sg
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.3sg-m
+  lexemeId: lex:bho
+  gd: "bhuaithe"
+  en: "from him"
+  person: 3sg-m
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.3sg-f
+  lexemeId: lex:bho
+  gd: "bhuaipe"
+  en: "from her"
+  person: 3sg-f
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.1pl
+  lexemeId: lex:bho
+  gd: "bhuainn"
+  en: "from us"
+  person: 1pl
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.2pl
+  lexemeId: lex:bho
+  gd: "bhuaibh"
+  en: "from you (pl/formal)"
+  person: 2pl
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:bho.3pl
+  lexemeId: lex:bho
+  gd: "bhuapa"
+  en: "from them"
+  person: 3pl
+  tags: [prep:bho, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

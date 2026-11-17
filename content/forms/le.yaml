@@ -1,0 +1,64 @@
+# Pronominal forms of le (with)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:le.1sg
+  lexemeId: lex:le
+  gd: "leam"
+  en: "with me"
+  person: 1sg
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.2sg
+  lexemeId: lex:le
+  gd: "leat"
+  en: "with you"
+  person: 2sg
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.3sg-m
+  lexemeId: lex:le
+  gd: "leis"
+  en: "with him"
+  person: 3sg-m
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.3sg-f
+  lexemeId: lex:le
+  gd: "leatha"
+  en: "with her"
+  person: 3sg-f
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.1pl
+  lexemeId: lex:le
+  gd: "leinn"
+  en: "with us"
+  person: 1pl
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.2pl
+  lexemeId: lex:le
+  gd: "leibh"
+  en: "with you (pl/formal)"
+  person: 2pl
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:le.3pl
+  lexemeId: lex:le
+  gd: "leotha"
+  en: "with them"
+  person: 3pl
+  tags: [prep:le, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

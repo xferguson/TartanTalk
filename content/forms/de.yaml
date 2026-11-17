@@ -1,0 +1,64 @@
+# Pronominal forms of de (of / off)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:de.1sg
+  lexemeId: lex:de
+  gd: "dhìom"
+  en: "off me"
+  person: 1sg
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.2sg
+  lexemeId: lex:de
+  gd: "dhìot"
+  en: "off you"
+  person: 2sg
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.3sg-m
+  lexemeId: lex:de
+  gd: "dheth"
+  en: "off him"
+  person: 3sg-m
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.3sg-f
+  lexemeId: lex:de
+  gd: "dhith"
+  en: "off her"
+  person: 3sg-f
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.1pl
+  lexemeId: lex:de
+  gd: "dhinn"
+  en: "off us"
+  person: 1pl
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.2pl
+  lexemeId: lex:de
+  gd: "dhibh"
+  en: "off you (pl/formal)"
+  person: 2pl
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:de.3pl
+  lexemeId: lex:de
+  gd: "dhiubh"
+  en: "off them"
+  person: 3pl
+  tags: [prep:de, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

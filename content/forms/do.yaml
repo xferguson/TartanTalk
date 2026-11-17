@@ -1,0 +1,64 @@
+# Pronominal forms of do (to / for)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:do.1sg
+  lexemeId: lex:do
+  gd: "dhomh"
+  en: "to me"
+  person: 1sg
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.2sg
+  lexemeId: lex:do
+  gd: "dhut"
+  en: "to you"
+  person: 2sg
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.3sg-m
+  lexemeId: lex:do
+  gd: "dha"
+  en: "to him"
+  person: 3sg-m
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.3sg-f
+  lexemeId: lex:do
+  gd: "dhi"
+  en: "to her"
+  person: 3sg-f
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.1pl
+  lexemeId: lex:do
+  gd: "dhuinn"
+  en: "to us"
+  person: 1pl
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.2pl
+  lexemeId: lex:do
+  gd: "dhuibh"
+  en: "to you (pl/formal)"
+  person: 2pl
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:do.3pl
+  lexemeId: lex:do
+  gd: "dhaibh"
+  en: "to them"
+  person: 3pl
+  tags: [prep:do, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

@@ -1,0 +1,217 @@
+# Languages: learning and speaking.
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:canan
+  gd: "cànan"
+  en: "language"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gaidhlig
+  gd: "Gàidhlig"
+  en: "Gaelic"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:beurla
+  gd: "Beurla"
+  en: "English (language)"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fraingis
+  gd: "Fraingis"
+  en: "French (language)"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gearmailtis
+  gd: "Gearmailtis"
+  en: "German (language)"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:spainntis
+  gd: "Spàinntis"
+  en: "Spanish (language)"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ciall
+  gd: "ciall"
+  en: "meaning / sense"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fuaim
+  gd: "fuaim"
+  en: "sound"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:litir
+  gd: "litir"
+  en: "letter"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sgriobhadh
+  gd: "sgrìobhadh"
+  en: "writing"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fileanta
+  gd: "fileanta"
+  en: "fluent"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:doirbh
+  gd: "doirbh"
+  en: "difficult"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:furasta
+  gd: "furasta"
+  en: "easy"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:beag
+  gd: "beag"
+  en: "small / a little"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mor
+  gd: "mòr"
+  en: "big"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ur
+  gd: "ùr"
+  en: "new"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sean
+  gd: "sean"
+  en: "old"
+  pos: adjective
+  tags: [topic:languages, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:foghlam
+  gd: "foghlam"
+  en: "education / learning"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:tidsear
+  gd: "tidsear"
+  en: "teacher"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:oileanach
+  gd: "oileanach"
+  en: "student"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cairt
+  gd: "cairt"
+  en: "card"
+  pos: noun
+  gender: f
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cothrom
+  gd: "cothrom"
+  en: "chance / opportunity"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cleachd
+  gd: "cleachd"
+  en: "use / practise"
+  pos: verb
+  tags: [topic:languages, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fiosraich
+  gd: "fiosraich"
+  en: "enquire"
+  pos: verb
+  tags: [topic:languages, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mineachadh
+  gd: "mìneachadh"
+  en: "explanation"
+  pos: noun
+  gender: m
+  tags: [topic:languages, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

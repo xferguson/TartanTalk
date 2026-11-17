@@ -1,0 +1,224 @@
+# Love and feelings: vocabulary beyond the core list (including possessives).
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:gaol
+  gd: "gaol"
+  en: "love"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gradh
+  gd: "gràdh"
+  en: "love / affection"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cridhe
+  gd: "cridhe"
+  en: "heart"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:leannan
+  gd: "leannan"
+  en: "sweetheart"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:pog
+  gd: "pòg"
+  en: "kiss"
+  pos: noun
+  gender: f
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:toigh
+  gd: "toigh"
+  en: "fond (is toigh leam = I like)"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:graidhich
+  gd: "gràdhaich"
+  en: "love"
+  pos: verb
+  tags: [topic:love, topic:feelings, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:dealbh
+  gd: "dealbh"
+  en: "picture"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:toilichte
+  gd: "toilichte"
+  en: "happy"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bronach
+  gd: "brònach"
+  en: "sad"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sgith
+  gd: "sgìth"
+  en: "tired"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:feargach
+  gd: "feargach"
+  en: "angry"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cianalas
+  gd: "cianalas"
+  en: "homesickness / longing"
+  pos: noun
+  gender: m
+  tags: [topic:love, topic:feelings, level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gaisgeil
+  gd: "gaisgeil"
+  en: "brave / fine"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:briagha
+  gd: "brèagha"
+  en: "beautiful"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:laidir
+  gd: "làidir"
+  en: "strong"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:coibhneil
+  gd: "coibhneil"
+  en: "kind"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:math
+  gd: "math"
+  en: "good"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:dona
+  gd: "dona"
+  en: "bad"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:duilich
+  gd: "duilich"
+  en: "sorry / difficult"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:beo
+  gd: "beò"
+  en: "alive"
+  pos: adjective
+  tags: [topic:love, topic:feelings, level:beginner, pos:adjective]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mo
+  gd: "mo"
+  en: "my"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:do-poss
+  gd: "do"
+  en: "your (singular)"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:a-poss
+  gd: "a"
+  en: "his / her (possessive)"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ar
+  gd: "ar"
+  en: "our"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bhur
+  gd: "bhur"
+  en: "your (plural)"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an-poss
+  gd: "an"
+  en: "their"
+  pos: other
+  tags: [topic:love, topic:feelings, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

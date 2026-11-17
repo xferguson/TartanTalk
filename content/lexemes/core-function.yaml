@@ -1,0 +1,369 @@
+# Function words: be/copula, pronouns, article, conjunctions, question words, numbers 1-10, particles and common adverbs.
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:tha
+  gd: "tha"
+  en: "is / are (verb \"to be\")"
+  pos: verb
+  tags: [grammar:copula-or-be, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bi
+  gd: "bi"
+  en: "be (root form)"
+  pos: verb
+  tags: [grammar:copula-or-be, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:is
+  gd: "is"
+  en: "is (copula)"
+  pos: verb
+  tags: [grammar:copula-or-be, level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mi
+  gd: "mi"
+  en: "I / me"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:thu
+  gd: "thu"
+  en: "you (singular, informal)"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:e
+  gd: "e"
+  en: "he / him / it"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:i
+  gd: "i"
+  en: "she / her / it"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sinn
+  gd: "sinn"
+  en: "we / us"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sibh
+  gd: "sibh"
+  en: "you (plural or formal)"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:iad
+  gd: "iad"
+  en: "they / them"
+  pos: pronoun
+  tags: [grammar:pronoun, level:beginner, pos:pronoun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an
+  gd: "an"
+  en: "the (article)"
+  pos: article
+  tags: [grammar:article, level:beginner, pos:article]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:agus
+  gd: "agus"
+  en: "and"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ach
+  gd: "ach"
+  en: "but"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:no
+  gd: "no"
+  en: "or"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ma
+  gd: "ma"
+  en: "if"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:oir
+  gd: "oir"
+  en: "because / for"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:nuair
+  gd: "nuair"
+  en: "when"
+  pos: conjunction
+  tags: [grammar:conjunction, level:beginner, pos:conjunction]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:co
+  gd: "cò"
+  en: "who"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:de-what
+  gd: "dè"
+  en: "what"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:caite
+  gd: "càite"
+  en: "where"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cuin
+  gd: "cuin"
+  en: "when"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ciamar
+  gd: "ciamar"
+  en: "how"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:carson
+  gd: "carson"
+  en: "why"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cia
+  gd: "cia mheud"
+  en: "how many / how much"
+  pos: other
+  tags: [grammar:question-word, level:beginner, pos:other]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:aon
+  gd: "aon"
+  en: "one"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:da
+  gd: "dà"
+  en: "two"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:tri
+  gd: "trì"
+  en: "three"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ceithir
+  gd: "ceithir"
+  en: "four"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:coig
+  gd: "còig"
+  en: "five"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sia
+  gd: "sia"
+  en: "six"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:seachd
+  gd: "seachd"
+  en: "seven"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ochd
+  gd: "ochd"
+  en: "eight"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:naoi
+  gd: "naoi"
+  en: "nine"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:deich
+  gd: "deich"
+  en: "ten"
+  pos: numeral
+  tags: [grammar:number, level:beginner, pos:numeral]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cha
+  gd: "cha"
+  en: "not (negative particle)"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:nach
+  gd: "nach"
+  en: "not / that...not (negative question)"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:a
+  gd: "a"
+  en: "relative / vocative particle"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gu
+  gd: "gu"
+  en: "to / that (particle)"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gu-math
+  gd: "gu math"
+  en: "very / well"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gle
+  gd: "glè"
+  en: "very"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an-diugh
+  gd: "an-diugh"
+  en: "today"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an-de
+  gd: "an-dè"
+  en: "yesterday"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:a-maireach
+  gd: "a-màireach"
+  en: "tomorrow"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an-seo
+  gd: "an seo"
+  en: "here"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:an-sin
+  gd: "an sin"
+  en: "there"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cho
+  gd: "cho"
+  en: "as / so"
+  pos: particle
+  tags: [level:beginner, pos:particle]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

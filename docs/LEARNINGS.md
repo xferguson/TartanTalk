@@ -145,3 +145,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** Parallel task PRs all edited `docs/LEARNINGS.md` (and WORKPLAN rows), so squash-merging needed several conflict-resolving syncs.
 - **Resolution:** Update `LEARNINGS.md` only in a separate docs-only PR after the task PR has merged (user decision). Merge conflicts themselves are not tallied.
 - **Status:** resolved
+
+### L15. Content tasks cannot cite frequency evidence without network access to corpora
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-J (PR pending)
+- **Detail:** W1-J asked for frequency evidence, but no frequency list was fetched and checked. Lists were chosen from editor knowledge, `freqRank` was omitted, and everything is `review: unreviewed`, rather than inventing ranks.
+- **Resolution:** Follow-ups are in `content/SOURCES.md#core`. A later task should add citable ranks and a speaker review. This relates to L5 (blocked research sites).
+- **Status:** open
+

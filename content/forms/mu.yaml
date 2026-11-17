@@ -1,0 +1,64 @@
+# Pronominal forms of mu (about)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:mu.1sg
+  lexemeId: lex:mu
+  gd: "umam"
+  en: "about me"
+  person: 1sg
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.2sg
+  lexemeId: lex:mu
+  gd: "umad"
+  en: "about you"
+  person: 2sg
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.3sg-m
+  lexemeId: lex:mu
+  gd: "uime"
+  en: "about him"
+  person: 3sg-m
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.3sg-f
+  lexemeId: lex:mu
+  gd: "uimpe"
+  en: "about her"
+  person: 3sg-f
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.1pl
+  lexemeId: lex:mu
+  gd: "umainn"
+  en: "about us"
+  person: 1pl
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.2pl
+  lexemeId: lex:mu
+  gd: "umaibh"
+  en: "about you (pl/formal)"
+  person: 2pl
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:mu.3pl
+  lexemeId: lex:mu
+  gd: "umpa"
+  en: "about them"
+  person: 3pl
+  tags: [prep:mu, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

@@ -1,0 +1,401 @@
+# The 50 core verbs, in the dictionary (imperative/root) form.
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:dean
+  gd: "dèan"
+  en: "do / make"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:thoir
+  gd: "thoir"
+  en: "give / take"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:faic
+  gd: "faic"
+  en: "see"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cluinn
+  gd: "cluinn"
+  en: "hear"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:rach
+  gd: "rach"
+  en: "go"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:thig
+  gd: "thig"
+  en: "come"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:abair
+  gd: "abair"
+  en: "say"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:tuig
+  gd: "tuig"
+  en: "understand"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ionnsaich
+  gd: "ionnsaich"
+  en: "learn"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bruidhinn
+  gd: "bruidhinn"
+  en: "speak"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:leugh
+  gd: "leugh"
+  en: "read"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sgriobh
+  gd: "sgrìobh"
+  en: "write"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ith
+  gd: "ith"
+  en: "eat"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ol
+  gd: "òl"
+  en: "drink"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cadail
+  gd: "cadail"
+  en: "sleep"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:obraich
+  gd: "obraich"
+  en: "work"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cluich
+  gd: "cluich"
+  en: "play"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:seinn
+  gd: "seinn"
+  en: "sing"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:coisich
+  gd: "coisich"
+  en: "walk"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ruith
+  gd: "ruith"
+  en: "run"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:suidh
+  gd: "suidh"
+  en: "sit"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:seas
+  gd: "seas"
+  en: "stand"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:feuch
+  gd: "feuch"
+  en: "try"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:faigh
+  gd: "faigh"
+  en: "get / find"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:gabh
+  gd: "gabh"
+  en: "take / accept"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cuir
+  gd: "cuir"
+  en: "put / send"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:leig
+  gd: "leig"
+  en: "let"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:lorg
+  gd: "lorg"
+  en: "find / seek"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:caill
+  gd: "caill"
+  en: "lose"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:toisich
+  gd: "tòisich"
+  en: "begin"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:criochnaich
+  gd: "crìochnaich"
+  en: "finish"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fan
+  gd: "fan"
+  en: "wait / stay"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fosgail
+  gd: "fosgail"
+  en: "open"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:duin
+  gd: "dùin"
+  en: "close"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ceannaich
+  gd: "ceannaich"
+  en: "buy"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:reic
+  gd: "reic"
+  en: "sell"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cuidich
+  gd: "cuidich"
+  en: "help"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:iarr
+  gd: "iarr"
+  en: "ask for / want"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:smaoinich
+  gd: "smaoinich"
+  en: "think"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cuimhnich
+  gd: "cuimhnich"
+  en: "remember"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:diochuimhnich
+  gd: "dìochuimhnich"
+  en: "forget"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:tuit
+  gd: "tuit"
+  en: "fall"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:tog
+  gd: "tog"
+  en: "lift / build"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:fag
+  gd: "fàg"
+  en: "leave"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:coimhead
+  gd: "coimhead"
+  en: "look / watch"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:eist
+  gd: "èist"
+  en: "listen"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:innis
+  gd: "innis"
+  en: "tell"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:freagair
+  gd: "freagair"
+  en: "answer"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:pos
+  gd: "pòs"
+  en: "marry"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:nigh
+  gd: "nigh"
+  en: "wash"
+  pos: verb
+  tags: [level:beginner, pos:verb]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

@@ -1,0 +1,451 @@
+# The 50 core nouns (gender per standard dictionaries).
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: lex:duine
+  gd: "duine"
+  en: "man / person"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:boireannach
+  gd: "boireannach"
+  en: "woman"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bean
+  gd: "bean"
+  en: "wife / woman"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:nighean
+  gd: "nighean"
+  en: "girl / daughter"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:balach
+  gd: "balach"
+  en: "boy"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mac
+  gd: "mac"
+  en: "son"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:athair
+  gd: "athair"
+  en: "father"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mathair
+  gd: "màthair"
+  en: "mother"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:caraid
+  gd: "caraid"
+  en: "friend"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:leanabh
+  gd: "leanabh"
+  en: "child"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:taigh
+  gd: "taigh"
+  en: "house"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:baile
+  gd: "baile"
+  en: "town / home"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:latha
+  gd: "latha"
+  en: "day"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:oidhche
+  gd: "oidhche"
+  en: "night"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bliadhna
+  gd: "bliadhna"
+  en: "year"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:seachdain
+  gd: "seachdain"
+  en: "week"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:mios
+  gd: "mìos"
+  en: "month"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:madainn
+  gd: "madainn"
+  en: "morning"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:feasgar
+  gd: "feasgar"
+  en: "afternoon / evening"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:am
+  gd: "àm"
+  en: "time"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ainm
+  gd: "ainm"
+  en: "name"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:facal
+  gd: "facal"
+  en: "word"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:lamh
+  gd: "làmh"
+  en: "hand"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ceann
+  gd: "ceann"
+  en: "head"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:suil
+  gd: "sùil"
+  en: "eye"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cas
+  gd: "cas"
+  en: "foot / leg"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:uisge
+  gd: "uisge"
+  en: "water / rain"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bata
+  gd: "bàta"
+  en: "boat"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cu
+  gd: "cù"
+  en: "dog"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:cat
+  gd: "cat"
+  en: "cat"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:each
+  gd: "each"
+  en: "horse"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bord
+  gd: "bòrd"
+  en: "table"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:leabhar
+  gd: "leabhar"
+  en: "book"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:obair
+  gd: "obair"
+  en: "work"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:airgead
+  gd: "airgead"
+  en: "money / silver"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:biadh
+  gd: "biadh"
+  en: "food"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:bainne
+  gd: "bainne"
+  en: "milk"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:aran
+  gd: "aran"
+  en: "bread"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ti
+  gd: "tì"
+  en: "tea"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:rathad
+  gd: "rathad"
+  en: "road"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sraid
+  gd: "sràid"
+  en: "street"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:duthaich
+  gd: "dùthaich"
+  en: "country"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:saoghal
+  gd: "saoghal"
+  en: "world"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:beatha
+  gd: "beatha"
+  en: "life"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:rud
+  gd: "rud"
+  en: "thing"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:aite
+  gd: "àite"
+  en: "place"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:doigh
+  gd: "dòigh"
+  en: "way / manner"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:ceist
+  gd: "ceist"
+  en: "question"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:sgoil
+  gd: "sgoil"
+  en: "school"
+  pos: noun
+  gender: f
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: lex:teaghlach
+  gd: "teaghlach"
+  en: "family"
+  pos: noun
+  gender: m
+  tags: [level:beginner, pos:noun]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed

@@ -1,0 +1,64 @@
+# Pronominal forms of air (on)
+# Written by W1-J. review: unreviewed means a human check is still needed. See content/SOURCES.md.
+- id: form:air.1sg
+  lexemeId: lex:air
+  gd: "orm"
+  en: "on me"
+  person: 1sg
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.2sg
+  lexemeId: lex:air
+  gd: "ort"
+  en: "on you"
+  person: 2sg
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.3sg-m
+  lexemeId: lex:air
+  gd: "air"
+  en: "on him"
+  person: 3sg-m
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.3sg-f
+  lexemeId: lex:air
+  gd: "oirre"
+  en: "on her"
+  person: 3sg-f
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.1pl
+  lexemeId: lex:air
+  gd: "oirnn"
+  en: "on us"
+  person: 1pl
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.2pl
+  lexemeId: lex:air
+  gd: "oirbh"
+  en: "on you (pl/formal)"
+  person: 2pl
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: form:air.3pl
+  lexemeId: lex:air
+  gd: "orra"
+  en: "on them"
+  person: 3pl
+  tags: [prep:air, grammar:pronominal-preposition, level:beginner]
+  source: { ref: "Editor-written from standard learner grammar; cross-check against Am Faclair Beag and Akerbeltz pending", licence: "Linguistic facts, no text copied; contributed under CC BY-SA 4.0" }
+  review: unreviewed
