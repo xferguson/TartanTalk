@@ -96,3 +96,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** The mock-up had four nav items but the theme setting needed a home.
 - **Resolution:** Settings is the fifth bottom-nav item, approved by the user. When an implementation needs something the mock-up lacks, record the decision in the spec (Appendix B) and confirm it with the user.
 - **Status:** resolved
+
+### L11. Fresh cloud sessions have no `node_modules`
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** W1-C
+- **Detail:** `npx vitest` failed with "Cannot find package 'vitest'" until dependencies were installed.
+- **Resolution:** Run `npm ci` before the first test run in a new session.
+- **Status:** open
