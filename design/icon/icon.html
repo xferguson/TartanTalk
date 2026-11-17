@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Tartan Talk icon A</title></head>
+<body style="margin:0;background:transparent">
+<canvas id="c"></canvas>
+<script>
+// Icon A "Classic": tartan speech bubble, Ferguson (Old) on undyed wool.
+// Query: ?size=512&maskable=1 (maskable = full-bleed square, bubble inside the 80% safe zone).
+const q = new URLSearchParams(location.search);
+const S = +(q.get('size') || 512), maskable = q.get('maskable') === '1';
+const COLORS = { G:'#0b5a3a', B:'#2c4084', R:'#c4202f' };
+const SETT = 'B/30 R4 G/34', SCALE = 0.55;
+function parseSett(sett, scale) {
+  const toks = sett.split(/\s+/).map(t => { const m = t.match(/^([A-Z]+)(\/?)(\d+)$/); return { c:m[1], n:Math.max(1, Math.round(+m[3]*scale)), pivot:m[2]==='/' }; });
+  const sym = toks[0].pivot || toks[toks.length-1].pivot; const seq = sym ? toks.concat(toks.slice(1,-1).reverse()) : toks;
+  const out = []; for (const t of seq) for (let i = 0; i < t.n; i++) out.push(t.c); return out;
+}
+const hexRgb = h => [1,3,5].map(i => parseInt(h.slice(i,i+2),16));
+function hash(x,y){ let h=(x*374761393+y*668265263)|0; h=(h^(h>>>13))*1274126177; return ((h^(h>>>16))>>>0)/4294967295; }
+function tile(tpx) {
+  const th = parseSett(SETT, SCALE).map(c => hexRgb(COLORS[c])), L = th.length, T = L*tpx;
+  const cv = document.createElement('canvas'); cv.width = cv.height = T; const ctx = cv.getContext('2d'); const img = ctx.createImageData(T,T), d = img.data;
+  for (let Y=0;Y<T;Y++) for (let X=0;X<T;X++) {
+    const x=(X/tpx)|0, y=(Y/tpx)|0, warp=((x+y)&3)<2, c=warp?th[x]:th[y]; let f=warp?1.05:0.93; const ix=X%tpx, iy=Y%tpx;
+    if (warp&&(ix===0||ix===tpx-1)) f*=0.86; if (!warp&&(iy===0||iy===tpx-1)) f*=0.86; f*=1+(hash(X,Y)-0.5)*0.09;
+    const o=(Y*T+X)*4; d[o]=Math.min(255,c[0]*f+6); d[o+1]=Math.min(255,c[1]*f+6); d[o+2]=Math.min(255,c[2]*f+6); d[o+3]=255;
+  }
+  ctx.putImageData(img,0,0); return cv;
+}
+const cv = document.getElementById('c'); cv.width = cv.height = S; const ctx = cv.getContext('2d');
+ctx.scale(S/100, S/100);
+function rr(x,y,w,h,r){ ctx.beginPath(); ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r); ctx.closePath(); }
+if (maskable) { ctx.fillStyle = '#efe4d2'; ctx.fillRect(0,0,100,100); ctx.translate(50,50); ctx.scale(0.78,0.78); ctx.translate(-50,-50); }
+else { rr(0,0,100,100,22); ctx.fillStyle = '#efe4d2'; ctx.fill(); }
+const x=12,y=14,w=76,h=56,r=16;
+ctx.beginPath(); ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r);
+ctx.lineTo(x+34,y+h); ctx.lineTo(x+16,y+h+17); ctx.lineTo(x+20,y+h); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r); ctx.closePath();
+// Thread size grows with icon size so the sett reads the same at every resolution.
+const tpx = Math.max(1, Math.round(S/90)); const p = ctx.createPattern(tile(tpx), 'repeat');
+p.setTransform(new DOMMatrix().scale(100 / (90 * tpx))); // ~90 threads across the icon at any size
+ctx.fillStyle = p; ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = 'rgba(51,36,28,.35)'; ctx.stroke();
+document.title = 'ready';
+</script>
+</body></html>

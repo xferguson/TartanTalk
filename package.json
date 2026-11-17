@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "e2e": "playwright test --trace off"
+    "e2e": "playwright test --trace off",
+    "icons": "node scripts/render-icons.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
