@@ -99,11 +99,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 2
-- **Seen in:** #12, #13
+- **Tally:** 3
+- **Seen in:** #12, #13, #11
 - **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
-- **Status:** open
+- **Proposal:** A SessionStart hook (`.claude/settings.json`) that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready to lint, typecheck and test.
+- **Status:** proposal pending user
 
 ### L12. Testing-library does not auto-clean between tests here
 - **Type:** mistake
@@ -135,4 +136,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Seen in:** #15
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
+- **Status:** resolved
+
+### L14. LEARNINGS.md edits inside task PRs cause repeated merge conflicts
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** #11
+- **Detail:** Parallel task PRs all edited `docs/LEARNINGS.md` (and WORKPLAN rows), so squash-merging needed several conflict-resolving syncs.
+- **Resolution:** Update `LEARNINGS.md` only in a separate docs-only PR after the task PR has merged (user decision). Merge conflicts themselves are not tallied.
 - **Status:** resolved
