@@ -1,23 +1,21 @@
-# Tartan sources
+# Tartan sources: still to be settled
 
-All setts here are `verified: false`. Thread counts were read from [Tartan Dictionary](https://tartandictionary.org) pages (W1-I, 2026-11). No sett has been checked against cloth, the Scottish Register of Tartans or a printed source.
+**There are no setts in `content/tartans/` yet, on purpose.** A first pass transcribed 16 setts from Tartan Dictionary, whose licence is unstated and whose upstream data includes a CC BY-NC-ND 4.0 database. That does not fit our CC BY-SA 4.0 content licence, so those files were removed before merge. Their thread counts are not kept anywhere in this repo.
 
-## Where the data comes from
-| Source | Terms | How we used it |
-|---|---|---|
-| Tartan Dictionary | The pages state no licence, only "© 2022 - 2026 Tartan Dictionary". One page lists its data chain as Scottish Register of Tartans (Crown copyright), then `thetartan/tartan-database` (2016-2017, **CC BY-NC-ND 4.0**), then the dictionary. | Individual thread counts transcribed, one sett per file, with a link to the page. |
-| Scottish Register of Tartans | Text and images are Crown copyright, free to re-use with acknowledgement. Thread counts need a login, so none were read from it. | Cited only where a Tartan Dictionary page gives a Register reference (ferguson-atholl-teal, ref 1165). |
+We still need a list of sources we can use. The follow-up task is `W-TARTAN-SOURCES` in `docs/WORKPLAN.md` (Backlog). It is not part of this wave or the next; we will schedule it when the time is right.
 
-## Licence risk, for the project owner
-A thread count is a short fact, but the upstream database is non-commercial and no-derivatives, and this project is CC BY-SA 4.0 for content. Before relying on these files:
-1. Replace each count with one from the Register or a pre-1900 printed source (Logan 1831, Vestiarium Scoticum), or
-2. Get written permission, or
-3. Drop any sett whose upstream you cannot clear.
+## What has been checked
+| Source | Finding |
+|---|---|
+| Scottish Register of Tartans (`tartanregister.gov.uk`) | Text and images are Crown copyright, free to re-use with acknowledgement. Thread counts are shown only to logged-in users, so they could not be read. Its sign-up and terms need checking before any count is taken from it. |
+| Tartan Dictionary (`tartandictionary.org`) | No licence stated. Upstream chain includes CC BY-NC-ND 4.0. Not usable as a data source. |
+| *Old and Rare Scottish Tartans* (1893), Project Gutenberg, ebook 70853 | Public domain. Not yet read, because the session network did not resolve `gutenberg.org`. Worth reading for which clans it covers. |
+| Logan, *The Clans of the Scottish Highlands* (1845-47) | Public domain. Page images on HathiTrust. Not yet read. |
+| Wikipedia / Wikimedia Commons | CC BY-SA, so compatible. The session network did not resolve `en.wikipedia.org`. Unknown whether its sett data is complete or sourced. |
 
-## Known weaknesses
-- Colour hex values are our own approximations from one shared palette, not measured.
-- `ferguson-atholl-1830` and `mackenzie` came from search snippets and were not seen on a page.
-- `gordon`, `black-watch` and `campbell` have stripe codes that look mis-coded (see each file's notes).
-- No Murchison clan sett was found. `mcmurchie` (family tartan, 2010) and `murison` (spelling cousin) stand in.
-- Short of the "about 20 clan tartans" target: 6 clan setts (Campbell, Gordon, Cameron, Fraser, Black Watch, Royal Stewart). Guessed page paths for MacDonald, MacLeod and MacGregor returned 404.
-- The two Ferguson of Balquhidder scales are one design; only the single-scale sett is included.
+## What the content needs
+- All available Ferguson variants, and Murchison and MacKenzie-linked setts. The content pipeline requires Ferguson and Murchison once any tartan exists.
+- About 20 well-known clan tartans.
+- Each sett needs honest `verified` and `provenance` fields (see `content/README.md`).
+
+Until then the pipeline prints "No tartans yet" and skips the required-clan check.

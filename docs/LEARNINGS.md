@@ -292,9 +292,9 @@ _Tartan Dictionary data has an NC-ND upstream and no stated licence._
 
 - **Detail:** One Tartan Dictionary page names `thetartan/tartan-database` (CC BY-NC-ND 4.0) in its data chain, which clashes with our CC BY-SA content licence. WebFetch summaries also garble sett strings (some stripe codes look wrong), so none can be marked verified. Guessed page URLs often 404.
 
-- **Resolution:** Setts are `verified: false` and `content/tartans/SOURCES.md` lists the licence risk. The user should decide whether to clear, replace or drop them.
+- **Resolution:** The user chose to drop the setts. They were removed before merge, `content/tartans/SOURCES.md` records what is still needed, and the follow-up is `W-TARTAN-SOURCES` in the workplan Backlog. Before copying data from any site, check its licence and its upstream chain.
 
-- **Status:** proposal pending user
+- **Status:** resolved
 
 ### content-prs-regenerate-json
 
