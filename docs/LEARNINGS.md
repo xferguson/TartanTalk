@@ -282,6 +282,21 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### settings-control-outside-owns
+_A task's UI hook-up can fall outside its Owns paths: split it into its own task._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-B
+
+- **Detail:** W2-B asked for a dev time-travel control in Settings, but `src/ui/screens/Settings/**` and `src/main.tsx` belong to no W2-B path.
+
+- **Resolution:** Built the clock service and its persistence in W2-B and added W2-B2 for the Settings control, instead of editing outside Owns.
+
+- **Status:** resolved
+
 ### shelf-length-and-owned-paths
 
 - **Type:** difficulty
@@ -302,11 +317,11 @@ _The spec says per-kind length weighting is "in W2-B", but a screen needs it fir
 
 - **Type:** difficulty
 
-- **Seen in:** #37, #39
+- **Seen in:** #37, #39, W2-B
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
-- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent.
+- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it. Shelf currently uses different numbers (0.02, 0.03, 0.06), so the two screens disagree until they do.
 
 - **Status:** open
 
@@ -375,5 +390,20 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 - **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
 
 - **Resolution:** Component test files call `afterEach(cleanup)`.
+
+- **Status:** resolved
+
+### word-ladder-has-no-cloze
+_Words and forms have no sentence to blank, so the ladder's middle rung needs a rule._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** W2-B
+
+- **Detail:** The ladder is recognise, cloze, type, but `buildCloze` only takes sentences. A word on the cloze rung had no exercise. A recognise card with fewer than two options (a tiny scarf) was also unanswerable.
+
+- **Resolution:** `buildExercise` falls back to typing for a word on the cloze rung, and for any choice with fewer than two options. Review questions use choice for the first two reviews, then typing. If the PRD wants words in context, that needs sentences and belongs in a later task.
 
 - **Status:** resolved

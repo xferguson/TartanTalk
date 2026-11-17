@@ -229,13 +229,23 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-B
 
-- **Status:** todo
+- **Status:** in progress (ccr-66d13961-oqmrow)
 
-**App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service with a dev time-travel control in Settings.
+**App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service (the Settings control is W2-B2).
 
 - **Owns:** `src/app/services/**`, `src/app/store/**`, `src/app/clock.ts`, `tests/unit/services/**`
 
 - **Depends on:** W1-B, W1-C, W1-D, W1-E, W1-F, W1-G, W1-K
+
+### W2-B2
+
+- **Status:** todo
+
+**Dev time-travel control.** Settings gets a developer section (shown only in dev or behind a tap-seven-times toggle) with "+1 day", "+1 week" and "Reset" buttons on `appClock` from W2-B, saving the offset with `saveClockOffset` and loading it at boot with `loadClockOffset`. Split from W2-B because `SettingsScreen` and `src/main.tsx` are outside its Owns paths. W3-A needs it.
+
+- **Owns:** `src/ui/screens/Settings/**`, `src/main.tsx` (boot load only)
+
+- **Depends on:** W2-B
 
 ### W2-C
 
