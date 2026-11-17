@@ -1,0 +1,66 @@
+# Pronominal forms of "ann an" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:ann.1sg
+  lexemeId: lex:ann
+  gd: "annam"
+  en: "in me"
+  person: 1sg
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.2sg
+  lexemeId: lex:ann
+  gd: "annad"
+  en: "in you"
+  person: 2sg
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.3sg-m
+  lexemeId: lex:ann
+  gd: "ann"
+  en: "in him"
+  person: 3sg-m
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.3sg-f
+  lexemeId: lex:ann
+  gd: "innte"
+  en: "in her"
+  person: 3sg-f
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.1pl
+  lexemeId: lex:ann
+  gd: "annainn"
+  en: "in us"
+  person: 1pl
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.2pl
+  lexemeId: lex:ann
+  gd: "annaibh"
+  en: "in you (plural or formal)"
+  person: 2pl
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:ann.3pl
+  lexemeId: lex:ann
+  gd: "annta"
+  en: "in them"
+  person: 3pl
+  tags: [prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

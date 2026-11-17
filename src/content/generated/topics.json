@@ -1,0 +1,155 @@
+[
+  {
+    "id": "clothing",
+    "name": "Clothing and kilts",
+    "tags": [
+      "topic:clothing"
+    ],
+    "starter": true
+  },
+  {
+    "id": "croft-work",
+    "name": "Croft and Highland work",
+    "tags": [
+      "topic:croft-work"
+    ],
+    "starter": true
+  },
+  {
+    "id": "family-home",
+    "name": "Family and home",
+    "tags": [
+      "topic:family-home"
+    ],
+    "starter": true
+  },
+  {
+    "id": "farm-animals",
+    "name": "Scottish farm animals",
+    "tags": [
+      "topic:farm-animals"
+    ],
+    "starter": true
+  },
+  {
+    "id": "festivals-ceilidh",
+    "name": "Festivals and ceilidh",
+    "tags": [
+      "topic:festivals-ceilidh"
+    ],
+    "starter": true
+  },
+  {
+    "id": "folklore",
+    "name": "Folklore and myth",
+    "tags": [
+      "topic:folklore"
+    ],
+    "starter": true
+  },
+  {
+    "id": "food-drink",
+    "name": "Food and drink",
+    "tags": [
+      "topic:food-drink"
+    ],
+    "starter": true
+  },
+  {
+    "id": "greetings",
+    "name": "Greetings and hospitality",
+    "tags": [
+      "topic:greetings"
+    ],
+    "starter": true
+  },
+  {
+    "id": "hills-glens-lochs",
+    "name": "Hills, glens and lochs",
+    "tags": [
+      "topic:hills-glens-lochs"
+    ],
+    "starter": true
+  },
+  {
+    "id": "languages",
+    "name": "Talking about languages",
+    "tags": [
+      "topic:languages"
+    ],
+    "starter": true
+  },
+  {
+    "id": "love",
+    "name": "Love and feelings",
+    "tags": [
+      "topic:love",
+      "topic:feelings"
+    ],
+    "starter": true
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "tags": [
+      "topic:music"
+    ],
+    "starter": true
+  },
+  {
+    "id": "nature",
+    "name": "Nature",
+    "tags": [
+      "topic:nature"
+    ],
+    "starter": true
+  },
+  {
+    "id": "proverbs",
+    "name": "Proverbs and sayings",
+    "tags": [
+      "topic:proverbs"
+    ],
+    "starter": true
+  },
+  {
+    "id": "sea-boats",
+    "name": "Sea, boats and fishing",
+    "tags": [
+      "topic:sea-boats"
+    ],
+    "starter": true
+  },
+  {
+    "id": "sport",
+    "name": "Sport",
+    "tags": [
+      "topic:sport"
+    ],
+    "starter": true
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "tags": [
+      "topic:weather"
+    ],
+    "starter": true
+  },
+  {
+    "id": "weaving",
+    "name": "Weaving and wool",
+    "tags": [
+      "topic:weaving"
+    ],
+    "starter": true
+  },
+  {
+    "id": "wild-animals-birds",
+    "name": "Wild animals and birds",
+    "tags": [
+      "topic:wild-animals-birds"
+    ],
+    "starter": true
+  }
+]
