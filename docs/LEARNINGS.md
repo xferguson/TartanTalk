@@ -161,3 +161,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** W1-H must require Ferguson and Murchison tartans, but `content/` was empty until the data tasks landed, so a strict check would have failed CI on day one. Main also moved twice during CI, each time conflicting in `docs/WORKPLAN.md`.
 - **Resolution:** The required-clan check applies only once a tartan exists, and warns otherwise. Generated JSON is committed and CI fails if `npm run content` changes it. After resolving a conflict, re-run `npm run content` in case newly merged data changes the output.
 - **Status:** resolved
+
+### L17. A pre-existing test sits outside the task's owned test folder
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** #26
+- **Detail:** `tests/unit/db.test.ts` (from F1) tests the settings helpers, but W1-K owns `tests/unit/db/**`, so the new tests went in that folder and the old file was left alone.
+- **Resolution:** Keep `db.ts`'s v1 exports (`getSetting`, `setSetting`, `db`) unchanged so it keeps passing. Move it into `tests/unit/db/` in a later tidy-up.
+- **Status:** open
