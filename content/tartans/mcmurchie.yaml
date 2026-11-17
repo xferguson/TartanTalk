@@ -1,0 +1,12 @@
+id: mcmurchie
+name: "McMurchie"
+clan: Murchison
+variant: "McMurchie"
+sett: "Y/2 R26 DB12 DP14 G4 DP14 G4 DP14 DB12 R26 LB/2"
+colours: { Y: "#e3b23c", R: "#c4202f", DB: "#1f2f5c", DP: "#4a2a5c", G: "#0b5a3a", LB: "#7a9fd0" }
+scale: 0.5
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/m/mc/mcmurchie/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. A family tartan dated 2010, also named \"McMurchie Family\". It is the only Murchison-family sett found. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

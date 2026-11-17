@@ -1,0 +1,12 @@
+id: ferguson-atholl
+name: "Ferguson of Atholl"
+clan: Ferguson
+variant: "Atholl"
+sett: "DB/48 K16 G16 R4 G16 K2 W/4"
+colours: { DB: "#1f2f5c", K: "#1a1a1d", G: "#0b5a3a", R: "#c4202f", W: "#e9e6dc" }
+scale: 0.5
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/f/fe/fergusson/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Listed as \"Ferguson of Athol\", dated 1850. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

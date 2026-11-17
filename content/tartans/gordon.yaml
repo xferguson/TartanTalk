@@ -1,0 +1,11 @@
+id: gordon
+name: "Gordon"
+clan: Gordon
+sett: "DP/32 W4 B14 W4 K28 LB12 W4 DP30 W4 G34 LB12 G12 R16 K12 R16 K/4"
+colours: { DP: "#4a2a5c", W: "#e9e6dc", B: "#2c4084", K: "#1a1a1d", LB: "#7a9fd0", G: "#0b5a3a", R: "#c4202f" }
+scale: 0.3
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/g/go/gordon/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Master sett, undated. The first stripe code reads DP, which is probably a dark blue: verify. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

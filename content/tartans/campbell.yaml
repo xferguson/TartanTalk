@@ -1,0 +1,11 @@
+id: campbell
+name: "Campbell"
+clan: Campbell
+sett: "R/6 K2 G42 K38 DB38 K6 DB6 K6 DB38 K38 G42 K2 W/6"
+colours: { R: "#c4202f", K: "#1a1a1d", G: "#0b5a3a", DB: "#1f2f5c", W: "#e9e6dc" }
+scale: 0.35
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/c/ca/campbell/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Master sett, undated. The red-band counts look unusual for a Campbell sett: verify against a primary source. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

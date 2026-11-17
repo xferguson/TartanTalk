@@ -1,0 +1,12 @@
+id: ferguson-old
+name: "Ferguson (Old)"
+clan: Ferguson
+variant: "Old"
+sett: "DB/30 R4 G/34"
+colours: { DB: "#1f2f5c", R: "#c4202f", G: "#0b5a3a" }
+scale: 0.55
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/f/fe/ferguson/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Recorded there as the \"(Old)\" sett, dated 1830. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

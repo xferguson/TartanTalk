@@ -1,0 +1,12 @@
+id: mackenzie
+name: "MacKenzie"
+clan: MacKenzie
+variant: "Murchison-linked"
+sett: "B/24 K4 B4 K4 B4 K20 G24 K4 W/4"
+colours: { B: "#2c4084", K: "#1a1a1d", G: "#0b5a3a", W: "#e9e6dc" }
+scale: 0.5
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/m/mc/mackenzie/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Murchison is recorded as a sept of MacKenzie. This sett came from search-result snippets during the design mock-ups and was not seen on a page this time (the page URL guess returned 404). Treat as a placeholder. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

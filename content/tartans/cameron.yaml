@@ -1,0 +1,11 @@
+id: cameron
+name: "Cameron"
+clan: Cameron
+sett: "DB/14 R6 DB18 R4 K20 G18 R6 G4 R4 G/14"
+colours: { DB: "#1f2f5c", R: "#c4202f", K: "#1a1a1d", G: "#0b5a3a" }
+scale: 0.55
+provenance:
+  ref: "Tartan Dictionary (tartandictionary.org)"
+  url: "https://tartandictionary.org/tartans/c/ca/cameron/"
+  notes: "Thread count read from the Tartan Dictionary page, which gives no licence terms. Master sett, designed in the 1940s by J.G. MacKay of Portree, per the page. Colours are our approximations from a standard palette, not measured from cloth."
+verified: false

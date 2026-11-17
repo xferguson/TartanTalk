@@ -53,9 +53,9 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L5. Some research sites are blocked by the session's network policy
 - **Type:** difficulty
-- **Tally:** 1
-- **Seen in:** #2
-- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets.
+- **Tally:** 2
+- **Seen in:** #2, W1-I
+- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions, so sett data came from search-result snippets. In W1-I the host was reachable through WebFetch (not curl), and `tartanregister.gov.uk` loads but hides thread counts behind a login.
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 - **Status:** open
 
@@ -136,3 +136,11 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
 - **Status:** resolved
+
+### L15. Tartan Dictionary data has an NC-ND upstream and no stated licence
+- **Type:** issue
+- **Tally:** 1
+- **Seen in:** W1-I
+- **Detail:** One Tartan Dictionary page names `thetartan/tartan-database` (CC BY-NC-ND 4.0) in its data chain, which clashes with our CC BY-SA content licence. WebFetch summaries also garble sett strings (some stripe codes look wrong), so none can be marked verified. Guessed page URLs often 404.
+- **Resolution:** Setts are `verified: false` and `content/tartans/SOURCES.md` lists the licence risk. The user should decide whether to clear, replace or drop them.
+- **Status:** proposal pending user (decision on the licence risk)
