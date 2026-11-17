@@ -289,7 +289,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-G
 
-- **Status:** in progress (ccr-4123406d-l1tmzh)
+- **Status:** done (#48)
 
 **Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note.
 
@@ -299,7 +299,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W2-H
 
-- **Status:** todo
+- **Status:** done (#49)
 
 **Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice.
 

@@ -330,6 +330,21 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### reweave-item-focus-needs-store-api
+_The Scarf screen links a hole to `/reweave/:id?item=…`, but the session store cannot start on a chosen item._
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** #49
+
+- **Detail:** Spec B5 says a tapped hole opens the reweave "focused on that item". `startReweave` only takes a scarf id and orders by overdue, and the store is outside W2-H's Owns paths, so the screen ignores `?item=`.
+
+- **Resolution:** Follow-up: let `startReweave(scarfId, firstItemId?)` move that item to the front of the queue (W2-B owner), then read the param in `ReweaveScreen`.
+
+- **Status:** open
+
 ### preselect-link-needs-other-screen
 
 _A link from one screen that pre-fills another is two tasks, because each screen has its own owner._
@@ -358,6 +373,21 @@ _A task's UI hook-up can fall outside its Owns paths: split it into its own task
 - **Resolution:** Built the clock service and its persistence in W2-B and added W2-B2 for the Settings control, instead of editing outside Owns.
 
 - **Status:** resolved
+
+### shared-exercise-panel-before-loom
+_Reweave and Tangles needed the B6 question card before the Loom screen (W2-G) existed._
+
+- **Type:** difficulty
+
+- **Tally:** 1
+
+- **Seen in:** #49
+
+- **Detail:** B7 and B11 reuse the Loom's exercise card, feedback line and typed input. W2-G owns `src/ui/screens/Loom/**`, so W2-H built `Reweave/ExercisePanel` and Tangles imports it.
+
+- **Resolution:** When W2-G lands, move `ExercisePanel` to `src/ui/components/` in a small refactor PR and use it from all three screens (second real use; avoid duplicating it).
+
+- **Status:** open
 
 ### shelf-length-and-owned-paths
 
@@ -469,3 +499,18 @@ _Words and forms have no sentence to blank, so the ladder's middle rung needs a 
 - **Resolution:** `buildExercise` falls back to typing for a word on the cloze rung, and for any choice with fewer than two options. Review questions use choice for the first two reviews, then typing. If the PRD wants words in context, that needs sentences and belongs in a later task.
 
 - **Status:** resolved
+
+### placeholder-headings-in-e2e
+_A smoke test that asserts a placeholder's heading breaks when the real screen lands._
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** #48
+
+- **Detail:** `tests/e2e/smoke.spec.ts` expected the Loom's placeholder heading "At the loom". B6's empty state replaced it, so the nav test failed locally.
+
+- **Resolution:** Screen tasks update the smoke test's expected heading in the same PR and note it as outside their Owns paths. Run `npm run e2e` before pushing.
+
+- **Status:** open
