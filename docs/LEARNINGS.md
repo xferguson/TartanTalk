@@ -74,9 +74,9 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** difficulty
 
-- **Seen in:** #2, #22, #29
+- **Seen in:** #2, #22, #29, #35
 
-- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions (curl), so sett data came from search-result snippets. In W1-I it was reachable through WebFetch, and `tartanregister.gov.uk` loads but hides thread counts behind a login.
+- **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions (curl), so sett data came from search-result snippets. In W1-I it was reachable through WebFetch, and `tartanregister.gov.uk` loads but hides thread counts behind a login. W1-M (audio) also hit `isca-archive.org`, `learn.microsoft.com`, `docs.cloud.google.com` and `commonvoice.mozilla.org`; its findings are search-snippet only and marked unverified.
 
 - **Resolution:** Data tasks should record exact source URLs and mark data `verified: false` until it's checked. Ask the user to allow-list hosts if direct access is needed.
 
