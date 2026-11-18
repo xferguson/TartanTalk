@@ -158,7 +158,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** mistake
 
-- **Seen in:** #13, #33 (logged again as L18), PR_NUM
+- **Seen in:** #13, #33 (logged again as L18), #62
 
 - **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
 
@@ -295,7 +295,7 @@ _A placeholder in the app can be a placeholder in the mock-up too._
 
 - **Type:** efficiency
 
-- **Seen in:** PR_NUM
+- **Seen in:** #62
 
 - **Detail:** The user asked for nicer nav buttons and to check whether the mock-up already had a design. Round 2 draws the nav icons as the same placeholder squares the app uses (`.nav i` in `design/mockups/round2.html`), and B10 had deferred real icons with a pointer to "B11", a number since given to the Tangles spec. Reading the mock-up CSS settled it in one step. Drawing the icons in a scratch HTML page and screenshotting them at 96px and 24px caught a shuttle that read as an eye before any app code was written.
 
