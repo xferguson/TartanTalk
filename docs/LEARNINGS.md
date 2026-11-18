@@ -184,9 +184,9 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** issue
 
-- **Seen in:** #10, #20
+- **Seen in:** #10, #20, #66
 
-- **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`.
+- **Detail:** Two sessions each added "L11", which caused a merge conflict in `docs/LEARNINGS.md`. The same happens with task IDs: #62 and #63 both claimed W3-F, and #63 was renumbered to W3-G when it synced with main.
 
 - **Resolution:** When syncing with main, keep both entries and renumber yours to the next free ID. This is cheap to resolve; keep appending new entries at the end of the file.
 
