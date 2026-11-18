@@ -341,7 +341,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-D
 
-- **Status:** in progress (ccr-0f909d1b-s31nkv)
+- **Status:** done (#58)
 
 **Install prompt.** Spec: Appendix B12. A dismissible banner on touch devices that offers a one-tap install (Android/Chromium) or Add to Home Screen steps (iOS). Hidden when already installed or running standalone, and snoozed 14 days after "Not now". Never on desktop.
 

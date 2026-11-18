@@ -549,3 +549,29 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** All PRD themes were offered as starters, but only love and languages had words. A tester picked nature, hills, wild animals, food and greetings and was told "out of words" straight away.
 - **Resolution:** Added 20+ words or phrases for each of those five topics. Remaining starters (weather, music, sport and others) are still empty. Either fill them or hide a starter until it has items (follow-up).
 - **Status:** open
+
+### L21. Stubbing `matchMedia` in Playwright: a MediaQueryList's `matches` is read-only
+
+- **Type:** mistake
+
+- **Tally:** 1
+
+- **Seen in:** #58
+
+- **Detail:** `Object.assign(real('all'), { matches: true })` threw inside the page, so the whole app failed to render and the test timed out looking for a heading.
+
+- **Resolution:** Wrap the real list in a `Proxy` that overrides only `matches` and binds functions to the target. A test that "finds nothing" may mean the page crashed; check the console first.
+
+- **Status:** resolved
+
+### L22. Install-banner rules belong in a pure function with injected `now`
+
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** #58
+
+- **Detail:** Keeping the show/hide rules (touch only, standalone, installed, 14-day snooze, iOS vs native) in `src/domain/installPrompt.ts` made them testable without a browser; the hook and e2e tests only cover wiring. Browser detection stays in the app layer.
+
+- **Status:** resolved
