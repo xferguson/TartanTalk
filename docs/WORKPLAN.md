@@ -383,7 +383,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-F
 
-- **Status:** in progress (ccr-dbbe1243-jpapcm)
+- **Status:** done (#62)
 
 **Bottom nav icons.** Spec: Appendix B10. Replace the placeholder squares with a drawn icon set (shelf, shuttle, tangle, tartan swatch, sliders), duotone with an amber thread accent and a heather indicator pill on the active room.
 
