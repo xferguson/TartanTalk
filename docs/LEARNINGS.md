@@ -158,7 +158,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** mistake
 
-- **Seen in:** #13, #33 (logged again as L18), #62
+- **Seen in:** #13, #33 (logged again as L18), #62, #65
 
 - **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
 
@@ -166,7 +166,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Proposal:** Third sighting (with L18). Register `afterEach(cleanup)` once in `tests/setup.ts`, so no component test file can forget it, and merge L18 into this entry.
 
-- **Status:** proposal pending user
+- **Status:** adopted (W3-G #65, approved by the user). `tests/setup.ts` now runs `afterEach(cleanup)` for every test, and `tests/unit/setupCleanup.test.tsx` guards it. Per-file calls are harmless and can stay.
 
 ### L12. Off-by-one between a step counter and the contract's meaning
 
@@ -509,7 +509,7 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 
 - **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
 
-- **Resolution:** Component test files call `afterEach(cleanup)`.
+- **Resolution:** Component test files call `afterEach(cleanup)`. Now done once in `tests/setup.ts`; see L12, which this duplicates.
 
 - **Status:** resolved
 
