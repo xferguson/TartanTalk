@@ -124,7 +124,7 @@
   en: "water, rain"
   pos: noun
   gender: m
-  tags: [pos:noun]
+  tags: [pos:noun, topic:nature]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -295,7 +295,7 @@
   en: "food"
   pos: noun
   gender: m
-  tags: [pos:noun]
+  tags: [pos:noun, topic:food-drink]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -304,7 +304,7 @@
   en: "milk"
   pos: noun
   gender: m
-  tags: [pos:noun]
+  tags: [pos:noun, topic:food-drink]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -349,7 +349,7 @@
   en: "island"
   pos: noun
   gender: m
-  tags: [pos:noun]
+  tags: [pos:noun, topic:hills-glens-lochs]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -358,7 +358,7 @@
   en: "mountain"
   pos: noun
   gender: f
-  tags: [pos:noun]
+  tags: [pos:noun, topic:hills-glens-lochs]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -367,7 +367,7 @@
   en: "loch, lake"
   pos: noun
   gender: m
-  tags: [pos:noun]
+  tags: [pos:noun, topic:hills-glens-lochs]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -376,7 +376,7 @@
   en: "land, country"
   pos: noun
   gender: f
-  tags: [pos:noun]
+  tags: [pos:noun, topic:nature]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 

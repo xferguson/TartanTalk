@@ -62,7 +62,7 @@
   gd: "ith"
   en: "eat"
   pos: verb
-  tags: [pos:verb]
+  tags: [pos:verb, topic:food-drink]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
@@ -70,7 +70,7 @@
   gd: "òl"
   en: "drink"
   pos: verb
-  tags: [pos:verb]
+  tags: [pos:verb, topic:food-drink]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
 
