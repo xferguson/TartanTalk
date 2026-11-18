@@ -131,6 +131,13 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
   // A fresh card starts with an empty field.
   useEffect(() => setTyped(''), [s.itemId, s.card]);
 
+  // Focus the field once per new typed card so the keyboard opens. Deliberately not tied to
+  // anything else, so switching keyboards or re-rendering never steals focus back.
+  const isProduce = s.exercise?.type === 'produce';
+  useEffect(() => {
+    if (isProduce) inputRef.current?.focus();
+  }, [isProduce, s.itemId, s.card]);
+
   const tartan: Tartan = bundle.tartans.find((t) => t.id === scarf?.tartanId) ?? FALLBACK_TARTAN;
   const ex = s.exercise;
   const fb = s.feedback;
