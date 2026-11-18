@@ -158,13 +158,15 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** mistake
 
-- **Seen in:** #13
+- **Seen in:** #13, #33 (logged again as L18), #62
 
 - **Detail:** Component tests saw buttons left by earlier renders because Vitest globals are off, so RTL's automatic cleanup never registered.
 
 - **Resolution:** Call `afterEach(cleanup)` in each component test file (or add it to `tests/setup.ts` in a task that owns it).
 
-- **Status:** open
+- **Proposal:** Third sighting (with L18). Register `afterEach(cleanup)` once in `tests/setup.ts`, so no component test file can forget it, and merge L18 into this entry.
+
+- **Status:** proposal pending user
 
 ### L12. Off-by-one between a step counter and the contract's meaning
 
@@ -284,6 +286,20 @@ _Real setts were blocked on licences, so UI work waited._
 - **Detail:** W1-I stayed blocked on a licence-compatible source, which also held back W2-E and W2-F. Placeholder setts written from general knowledge of each tartan's colours unblock the screens, as long as they are labelled honestly.
 
 - **Resolution:** 26 placeholders were added with `verified: false` and "Approximate placeholder" in the provenance. `W-TARTAN-EXACT-SETTS` tracks replacing them. When data is blocked, ship clearly labelled stand-ins plus a follow-up task rather than waiting.
+
+- **Status:** resolved
+
+### check-mockup-before-designing
+
+_A placeholder in the app can be a placeholder in the mock-up too._
+
+- **Type:** efficiency
+
+- **Seen in:** #62
+
+- **Detail:** The user asked for nicer nav buttons and to check whether the mock-up already had a design. Round 2 draws the nav icons as the same placeholder squares the app uses (`.nav i` in `design/mockups/round2.html`), and B10 had deferred real icons with a pointer to "B11", a number since given to the Tangles spec. Reading the mock-up CSS settled it in one step. Drawing the icons in a scratch HTML page and screenshotting them at 96px and 24px caught a shuttle that read as an eye before any app code was written.
+
+- **Resolution:** Grep the mock-up's CSS and JS for the element before designing. Prototype icons as standalone SVG and screenshot them at real size in both themes. When a spec points at another section, check that the section still says what the pointer expects.
 
 - **Status:** resolved
 
