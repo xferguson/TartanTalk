@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { MAX_OPTIONS, buildCloze, buildProduce, buildRecognise, seededRng } from '../../src/domain/exercises';
-import { ALL_ITEMS, agad, agam, aige, gaol, iLoveYou, orm } from './fixtures/slice';
+import { MAX_OPTIONS, buildCloze, buildProduce, buildRecognise, clozeTargets, seededRng } from '../../src/domain/exercises';
+import { markLearned, newProgress } from '../../src/domain/scheduler';
+import type { ItemId, Progress } from '../../src/domain/types';
+import { ALL_ITEMS, agad, agam, aige, gaol, iLoveYou, ort, orm, tha } from './fixtures/slice';
 
 describe('buildRecognise', () => {
   it('has exactly one correct option, the English meaning', () => {
@@ -56,6 +58,40 @@ describe('buildCloze', () => {
     const s = { ...iLoveYou, tokens: [{ text: 'Seo', itemId: null }, { text: 'agam.', itemId: 'form:aig.1sg' }] };
     expect(buildCloze(s, ALL_ITEMS, seededRng(1))?.answer).toBe('agam');
     expect(buildCloze({ ...s, tokens: [s.tokens[0]] }, ALL_ITEMS, seededRng(1))).toBeNull();
+  });
+});
+
+describe('buildCloze with a set of allowed targets', () => {
+  it('blanks only a token whose item is allowed', () => {
+    for (let seed = 1; seed < 20; seed++) {
+      expect(buildCloze(iLoveYou, ALL_ITEMS, seededRng(seed), new Set([gaol.id]))?.answer).toBe('gaol');
+    }
+  });
+
+  it('returns null when no token is allowed, so the sentence is typed whole', () => {
+    expect(buildCloze(iLoveYou, ALL_ITEMS, seededRng(1), new Set<ItemId>())).toBeNull();
+  });
+});
+
+describe('clozeTargets', () => {
+  const NOW = Date.UTC(2026, 10, 1);
+  const DAY = 24 * 60 * 60 * 1000;
+  const progress = new Map<ItemId, Progress>([
+    // Marked "I already know this": learned, but never scheduled.
+    [tha.id, { ...newProgress(tha.id), phase: 'review', wovenAt: NOW - DAY }],
+    // Woven yesterday-ish and not due until tomorrow.
+    [gaol.id, markLearned(newProgress(gaol.id), NOW, 's')],
+    // Woven two days ago, so its 1-day review is due.
+    [agam.id, markLearned(newProgress(agam.id), NOW - 2 * DAY, 's')],
+    [ort.id, markLearned(newProgress(ort.id), NOW, 's')],
+  ]);
+
+  it('allows words due for review and words being learned now, never known or resting words', () => {
+    expect(clozeTargets(iLoveYou, progress, NOW, [ort.id])).toEqual([agam.id, ort.id]);
+  });
+
+  it('is empty when every word is known or resting', () => {
+    expect(clozeTargets(iLoveYou, progress, NOW - 2 * DAY, [])).toEqual([]);
   });
 });
 

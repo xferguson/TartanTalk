@@ -118,6 +118,33 @@ describe('LoomScreen', () => {
     await waitFor(() => expect(screen.queryByText(/Not quite\./)).toBeNull());
   });
 
+  it('offers "I already knew this" after the first correct answer to a new sentence, and moves on', async () => {
+    const { store } = await open('/loom/:id');
+    await screen.findByText('A new word');
+    while (store.getState().card?.exercise === 'introduce') {
+      const word = store.getState().itemId;
+      fireEvent.click(screen.getByRole('button', { name: 'I already know this' }));
+      await waitFor(() => expect(store.getState().itemId).not.toBe(word));
+    }
+    const sentence = store.getState().itemId!;
+    expect(sentence.startsWith('sent:')).toBe(true);
+    expect(screen.queryByRole('button', { name: 'I already knew this' })).toBeNull();
+
+    const ex = store.getState().exercise!;
+    if (ex.type === 'produce') {
+      fireEvent.change(screen.getByLabelText('Your answer in Gaelic'), { target: { value: ex.answer } });
+      fireEvent.click(screen.getByRole('button', { name: 'Check' }));
+    } else {
+      fireEvent.click(screen.getByRole('button', { name: ex.options.find((o) => o.correct)!.text }));
+    }
+    await screen.findByText(/Well done/);
+    expect(screen.getByRole('button', { name: 'Next' })).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: 'I already knew this' }));
+    await waitFor(() => expect(store.getState().itemId).not.toBe(sentence));
+    expect((await getProgress(sentence, h.database))?.fsrs).toBeNull();
+    expect(screen.queryByRole('button', { name: 'I already knew this' })).toBeNull();
+  });
+
   it('weaves an item in, with a caption, after it has been learned', async () => {
     const { store } = await open('/loom/:id');
     for (let guard = 0; guard < 40 && !store.getState().weaving; guard++) {

@@ -311,6 +311,9 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
       {fb && !fb.awaitingRating && (
         <ButtonRow>
           <Button onClick={() => void store.getState().next()} autoFocus>Next</Button>
+          {s.canClaimKnown && (
+            <Button variant="ghost" onClick={() => void store.getState().claimKnown()}>I already knew this</Button>
+          )}
         </ButtonRow>
       )}
     </>

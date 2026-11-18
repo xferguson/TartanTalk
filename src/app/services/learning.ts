@@ -1,10 +1,11 @@
 import { getSetting, setSetting } from '../../db/db';
 import { appendReview, getProgress, getScarf, putProgress, putScarf } from '../../db/repo';
 import type { ImplicitCredit } from '../../domain/credit';
-import { buildCloze, buildProduce, buildRecognise, type Exercise } from '../../domain/exercises';
+import { buildCloze, buildProduce, buildRecognise, clozeTargets, type Exercise } from '../../domain/exercises';
 import { markLearned, newProgress } from '../../domain/scheduler';
 import {
   answerCard,
+  dropItem,
   respondToIntro,
   DEFAULT_BATCH_SIZE,
   LADDER,
@@ -112,13 +113,19 @@ export const upNext = (loom: LoomSession, now: number): NextCard => nextCard(loo
 /**
  * Builds the exercise a card calls for. The ladder is recognise, cloze, then
  * type. A word has no sentence to blank, so its middle rung is typing too, and a
- * choice with nothing to choose between also becomes typing.
+ * choice with nothing to choose between also becomes typing. A cloze blanks
+ * only a word woven in this run or due for review; if there is none, the
+ * sentence is typed whole.
  */
-export async function buildExercise(deps: ServiceDeps, card: Card, extraKnown: readonly ItemId[] = []): Promise<Exercise> {
+export async function buildExercise(
+  deps: ServiceDeps,
+  card: Card,
+  loom: Pick<LoomSession, 'batchWords' | 'woven'> = { batchWords: [], woven: [] },
+): Promise<Exercise> {
   const item = deps.items.get(card.itemId);
   if (!item) throw new Error(`Unknown item ${card.itemId}`);
   const progress = await loadProgress(deps);
-  const knownIds = new Set([...learnedIds(progress), ...extraKnown, ...card.focal]);
+  const knownIds = new Set([...learnedIds(progress), ...loom.batchWords, ...card.focal]);
   const known = [...knownIds].flatMap((id) => deps.items.get(id) ?? []);
 
   if (card.exercise === 'recognise') {
@@ -126,7 +133,8 @@ export async function buildExercise(deps: ServiceDeps, card: Card, extraKnown: r
     if (ex.options.length >= 2) return ex;
   }
   if (card.exercise === 'cloze' && isSentence(item)) {
-    const ex = buildCloze(item, known, deps.rng);
+    const targets = new Set(clozeTargets(item, progress, deps.clock.now(), loom.woven));
+    const ex = buildCloze(item, known, deps.rng, targets);
     if (ex && ex.options.length >= 2) return ex;
   }
   return buildProduce(item);
@@ -140,6 +148,8 @@ export interface AnswerOutcome {
   ells: number;
   /** Words that earned partial credit from a sentence answer. */
   credited: ImplicitCredit[];
+  /** True after the first correct answer to a sentence never seen before: the learner may say they knew it. */
+  canClaimKnown: boolean;
 }
 
 /**
@@ -158,7 +168,8 @@ export async function answerLearning(
   const result = answerCard(loom.session, card, correct, now);
   let session = result.session;
 
-  const existing = (await getProgress(card.itemId, deps.db)) ?? newProgress(card.itemId);
+  const saved = await getProgress(card.itemId, deps.db);
+  const existing = saved ?? newProgress(card.itemId);
   const rung = Math.min(Math.max(LADDER.indexOf(card.exercise as ExerciseType), 0) + (correct ? 1 : 0), LADDER.length - 1);
   let row: Progress = {
     ...existing,
@@ -197,7 +208,8 @@ export async function answerLearning(
     sentencesQueued = queued.sentencesQueued;
   }
 
-  return { loom: { ...loom, session, sentencesQueued, woven }, learned: result.learned, ells, credited };
+  const canClaimKnown = correct && loom.mode === 'learn' && isSentence(item) && saved === undefined && !result.learned;
+  return { loom: { ...loom, session, sentencesQueued, woven }, learned: result.learned, ells, credited, canClaimKnown };
 }
 
 /** Queues the batch's sentences once every word in it has been woven or counted as known. */
@@ -241,18 +253,33 @@ export async function respondToIntroduction(
     await setSetting(SNOOZE_KEY, { ...snoozed, [card.itemId]: result.snoozedUntil }, deps.db);
     batchWords = batchWords.filter((id) => id !== card.itemId);
   }
-  if (result.known) {
-    const existing = (await getProgress(card.itemId, deps.db)) ?? newProgress(card.itemId);
-    const scarfId = loom.scarfId ?? existing.ownerScarfId;
-    // No schedule (fsrs stays null), so it never gets a moth hole or a review.
-    await putProgress({ ...existing, phase: 'review', wovenAt: now, ownerScarfId: scarfId }, deps.db);
-  }
+  if (result.known) await saveKnown(deps, loom, card.itemId, now);
 
   let next: LoomSession = { ...loom, session, batchWords };
   const queued = await queueSentencesWhenBatchDone(deps, next, session);
   session = queued.session;
   next = { ...next, session, sentencesQueued: queued.sentencesQueued };
   return { loom: next, known: result.known };
+}
+
+/** Records an item as known: learned, so it unlocks what depends on it, but never scheduled or woven. */
+async function saveKnown(deps: ServiceDeps, loom: LoomSession, itemId: ItemId, now: number): Promise<void> {
+  const existing = (await getProgress(itemId, deps.db)) ?? newProgress(itemId);
+  const scarfId = loom.scarfId ?? existing.ownerScarfId;
+  // No schedule (fsrs null), so it never gets a moth hole or a review.
+  await putProgress(
+    { ...existing, phase: 'review', fsrs: null, correctInSession: 0, ladderStep: 0, wovenAt: now, ownerScarfId: scarfId },
+    deps.db,
+  );
+}
+
+/**
+ * The learner already knew a sentence they have just answered correctly for
+ * the first time. It counts as known, like a known word, and leaves the session.
+ */
+export async function claimKnown(deps: ServiceDeps, loom: LoomSession, itemId: ItemId): Promise<LoomSession> {
+  await saveKnown(deps, loom, itemId, deps.clock.now());
+  return { ...loom, session: dropItem(loom.session, itemId) };
 }
 
 /** Adds the sentences the batch's words have just unlocked, at most two per new word. */

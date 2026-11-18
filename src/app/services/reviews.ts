@@ -1,6 +1,6 @@
 import { appendReview, getProgress, getScarf, putProgress } from '../../db/repo';
 import type { ImplicitCredit } from '../../domain/credit';
-import { buildCloze, buildProduce, buildRecognise, type Exercise } from '../../domain/exercises';
+import { buildCloze, buildProduce, buildRecognise, clozeTargets, type Exercise } from '../../domain/exercises';
 import { mothHoles, type MothCandidate, type MothResult } from '../../domain/moths';
 import { isDue, review } from '../../domain/scheduler';
 import type { ItemId, Progress, Rating } from '../../domain/types';
@@ -49,7 +49,8 @@ export async function scarfMoths(deps: ServiceDeps, scarfId: string): Promise<Mo
 
 /**
  * The single question for a due item. Words and forms are recognised at first,
- * sentences are blanked; once an item has passed two reviews it is typed.
+ * sentences are blanked on a word that is due too (or typed whole when none
+ * is); once an item has passed two reviews it is typed.
  */
 export async function buildReviewExercise(deps: ServiceDeps, itemId: ItemId): Promise<Exercise> {
   const item = deps.items.get(itemId);
@@ -60,7 +61,8 @@ export async function buildReviewExercise(deps: ServiceDeps, itemId: ItemId): Pr
 
   if (step < CHOICE_UNTIL_STEP) {
     if (item.kind === 'sentence') {
-      const ex = buildCloze(item, known, deps.rng);
+      // Blank only a word that is itself due; otherwise the sentence is typed whole.
+      const ex = buildCloze(item, known, deps.rng, new Set(clozeTargets(item, progress, deps.clock.now(), [])));
       if (ex && ex.options.length >= 2) return ex;
     } else {
       const ex = buildRecognise(item, known, deps.rng);

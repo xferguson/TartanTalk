@@ -360,6 +360,17 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 - **Depends on:** F1
 
 
+### W3-G
+
+- **Status:** in progress (ccr-8e8d8cab-nyomuv)
+
+**Known sentences, and clozes only for words in play.** After a correct first answer to a sentence the learner has never seen, offer "I already knew this" (saved like a known word: learned, no schedule, no band). A cloze blanks only a word being learned in this run or one due for review, never a word marked known or not yet due; with no such word the sentence is typed whole. Applies to learning and reweaving.
+
+- **Owns:** `src/domain/{session,exercises}.ts`, `src/app/services/{learning,reviews}.ts`, `src/app/store/sessionStore.ts`, `src/ui/screens/Loom/**`, matching tests
+
+- **Depends on:** W3-E
+
+
 ### W2-E2
 
 - **Status:** done (#52)
@@ -576,6 +587,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - Wrong: `--rust`, "Not quite. It's **{answer}**." and the item is re-queued.
 - **Rating:** after a correct review answer, show the label "How did that feel?" and the RatingBar (pre-selected Good, or Hard after an accent slip). No rating appears while learning a new item (the ladder handles it) or after a wrong answer (automatically Again).
 - **Implicit-credit note:** after a typed full sentence, show at 0.82rem `--muted`: "Typing the full sentence also counts as a review for {list of Gaelic words}."
+- **Already knew this (W3-G):** after a correct answer to a sentence shown for the first time (no earlier answer saved), a ghost button "I already knew this" sits after **Next** in the same ButtonRow. It saves the sentence as known (learned, no schedule, nothing woven), drops its remaining ladder cards, counts it as answered, and shows the next card. It never appears in reweave or tangles, or on later answers.
 - **Weaving moment:** when an item is learned (2 correct answers), show the scarf strip with the shuttle animation adding its band, and the caption "Woven into {scarf}: +{fraction} ell".
 - **Empty state** (`/loom` without a scarf): show "Choose a scarf to weave" and the shelf's scarf list as links.
 
