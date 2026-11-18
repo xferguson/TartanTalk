@@ -1,6 +1,6 @@
 import type { ItemId, MothHole } from '../domain/types';
 import { drawFringe, drawHole, drawMoth } from './draw';
-import { layoutBands, mothPosition, placeHoles, type Geometry } from './layout';
+import { layoutBands, mothPosition, placeHoles, wovenRect, type Geometry } from './layout';
 
 export interface PaintOptions {
   geometry: Geometry;
@@ -22,9 +22,20 @@ export function paintScarf(ctx: CanvasRenderingContext2D, o: PaintOptions): void
   const g = o.geometry;
   const c = g.cloth;
   ctx.clearRect(0, 0, g.width, g.height);
-  ctx.fillStyle = o.fill;
-  ctx.fillRect(c.x, c.y, c.w, c.h);
-  drawFringe(ctx, o.threads, c, g.variant === 'strip');
+  // The unwoven part of the loom is a dashed outline, so the learner can see how far there is to go.
+  ctx.save();
+  ctx.setLineDash([4, 4]);
+  ctx.strokeStyle = 'rgba(128,128,128,.4)';
+  ctx.lineWidth = 1;
+  ctx.strokeRect(c.x + 0.5, c.y + 0.5, c.w - 1, c.h - 1);
+  ctx.restore();
+
+  const woven = wovenRect(o.order.length, g);
+  if (o.order.length > 0) {
+    ctx.fillStyle = o.fill;
+    ctx.fillRect(woven.x, woven.y, woven.w, woven.h);
+    drawFringe(ctx, o.threads, woven, g.variant === 'strip');
+  }
 
   if (g.variant === 'detail') {
     ctx.strokeStyle = 'rgba(255,255,255,.12)';

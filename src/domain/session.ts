@@ -213,13 +213,15 @@ export interface StartBatchInput {
   words: readonly ItemId[];
   sentences?: readonly Sentence[];
   batch: number;
+  /** False for words the learner has met before (tangles), which go straight to the quiz. */
+  introduce?: boolean;
   /** Carry over waiting cards and correct counts from an earlier batch. */
   previous?: Session;
 }
 
-export function startBatch({ words, sentences = [], batch, previous }: StartBatchInput): Session {
+export function startBatch({ words, sentences = [], batch, introduce = true, previous }: StartBatchInput): Session {
   const cards: Card[] = [
-    ...words.map((id) => ({ itemId: id, exercise: 'introduce' as const, focal: [id], batch })),
+    ...words.map((id) => ({ itemId: id, exercise: introduce ? ('introduce' as const) : LADDER[0], focal: [id], batch })),
     ...sentences.map((s) => ({ itemId: s.id, exercise: LADDER[0], focal: [s.id, ...trackedTokens(s)], pattern: s.pattern, batch })),
   ];
   return {
