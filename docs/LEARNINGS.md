@@ -322,7 +322,7 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Type:** issue
 
-- **Seen in:** #30
+- **Seen in:** #30, #63
 
 - **Detail:** GitHub does not start `pull_request` workflows for a PR that cannot merge cleanly. `ship-pr` waited for a check-suite event that never came, and the user had to notice. Most conflicts are in `docs/WORKPLAN.md` and `docs/LEARNINGS.md`, where every session edits the same table rows or appends at the end of the file.
 
