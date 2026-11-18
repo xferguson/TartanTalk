@@ -362,7 +362,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-G
 
-- **Status:** in progress (ccr-8e8d8cab-nyomuv)
+- **Status:** done (#63)
 
 **Known sentences, and clozes only for words in play.** After a correct first answer to a sentence the learner has never seen, offer "I already knew this" (saved like a known word: learned, no schedule, no band). A cloze blanks only a word being learned in this run or one due for review, never a word marked known or not yet due; with no such word the sentence is typed whole. Applies to learning and reweaving.
 
