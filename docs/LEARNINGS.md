@@ -287,6 +287,19 @@ _Real setts were blocked on licences, so UI work waited._
 
 - **Status:** resolved
 
+### known-items-leak-into-clozes
+_What the learner already knows must be checked wherever an exercise singles out a word._
+
+- **Type:** mistake
+
+- **Seen in:** #63
+
+- **Detail:** Words marked "I already know this" were still blanked in the clozes for their sentences, and a cloze picked any token at random, so a word could be reviewed before it was due. A sentence typed correctly the first time had no "I already knew this" option. The user found both in real use.
+
+- **Resolution:** `clozeTargets` limits a blank to words woven in this run or due for review. With none, the sentence is typed whole. A first correct sentence answer offers "I already knew this". When adding a way to mark something known, check every builder that picks a target.
+
+- **Status:** resolved
+
 ### no-project-details-in-user-agent
 
 _A descriptive User-Agent nearly carried the project owner's handle to an outside service._
@@ -587,7 +600,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 ### L24. Quizzing a word before showing it is frustrating
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** #60
+- **Seen in:** #60, #63
 - **Detail:** The first card for a new word was a multiple-choice question. Found by the user in real use, not by tests.
 - **Resolution:** An introduce card (word and meaning only) comes first. Check each new flow from the learner's chair, not just the data model.
 - **Status:** resolved
