@@ -136,3 +136,19 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
 - **Status:** resolved
+
+### L15. A scarf filter by tags starves its own sentences
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** W1-F2
+- **Detail:** `candidateItems` kept only items matching the scarf's tags, so a preposition scarf never offered `tha` or the nouns its sentences need. Those sentences could never unlock and the learner only saw prepositions as bare words.
+- **Resolution:** Candidates now include the words of matching sentences (`scarfItems`). Test content against a realistic filter, not only a filter that matches every word.
+- **Status:** resolved
+
+### L16. Quizzing a word before showing it is frustrating
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** W1-F2
+- **Detail:** The first card for a new word was a multiple-choice question. Found by the user in real use, not by tests.
+- **Resolution:** An introduce card (word and meaning only) comes first. Check each new flow from the learner's chair, not just the data model.
+- **Status:** resolved
