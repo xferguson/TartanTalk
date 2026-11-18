@@ -99,11 +99,12 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 ### L11. Fresh cloud sessions have no `node_modules`
 - **Type:** difficulty
-- **Tally:** 2
-- **Seen in:** #12, #13
+- **Tally:** 3
+- **Seen in:** #12, #13, W3-D install prompt PR
 - **Detail:** `npm run lint`, `typecheck` and `test` failed with missing-package errors until dependencies were installed.
 - **Resolution:** Run `npm ci` before the first check in a new session.
-- **Status:** open
+- **Proposal:** A `SessionStart` hook in `.claude/settings.json` that runs `npm ci` when `node_modules` is missing, so every cloud session starts ready. Needs the user's approval before it is added.
+- **Status:** proposal pending user
 
 ### L12. Testing-library does not auto-clean between tests here
 - **Type:** mistake
@@ -135,4 +136,19 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 - **Seen in:** #15
 - **Detail:** Only one remote branch is allowed per session. While W1-D's PR was waiting on CI, the finished W1-F files couldn't be pushed without joining that PR, and the stop hook objects to untracked files.
 - **Resolution:** Commit the next task to a local-only staging branch. After the earlier PR merges, reset the work branch to `origin/main`, cherry-pick the staging commit, and ship it.
+- **Status:** resolved
+
+### L15. Stubbing `matchMedia` in Playwright: a MediaQueryList's `matches` is read-only
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** W3-D install prompt PR
+- **Detail:** `Object.assign(real('all'), { matches: true })` threw inside the page, so the whole app failed to render and the test timed out looking for a heading.
+- **Resolution:** Wrap the real list in a `Proxy` that overrides only `matches` and binds functions to the target. A test that "finds nothing" may mean the page crashed; check the console first.
+- **Status:** resolved
+
+### L16. Install-banner state belongs in a pure function with injected `now`
+- **Type:** efficiency
+- **Tally:** 1
+- **Seen in:** W3-D install prompt PR
+- **Detail:** Putting the show/hide rules (touch only, standalone, installed, 14-day snooze, iOS vs native) in `src/domain/installPrompt.ts` made them testable without a browser; the hook and e2e tests only cover wiring. Browser detection (`pointer: coarse`, `display-mode`, iPadOS posing as a Mac) stays in the app layer.
 - **Status:** resolved

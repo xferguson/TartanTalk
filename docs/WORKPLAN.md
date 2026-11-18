@@ -85,6 +85,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 | W3-A | **End-to-end slice test.** A Playwright journey: create a scarf, learn a batch, unlock a sentence, time-travel, see moths, reweave. Fix integration bugs in small PRs. | `tests/e2e/slice.spec.ts` (fixes go in owner paths via separate PRs) | all of Wave 2 | todo |
 | W3-B | **Content QA and flagging.** A "flag error" button that stores the flag locally and can export flags; first review pass over AI content. | `src/ui/components/FlagButton*`, `content/**` review edits | W2-A, W2-G | todo |
 | W3-C | **Accessibility and polish audit.** Contrast in both themes, focus order, reduced motion, 44 px targets, `lang="gd"`, and text alternatives for canvases. | fixes via small PRs in owner paths | all of Wave 2 | todo |
+| W3-D | **Install prompt.** Spec: Appendix B12. A dismissible banner on touch devices that offers a one-tap install (Android/Chromium) or Add to Home Screen steps (iOS). Hidden when already installed or running standalone, and snoozed 14 days after "Not now". Never on desktop. | `src/domain/installPrompt.ts`, `src/app/install*`, `src/app/useInstallPrompt.ts`, `src/ui/components/InstallBanner*`, `src/ui/components/Layout*`, `tests/unit/install*`, `tests/unit/InstallBanner.test.tsx` | F1 | in progress (ccr-0f909d1b-s31nkv) |
 
 ## Parallelism at a glance
 - **Wave 1 can run up to 15 sessions at once.** Code tasks own disjoint files, and data tasks own disjoint YAML folders.
@@ -308,3 +309,10 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - A row: the Gaelic in display font at 1.1rem on the left, the English in `--muted` beneath it, and the owning scarf name as a calm chip on the right.
 - **Primary "Untangle {n}":** runs a learning-ladder session over all tangled items.
 - **Empty state:** "No tangles. Every thread is running smoothly."
+
+### B12. Install prompt (W3-D) (no mock-up: tech-lead spec)
+- **Placement:** a Card-style banner in `Layout`, directly above the bottom nav, inside the same max-width as `main`. `role="region"`, `aria-label="Install Tartan Talk"`.
+- **Copy:** title "Take Tartan Talk with you" (display, 1rem, 700). Body (0.85rem, `--muted`): native, "Install it to open from your home screen and weave offline." iOS, "Tap Share, then Add to Home Screen." Buttons: primary "Install" (native only, `--heather` background, `--on-accent` text) and secondary "Not now". Both at least 44px tall.
+- **When it shows (all must hold):** a touch-first device (`(pointer: coarse)`, or iPadOS reporting as a Mac with touch); not running standalone (`display-mode: standalone` or `navigator.standalone`); not already installed (`appinstalled` seen); not snoozed; and either the browser has fired `beforeinstallprompt` (native) or the device is iOS Safari-family (instructions). Desktop never sees it.
+- **Snooze:** "Not now", or dismissing the browser's own dialog, hides it for 14 days. Installing hides it for good. State lives in `localStorage` key `tt-install` (local only, no cookies sent anywhere). If storage is unavailable the banner still works for the session.
+- **Motion:** none beyond the global transition rule. **Focus:** visible ring on both buttons.
