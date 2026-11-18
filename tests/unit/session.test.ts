@@ -8,12 +8,24 @@ import {
   orderCards,
   planWordBatch,
   selectSentences,
+  respondToIntro,
   startBatch,
+  LATER_MS,
   type Card,
+  type Session,
 } from '../../src/domain/session';
 import { ALL_ITEMS, SENTENCES, agad, agam, aige, beurla, gaidhlig, gaol, iHaveEnglish, iHaveGaelic, heHasGaelic, iLoveYou, ort, orm, tha, youHaveGaelic, youLoveMe } from './fixtures/slice';
 
 const T0 = Date.UTC(2026, 10, 1, 9);
+
+/** Answers "Got it" on every introduce card, leaving the quiz cards. */
+function past(session: Session): Session {
+  let s = session;
+  for (let c = s.queue.find((q) => q.exercise === 'introduce'); c; c = s.queue.find((q) => q.exercise === 'introduce')) {
+    s = respondToIntro(s, c, 'got-it', T0).session;
+  }
+  return s;
+}
 
 describe('planWordBatch', () => {
   it('picks 3-4 words that complete a sentence before falling back to frequency', () => {
@@ -33,6 +45,75 @@ describe('planWordBatch', () => {
     const batch = planWordBatch({ candidates: ALL_ITEMS, learned: new Set([tha.id]), size: 4 });
     expect(batch).not.toContain(tha.id);
     expect(batch.every((id) => !id.startsWith('sent:'))).toBe(true);
+  });
+});
+
+describe('planWordBatch: sentences first, without starving vocabulary', () => {
+  it('prefers sentences that teach the most target words for the fewest new words', () => {
+    // Scarf is about prep:aig. After tha and Gàidhlig, each new form completes a sentence on its own.
+    const learned = new Set([tha.id, gaidhlig.id]);
+    const batch = planWordBatch({ candidates: ALL_ITEMS, learned, size: 3, tagFilter: ['prep:aig'] });
+    expect(batch).toEqual(expect.arrayContaining([agam.id, agad.id, aige.id]));
+  });
+
+  it('does not repeat a target form just to reuse a supporting noun', () => {
+    // agam is learned, so Beurla+agam (gain 0.25) loses to a fresh form (gain 1).
+    const learned = new Set([tha.id, gaidhlig.id, agam.id]);
+    const batch = planWordBatch({ candidates: ALL_ITEMS, learned, size: 2, tagFilter: ['prep:aig'] });
+    expect(batch).toEqual(expect.arrayContaining([agad.id, aige.id]));
+  });
+
+  it('moves toward a sentence that is too big for one batch instead of ignoring sentences', () => {
+    // sent:love-001 needs tha, gaol, agam, ort (4) but the batch holds 2: take its words, target forms first.
+    const batch = planWordBatch({ candidates: [tha, gaol, agam, ort, iLoveYou], learned: new Set(), size: 2, tagFilter: ['prep:aig', 'prep:air'] });
+    expect(batch).toEqual(expect.arrayContaining([agam.id, ort.id]));
+  });
+
+  it('skips words snoozed with Later until 24 hours have passed', () => {
+    const snoozed = new Map([[agam.id, T0 + LATER_MS]]);
+    const during = planWordBatch({ candidates: ALL_ITEMS, learned: new Set([tha.id, gaidhlig.id]), size: 4, snoozed, now: T0 });
+    expect(during).not.toContain(agam.id);
+    const after = planWordBatch({ candidates: ALL_ITEMS, learned: new Set([tha.id, gaidhlig.id]), size: 4, snoozed, now: T0 + LATER_MS });
+    expect(after).toContain(agam.id);
+  });
+});
+
+describe('introducing a new word', () => {
+  it('shows each new word as an introduce card, with no quiz first', () => {
+    const session = startBatch({ words: [gaol.id, tha.id], batch: 1 });
+    expect(session.queue.every((c) => c.exercise === 'introduce')).toBe(true);
+  });
+
+  it('"Got it" tests the same word straight away with recognition', () => {
+    let session = startBatch({ words: [gaol.id, tha.id], batch: 1 });
+    const intro = (nextCard(session, T0) as { card: Card }).card;
+    const r = respondToIntro(session, intro, 'got-it', T0);
+    session = r.session;
+    expect(r).toMatchObject({ known: null, snoozedUntil: null });
+    expect(nextCard(session, T0)).toMatchObject({ type: 'card', card: { itemId: intro.itemId, exercise: 'recognise' } });
+  });
+
+  it('"Later" drops the word for 24 hours and never quizzes it', () => {
+    const session = startBatch({ words: [gaol.id, tha.id], batch: 1 });
+    const intro = session.queue[0];
+    const r = respondToIntro(session, intro, 'later', T0);
+    expect(r.snoozedUntil).toBe(T0 + LATER_MS);
+    expect(r.session.queue.some((c) => c.itemId === intro.itemId)).toBe(false);
+    expect(r.learned).toBeNull();
+  });
+
+  it('"I already know this" marks it known, with no quiz and nothing to weave', () => {
+    const session = startBatch({ words: [gaol.id, tha.id], batch: 1 });
+    const intro = session.queue[0];
+    const r = respondToIntro(session, intro, 'known', T0);
+    expect(r.known).toBe(intro.itemId);
+    expect(r.learned).toBeNull();
+    expect(r.session.queue.some((c) => c.itemId === intro.itemId)).toBe(false);
+  });
+
+  it('refuses to score an introduce card as an answer', () => {
+    const session = startBatch({ words: [gaol.id], batch: 1 });
+    expect(() => answerCard(session, session.queue[0], true, T0)).toThrow();
   });
 });
 
@@ -87,24 +168,25 @@ describe('orderCards', () => {
 describe('learning ladder within a session', () => {
   it('climbs recognise, cloze, produce and reports learned after two correct answers', () => {
     expect(LADDER).toEqual(['recognise', 'cloze', 'produce']);
-    let session = startBatch({ words: [gaol.id, tha.id], batch: 1 });
+    let session = past(startBatch({ words: [gaol.id, tha.id], batch: 1 }));
     const first = nextCard(session, T0);
-    expect(first).toMatchObject({ type: 'card', card: { itemId: gaol.id, exercise: 'recognise' } });
+    expect(first).toMatchObject({ type: 'card', card: { exercise: 'recognise' } });
+    const target = (first as { card: Card }).card.itemId;
 
     let r = answerCard(session, (first as { card: Card }).card, true, T0);
     expect(r.learned).toBeNull();
     session = r.session;
-    const gaolCards = session.queue.filter((c) => c.itemId === gaol.id);
+    const gaolCards = session.queue.filter((c) => c.itemId === target);
     expect(gaolCards).toHaveLength(1);
     expect(gaolCards[0].exercise).toBe('cloze');
 
     r = answerCard(session, gaolCards[0], true, T0 + 1000);
-    expect(r.learned).toBe(gaol.id);
-    expect(r.session.queue.some((c) => c.itemId === gaol.id)).toBe(false);
+    expect(r.learned).toBe(target);
+    expect(r.session.queue.some((c) => c.itemId === target)).toBe(false);
   });
 
   it('re-queues a miss for at least ten minutes and after the rest of the batch', () => {
-    let session = startBatch({ words: [orm.id, ort.id], batch: 1 });
+    let session = past(startBatch({ words: [orm.id, ort.id], batch: 1 }));
     const missed = session.queue.find((c) => c.itemId === orm.id)!;
     session = answerCard(session, missed, false, T0).session;
     expect(session.queue.some((c) => c.itemId === orm.id)).toBe(false);
@@ -122,7 +204,7 @@ describe('learning ladder within a session', () => {
   });
 
   it('keeps a missed card out until its batch is finished, even after ten minutes', () => {
-    let session = startBatch({ words: [orm.id, ort.id, heHasGaelic.id, youLoveMe.id], batch: 1 });
+    let session = past(startBatch({ words: [orm.id, ort.id, heHasGaelic.id, youLoveMe.id], batch: 1 }));
     const missed = session.queue[0];
     session = answerCard(session, missed, false, T0).session;
     const n = nextCard(session, T0 + RELEARN_AFTER_MS + 1);

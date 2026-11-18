@@ -65,7 +65,7 @@ describe('ScarfScreen', () => {
     expect(screen.getByText('items: 1 words, 1 forms, 1 sentences')).toBeTruthy();
     expect(screen.getByText('moth holes waiting')).toBeTruthy();
     expect(screen.getByText('Love')).toBeTruthy();
-    expect(screen.getByRole('link', { name: 'Weave new' }).getAttribute('href')).toBe('/loom/s1');
+    expect(screen.getByRole('link', { name: 'Weave' }).getAttribute('href')).toBe('/loom/s1');
   });
 
   it('offers Reweave only when there are holes, and a hole links to its item', async () => {

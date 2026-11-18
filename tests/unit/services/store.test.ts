@@ -4,7 +4,7 @@ import { startScarf } from '../../../src/app/services';
 import { createSessionStore } from '../../../src/app/store/sessionStore';
 import { getScarf } from '../../../src/db/repo';
 import type { Exercise } from '../../../src/domain/exercises';
-import { DAY, harness, SCARF_TAGS, type Harness } from './helpers';
+import { DAY, harness, passIntros, SCARF_TAGS, type Harness } from './helpers';
 
 let h: Harness;
 afterEach(async () => {
@@ -22,6 +22,8 @@ describe('session store', () => {
 
     let weavings = 0;
     for (let guard = 0; guard < 200 && !store.getState().done; guard++) {
+      await passIntros(store);
+      if (store.getState().done) break;
       const { exercise } = store.getState();
       expect(exercise).not.toBeNull();
       await store.getState().submit(answerOf(exercise!));
@@ -38,6 +40,7 @@ describe('session store', () => {
     const store = createSessionStore(() => h.deps);
     const scarf = await startScarf(h.deps, { name: 'S', tagFilter: ['topic:love'], tartanId: 't' });
     await store.getState().startLearning(scarf.id);
+    await passIntros(store);
     await store.getState().submit('definitely wrong');
     expect(store.getState().feedback?.check.correct).toBe(false);
     await store.getState().submit(answerOf(store.getState().exercise!));
@@ -50,6 +53,8 @@ describe('session store', () => {
     const scarf = await startScarf(h.deps, { name: 'S', tagFilter: SCARF_TAGS, tartanId: 't' });
     await store.getState().startLearning(scarf.id);
     while (!store.getState().done) {
+      await passIntros(store);
+      if (store.getState().done) break;
       await store.getState().submit(answerOf(store.getState().exercise!));
       await store.getState().next();
     }
@@ -77,6 +82,8 @@ describe('session store', () => {
     const scarf = await startScarf(h.deps, { name: 'S', tagFilter: ['topic:love'], tartanId: 't' });
     await store.getState().startLearning(scarf.id);
     while (!store.getState().done) {
+      await passIntros(store);
+      if (store.getState().done) break;
       await store.getState().submit(answerOf(store.getState().exercise!));
       await store.getState().next();
     }

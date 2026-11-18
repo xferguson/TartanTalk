@@ -309,6 +309,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 
 ## Wave 3: integration and hardening
+### W3-E
+
+- **Status:** in progress (claude/word-learning-sentence-priority-qjy3a6)
+
+**Introduce first, and pick words sentence-first.** An introduce card (word and meaning, no quiz) with Got it / Later (24 h) / I already know this comes before any quiz. `planWordBatch` scores sentences by scarf words taught per new word, and scarf candidates pull in the words their sentences need. "Weave new" is now "Weave". "Known" words are saved as learned with no schedule and no band on the scarf.
+
+- **Owns:** `src/domain/{session,unlock}.ts`, `src/app/services/learning.ts`, `src/app/store/sessionStore.ts`, `src/ui/screens/Loom/**`, matching tests
+
+- **Depends on:** W2-G
+
 ### W3-A
 
 - **Status:** todo
@@ -536,7 +546,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
     - "{count}", "items: {w} words, {f} forms, {s} sentences"
     - "{holes}", "moth holes waiting"
     - Then the scarf's tags as non-interactive tag chips (TagPicker style, unselected).
-- **Actions:** primary "Weave new" (`/loom/:id`); ghost "Reweave {n}" (`/reweave/:id`) only when n > 0.
+- **Actions:** primary "Weave" (`/loom/:id`); ghost "Reweave {n}" (`/reweave/:id`) only when n > 0.
 - Tapping a hole goes to `/reweave/:id` focused on that item.
 
 ### B6. Loom screen (W2-G)

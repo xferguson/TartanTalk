@@ -5,7 +5,7 @@ import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { startScarf } from '../../../src/app/services';
 import { createSessionStore } from '../../../src/app/store/sessionStore';
-import { putScarf } from '../../../src/db/repo';
+import { getProgress, getScarf, putScarf } from '../../../src/db/repo';
 import { LoomScreen } from '../../../src/ui/screens/Loom/LoomScreen';
 import { harness, SCARF_TAGS, T0, type Harness } from '../services/helpers';
 
@@ -54,8 +54,47 @@ describe('LoomScreen', () => {
     expect((await screen.findByRole('link', { name: 'Love' })).getAttribute('href')).toBe('/loom/s1');
   });
 
+  it('introduces a new word first, with its meaning and no quiz', async () => {
+    const { store } = await open('/loom/:id');
+    expect(await screen.findByText('A new word')).toBeTruthy();
+    const word = store.getState().itemId!;
+    expect(screen.getByText(h.deps.items.get(word)!.en)).toBeTruthy();
+    expect(screen.queryByText(/Choose the meaning|Type the Gaelic/)).toBeNull();
+    for (const name of ['Got it', 'Later', 'I already know this']) expect(screen.getByRole('button', { name })).toBeTruthy();
+  });
+
+  it('"Got it" goes on to check the same word', async () => {
+    const { store } = await open('/loom/:id');
+    await screen.findByText('A new word');
+    const word = store.getState().itemId;
+    fireEvent.click(screen.getByRole('button', { name: 'Got it' }));
+    expect(await screen.findByText(/Choose the meaning/)).toBeTruthy();
+    expect(store.getState().itemId).toBe(word);
+  });
+
+  it('"I already know this" counts the word as known and moves on without a quiz', async () => {
+    const { store } = await open('/loom/:id');
+    await screen.findByText('A new word');
+    const word = store.getState().itemId;
+    fireEvent.click(screen.getByRole('button', { name: 'I already know this' }));
+    await waitFor(() => expect(store.getState().itemId).not.toBe(word));
+    expect((await getProgress(word!, h.database))?.wovenAt).not.toBeNull();
+    expect((await getScarf(store.getState().scarfId!, h.database))?.wovenOrder).not.toContain(word);
+  });
+
+  it('"Later" puts the word off without a quiz', async () => {
+    const { store } = await open('/loom/:id');
+    await screen.findByText('A new word');
+    const word = store.getState().itemId;
+    fireEvent.click(screen.getByRole('button', { name: 'Later' }));
+    await waitFor(() => expect(store.getState().itemId).not.toBe(word));
+    expect(await getProgress(word!, h.database)).toBeUndefined();
+  });
+
   it('shows the first exercise with its label, top line and progress', async () => {
     await open('/loom/:id');
+    await screen.findByText('A new word');
+    fireEvent.click(screen.getByRole('button', { name: 'Got it' }));
     expect(await screen.findByText(/Love · new item 1 of /)).toBeTruthy();
     expect(screen.getByRole('progressbar', { name: 'Session progress' })).toBeTruthy();
     expect(screen.getByText(/Choose the meaning|Type the Gaelic/)).toBeTruthy();
@@ -63,7 +102,9 @@ describe('LoomScreen', () => {
 
   it('gives gentle feedback on a miss and moves on with Next', async () => {
     const { store } = await open('/loom/:id');
-    await screen.findByText(/new item 1 of/);
+    await screen.findByText('A new word');
+    fireEvent.click(screen.getByRole('button', { name: 'Got it' }));
+    await screen.findByText(/Choose the meaning|Type the Gaelic/);
     const ex = store.getState().exercise!;
     if (ex.type === 'recognise') {
       const wrong = ex.options.find((o) => !o.correct)!;
@@ -79,8 +120,13 @@ describe('LoomScreen', () => {
 
   it('weaves an item in, with a caption, after it has been learned', async () => {
     const { store } = await open('/loom/:id');
-    await screen.findByText(/new item 1 of/);
     for (let guard = 0; guard < 40 && !store.getState().weaving; guard++) {
+      await screen.findByText(/A new word|Choose the meaning|Fill the gap|Type the Gaelic/);
+      if (store.getState().card?.exercise === 'introduce') {
+        fireEvent.click(screen.getByRole('button', { name: 'Got it' }));
+        await waitFor(() => expect(store.getState().card?.exercise).not.toBe('introduce'));
+      }
+      await screen.findByText(/Choose the meaning|Fill the gap|Type the Gaelic/);
       const ex = store.getState().exercise;
       if (!ex) break;
       if (ex.type === 'produce') {

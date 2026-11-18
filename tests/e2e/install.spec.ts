@@ -23,7 +23,7 @@ test.describe('on a phone', () => {
 
     await page.reload();
     await fireInstallPrompt(page);
-    await expect(page.getByRole('heading', { name: 'Madainn mhath!' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Madainn mhath!|Feasgar math!/ })).toBeVisible();
     await expect(banner(page)).toBeHidden();
   });
 
@@ -63,7 +63,7 @@ test.describe('on a phone', () => {
     });
     await page.goto('/');
     await fireInstallPrompt(page);
-    await expect(page.getByRole('heading', { name: 'Madainn mhath!' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Madainn mhath!|Feasgar math!/ })).toBeVisible();
     await expect(banner(page)).toBeHidden();
   });
 });
@@ -71,6 +71,6 @@ test.describe('on a phone', () => {
 test('never shows on desktop', async ({ page }) => {
   await page.goto('/');
   await fireInstallPrompt(page);
-  await expect(page.getByRole('heading', { name: 'Madainn mhath!' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /Madainn mhath!|Feasgar math!/ })).toBeVisible();
   await expect(banner(page)).toBeHidden();
 });

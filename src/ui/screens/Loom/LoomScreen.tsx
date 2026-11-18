@@ -182,6 +182,26 @@ function Session({ scarfId, store, database, items: injected, now }: Omit<Requir
       </>
     );
   }
+  if (s.card?.exercise === 'introduce') {
+    const word = items.get(s.card.itemId);
+    return (
+      <>
+        <p className={styles.top}>{topLine(scarf.name, s.mode, s.answered, s.total)}</p>
+        <ProgressBar value={s.answered} max={s.total} label="Session progress" />
+        <Card>
+          <p className={styles.label}>A new word</p>
+          <p className={styles.prompt} lang="gd">{word?.gd}</p>
+          <p className={styles.plain}>{word?.en}</p>
+        </Card>
+        {strip}
+        <ButtonRow>
+          <Button onClick={() => void store.getState().introduce('got-it')} autoFocus>Got it</Button>
+          <Button variant="ghost" onClick={() => void store.getState().introduce('later')}>Later</Button>
+          <Button variant="ghost" onClick={() => void store.getState().introduce('known')}>I already know this</Button>
+        </ButtonRow>
+      </>
+    );
+  }
   if (!ex) return null;
 
   const respond = (text: string) => void store.getState().submit(text);

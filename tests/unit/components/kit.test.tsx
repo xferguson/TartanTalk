@@ -16,8 +16,8 @@ afterEach(cleanup);
 describe('Button', () => {
   it('fires onClick', () => {
     const fn = vi.fn();
-    render(<Button onClick={fn}>Weave new</Button>);
-    fireEvent.click(screen.getByRole('button', { name: 'Weave new' }));
+    render(<Button onClick={fn}>Weave</Button>);
+    fireEvent.click(screen.getByRole('button', { name: 'Weave' }));
     expect(fn).toHaveBeenCalled();
   });
   it('renders a link when given `to`', () => {

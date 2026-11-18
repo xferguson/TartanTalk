@@ -6,6 +6,7 @@ import {
   buildReviewExercise,
   planReweave,
   rateReview,
+  respondToIntroduction,
   scarfLengthElls,
   scarfMoths,
   startLearning,
@@ -17,7 +18,7 @@ import {
 } from '../../../src/app/services';
 import { getProgress, getScarf, listReviews } from '../../../src/db/repo';
 import type { Card } from '../../../src/domain/session';
-import { DAY, harness, SCARF_TAGS, type Harness } from './helpers';
+import { DAY, harness, learningPastIntros, SCARF_TAGS, type Harness } from './helpers';
 
 let h: Harness;
 const setup = () => (h = harness());
@@ -35,6 +36,10 @@ async function weaveEverything(deps: ServiceDeps, loom: LoomSession): Promise<Lo
   for (let guard = 0; guard < 200; guard++) {
     const up = upNext(current, deps.clock.now());
     if (up.type !== 'card') return current;
+    if (up.card.exercise === 'introduce') {
+      current = (await respondToIntroduction(deps, current, up.card, 'got-it')).loom;
+      continue;
+    }
     const ex = await buildExercise(deps, up.card, current.batchWords);
     current = (await answerLearning(deps, current, up.card, ex, true)).loom;
   }
@@ -58,7 +63,7 @@ describe('learning', () => {
   it('offers different words while a missed item is resting', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    const first = (await startLearning(h.deps, scarf.id))!;
+    const first = (await learningPastIntros(h.deps, scarf.id))!;
     const card = first.session.queue[0];
     const ex = await buildExercise(h.deps, card, first.batchWords);
     const missed = await answerLearning(h.deps, first, card, ex, false);
@@ -73,7 +78,7 @@ describe('learning', () => {
   it('weaves a word after two correct answers, once, into its scarf', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    const loom = (await startLearning(h.deps, scarf.id))!;
+    const loom = (await learningPastIntros(h.deps, scarf.id))!;
     const first = loom.session.queue[0];
     const id = first.itemId;
 
@@ -98,7 +103,7 @@ describe('learning', () => {
   it('holds a missed card for ten minutes', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    const loom = (await startLearning(h.deps, scarf.id))!;
+    const loom = (await learningPastIntros(h.deps, scarf.id))!;
     const card = loom.session.queue[0];
     const ex = await buildExercise(h.deps, card, loom.batchWords);
     const out = await answerLearning(h.deps, loom, card, ex, false);
@@ -110,7 +115,7 @@ describe('learning', () => {
   it('queues the unlocked sentences once the whole batch is woven', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    const loom = (await startLearning(h.deps, scarf.id))!;
+    const loom = (await learningPastIntros(h.deps, scarf.id))!;
     expect(loom.session.queue.every((c) => !c.itemId.startsWith('sent:'))).toBe(true);
 
     const done = await weaveEverything(h.deps, loom);
@@ -126,7 +131,7 @@ describe('learning', () => {
   it('gives partial credit to the words of a typed sentence', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    await weaveEverything(h.deps, (await startLearning(h.deps, scarf.id))!);
+    await weaveEverything(h.deps, (await learningPastIntros(h.deps, scarf.id))!);
     const log = await listReviews(undefined, h.database);
     // Sentence answers on the cloze and typed rungs credit their words implicitly.
     expect(log.some((r) => r.implicit && r.weight > 0)).toBe(true);
@@ -136,7 +141,7 @@ describe('learning', () => {
 describe('reweaving', () => {
   async function wovenScarf() {
     const scarf = await newScarf(h.deps);
-    await weaveEverything(h.deps, (await startLearning(h.deps, scarf.id))!);
+    await weaveEverything(h.deps, (await learningPastIntros(h.deps, scarf.id))!);
     return scarf;
   }
 
@@ -189,7 +194,7 @@ describe('exercises', () => {
   it('asks a new word to be typed on the rung where a sentence would be blanked', async () => {
     setup();
     const scarf = await newScarf(h.deps);
-    const loom = (await startLearning(h.deps, scarf.id))!;
+    const loom = (await learningPastIntros(h.deps, scarf.id))!;
     const card: Card = { ...loom.session.queue[0], exercise: 'cloze' };
     expect((await buildExercise(h.deps, card, loom.batchWords)).type).toBe('produce');
   });

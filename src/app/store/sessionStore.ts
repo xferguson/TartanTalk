@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import type { Exercise } from '../../domain/exercises';
-import type { Card } from '../../domain/session';
+import type { Card, IntroResponse } from '../../domain/session';
 import type { ItemId, Rating } from '../../domain/types';
 import {
   answerLearning,
@@ -10,6 +10,7 @@ import {
   checkExercise,
   defaultRating,
   planReweave,
+  respondToIntroduction,
   rateReview,
   startLearning,
   startTangles,
@@ -66,6 +67,8 @@ export interface SessionActions {
   keepWeaving(): Promise<void>;
   startTangles(scarfId?: string): Promise<void>;
   startReweave(scarfId?: string): Promise<void>;
+  /** Answers the introduce card: got it, later, or already known. */
+  introduce(response: IntroResponse): Promise<void>;
   /** Marks a response (chosen option text, or typed Gaelic) and saves what can be saved now. */
   submit(response: string): Promise<void>;
   /** Saves a reweave answer with the learner's rating. */
@@ -111,6 +114,10 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
       const up = upNext(loom, deps.clock.now());
       if (up.type === 'done') return set({ card: null, itemId: null, exercise: null, done: true, waitUntil: null });
       if (up.type === 'wait') return set({ card: null, itemId: null, exercise: null, done: false, waitUntil: up.until });
+      // An introduce card shows the word and its meaning, so there is no exercise to build.
+      if (up.card.exercise === 'introduce') {
+        return set({ card: up.card, itemId: up.card.itemId, exercise: null, feedback: null, weaving: null, credited: [], waitUntil: null, done: false });
+      }
       const exercise = await buildExercise(deps, up.card, loom.batchWords);
       set({ card: up.card, itemId: up.card.itemId, exercise, feedback: null, weaving: null, credited: [], waitUntil: null, done: false });
     }
@@ -147,6 +154,15 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
       async startReweave(scarfId) {
         const plan = await planReweave(getDeps(), scarfId);
         await begin('reweave', scarfId ?? null, null, plan.due, plan.tangled.length);
+      },
+
+      async introduce(response) {
+        const { card, loom } = get();
+        if (!card || !loom || card.exercise !== 'introduce') return;
+        const outcome = await respondToIntroduction(getDeps(), loom, card, response);
+        // A word put off for later leaves this run, so the bar should not wait for it.
+        set({ loom: outcome.loom, answered: get().answered + (outcome.known ? 1 : 0), total: response === 'later' ? Math.max(get().total - 1, 0) : get().total });
+        await show();
       },
 
       async submit(response) {

@@ -80,7 +80,7 @@ export function ScarfScreen({ now = Date.now }: { now?: () => number }) {
       </div>
 
       <ButtonRow>
-        <Button to={`/loom/${scarf.id}`}>Weave new</Button>
+        <Button to={`/loom/${scarf.id}`}>Weave</Button>
         {view.holes.length > 0 && (
           <Button variant="ghost" to={`/reweave/${scarf.id}`}>Reweave {view.holes.length}</Button>
         )}
