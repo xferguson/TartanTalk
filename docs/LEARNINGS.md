@@ -541,3 +541,11 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Resolution:** `wovenRect` gives the woven part of the cloth. The strip grows left to right by 16px per item, and the detail scarf grows downward with the newest band at the top. The unwoven part is a dashed outline. Specs for any progress visual must describe the empty, part-woven and full states.
 
 - **Status:** resolved
+
+### L15. Listing a topic as a starter before it has vocabulary lets users build an empty scarf
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** this PR
+- **Detail:** All PRD themes were offered as starters, but only love and languages had words. A tester picked nature, hills, wild animals, food and greetings and was told "out of words" straight away.
+- **Resolution:** Added 20+ words or phrases for each of those five topics. Remaining starters (weather, music, sport and others) are still empty. Either fill them or hide a starter until it has items (follow-up).
+- **Status:** open

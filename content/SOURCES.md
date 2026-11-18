@@ -29,6 +29,13 @@ Files: `content/lexemes/core-nouns.yaml` (50), `core-verbs.yaml` (50, root form)
 ## Topics (W1-J3)
 `content/topics.yaml` lists every starter theme in the PRD. Only **love and feelings** and **talking about languages** have vocabulary (`topic-love.yaml`, `topic-languages.yaml`) so far.
 
+## Topic vocabulary: nature, hills and glens, wild animals and birds, food and drink, greetings
+Files: `content/lexemes/topic-{nature,hills-glens-lochs,wild-animals-birds,food-drink,greetings}.yaml` (24, 24, 24, 25 and 29 entries), plus topic tags added to nine existing core words (`uisge`, `tir`, `beinn`, `loch`, `eilean`, `biadh`, `bainne`, `ith`, `ol`).
+
+- Added after a tester picked these themes and the session had no words. No network access, so every entry is an unreviewed draft from general knowledge, as above. Ordering within a file follows everyday usefulness for a beginner, not a measured frequency count; `freqRank` is omitted.
+- Greetings are whole set phrases (`pos: other`), including the formal/plural `sibh` and `leibh` forms.
+- No sentences yet for these topics: scarves on them teach words only until a sentence task covers them.
+
 ## Sentences
 Files: `content/sentences/love.yaml` (24) and `content/sentences/languages.yaml` (24), W2-A.
 
