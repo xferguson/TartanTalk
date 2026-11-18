@@ -100,6 +100,20 @@ describe('LoomScreen', () => {
     expect(screen.getByText(/Choose the meaning|Type the Gaelic/)).toBeTruthy();
   });
 
+  it('focuses the typed answer field when a typed card appears, without re-grabbing it on re-render', async () => {
+    const { store } = await open('/loom/:id');
+    await screen.findByText('A new word');
+    fireEvent.click(screen.getByRole('button', { name: 'Got it' }));
+    await screen.findByText(/Choose the meaning|Type the Gaelic/);
+    const ex = store.getState().exercise!;
+    if (ex.type !== 'produce') return; // the exercise kind is chosen by the seeded rng; only typed cards have a field
+    const input = screen.getByLabelText('Your answer in Gaelic');
+    expect(document.activeElement).toBe(input);
+    (input as HTMLInputElement).blur();
+    fireEvent.change(input, { target: { value: 'a' } });
+    expect(document.activeElement).not.toBe(input);
+  });
+
   it('gives gentle feedback on a miss and moves on with Next', async () => {
     const { store } = await open('/loom/:id');
     await screen.findByText('A new word');

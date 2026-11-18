@@ -289,6 +289,22 @@ _Real setts were blocked on licences, so UI work waited._
 
 - **Status:** resolved
 
+### autofocus-once-per-card
+
+_Autofocusing a typed answer field must not re-grab focus on re-render, or it hijacks keyboard switching._
+
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** #68
+
+- **Detail:** Focus in an effect keyed only on the card (`itemId`, `card`, exercise kind), or on mount for a component remounted per item. Never focus from `onChange` or an unkeyed effect. A stale local branch also needed resetting to `origin/main` before work.
+
+- **Resolution:** Done in `LoomScreen` and `ExercisePanel`.
+
+- **Status:** resolved
+
 ### check-mockup-before-designing
 
 _A placeholder in the app can be a placeholder in the mock-up too._

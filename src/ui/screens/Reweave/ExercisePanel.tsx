@@ -1,4 +1,4 @@
-import { useRef, useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { Exercise } from '../../../domain/exercises';
 import type { Feedback } from '../../../app/store/sessionStore';
 import { AccentKeys } from '../../components/AccentKeys';
@@ -85,6 +85,10 @@ function Options({
 function Typed({ prompt, answered, onSubmit }: { prompt: string; answered: boolean; onSubmit: (r: string) => void }) {
   const ref = useRef<HTMLInputElement>(null);
   const [value, setValue] = useState('');
+  // Typed is remounted per item, so focusing on mount means once per new card (opens the keyboard).
+  useEffect(() => {
+    ref.current?.focus();
+  }, []);
   const submit = (e: FormEvent) => {
     e.preventDefault();
     if (!answered && value.trim()) onSubmit(value);
