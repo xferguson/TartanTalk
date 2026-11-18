@@ -534,7 +534,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 
 - **Tally:** 1
 
-- **Seen in:** this PR
+- **Seen in:** #60
 
 - **Detail:** `paintScarf` filled the whole cloth every time. Woven items only placed moth holes and the shuttle sweep, so a brand-new scarf looked finished and never changed as the learner wove. The B2 spec said bands spread evenly along the strip, which hid the problem: nothing said what an empty or part-woven scarf looks like.
 
@@ -545,7 +545,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 ### L15. Listing a topic as a starter before it has vocabulary lets users build an empty scarf
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** this PR
+- **Seen in:** #60
 - **Detail:** All PRD themes were offered as starters, but only love and languages had words. A tester picked nature, hills, wild animals, food and greetings and was told "out of words" straight away.
 - **Resolution:** Added 20+ words or phrases for each of those five topics. Remaining starters (weather, music, sport and others) are still empty. Either fill them or hide a starter until it has items (follow-up).
 - **Status:** open
@@ -579,7 +579,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 ### L23. A scarf filter by tags starves its own sentences
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** this PR
+- **Seen in:** #60
 - **Detail:** `candidateItems` kept only items matching the scarf's tags, so a preposition scarf never offered `tha` or the nouns its sentences need. Those sentences could never unlock and the learner only saw prepositions as bare words.
 - **Resolution:** Candidates now include the words of matching sentences (`scarfItems`). Test content against a realistic filter, not only a filter that matches every word.
 - **Status:** resolved
@@ -587,7 +587,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 ### L24. Quizzing a word before showing it is frustrating
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** this PR
+- **Seen in:** #60
 - **Detail:** The first card for a new word was a multiple-choice question. Found by the user in real use, not by tests.
 - **Resolution:** An introduce card (word and meaning only) comes first. Check each new flow from the learner's chair, not just the data model.
 - **Status:** resolved
