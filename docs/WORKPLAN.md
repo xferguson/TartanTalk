@@ -370,6 +370,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** W2-E, W2-F
 
+### W3-F
+
+- **Status:** in progress (ccr-dbbe1243-jpapcm)
+
+**Bottom nav icons.** Spec: Appendix B10. Replace the placeholder squares with a drawn icon set (shelf, shuttle, tangle, tartan swatch, sliders), duotone with an amber thread accent and a heather indicator pill on the active room.
+
+- **Owns:** `src/ui/components/BottomNav*`, `tests/unit/BottomNav.test.tsx`
+
+- **Depends on:** F1
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 
@@ -603,11 +613,18 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - If unverified, a small "pattern unverified" chip (calm).
 - **Detail view:** tap a card for a large swatch (220px), the full sett, a colour key (swatch dots with codes), the provenance link and notes, and the button "Use for a new scarf", which goes to `/new` with that tartan pre-selected.
 
-### B10. Bottom navigation (F1, already built)
+### B10. Bottom navigation (F1, icons added in W3-F)
 - The mock-up shows four items (Shelf, Loom, Tangles, Library). F1 adds **Settings** as a fifth item, because the theme override needs a home (approved by the user).
-- Layout: a grid of equal columns with a 1px `--line` top border and 6px padding, on `--surface`. Each item is ≥44px tall, has an 18px rounded-square icon placeholder (radius 6, current colour, 0.35 opacity) and a 0.75rem label.
-- Active item: `--heather`, weight 700, icon at full opacity.
-- Real icons are a later design task (B11).
+- Layout: a grid of equal columns with a 1px `--line` top border and 6px padding, on `--surface`. Each item is ≥44px tall: an icon in a 52×28px indicator (radius `--radius-pill`), then a 0.75rem label, 2px apart.
+- **Icons** (no mock-up: the round 2 mock-up only had placeholder squares; tech-lead spec, built in W3-F). 24px inline SVG on a 24-unit grid, `stroke: currentColor`, stroke width 1.75, round caps and joins, `aria-hidden="true"`, `focusable="false"` (the label names the link). Each icon has base strokes plus accent **thread** strokes:
+  - Shelf: two folded scarves on a shelf; thread is a stripe on each scarf.
+  - Loom: a weaving shuttle lying at 35°; thread is the bobbin and the weft trailing from it.
+  - Tangles: a thread that loops back on itself; thread is its loose tail.
+  - Library: a tartan swatch (rounded square crossed by two stripes each way); thread is one stripe each way.
+  - Settings: three sliders; the knobs (r 2.25) are the accent, filled `--surface` when idle.
+- Idle item: `--muted`, thread at 0.55 opacity.
+- Active item: `--heather`, weight 700. The indicator fills with `color-mix(in srgb, var(--heather) 14%, transparent)`, and thread strokes and knobs turn `--amber` at full opacity.
+- Motion: none. Focus: the global `:focus-visible` ring.
 
 ### B11. Tangles screen (W2-H) (no mock-up: tech-lead spec)
 - **Title:** "Tangles". Subtitle: "Threads that need a little more practice."
