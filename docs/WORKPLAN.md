@@ -311,7 +311,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 ## Wave 3: integration and hardening
 ### W3-E
 
-- **Status:** in progress (claude/word-learning-sentence-priority-qjy3a6)
+- **Status:** done (#60)
 
 **Introduce first, and pick words sentence-first.** An introduce card (word and meaning, no quiz) with Got it / Later (24 h) / I already know this comes before any quiz. `planWordBatch` scores sentences by scarf words taught per new word, and scarf candidates pull in the words their sentences need. "Weave new" is now "Weave". "Known" words are saved as learned with no schedule and no band on the scarf.
 
