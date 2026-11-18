@@ -1,0 +1,219 @@
+# Wild animals and birds vocabulary, ordered roughly by everyday usefulness (no corpus lookup was possible; see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:fiadh
+  gd: "fiadh"
+  en: "deer"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eun
+  gd: "eun"
+  en: "bird"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iolaire
+  gd: "iolaire"
+  en: "eagle"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sionnach
+  gd: "sionnach"
+  en: "fox"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ron
+  gd: "ròn"
+  en: "seal"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:damh
+  gd: "damh"
+  en: "stag"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dobhran
+  gd: "dòbhran"
+  en: "otter"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maigheach
+  gd: "maigheach"
+  en: "hare"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coineanach
+  gd: "coineanach"
+  en: "rabbit"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feannag
+  gd: "feannag"
+  en: "hooded crow"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fitheach
+  gd: "fitheach"
+  en: "raven"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comhachag
+  gd: "comhachag"
+  en: "owl"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geadh
+  gd: "gèadh"
+  en: "goose"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faoileag
+  gd: "faoileag"
+  en: "seagull"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cearc-fhraoich
+  gd: "cearc-fhraoich"
+  en: "grouse"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ialtag
+  gd: "ialtag"
+  en: "bat"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nathair
+  gd: "nathair"
+  en: "snake, adder"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:losgann
+  gd: "losgann"
+  en: "frog"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beach
+  gd: "beach"
+  en: "bee"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seabhag
+  gd: "seabhag"
+  en: "hawk, falcon"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taghan
+  gd: "taghan"
+  en: "pine marten"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cat-fiadhaich
+  gd: "cat-fiadhaich"
+  en: "wildcat"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:madadh-allaidh
+  gd: "madadh-allaidh"
+  en: "wolf"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lon-dubh
+  gd: "lon-dubh"
+  en: "blackbird"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:wild-animals-birds]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
