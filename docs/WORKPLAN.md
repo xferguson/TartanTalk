@@ -393,7 +393,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-G
 
-- **Status:** in progress (ccr-dbbe1243-jpapcm)
+- **Status:** done (#65)
 
 **Shared test clean-up.** Register Testing Library's `cleanup` once in `tests/setup.ts`, so component tests no longer depend on each file adding `afterEach(cleanup)` (L12 proposal, approved by the user).
 
