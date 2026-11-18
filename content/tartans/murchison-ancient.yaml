@@ -1,0 +1,12 @@
+# Licence: CC BY-SA 4.0
+id: murchison-ancient
+name: Murchison (Ancient)
+clan: Murchison
+variant: Ancient
+sett: "LG/30 K4 LB24 K4 LG30 W2"
+colours: { K: "#1c1c1c", LB: "#6f9bd1", LG: "#7aa86b", W: "#f2f0e8" }
+scale: 0.5
+provenance:
+  ref: "Approximate placeholder sett (not transcribed from any source)"
+  notes: "Written from general knowledge of the tartan's colours only. The stripe counts are NOT the real sett. Replace under W-TARTAN-SOURCES."
+verified: false
