@@ -591,3 +591,11 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** The first card for a new word was a multiple-choice question. Found by the user in real use, not by tests.
 - **Resolution:** An introduce card (word and meaning only) comes first. Check each new flow from the learner's chair, not just the data model.
 - **Status:** resolved
+
+### L25. An e2e test that depends on the time of day passes in the morning and fails after noon
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** #60
+- **Detail:** `install.spec.ts` looked for the morning greeting only. The Shelf greets "Feasgar math!" after 12:00, so CI failed whenever it ran in the afternoon (UTC). `smoke.spec.ts` already accepted both.
+- **Resolution:** Match both greetings, or fix the clock in the test. Never assert on text that changes with the real time.
+- **Status:** resolved
