@@ -4,6 +4,7 @@ import {
   MIN_FOCAL_GAP,
   RELEARN_AFTER_MS,
   answerCard,
+  dropItem,
   nextCard,
   orderCards,
   planWordBatch,
@@ -214,5 +215,16 @@ describe('learning ladder within a session', () => {
 
   it('is done when nothing is queued or waiting', () => {
     expect(nextCard(startBatch({ words: [], batch: 1 }), T0)).toEqual({ type: 'done' });
+  });
+});
+
+describe('dropItem', () => {
+  it('removes every queued and waiting card for an item, leaving the rest', () => {
+    const session = startBatch({ words: [], sentences: [iLoveYou, iHaveGaelic], batch: 1 });
+    const card = session.queue.find((c) => c.itemId === iLoveYou.id)!;
+    const missed = answerCard(session, card, false, T0).session;
+    const out = dropItem({ ...missed, queue: [...missed.queue, { ...card, exercise: 'cloze' }] }, iLoveYou.id);
+    expect(out.queue.map((c) => c.itemId)).toEqual([iHaveGaelic.id]);
+    expect(out.waiting).toEqual([]);
   });
 });

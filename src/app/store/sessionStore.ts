@@ -7,6 +7,7 @@ import {
   buildExercise,
   buildReviewExercise,
   capRating,
+  claimKnown,
   checkExercise,
   defaultRating,
   planReweave,
@@ -51,6 +52,8 @@ export interface SessionState {
   weaving: Weaving | null;
   /** Gaelic words that earned partial credit from the last sentence answer. */
   credited: ItemId[];
+  /** True when the last answer was the first correct one for a sentence never seen before. */
+  canClaimKnown: boolean;
   /** When the next missed card is ready, if the only cards left are waiting. */
   waitUntil: number | null;
   done: boolean;
@@ -71,6 +74,8 @@ export interface SessionActions {
   introduce(response: IntroResponse): Promise<void>;
   /** Marks a response (chosen option text, or typed Gaelic) and saves what can be saved now. */
   submit(response: string): Promise<void>;
+  /** After a first correct answer to a new sentence: it was already known, so count it and move on. */
+  claimKnown(): Promise<void>;
   /** Saves a reweave answer with the learner's rating. */
   rate(rating: Rating): Promise<void>;
   /** Moves to the next card. */
@@ -90,6 +95,7 @@ const idle: SessionState = {
   feedback: null,
   weaving: null,
   credited: [],
+  canClaimKnown: false,
   waitUntil: null,
   done: false,
   exhausted: false,
@@ -108,18 +114,18 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
         const itemId = queue[0];
         if (!itemId) return set({ card: null, itemId: null, exercise: null, done: true });
         const exercise = await buildReviewExercise(deps, itemId);
-        return set({ itemId, exercise, card: null, feedback: null, weaving: null, credited: [], waitUntil: null, done: false });
+        return set({ itemId, exercise, card: null, feedback: null, weaving: null, credited: [], canClaimKnown: false, waitUntil: null, done: false });
       }
       if (!loom) return;
       const up = upNext(loom, deps.clock.now());
-      if (up.type === 'done') return set({ card: null, itemId: null, exercise: null, done: true, waitUntil: null });
-      if (up.type === 'wait') return set({ card: null, itemId: null, exercise: null, done: false, waitUntil: up.until });
+      if (up.type === 'done') return set({ card: null, itemId: null, exercise: null, canClaimKnown: false, done: true, waitUntil: null });
+      if (up.type === 'wait') return set({ card: null, itemId: null, exercise: null, canClaimKnown: false, done: false, waitUntil: up.until });
       // An introduce card shows the word and its meaning, so there is no exercise to build.
       if (up.card.exercise === 'introduce') {
-        return set({ card: up.card, itemId: up.card.itemId, exercise: null, feedback: null, weaving: null, credited: [], waitUntil: null, done: false });
+        return set({ card: up.card, itemId: up.card.itemId, exercise: null, feedback: null, weaving: null, credited: [], canClaimKnown: false, waitUntil: null, done: false });
       }
-      const exercise = await buildExercise(deps, up.card, loom.batchWords);
-      set({ card: up.card, itemId: up.card.itemId, exercise, feedback: null, weaving: null, credited: [], waitUntil: null, done: false });
+      const exercise = await buildExercise(deps, up.card, loom);
+      set({ card: up.card, itemId: up.card.itemId, exercise, feedback: null, weaving: null, credited: [], canClaimKnown: false, waitUntil: null, done: false });
     }
 
     async function begin(mode: SessionMode, scarfId: string | null, loom: LoomSession | null, queue: ItemId[], tangledLeft = 0) {
@@ -191,9 +197,17 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
           feedback: { check, suggestedRating: null, awaitingRating: false },
           weaving: outcome.learned ? { itemId: outcome.learned, ells: outcome.ells } : null,
           credited: outcome.credited.map((c) => c.itemId),
+          canClaimKnown: outcome.canClaimKnown,
           answered: get().answered + (outcome.learned ? 1 : 0),
           total: Math.max(get().total, outcome.loom.session.queue.length + outcome.loom.woven.length),
         });
+      },
+
+      async claimKnown() {
+        const { canClaimKnown, loom, itemId } = get();
+        if (!canClaimKnown || !loom || !itemId) return;
+        set({ loom: await claimKnown(getDeps(), loom, itemId), canClaimKnown: false, answered: get().answered + 1 });
+        await show();
       },
 
       async rate(rating) {

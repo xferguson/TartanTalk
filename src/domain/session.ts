@@ -275,6 +275,15 @@ export function respondToIntro(session: Session, card: Card, response: IntroResp
   };
 }
 
+/** Takes an item out of the session: its queued and waiting cards are dropped (e.g. once it is known). */
+export function dropItem(session: Session, itemId: ItemId): Session {
+  return {
+    ...session,
+    queue: session.queue.filter((c) => c.itemId !== itemId),
+    waiting: session.waiting.filter((w) => w.card.itemId !== itemId),
+  };
+}
+
 export interface AnswerResult {
   session: Session;
   /** The item that has just been learned (ready to be woven), if any. */

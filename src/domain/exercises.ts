@@ -3,7 +3,8 @@
  * recognise, cloze or produce prompt. Pure; randomness is injected so tests
  * and replays are deterministic.
  */
-import type { Form, ItemId, LearnableItem, Lexeme, Sentence } from './types';
+import { isDue } from './scheduler';
+import type { Form, ItemId, LearnableItem, Lexeme, Progress, Sentence } from './types';
 
 export type Rng = () => number; // [0, 1)
 
@@ -117,15 +118,40 @@ export function buildRecognise(item: LearnableItem, known: readonly LearnableIte
 const trackedIndexes = (s: Sentence): number[] => s.tokens.flatMap((t, i) => (t.itemId ? [i] : []));
 
 /**
- * Blank one tracked token. Pass `targetId` to test a specific item (e.g. the
- * focal word of a card); otherwise one is chosen at random. Returns null when
- * the sentence has nothing to blank.
+ * The words of a sentence that a cloze may blank. A blank is a review of that
+ * one word, so only words in play qualify: one being learned in this run, or
+ * one due for review. A word marked known, or one resting until its next
+ * review, is never singled out; the sentence can still be typed whole.
  */
-export function buildCloze(sentence: Sentence, known: readonly LearnableItem[], rng: Rng, targetId?: ItemId): ClozeExercise | null {
-  const candidates = trackedIndexes(sentence);
-  const blankIndex = targetId !== undefined
-    ? candidates.find((i) => sentence.tokens[i].itemId === targetId)
-    : candidates[Math.floor(rng() * candidates.length)];
+export function clozeTargets(
+  sentence: Sentence,
+  progress: ReadonlyMap<ItemId, Progress>,
+  now: number,
+  practising: readonly ItemId[],
+): ItemId[] {
+  const inPlay = (id: ItemId) => {
+    const p = progress.get(id);
+    return practising.includes(id) || (p !== undefined && isDue(p, now));
+  };
+  return [...new Set(sentence.tokens.flatMap((t) => (t.itemId && inPlay(t.itemId) ? [t.itemId] : [])))];
+}
+
+/**
+ * Blank one tracked token. Pass `target` to test a specific item (e.g. the
+ * focal word of a card), or a set to choose at random among those items;
+ * otherwise any tracked token may be chosen. Returns null when the sentence
+ * has nothing to blank.
+ */
+export function buildCloze(
+  sentence: Sentence,
+  known: readonly LearnableItem[],
+  rng: Rng,
+  target?: ItemId | ReadonlySet<ItemId>,
+): ClozeExercise | null {
+  const allowed = (id: ItemId | null) =>
+    target === undefined || (typeof target === 'string' ? id === target : id !== null && target.has(id));
+  const candidates = trackedIndexes(sentence).filter((i) => allowed(sentence.tokens[i].itemId));
+  const blankIndex = typeof target === 'string' ? candidates[0] : candidates[Math.floor(rng() * candidates.length)];
   if (blankIndex === undefined) return null;
 
   const token = sentence.tokens[blankIndex];

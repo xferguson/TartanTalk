@@ -4,6 +4,7 @@ import {
   answerLearning,
   buildExercise,
   buildReviewExercise,
+  claimKnown,
   planReweave,
   rateReview,
   respondToIntroduction,
@@ -18,6 +19,7 @@ import {
 } from '../../../src/app/services';
 import { getProgress, getScarf, listReviews } from '../../../src/db/repo';
 import type { Card } from '../../../src/domain/session';
+import { isLearned } from '../../../src/domain/unlock';
 import { DAY, harness, learningPastIntros, SCARF_TAGS, type Harness } from './helpers';
 
 let h: Harness;
@@ -40,7 +42,7 @@ async function weaveEverything(deps: ServiceDeps, loom: LoomSession): Promise<Lo
       current = (await respondToIntroduction(deps, current, up.card, 'got-it')).loom;
       continue;
     }
-    const ex = await buildExercise(deps, up.card, current.batchWords);
+    const ex = await buildExercise(deps, up.card, current);
     current = (await answerLearning(deps, current, up.card, ex, true)).loom;
   }
   throw new Error('session did not finish');
@@ -65,7 +67,7 @@ describe('learning', () => {
     const scarf = await newScarf(h.deps);
     const first = (await learningPastIntros(h.deps, scarf.id))!;
     const card = first.session.queue[0];
-    const ex = await buildExercise(h.deps, card, first.batchWords);
+    const ex = await buildExercise(h.deps, card, first);
     const missed = await answerLearning(h.deps, first, card, ex, false);
 
     const more = (await startLearning(h.deps, scarf.id, missed.loom))!;
@@ -82,13 +84,13 @@ describe('learning', () => {
     const first = loom.session.queue[0];
     const id = first.itemId;
 
-    const ex1 = await buildExercise(h.deps, first, loom.batchWords);
+    const ex1 = await buildExercise(h.deps, first, loom);
     let out = await answerLearning(h.deps, loom, first, ex1, true);
     expect(out.learned).toBeNull();
     expect((await getProgress(id, h.database))?.phase).toBe('learning');
 
     const second = out.loom.session.queue.find((c) => c.itemId === id)!;
-    const ex2 = await buildExercise(h.deps, second, out.loom.batchWords);
+    const ex2 = await buildExercise(h.deps, second, out.loom);
     out = await answerLearning(h.deps, out.loom, second, ex2, true);
 
     expect(out.learned).toBe(id);
@@ -105,7 +107,7 @@ describe('learning', () => {
     const scarf = await newScarf(h.deps);
     const loom = (await learningPastIntros(h.deps, scarf.id))!;
     const card = loom.session.queue[0];
-    const ex = await buildExercise(h.deps, card, loom.batchWords);
+    const ex = await buildExercise(h.deps, card, loom);
     const out = await answerLearning(h.deps, loom, card, ex, false);
     expect(out.learned).toBeNull();
     expect(out.loom.session.waiting.map((w) => w.card.itemId)).toContain(card.itemId);
@@ -196,6 +198,118 @@ describe('exercises', () => {
     const scarf = await newScarf(h.deps);
     const loom = (await learningPastIntros(h.deps, scarf.id))!;
     const card: Card = { ...loom.session.queue[0], exercise: 'cloze' };
-    expect((await buildExercise(h.deps, card, loom.batchWords)).type).toBe('produce');
+    expect((await buildExercise(h.deps, card, loom)).type).toBe('produce');
+  });
+});
+
+/** Answers every card correctly until the batch's sentences are queued. */
+async function untilSentences(deps: ServiceDeps, loom: LoomSession): Promise<LoomSession> {
+  let current = loom;
+  for (let guard = 0; guard < 100 && !current.sentencesQueued; guard++) {
+    const up = upNext(current, deps.clock.now());
+    if (up.type !== 'card') break;
+    const ex = await buildExercise(deps, up.card, current);
+    current = (await answerLearning(deps, current, up.card, ex, true)).loom;
+  }
+  return current;
+}
+
+/** Says "I already know this" to every word in the first batch. */
+async function knowingEveryWord(deps: ServiceDeps, scarfId: string): Promise<LoomSession> {
+  let loom = (await startLearning(deps, scarfId))!;
+  for (let c = loom.session.queue.find((q) => q.exercise === 'introduce'); c; c = loom.session.queue.find((q) => q.exercise === 'introduce')) {
+    loom = (await respondToIntroduction(deps, loom, c, 'known')).loom;
+  }
+  return loom;
+}
+
+const sentenceCard = (loom: LoomSession) => loom.session.queue.find((c) => c.itemId.startsWith('sent:'));
+
+describe('cloze blanks only words in play', () => {
+  it('never blanks a word marked known; the sentence is typed whole instead', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const loom = await knowingEveryWord(h.deps, scarf.id);
+    const card = sentenceCard(loom);
+    expect(card).toBeDefined();
+    expect((await buildExercise(h.deps, { ...card!, exercise: 'cloze' }, loom)).type).toBe('produce');
+  });
+
+  it('blanks a word woven in this run', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const loom = await untilSentences(h.deps, await learningPastIntros(h.deps, scarf.id));
+    const card = sentenceCard(loom);
+    expect(card).toBeDefined();
+    const ex = await buildExercise(h.deps, { ...card!, exercise: 'cloze' }, loom);
+    expect(ex.type).toBe('cloze');
+    if (ex.type === 'cloze') expect(loom.woven).toContain(ex.targetId);
+  });
+
+  it('in a reweave, types a due sentence whole when none of its words are due', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    await weaveEverything(h.deps, (await learningPastIntros(h.deps, scarf.id))!);
+    h.clock.advance(2 * DAY);
+    const due = (await planReweave(h.deps, scarf.id)).due;
+    const sentence = due.find((id) => id.startsWith('sent:'))!;
+    const words = due.filter((id) => !id.startsWith('sent:'));
+
+    const withDueWords = await buildReviewExercise(h.deps, sentence);
+    expect(withDueWords.type).toBe('cloze');
+    if (withDueWords.type === 'cloze') expect(words).toContain(withDueWords.targetId);
+
+    for (const id of words) await rateReview(h.deps, id, 'good', await buildReviewExercise(h.deps, id));
+    expect((await buildReviewExercise(h.deps, sentence)).type).toBe('produce');
+  });
+});
+
+describe('"I already knew this" for a sentence', () => {
+  it('is offered after the first correct answer to a sentence never seen before, and only then', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const loom = await knowingEveryWord(h.deps, scarf.id);
+    const card = sentenceCard(loom)!;
+    const first = await answerLearning(h.deps, loom, card, await buildExercise(h.deps, card, loom), true);
+    expect(first.canClaimKnown).toBe(true);
+
+    const again = first.loom.session.queue.find((c) => c.itemId === card.itemId)!;
+    const second = await answerLearning(h.deps, first.loom, again, await buildExercise(h.deps, again, first.loom), true);
+    expect(second.canClaimKnown).toBe(false);
+  });
+
+  it('is not offered after a miss, or for a word', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const words = await learningPastIntros(h.deps, scarf.id);
+    const word = words.session.queue[0];
+    expect((await answerLearning(h.deps, words, word, await buildExercise(h.deps, word, words), true)).canClaimKnown).toBe(false);
+
+    setup();
+    const scarf2 = await newScarf(h.deps);
+    const loom = await knowingEveryWord(h.deps, scarf2.id);
+    const card = sentenceCard(loom)!;
+    const ex = await buildExercise(h.deps, card, loom);
+    const missed = await answerLearning(h.deps, loom, card, ex, false);
+    expect(missed.canClaimKnown).toBe(false);
+    const back = missed.loom.session.waiting.find((w) => w.card.itemId === card.itemId)!.card;
+    const retry = await answerLearning(h.deps, missed.loom, back, await buildExercise(h.deps, back, missed.loom), true);
+    expect(retry.canClaimKnown).toBe(false);
+  });
+
+  it('counts the sentence as known: learned, never scheduled, not woven, and out of the session', async () => {
+    setup();
+    const scarf = await newScarf(h.deps);
+    const loom = await knowingEveryWord(h.deps, scarf.id);
+    const card = sentenceCard(loom)!;
+    const first = await answerLearning(h.deps, loom, card, await buildExercise(h.deps, card, loom), true);
+    const after = await claimKnown(h.deps, first.loom, card.itemId);
+
+    const row = await getProgress(card.itemId, h.database);
+    expect(isLearned(row)).toBe(true);
+    expect(row).toMatchObject({ phase: 'review', fsrs: null, ownerScarfId: scarf.id });
+    expect((await getScarf(scarf.id, h.database))!.wovenOrder).not.toContain(card.itemId);
+    expect(after.session.queue.some((c) => c.itemId === card.itemId)).toBe(false);
+    expect(after.session.waiting.some((w) => w.card.itemId === card.itemId)).toBe(false);
   });
 });
