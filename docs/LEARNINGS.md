@@ -336,7 +336,7 @@ _What the learner already knows must be checked wherever an exercise singles out
 
 - **Type:** issue
 
-- **Seen in:** #69, #PR
+- **Seen in:** #69, #70
 
 - **Detail:** Both scarf views squeezed their bands once the cloth was full (the strip at about 19 items on a phone, the detail scarf at 40), so learning more stopped showing. L20 fixed the empty and part-woven states but not the full state. The user reported it after weaving a long scarf.
 
@@ -392,7 +392,7 @@ _A scarf window that moves on the mouse wheel couldn't stop the page scrolling t
 
 - **Type:** efficiency
 
-- **Seen in:** #PR
+- **Seen in:** #70
 
 - **Detail:** React registers `wheel` (and touch) listeners as passive, so `preventDefault()` in `onWheel` is ignored and the page scrolls with the scarf.
 
