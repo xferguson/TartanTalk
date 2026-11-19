@@ -221,6 +221,8 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
           credited: outcome.credited.map((c) => c.itemId),
           answered: get().answered + 1,
         });
+        // Choosing a rating is the learner's "done with this one", so go straight on.
+        await show();
       },
 
       async next() {

@@ -696,3 +696,11 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** `install.spec.ts` looked for the morning greeting only. The Shelf greets "Feasgar math!" after 12:00, so CI failed whenever it ran in the afternoon (UTC). `smoke.spec.ts` already accepted both.
 - **Resolution:** Match both greetings, or fix the clock in the test. Never assert on text that changes with the real time.
 - **Status:** resolved
+
+### L15. A rating tap is already the "done" signal, so don't add a Next step after it
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** this PR
+- **Detail:** After choosing Hard/Good/Easy in a review, the screen showed a "Next thread" button as well, so the learner tapped twice to move on and expected the rating to advance.
+- **Resolution:** `rate()` in the session store now shows the next card itself. Only a miss (no rating) still needs Next, since the learner reads the answer first.
+- **Status:** resolved
