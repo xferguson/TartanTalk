@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildScarfView, rulerLabels, ELLS_PER_ITEM } from '../../../src/ui/screens/Scarf/scarfView';
+import { buildScarfView, ELLS_PER_ITEM } from '../../../src/ui/screens/Scarf/scarfView';
 import { agam, gaol, iLoveYou, ort } from '../fixtures/slice';
 import type { LearnableItem, Progress, Scarf } from '../../../src/domain/types';
 
@@ -41,20 +41,10 @@ describe('buildScarfView', () => {
   });
 });
 
-describe('rulerLabels', () => {
-  it('labels 0 and each half ell, plus the exact total', () => {
-    const l = rulerLabels(1.3);
-    expect(l.map((x) => x.text)).toEqual(['0', '0.5', '1', '1.3']);
-    // top = 380 - v/total*370 - 5
-    expect(l[0]?.top).toBeCloseTo(375);
-    expect(l[3]?.top).toBeCloseTo(5);
-  });
-
-  it('does not repeat the total when it falls on a half ell', () => {
-    expect(rulerLabels(1).map((x) => x.text)).toEqual(['0', '0.5', '1']);
-  });
-
-  it('shows only zero for an empty scarf', () => {
-    expect(rulerLabels(0).map((x) => x.text)).toEqual(['0']);
+describe('itemElls', () => {
+  it('lists the cloth each woven item adds, in weaving order, for the ruler', () => {
+    const v = buildScarfView({ scarf: { ...scarf, wovenOrder: [gaol.id, 'gone', iLoveYou.id] }, items, progress: [], now });
+    // An item missing from the content adds no cloth, but keeps its place in the order.
+    expect(v.itemElls).toEqual([ELLS_PER_ITEM.lexeme, 0, ELLS_PER_ITEM.sentence]);
   });
 });

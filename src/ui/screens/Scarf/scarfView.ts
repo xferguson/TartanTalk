@@ -8,12 +8,10 @@ import type { ScarfCanvasHole } from '../../components/ScarfCanvas';
  */
 export const ELLS_PER_ITEM: Record<ItemKind, number> = { lexeme: 0.04, form: 0.03, sentence: 0.08 };
 
-const RULER_HEIGHT = 380;
-const RULER_SPAN = 370;
-const LABEL_HALF = 5;
-
 export interface ScarfView {
   ells: number;
+  /** Ells each woven item adds, in weaving order, for the ruler. */
+  itemElls: number[];
   counts: { total: number; words: number; forms: number; sentences: number };
   holes: ScarfCanvasHole[];
   extraMoths: number;
@@ -29,8 +27,10 @@ interface Input {
 export function buildScarfView({ scarf, items, progress, now }: Input): ScarfView {
   const counts = { total: 0, words: 0, forms: 0, sentences: 0 };
   let ells = 0;
+  const itemElls: number[] = [];
   for (const id of scarf.wovenOrder) {
     const item = items.get(id);
+    itemElls.push(item ? ELLS_PER_ITEM[item.kind] : 0);
     if (!item) continue;
     counts.total += 1;
     ells += ELLS_PER_ITEM[item.kind];
@@ -47,6 +47,7 @@ export function buildScarfView({ scarf, items, progress, now }: Input): ScarfVie
 
   return {
     ells,
+    itemElls,
     counts,
     holes: holes.map((h) => ({ ...h, gd: gdOf(items.get(h.itemId)) })),
     extraMoths,
@@ -55,25 +56,4 @@ export function buildScarfView({ scarf, items, progress, now }: Input): ScarfVie
 
 function gdOf(item: LearnableItem | undefined): string {
   return item?.gd ?? '';
-}
-
-export interface RulerLabel {
-  text: string;
-  /** Pixels from the top of the 380px ruler, already centred on the tick. */
-  top: number;
-}
-
-const round = (v: number) => String(Math.round(v * 100) / 100);
-
-/** Labels at 0, every half ell up to the total, then the exact total. */
-export function rulerLabels(total: number): RulerLabel[] {
-  const at = (v: number): RulerLabel => ({
-    text: round(v),
-    top: total > 0 ? RULER_HEIGHT - (v / total) * RULER_SPAN - LABEL_HALF : RULER_HEIGHT - 5,
-  });
-  const labels: RulerLabel[] = [at(0)];
-  for (let v = 0.5; v <= total + 1e-9; v += 0.5) labels.push(at(v));
-  const last = labels[labels.length - 1];
-  if (total > 0 && last && Math.abs(Number(last.text) - total) > 0.005) labels.push(at(total));
-  return labels;
 }

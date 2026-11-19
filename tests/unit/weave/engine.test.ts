@@ -71,20 +71,23 @@ describe('layout', () => {
     expect([d.width, d.height]).toEqual([64, 380]);
     expect(d.cloth).toEqual({ x: 4, y: 10, w: 56, h: 360 });
   });
-  it('lays detail bands 9px high, newest at the top, squeezing when full', () => {
+  it('lays detail bands 9px high, newest at the top, never squeezing', () => {
     const d = geometry('detail');
     const bands = layoutBands(['a', 'b', 'c'], d);
     expect(bands.map((b) => b.rect.y)).toEqual([28, 19, 10]);
     expect(bands[0].rect.h).toBe(9);
     const many = layoutBands(Array.from({ length: 90 }, (_, i) => `i${i}`), d);
-    expect(many[0].rect.y + many[0].rect.h).toBeCloseTo(370);
-    expect(many[89].rect.y).toBe(10);
+    expect(many.every((b) => b.rect.h === 9)).toBe(true);
+    expect(many[89].rect.y).toBe(10); // the newest band is in view
+    expect(many[0].rect.y).toBe(10 + 89 * 9); // the oldest is far below the window
   });
-  it('weaves the strip left to right, 16px per item, until it is full', () => {
+  it('weaves the strip left to right, 16px per item, never squeezing', () => {
     const s = geometry('strip', 300);
     expect(layoutBands(['a', 'b'], s).map((b) => [b.rect.x, b.rect.w])).toEqual([[10, 16], [26, 16]]);
     const many = layoutBands(Array.from({ length: 40 }, (_, i) => `i${i}`), s);
-    expect(many[39].rect.x + many[39].rect.w).toBeCloseTo(290);
+    expect(many.every((b) => b.rect.w === 16)).toBe(true);
+    expect(many[39].rect.x + many[39].rect.w).toBe(290); // newest end at the right inset
+    expect(many[0].rect.x).toBe(290 - 40 * 16);
   });
   it('grows the woven cloth from nothing as items are woven', () => {
     const s = geometry('strip', 300);

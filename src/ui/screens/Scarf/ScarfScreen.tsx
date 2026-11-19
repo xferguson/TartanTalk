@@ -8,7 +8,7 @@ import { Button, ButtonRow } from '../../components/Button';
 import { ScarfCanvas } from '../../components/ScarfCanvas';
 import { tagLabel } from '../../../domain/tagLabel';
 import { TagPicker } from '../../components/TagPicker';
-import { buildScarfView, rulerLabels } from './scarfView';
+import { buildScarfView } from './scarfView';
 import styles from './ScarfScreen.module.css';
 
 /** The clock is injected so tests, and later the dev time-travel control, can set "now". */
@@ -57,15 +57,11 @@ export function ScarfScreen({ now = Date.now }: { now?: () => number }) {
               holes={view.holes}
               name={scarf.name}
               lengthLabel={formatLength(view.ells)}
+              itemElls={view.itemElls}
+              scarfId={scarf.id}
               onReweave={(itemId) => navigate(`/reweave/${scarf.id}?item=${encodeURIComponent(itemId)}`)}
             />
           )}
-        </div>
-
-        <div className={styles.ruler} aria-hidden="true">
-          {rulerLabels(view.ells).map((l) => (
-            <span key={l.text} className={styles.tick} style={{ top: l.top }}>{l.text}</span>
-          ))}
         </div>
 
         <div className={styles.facts}>
