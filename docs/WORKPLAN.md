@@ -421,6 +421,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** W3-H
 
+### W3-J
+
+- **Status:** in progress (ccr-0975da77-6zfy6w)
+
+**Drag the strips sideways.** A shelf or loom strip whose cloth is longer than its card can be dragged left and right to see older cloth, as the detail scarf can be dragged up and down. Amends the strip section of Appendix B13. Tests first.
+
+- **Owns:** `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**`, `docs/WORKPLAN.md` (this row and B13), `docs/LEARNINGS.md`
+
+- **Depends on:** W3-H, W3-I
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 
@@ -718,17 +728,21 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - A pure function `rulerMarks(itemElls, bandPx)` returns `{ text, y }[]`, with y in cloth px from the newest end. It places marks at 0, every 0.5 ell, and the exact total. A mark sits where the cumulative length (counted from the oldest band) reaches its value, interpolated linearly within the band that crosses it. So 0 is at the oldest end and the total at the newest end. Drop a 0.5-ell mark closer than 14px to the total mark.
 - The labels are 0.68rem `--muted` tabular numbers, vertically centred on their y, moving with the cloth and clipped to the window. The ruler is `aria-hidden`; the text alternative and facts carry the numbers.
 
-**The strip (shelf and loom):**
-- It is not draggable: on the shelf the whole card is a link to the detail view.
-- When the cloth is longer than the card (`n × 16 > width - 20`), show the newest end. The right fringe sits at the right inset, and the cloth runs off the left edge with the 28px edge fade there. No left fringe is drawn.
-- Holes beyond the left edge show as a marker at the left edge, as above, but decorative (`aria-hidden`, not a button), centred 16px in from the edge. The card's hole chip already gives the count.
-- Visible holes and the perched moth follow B2.
+**The strip (shelf and loom):** **(Amended in W3-J: drag sideways.)**
+- It is a window onto the cloth like the detail scarf, but moves left and right. `offset` is the distance in px from the newest end (the right end), clamped to `[0, max(0, n × 16 - (width - 20))]`. It opens at `offset = 0`, the newest end, with the right fringe at the right inset.
+- **Drag:** pointer drag moves the cloth 1:1 with the finger or mouse, horizontally, with no momentum and with pointer capture once it is a drag. Dragging right brings older cloth into view. A drag of 6px or more cancels the click on a hole button under the pointer. A tap that is not a drag still works as before.
+- **Page scroll stays free:** `touch-action: pan-y` on a strip that can move (never `none`), so a vertical swipe scrolls the page and only a horizontal one moves the cloth. A strip that fits has no `touch-action` and is not focusable. Cursor `grab`, and `grabbing` while dragging.
+- **Wheel:** only a horizontal gesture (`|deltaX| > |deltaY|`) moves the window, and only while it can still move that way. Ordinary vertical wheel scrolls the page.
+- **Keyboard:** the strip is focusable (`tabindex="0"`, `role="group"`, `aria-roledescription="scarf"`, `aria-label="{name} cloth. Drag sideways, or use the left and right arrow keys, to move along the scarf."`). Left moves 48px (3 bands) towards the older end and Right moves 48px back. Home goes to the left end of the screen (the oldest cloth) and End to the right end (the newest). The focus ring follows B1.
+- **Cues:** at each end of the window with more cloth beyond it, the cloth fades over 28px and shows a 10px chevron pointing outward, 6px in from the edge, or a marker when holes lie beyond it. Left is the older end, right the newer end. The markers stay decorative (`aria-hidden`, not buttons), centred 16px in from the edge. The card's hole chip already gives the count. There is no peek on strips (a shelf can hold many).
+- When the cloth fits, no fade, chevron, marker or `touch-action` appears, as before.
+- Visible holes and the perched moth follow B2 and the detail scarf's faded-edge rule.
 
 **Growth at the moment it happens** (the weaving moment in B6, and any view showing when a band is added):
-- When `wovenOrder` grows by one and the newest end is in view (always on the strip; on the detail scarf unless the learner has moved away from `offset = 0`):
+- When `wovenOrder` grows by one and the newest end is in view (on either view unless the learner has moved away from `offset = 0`):
   1. If the cloth already overflows, it slides by one band (16px left on the strip, 9px down on the detail scarf) over 200ms ease-out, opening space at the newest end.
   2. Then the B2 shuttle sweep (300ms) weaves the new band into that space.
-- If the learner has moved away from the newest end, the band is added without moving their view. The newer-end fade and chevron show there is fresh cloth that way.
+- If the learner has moved away from the newest end, the band is added without moving their view, on the strip too. The newer-end fade and chevron show there is fresh cloth that way.
 - Under reduced motion the band appears in place, with no slide and no sweep.
 
 **Text alternative:** unchanged (B2). It describes the whole scarf, not the window.
