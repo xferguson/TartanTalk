@@ -101,16 +101,16 @@ describe('ReweaveScreen', () => {
     expect(screen.getByRole('link', { name: 'Back to the shelf' })).toBeTruthy();
   });
 
-  it('counts holes left and offers the next thread', async () => {
+  it('moves straight to the next thread after a rating', async () => {
     await putProgress(row('lex:gaol'), database);
     await putProgress(row('form:aig.1sg', { fsrs: { stability: 1, difficulty: 5, lastReview: now - 3 * DAY, due: now - 2 * DAY, reps: 1, lapses: 0 } }), database);
     renderScreen();
     await screen.findByText(/1 of 2/);
     await answerCorrectly();
     fireEvent.click(await screen.findByRole('button', { name: /Good/ }));
-    expect(await screen.findByText(/Math dhèanta! Well done\. 1 hole left\./)).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Next thread' }));
+    // Rating goes straight to the next thread, with no Next button in between.
     expect(await screen.findByText(/2 of 2/)).toBeTruthy();
+    expect(screen.queryByRole('button', { name: 'Next thread' })).toBeNull();
   });
 
   it('points to Tangles when tangled items are waiting', async () => {

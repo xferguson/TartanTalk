@@ -71,8 +71,8 @@ describe('session store', () => {
     expect(store.getState().feedback).toMatchObject({ awaitingRating: true, suggestedRating: 'good' });
     expect(store.getState().queue).toHaveLength(n); // not removed until rated
     await store.getState().rate('easy');
+    // Rating moves straight on: no separate Next step.
     expect(store.getState().queue).toHaveLength(n - 1);
-    await store.getState().next();
     expect(store.getState().feedback).toBeNull();
   });
 
