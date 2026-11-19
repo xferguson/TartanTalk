@@ -403,7 +403,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-H
 
-- **Status:** todo
+- **Status:** in progress (ccr-112afb0a-3ok0iz)
 
 **Long scarves.** Spec: Appendix B13. Bands keep their size for ever, so the scarf keeps growing after it fills the screen. The detail scarf becomes a window onto the cloth that you drag (no scrollbar), with edge cues, off-screen moth markers and a ruler that moves with the cloth. The shelf and loom strips show their newest end, and a new band slides the cloth along as it is woven. Pure layout first (`src/weave/layout.ts`: window, visible bands, off-screen holes, ruler marks), with unit tests written before the code.
 

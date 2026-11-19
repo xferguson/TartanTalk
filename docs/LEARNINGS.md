@@ -336,7 +336,7 @@ _What the learner already knows must be checked wherever an exercise singles out
 
 - **Type:** issue
 
-- **Seen in:** #69
+- **Seen in:** #69, #70
 
 - **Detail:** Both scarf views squeezed their bands once the cloth was full (the strip at about 19 items on a phone, the detail scarf at 40), so learning more stopped showing. L20 fixed the empty and part-woven states but not the full state. The user reported it after weaving a long scarf.
 
@@ -385,6 +385,20 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 - **Resolution:** Each task is its own block with its **Status** on its own line, and every field is separated by a blank line. Learnings have no stored tally (count the PRs in **Seen in**), a blank line between fields, and new entries go in alphabetical order by slug instead of at the end. Splitting into one file per entry was rejected as heavier than needed.
 
 - **Status:** adopted
+
+### react-wheel-listeners-are-passive
+
+_A scarf window that moves on the mouse wheel couldn't stop the page scrolling through React's `onWheel`._
+
+- **Type:** efficiency
+
+- **Seen in:** #70
+
+- **Detail:** React registers `wheel` (and touch) listeners as passive, so `preventDefault()` in `onWheel` is ignored and the page scrolls with the scarf.
+
+- **Resolution:** Add a native listener with `{ passive: false }` in an effect, and call `preventDefault()` only while the element can still move that way, so the page scrolls at the ends. For pointer drags over tappable children, capture the pointer only after a small threshold (6px), or the capture swallows taps on the children.
+
+- **Status:** resolved
 
 ### reweave-item-focus-needs-store-api
 _The Scarf screen links a hole to `/reweave/:id?item=…`, but the session store cannot start on a chosen item._

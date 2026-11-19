@@ -8,20 +8,10 @@
 
 .body {
   display: grid;
-  grid-template-columns: 64px 26px 1fr;
+  grid-template-columns: 100px 1fr;
   gap: 10px;
   margin: 12px 0;
 }
-
-.ruler {
-  position: relative;
-  height: 380px;
-  color: var(--muted);
-  font-size: 0.68rem;
-  font-variant-numeric: tabular-nums;
-  line-height: 10px;
-}
-.tick { position: absolute; left: 0; white-space: nowrap; }
 
 .facts { display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; }
 .fact { margin: 0; }

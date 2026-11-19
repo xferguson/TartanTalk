@@ -29,36 +29,86 @@ export function geometry(variant: ScarfVariant, width = 280): Geometry {
 
 export interface Band { index: number; itemId: ItemId; rect: Rect }
 
-/** Strip width one woven item adds, until the strip is full. */
+/** Strip width one woven item adds. */
 export const STRIP_BAND_WIDTH = 16;
 
-const bandSize = (g: Geometry, n: number) =>
-  g.variant === 'strip' ? Math.min(STRIP_BAND_WIDTH, g.cloth.w / n) : Math.min(DETAIL_BAND_HEIGHT, g.cloth.h / n);
+/** Bands keep their size however long the scarf grows (B13), so learning more always shows. */
+export const bandPx = (g: Geometry): number => (g.variant === 'strip' ? STRIP_BAND_WIDTH : DETAIL_BAND_HEIGHT);
+
+/** Length of the cloth area on screen: the window the scarf is seen through. */
+export const viewSpan = (g: Geometry): number => (g.variant === 'strip' ? g.cloth.w : g.cloth.h);
+
+export const clothLength = (count: number, g: Geometry): number => count * bandPx(g);
 
 /**
- * The part of the cloth that has been woven. An empty scarf has none, and it
- * grows by one band per woven item until it fills the loom, so the strip shows real progress.
+ * `offset` is how far the window has moved from the newest end towards the oldest, in px.
+ * It is 0 while the cloth fits.
  */
-export function wovenRect(count: number, g: Geometry): Rect {
-  const c = g.cloth;
-  if (count === 0) return { ...c, w: g.variant === 'strip' ? 0 : c.w, h: g.variant === 'strip' ? c.h : 0 };
-  const size = bandSize(g, count) * count;
-  return g.variant === 'strip' ? { ...c, w: size } : { ...c, h: size };
+export const maxOffset = (count: number, g: Geometry): number => Math.max(0, clothLength(count, g) - viewSpan(g));
+
+export const clampOffset = (offset: number, count: number, g: Geometry): number =>
+  Math.min(maxOffset(count, g), Math.max(0, offset));
+
+/**
+ * Screen position (y on the detail scarf, x on the strip) of the point `d` px along the
+ * cloth from its newest end. The detail scarf hangs with its newest band at the top; the
+ * strip is woven left to right and, once it overflows, shows its newest end.
+ */
+function screenAt(d: number, count: number, g: Geometry, offset: number): number {
+  if (g.variant === 'detail') return g.cloth.y + d - offset;
+  return g.cloth.x + Math.min(clothLength(count, g), viewSpan(g)) + offset - d;
+}
+
+/** Cloth distance from the newest end of a screen position: the inverse of `screenAt`. */
+function clothAt(pos: number, count: number, g: Geometry, offset: number): number {
+  if (g.variant === 'detail') return pos - g.cloth.y + offset;
+  return g.cloth.x + Math.min(clothLength(count, g), viewSpan(g)) + offset - pos;
 }
 
 /**
- * One band per woven item. The strip is woven left to right. The detail scarf hangs from the
- * top and grows downward, with the newest band at the top (the older bands move down); both
- * squeeze their bands once the cloth is full.
+ * The woven part of the cloth inside the window. An empty scarf has none, and it grows by
+ * one band per woven item; once longer than the window it is clipped to it.
  */
-export function layoutBands(order: ItemId[], g: Geometry): Band[] {
+export function wovenRect(count: number, g: Geometry, offset = 0): Rect {
+  const c = g.cloth;
+  const a = screenAt(0, count, g, offset);
+  const b = screenAt(clothLength(count, g), count, g, offset);
+  const lo = g.variant === 'strip' ? c.x : c.y;
+  const from = Math.max(lo, Math.min(a, b));
+  const to = Math.min(lo + viewSpan(g), Math.max(a, b));
+  const size = Math.max(0, to - from);
+  return g.variant === 'strip' ? { ...c, x: count === 0 ? c.x : from, w: size } : { ...c, y: count === 0 ? c.y : from, h: size };
+}
+
+/** One band per woven item, in screen coordinates for the given window `offset`. */
+export function layoutBands(order: ItemId[], g: Geometry, offset = 0): Band[] {
   const n = order.length;
-  if (n === 0) return [];
-  const size = bandSize(g, n);
-  if (g.variant === 'strip') {
-    return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x + index * size, y: g.cloth.y, w: size, h: g.cloth.h } }));
-  }
-  return order.map((itemId, index) => ({ index, itemId, rect: { x: g.cloth.x, y: g.cloth.y + (n - 1 - index) * size, w: g.cloth.w, h: size } }));
+  const size = bandPx(g);
+  return order.map((itemId, index) => {
+    const newerEdge = screenAt((n - 1 - index) * size, n, g, offset);
+    const rect =
+      g.variant === 'strip'
+        ? { x: newerEdge - size, y: g.cloth.y, w: size, h: g.cloth.h }
+        : { x: g.cloth.x, y: newerEdge, w: g.cloth.w, h: size };
+    return { index, itemId, rect };
+  });
+}
+
+/** Bands at least partly inside the window, oldest first. */
+export function visibleBands(order: ItemId[], g: Geometry, offset = 0): Band[] {
+  const c = g.cloth;
+  return layoutBands(order, g, offset).filter(({ rect: r }) =>
+    g.variant === 'strip' ? r.x < c.x + c.w && r.x + r.w > c.x : r.y < c.y + c.h && r.y + r.h > c.y,
+  );
+}
+
+const EPS = 0.5;
+
+/** Which ends of the cloth are in the window: they get a fringe, and the others an edge fade. */
+export function clothEnds(count: number, g: Geometry, offset = 0): { newest: boolean; oldest: boolean } {
+  if (count === 0) return { newest: false, oldest: false };
+  const o = clampOffset(offset, count, g);
+  return { newest: o <= EPS, oldest: o >= maxOffset(count, g) - EPS };
 }
 
 const HOLE_RADIUS: Record<ScarfVariant, Record<MothSize, number>> = {
@@ -73,8 +123,8 @@ export interface HolePlacement { itemId: ItemId; size: MothSize; cx: number; cy:
  * Where each hole sits: on its item's band when woven, with a stable offset across the cloth.
  * Largest holes come first, because the moth perches beside the first one.
  */
-export function placeHoles(holes: MothHole[], order: ItemId[], g: Geometry): HolePlacement[] {
-  const bands = new Map(layoutBands(order, g).map((b) => [b.itemId, b]));
+export function placeHoles(holes: MothHole[], order: ItemId[], g: Geometry, offset = 0): HolePlacement[] {
+  const bands = new Map(layoutBands(order, g, offset).map((b) => [b.itemId, b]));
   const placed = holes.map((hole) => {
     const seed = seedOf(hole.itemId);
     const band = bands.get(hole.itemId);
@@ -94,6 +144,76 @@ export function placeHoles(holes: MothHole[], order: ItemId[], g: Geometry): Hol
     return { itemId: hole.itemId, size: hole.size, cx, cy, r, seed: seed % 1000 };
   });
   return placed.sort((a, b) => SIZE_RANK[a.size] - SIZE_RANK[b.size]);
+}
+
+export interface HoleSplit {
+  /** Holes whose centre is in the window, largest first (the moth perches by the first). */
+  visible: HolePlacement[];
+  /** Beyond the newest-end edge of the window, nearest first. */
+  newer: HolePlacement[];
+  /** Beyond the oldest-end edge of the window, nearest first. */
+  older: HolePlacement[];
+}
+
+/** Holes stay on their own band (B13): this only sorts them by where they sit relative to the window. */
+export function splitHoles(placed: HolePlacement[], g: Geometry): HoleSplit {
+  const c = g.cloth;
+  const split: HoleSplit = { visible: [], newer: [], older: [] };
+  for (const p of placed) {
+    if (g.variant === 'detail') {
+      if (p.cy < c.y) split.newer.push(p);
+      else if (p.cy > c.y + c.h) split.older.push(p);
+      else split.visible.push(p);
+    } else if (p.cx < c.x) split.older.push(p);
+    else if (p.cx > c.x + c.w) split.newer.push(p);
+    else split.visible.push(p);
+  }
+  // Nearest first: by distance from the window, which is the same on both sides of it.
+  const along = (p: HolePlacement) => (g.variant === 'detail' ? p.cy : p.cx);
+  const lo = g.variant === 'detail' ? c.y : c.x;
+  const gap = (p: HolePlacement) => Math.max(lo - along(p), along(p) - (lo + viewSpan(g)));
+  split.newer.sort((a, b) => gap(a) - gap(b));
+  split.older.sort((a, b) => gap(a) - gap(b));
+  return split;
+}
+
+/** The window offset that puts a hole in the middle of the window, clamped to the cloth. */
+export function offsetToCentre(p: HolePlacement, count: number, g: Geometry, offset: number): number {
+  const d = clothAt(g.variant === 'detail' ? p.cy : p.cx, count, g, offset);
+  return clampOffset(d - viewSpan(g) / 2, count, g);
+}
+
+export interface RulerMark {
+  text: string;
+  /** Cloth px from the newest end. */
+  y: number;
+}
+
+const RULER_CROWD_PX = 14;
+const roundElls = (v: number) => String(Math.round(v * 100) / 100);
+
+/**
+ * Ruler marks at 0, every half ell and the exact total, placed where the cloth reaches that
+ * length counting from the oldest band. `itemElls` is in weaving order (oldest first).
+ */
+export function rulerMarks(itemElls: readonly number[], bandSize: number): RulerMark[] {
+  const n = itemElls.length;
+  const total = itemElls.reduce((a, b) => a + b, 0);
+  if (n === 0 || total <= 0) return [{ text: '0', y: 0 }];
+  const yAt = (v: number): number => {
+    let before = 0;
+    for (let i = 0; i < n; i++) {
+      const e = itemElls[i] ?? 0;
+      if (e > 0 && v <= before + e + 1e-9) return (n - i) * bandSize - ((v - before) / e) * bandSize;
+      before += e;
+    }
+    return 0;
+  };
+  const marks: RulerMark[] = [];
+  for (let v = 0; v < total - 0.005; v += 0.5) marks.push({ text: roundElls(v), y: yAt(v) });
+  // A mark this close to the total would print over it.
+  const kept = marks.filter((m) => m.y >= RULER_CROWD_PX);
+  return [...kept, { text: roundElls(total), y: 0 }];
 }
 
 /** Moth perches to the right of the largest hole. */
