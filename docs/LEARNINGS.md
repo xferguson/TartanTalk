@@ -332,6 +332,18 @@ _What the learner already knows must be checked wherever an exercise singles out
 
 - **Status:** resolved
 
+### long-scarf-fills-then-freezes
+
+- **Type:** issue
+
+- **Seen in:** #69
+
+- **Detail:** Both scarf views squeezed their bands once the cloth was full (the strip at about 19 items on a phone, the detail scarf at 40), so learning more stopped showing. L20 fixed the empty and part-woven states but not the full state. The user reported it after weaving a long scarf.
+
+- **Resolution:** Spec B13 (task W3-H): bands keep their size, the detail scarf becomes a draggable window with edge fades and off-screen moth markers, and the strips show their newest end. Any progress visual needs a spec for what happens after it is full, not only the empty and part-woven states.
+
+- **Status:** open
+
 ### no-project-details-in-user-agent
 
 _A descriptive User-Agent nearly carried the project owner's handle to an outside service._

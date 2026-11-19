@@ -401,6 +401,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** F1
 
+### W3-H
+
+- **Status:** todo
+
+**Long scarves.** Spec: Appendix B13. Bands keep their size for ever, so the scarf keeps growing after it fills the screen. The detail scarf becomes a window onto the cloth that you drag (no scrollbar), with edge cues, off-screen moth markers and a ruler that moves with the cloth. The shelf and loom strips show their newest end, and a new band slides the cloth along as it is woven. Pure layout first (`src/weave/layout.ts`: window, visible bands, off-screen holes, ruler marks), with unit tests written before the code.
+
+- **Owns:** `src/weave/**`, `src/ui/components/ScarfCanvas*`, `src/ui/screens/Scarf/**` (the ruler moves into `ScarfCanvas`), `tests/unit/weave/**`, `tests/unit/screens/ScarfScreen*`
+
+- **Depends on:** W1-A, W2-D
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 
@@ -516,10 +526,10 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Twill pixel rule:** at thread coordinates (x, y), show the warp colour when `((x + y) & 3) < 2`, else the weft colour.
 - **Shading:** multiply the colour by 1.05 for warp and 0.93 for weft. Thread-edge pixels are multiplied by a further 0.86: the left and right pixel columns of a warp thread, and the top and bottom pixel rows of a weft thread. Noise multiplier is `1 + (hash(X, Y) - 0.5) * 0.09`. Then add 6 to each channel and clamp to 255. The hash is `h = (x*374761393 + y*668265263)|0; h = (h ^ (h>>>13)) * 1274126177; return ((h ^ (h>>>16))>>>0) / 4294967295` (port it exactly, so it is deterministic).
 - **Thread size:** 2 device-independent px per thread on shelf strips and detail views; 3px on the reweave close-up and library swatches. The sett `scale` multiplies thread counts (minimum 1 per stripe).
-- **Shelf strip:** height 44px, full card width. The cloth is inset 10px at each end for the fringe.
+- **Shelf strip:** height 44px, full card width. The cloth is inset 10px at each end for the fringe. Once the cloth is longer than the card, see B13.
 - **Fringe:** every 3px down the edge, draw a 1.6px round-capped line 8px long outward, alternating ±1px. Its colour is the sett thread at index `(i*2) % length`.
-- **Vertical detail scarf:** canvas 64×380. The cloth spans x 4-60 and y 10-370, with the fringe top and bottom.
-- **Item bands:** each woven item is one band. Band height is 9px on the detail view: one line of `rgba(255,255,255,.12)` 1px between bands. Kind weighting for length is in W2-B, not here.
+- **Vertical detail scarf:** canvas 64×380. The cloth spans x 4-60 and y 10-370, with the fringe top and bottom. Once the cloth is longer than 360px, the canvas is a window onto it (B13).
+- **Item bands:** each woven item is one band. Band height is 9px on the detail view: one line of `rgba(255,255,255,.12)` 1px between bands. Bands are never squeezed to fit (B13). Kind weighting for length is in W2-B, not here.
 - **Holes:** an irregular 12-point polygon. Each point is at radius `r*(0.75 + hash(seed+a, 7)*0.5)`. Fill with the card's `--surface`; stroke with `rgba(0,0,0,.25)` at 1px.
   - Strip radii: small 3.5, medium 5, large 7.
   - Detail radii: small 5, medium 6, large 8.
@@ -571,7 +581,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Title:** the scarf name. Subtitle: "{tartan name} · begun {d MMM}".
 - **Body:** a three-column grid of 64px, 26px and 1fr with a 10px gap.
   - **Column 1:** the vertical scarf (B2).
-  - **Column 2:** the ruler, 380px tall, 0.68rem `--muted` tabular numbers. Labels at 0 and every 0.5 ell up to the total, plus the exact total. A label at value v sits at `top = 380 - v/total*370 - 5` px, vertically centred.
+  - **Column 2:** the ruler (moves inside `ScarfCanvas` in W3-H, see B13), 380px tall, 0.68rem `--muted` tabular numbers. Labels at 0 and every 0.5 ell up to the total, plus the exact total. A label at value v sits at `top = 380 - v/total*370 - 5` px, vertically centred.
   - **Column 3:** facts at 0.88rem, gap 10px. Each fact has a big number (display, 1.6rem, 700, line-height 1.1) above its text:
     - "{length}", "ells woven"
     - "{count}", "items: {w} words, {f} forms, {s} sentences"
@@ -598,7 +608,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Rating:** after a correct review answer, show the label "How did that feel?" and the RatingBar (pre-selected Good, or Hard after an accent slip). No rating appears while learning a new item (the ladder handles it) or after a wrong answer (automatically Again).
 - **Implicit-credit note:** after a typed full sentence, show at 0.82rem `--muted`: "Typing the full sentence also counts as a review for {list of Gaelic words}."
 - **Already knew this (W3-G):** after a correct answer to a sentence shown for the first time (no earlier answer saved), a ghost button "I already knew this" sits after **Next** in the same ButtonRow. It saves the sentence as known (learned, no schedule, nothing woven), drops its remaining ladder cards, counts it as answered, and shows the next card. It never appears in reweave or tangles, or on later answers.
-- **Weaving moment:** when an item is learned (2 correct answers), show the scarf strip with the shuttle animation adding its band, and the caption "Woven into {scarf}: +{fraction} ell".
+- **Weaving moment:** when an item is learned (2 correct answers), show the scarf strip with the shuttle animation adding its band, and the caption "Woven into {scarf}: +{fraction} ell". On a long scarf the strip shows its newest end and the cloth slides along as the band is woven (B13).
 - **Empty state** (`/loom` without a scarf): show "Choose a scarf to weave" and the shelf's scarf list as links.
 
 ### B7. Reweave screen (W2-H)
@@ -661,3 +671,56 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **When it shows (all must hold):** a touch-first device (`(pointer: coarse)`, or iPadOS reporting as a Mac with touch); not running standalone (`display-mode: standalone` or `navigator.standalone`); not already installed (`appinstalled` seen); not snoozed; and either the browser has fired `beforeinstallprompt` (native) or the device is iOS (instructions). Desktop never sees it.
 - **Snooze:** "Not now", or dismissing the browser's own dialog, hides it for 14 days. Installing hides it for good. State lives in `localStorage` key `tt-install` (local only, no cookies sent anywhere). If storage is unavailable the banner still works for the session.
 - **Motion:** none beyond the global transition rule. **Focus:** visible ring on both buttons.
+
+### B13. Long scarves (W3-H) (no mock-up: tech-lead spec agreed with the user; design check with the user once built)
+**Why:** both views squeezed their bands once the cloth was full: the strip at about 19 items on a phone, the detail scarf at 40. After that, learning more changed nothing you could see. Now every band keeps its size, the scarf really gets longer, and the newest weaving is always in view.
+
+**Principles:** holes stay on the band of the item they belong to. Nothing gets thinner or smaller as you learn. There is no visible scrollbar.
+
+**States:** empty and part-woven scarves (the cloth still fits) look exactly as they do now, including the dashed outline of the unwoven part (L20). Everything below applies once the cloth is longer than the space it is shown in.
+
+**Band size:** 16px wide on the strip and 9px tall on the detail scarf, always. Remove the squeeze in `bandSize` (`Math.min(..., g.cloth.w / n)` and `Math.min(..., g.cloth.h / n)`). The cloth is `n × band` long. Orientation is unchanged: the strip is woven left to right with the newest band at the right, and the detail scarf has the newest band at the top.
+
+**The window (detail scarf):**
+- The 64×380 canvas shows a window onto the cloth. `offset` is the distance in px from the newest end, clamped to `[0, max(0, clothLength - 360)]`. At `offset = 0` the newest band sits at the top of the cloth area, as now.
+- **Default:** `offset = 0` when the screen opens, so the latest weaving shows first. Older cloth is below. Drag up to see it.
+- **Drag:** pointer drag moves the cloth 1:1 with the finger or mouse, vertically, with no momentum. Use pointer capture. Set `touch-action: none` on the scarf only while it can move, so a scarf that fits never traps the page scroll. The cursor is `grab`, and `grabbing` while dragging. A drag of 6px or more cancels the click on a hole button under the pointer.
+- **Wheel:** `deltaY` moves the window. Call `preventDefault` only while the window can still move in that direction, so the page scrolls at the ends.
+- **Keyboard:** the window is focusable, with `tabindex="0"`, `role="group"`, `aria-roledescription="scarf"` and `aria-label="{name} cloth. Drag, or use the arrow keys, to move along the scarf."`. Down moves 27px (3 bands) towards the older end, and Up moves 27px back. Page Down and Page Up move 300px. Home goes to the newest end and End to the oldest. The focus ring follows B1.
+- **Rendering:** the canvas stays 64×380 however long the scarf is. Paint only the bands in view, shifted by `offset`. Anchor the twill pattern to cloth coordinates (translate the pattern by `offset`), so the weave does not swim while dragging. Draw the top fringe only when the newest end is in view (`offset = 0`), and the bottom fringe only when the oldest end is in view.
+
+**"There's more cloth" cue (instead of a scrollbar):**
+- **Edge fade:** at each end of the window with more cloth beyond it, the cloth fades out over 28px (a CSS `mask-image` linear gradient on the canvas, opaque to transparent). An end with nothing beyond it has no fade.
+- **Chevron:** at each faded end without a moth marker (below), show a 10px chevron in `--muted`, centred across the cloth, 6px in from the edge and pointing outward. It is decorative (`aria-hidden`).
+- **Peek:** the first time the detail screen shows a scarf that can move, in each app session, the window eases 24px towards the older end and back (300ms out, 300ms back, ease-in-out), once. Track peeked scarf ids in a module-level set (memory only, no storage). Skip the peek under reduced motion, and after the learner has moved that scarf themselves.
+
+**Holes in the window:**
+- Holes sit on their own band (`placeHoles`), in cloth coordinates. Only holes whose centre is inside the window are drawn and get a hole button.
+- **Off-screen moth markers:** when holes lie beyond an end of the window, a marker replaces the chevron at that end.
+  - A button with a 44×44px hit area, centred across the cloth, with its centre 16px in from the window's edge, over the edge fade.
+  - Inside it: the B2 moth at size 18 (`MothSprite`), with a count badge at its upper right, offset (+10px, -10px). The badge is 0.66rem, weight 700, tabular-nums, `--on-accent` on `--amber`, pill radius, min-width 16px, padding 0 4px.
+  - Label: "{n} moth hole(s) further along the scarf. Show them." at the older end, and "{n} moth hole(s) back towards the newest weaving. Show them." at the newer end.
+  - Tapping it moves the window so the nearest hole beyond that edge sits at the window's centre (clamped), over 250ms ease-out, or instantly under reduced motion. Focus moves to that hole's button.
+- **The moth character:** perches beside the largest visible hole (B2 placement, in window coordinates). When no hole is visible, the only moths shown are the ones in the markers. The perched moth is never drawn outside the window.
+
+**Ruler (detail scarf):**
+- `ScarfCanvas` takes `itemElls: number[]` (the length each item adds, in `wovenOrder` order) and draws the ruler itself, in a 26px column 10px to the right of the 64px scarf. It sits inside the same moving window, so the component is 100px wide on the detail variant, and the B5 grid becomes 100px and 1fr with a 10px gap.
+- A pure function `rulerMarks(itemElls, bandPx)` returns `{ text, y }[]`, with y in cloth px from the newest end. It places marks at 0, every 0.5 ell, and the exact total. A mark sits where the cumulative length (counted from the oldest band) reaches its value, interpolated linearly within the band that crosses it. So 0 is at the oldest end and the total at the newest end. Drop a 0.5-ell mark closer than 14px to the total mark.
+- The labels are 0.68rem `--muted` tabular numbers, vertically centred on their y, moving with the cloth and clipped to the window. The ruler is `aria-hidden`; the text alternative and facts carry the numbers.
+
+**The strip (shelf and loom):**
+- It is not draggable: on the shelf the whole card is a link to the detail view.
+- When the cloth is longer than the card (`n × 16 > width - 20`), show the newest end. The right fringe sits at the right inset, and the cloth runs off the left edge with the 28px edge fade there. No left fringe is drawn.
+- Holes beyond the left edge show as a marker at the left edge, as above, but decorative (`aria-hidden`, not a button), centred 16px in from the edge. The card's hole chip already gives the count.
+- Visible holes and the perched moth follow B2.
+
+**Growth at the moment it happens** (the weaving moment in B6, and any view showing when a band is added):
+- When `wovenOrder` grows by one and the newest end is in view (always on the strip; on the detail scarf unless the learner has moved away from `offset = 0`):
+  1. If the cloth already overflows, it slides by one band (16px left on the strip, 9px down on the detail scarf) over 200ms ease-out, opening space at the newest end.
+  2. Then the B2 shuttle sweep (300ms) weaves the new band into that space.
+- If the learner has moved away from the newest end, the band is added without moving their view. The newer-end fade and chevron show there is fresh cloth that way.
+- Under reduced motion the band appears in place, with no slide and no sweep.
+
+**Text alternative:** unchanged (B2). It describes the whole scarf, not the window.
+
+**Tests (write first):** bands never shrink as the count grows; `offset` clamping; the band range in view for an offset; which holes are in view, beyond each end, and the nearest hole beyond each end; `rulerMarks` positions, with interpolation and the dropped crowded mark; the strip's newest-end view. Component tests: a scarf that fits has no fade, chevron, marker or `touch-action: none`; Home, End and the arrow keys move the window; a marker tap brings its hole into view and focuses its button; growing `wovenOrder` at `offset = 0` keeps the newest band in view, and growing it while moved away leaves the view where it was.
