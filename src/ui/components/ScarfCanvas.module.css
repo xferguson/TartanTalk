@@ -6,6 +6,9 @@
 /* Only a scarf longer than its window can be dragged; one that fits leaves the page scroll alone. */
 .movable { cursor: grab; touch-action: none; user-select: none; }
 .grabbing { cursor: grabbing; }
+/* A strip moves sideways only, so a vertical swipe on it still scrolls the page. */
+.movableSideways { cursor: grab; touch-action: pan-y; user-select: none; }
+.movableSideways:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; border-radius: 4px; }
 .movable:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; border-radius: 4px; }
 
 /* Holes are real buttons over the canvas so they can be focused and tapped. */

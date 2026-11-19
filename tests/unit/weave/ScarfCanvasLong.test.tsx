@@ -101,16 +101,105 @@ describe('ScarfCanvas on a long scarf', () => {
   });
 });
 
+const strip = (order: string[], holes: ScarfCanvasHole[] = [], extra = {}) => (
+  <ScarfCanvas tartan={tartan} variant="strip" wovenOrder={order} holes={holes} name="Love" lengthLabel="2 ells" onReweave={() => undefined} {...extra} />
+);
+const STRIP_LABEL = 'Love cloth. Drag sideways, or use the left and right arrow keys, to move along the scarf.';
+
+// jsdom has no PointerEvent; a mouse event carries the clientX the drag reads.
+class FakePointerEvent extends MouseEvent {
+  pointerId: number;
+  pointerType: string;
+  constructor(type: string, init: MouseEventInit & { pointerId?: number; pointerType?: string } = {}) {
+    super(type, { bubbles: true, cancelable: true, ...init });
+    this.pointerId = init.pointerId ?? 1;
+    this.pointerType = init.pointerType ?? 'touch';
+  }
+}
+const pointer = (el: Element, type: string, clientX: number) => {
+  act(() => {
+    el.dispatchEvent(new FakePointerEvent(type, { clientX }));
+  });
+};
+
 describe('ScarfCanvas strip on a long scarf', () => {
   it('shows its newest end, with a quiet marker for older holes', () => {
-    const { container } = render(
-      <ScarfCanvas tartan={tartan} variant="strip" wovenOrder={ids(60)} holes={[hole('i0'), hole('i59')]} name="Love" lengthLabel="2 ells" />,
-    );
-    expect(screen.queryByRole('group')).toBeNull();
+    const { container } = render(strip(ids(60), [hole('i0'), hole('i59')]));
+    expect(screen.getByRole('group', { name: STRIP_LABEL }).getAttribute('tabindex')).toBe('0');
     expect(screen.getByRole('button', { name: 'Reweave gd-i59' })).toBeTruthy();
     expect(screen.queryByRole('button', { name: 'Reweave gd-i0' })).toBeNull();
     const marker = container.querySelector('[data-edge="older"]');
     expect(marker?.getAttribute('aria-hidden')).toBe('true');
     expect(marker?.textContent).toContain('1');
+    expect(container.querySelector('[data-edge="newer"]')).toBeNull();
+  });
+
+  it('offers nothing to drag while the cloth fits', () => {
+    const { container } = render(strip(ids(10), [hole('i0')]));
+    expect(screen.queryByRole('group')).toBeNull();
+    expect(container.querySelector('[data-edge]')).toBeNull();
+  });
+
+  it('moves along the cloth with the arrow keys, Home and End', () => {
+    const { container } = render(strip(ids(60), [hole('i0'), hole('i59')]));
+    const scarf = screen.getByRole('group');
+    fireEvent.keyDown(scarf, { key: 'ArrowRight' }); // already at the newest end: stays put
+    expect(screen.getByRole('button', { name: 'Reweave gd-i59' })).toBeTruthy();
+    fireEvent.keyDown(scarf, { key: 'ArrowLeft' });
+    expect(screen.queryByRole('button', { name: 'Reweave gd-i59' })).toBeNull();
+    expect(container.querySelector('[data-edge="newer"]')?.textContent).toContain('1');
+    fireEvent.keyDown(scarf, { key: 'Home' }); // the left end of the screen is the oldest cloth
+    expect(screen.getByRole('button', { name: 'Reweave gd-i0' })).toBeTruthy();
+    expect(container.querySelector('[data-edge="older"]')).toBeNull();
+    fireEvent.keyDown(scarf, { key: 'End' });
+    expect(screen.getByRole('button', { name: 'Reweave gd-i59' })).toBeTruthy();
+    expect(container.querySelector('[data-edge="newer"]')).toBeNull();
+  });
+
+  it('follows a sideways drag, so dragging right brings older cloth into view', () => {
+    render(strip(ids(60), [hole('i0'), hole('i59')]));
+    const scarf = screen.getByRole('group');
+    pointer(scarf, 'pointerdown', 100);
+    pointer(scarf, 'pointermove', 400);
+    pointer(scarf, 'pointerup', 400);
+    expect(screen.queryByRole('button', { name: 'Reweave gd-i59' })).toBeNull();
+    pointer(scarf, 'pointerdown', 400);
+    pointer(scarf, 'pointermove', 100);
+    pointer(scarf, 'pointerup', 100);
+    expect(screen.getByRole('button', { name: 'Reweave gd-i59' })).toBeTruthy();
+  });
+
+  it('lets a tap reach a hole but swallows the click that ends a drag', () => {
+    const onReweave = vi.fn();
+    render(strip(ids(60), [hole('i59')], { onReweave }));
+    const scarf = screen.getByRole('group');
+    const button = screen.getByRole('button', { name: 'Reweave gd-i59' });
+    pointer(scarf, 'pointerdown', 100);
+    pointer(scarf, 'pointerup', 100);
+    fireEvent.click(button);
+    expect(onReweave).toHaveBeenCalledTimes(1);
+    pointer(scarf, 'pointerdown', 100);
+    pointer(scarf, 'pointermove', 60); // 40px the wrong way: clamped at the newest end, but still a drag
+    pointer(scarf, 'pointerup', 60);
+    fireEvent.click(button);
+    expect(onReweave).toHaveBeenCalledTimes(1);
+  });
+
+  it('moves only for a sideways wheel, leaving the page to scroll otherwise', () => {
+    render(strip(ids(60), [hole('i59')]));
+    const scarf = screen.getByRole('group');
+    expect(fireEvent.wheel(scarf, { deltaY: 100 })).toBe(true); // not prevented: the page scrolls
+    expect(screen.getByRole('button', { name: 'Reweave gd-i59' })).toBeTruthy();
+    expect(fireEvent.wheel(scarf, { deltaX: 40, deltaY: 0 })).toBe(true); // newest end: nothing further that way
+    expect(fireEvent.wheel(scarf, { deltaX: -400, deltaY: 0 })).toBe(false);
+    expect(screen.queryByRole('button', { name: 'Reweave gd-i59' })).toBeNull();
+  });
+
+  it('leaves the view where it was when a band is woven while looking at older cloth', () => {
+    const { rerender } = render(strip(ids(60), [hole('i0')]));
+    fireEvent.keyDown(screen.getByRole('group'), { key: 'Home' });
+    expect(screen.getByRole('button', { name: 'Reweave gd-i0' })).toBeTruthy();
+    act(() => rerender(strip(ids(61), [hole('i0')])));
+    expect(screen.getByRole('button', { name: 'Reweave gd-i0' })).toBeTruthy();
   });
 });

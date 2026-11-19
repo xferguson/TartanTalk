@@ -58,7 +58,8 @@ const SLIDE_MS = 200;
 const MARKER_MS = 250;
 const PEEK_MS = 300;
 const PEEK_PX = 24;
-const KEY_STEP = 27; // three bands
+const KEY_STEP = 27; // three bands on the detail scarf
+const STRIP_KEY_STEP = 48; // three bands on a strip
 const PAGE_STEP = 300;
 const DRAG_THRESHOLD = 6;
 const LINE_PX = 16; // wheel deltas given in lines
@@ -108,7 +109,7 @@ export function ScarfCanvas({
   const [dragging, setDragging] = useState(false);
   const prevCount = useRef(wovenOrder.length);
   const tween = useRef(0);
-  const drag = useRef<{ id: number; startY: number; startOffset: number; active: boolean } | null>(null);
+  const drag = useRef<{ id: number; startPos: number; startOffset: number; active: boolean } | null>(null);
   const swallowClick = useRef(false);
   const focusItem = useRef<ItemId | null>(null);
   const peekKey = scarfId ?? name;
@@ -142,9 +143,11 @@ export function ScarfCanvas({
   const mothHoles = useMemo<MothHole[]>(() => holes.map(({ itemId, size }) => ({ itemId, size })), [holes]);
 
   const n = wovenOrder.length;
-  // Only the detail scarf can be moved; the strip always shows its newest end.
-  const movable = variant === 'detail' && maxOffset(n, geo) > 0;
-  const offset = variant === 'detail' ? clampOffset(rawOffset, n, geo) : 0;
+  // Both views are windows onto the cloth once it is longer than they are: the detail scarf moves
+  // up and down, the strip left and right (B13).
+  const sideways = variant === 'strip';
+  const movable = maxOffset(n, geo) > 0;
+  const offset = clampOffset(rawOffset, n, geo);
   const offsetRef = useRef(offset);
   offsetRef.current = offset;
 
@@ -188,11 +191,11 @@ export function ScarfCanvas({
   useLayoutEffect(() => {
     const grew = n - seenCount.current;
     seenCount.current = n;
-    if (grew > 0 && variant === 'detail' && offsetRef.current > 0) {
+    if (grew > 0 && offsetRef.current > 0) {
       stopTween();
       setRawOffset(offsetRef.current + grew * bandPx(geo));
     }
-  }, [n, variant, geo]);
+  }, [n, geo]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -249,23 +252,26 @@ export function ScarfCanvas({
     return () => cancelAnimationFrame(raf);
   }, [geo, tartan, threads, wovenOrder, mothHoles, themeTick, offset]);
 
-  // A one-time nudge shows a long scarf can be moved.
+  // A one-time nudge shows a long scarf can be moved. Not on strips: a shelf holds many of them.
   useEffect(() => {
-    if (!movable || peeked.has(peekKey) || prefersReducedMotion()) return;
+    if (!movable || sideways || peeked.has(peekKey) || prefersReducedMotion()) return;
     peeked.add(peekKey);
     const out = Math.min(PEEK_PX, maxOffset(n, geo));
     moveTo([
       { to: out, ms: PEEK_MS, ease: easeInOut },
       { to: 0, ms: PEEK_MS, ease: easeInOut },
     ]);
-  }, [movable, peekKey, n, geo, moveTo]);
+  }, [movable, sideways, peekKey, n, geo, moveTo]);
 
   // The wheel needs a non-passive listener so it can keep the page still while the scarf moves.
   useEffect(() => {
     const el = wrapRef.current;
     if (!el || !movable) return;
     const onWheel = (e: WheelEvent) => {
-      const delta = e.deltaMode === 1 ? e.deltaY * LINE_PX : e.deltaY;
+      // A strip answers only to a sideways gesture, so the page still scrolls under it.
+      if (sideways && Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+      const raw = sideways ? -e.deltaX : e.deltaY;
+      const delta = e.deltaMode === 1 ? raw * LINE_PX : raw;
       const next = clampOffset(offsetRef.current + delta, n, geo);
       if (next === offsetRef.current) return; // at an end: let the page scroll
       e.preventDefault();
@@ -304,14 +310,23 @@ export function ScarfCanvas({
 
   const onKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (!movable) return;
-    const steps: Record<string, number> = {
-      ArrowDown: offset + KEY_STEP,
-      ArrowUp: offset - KEY_STEP,
-      PageDown: offset + PAGE_STEP,
-      PageUp: offset - PAGE_STEP,
-      Home: 0,
-      End: maxOffset(n, geo),
-    };
+    const far = maxOffset(n, geo);
+    // The strip's newest end is on the right, so Home (the left) is its oldest cloth.
+    const steps: Record<string, number> = sideways
+      ? {
+          ArrowLeft: offset + STRIP_KEY_STEP,
+          ArrowRight: offset - STRIP_KEY_STEP,
+          Home: far,
+          End: 0,
+        }
+      : {
+          ArrowDown: offset + KEY_STEP,
+          ArrowUp: offset - KEY_STEP,
+          PageDown: offset + PAGE_STEP,
+          PageUp: offset - PAGE_STEP,
+          Home: 0,
+          End: far,
+        };
     const next = steps[e.key];
     if (next === undefined) return;
     e.preventDefault();
@@ -320,26 +335,27 @@ export function ScarfCanvas({
     setRawOffset(clampOffset(next, n, geo));
   };
 
+  const along = (e: PointerEvent<HTMLDivElement>) => (sideways ? e.clientX : e.clientY);
   const onPointerDown = (e: PointerEvent<HTMLDivElement>) => {
     swallowClick.current = false;
     if (!movable || (e.pointerType === 'mouse' && e.button !== 0)) return;
     stopTween();
-    drag.current = { id: e.pointerId, startY: e.clientY, startOffset: offset, active: false };
+    drag.current = { id: e.pointerId, startPos: along(e), startOffset: offset, active: false };
   };
   const onPointerMove = (e: PointerEvent<HTMLDivElement>) => {
     const d = drag.current;
     if (!d || d.id !== e.pointerId) return;
-    const dy = e.clientY - d.startY;
+    const moved = along(e) - d.startPos;
     if (!d.active) {
-      if (Math.abs(dy) < DRAG_THRESHOLD) return;
+      if (Math.abs(moved) < DRAG_THRESHOLD) return;
       // Capture only once it is really a drag, so a tap still reaches the hole button under it.
       d.active = true;
       setDragging(true);
       markMoved();
       wrapRef.current?.setPointerCapture?.(e.pointerId);
     }
-    // The cloth follows the finger: dragging up brings older cloth into view.
-    setRawOffset(clampOffset(d.startOffset - dy, n, geo));
+    // The cloth follows the finger: dragging up (detail) or right (strip) brings older cloth into view.
+    setRawOffset(clampOffset(sideways ? d.startOffset + moved : d.startOffset - moved, n, geo));
   };
   const endDrag = (e: PointerEvent<HTMLDivElement>) => {
     const d = drag.current;
@@ -359,10 +375,10 @@ export function ScarfCanvas({
   };
 
   const c = geo.cloth;
-  const strip = variant === 'strip';
+  const strip = sideways;
   // Window edges: `start` is the top (detail) or left (strip) end.
   const fadeStart = strip ? moreOlder : moreNewer;
-  const fadeEnd = strip ? false : moreOlder;
+  const fadeEnd = strip ? moreNewer : moreOlder;
   const mask = fadeMask(geo, fadeStart, fadeEnd);
   const canvasStyle: CSSProperties | undefined = mask ? { maskImage: mask, WebkitMaskImage: mask } : undefined;
   const midX = c.x + c.w / 2;
@@ -373,14 +389,14 @@ export function ScarfCanvas({
     if (!more) return null;
     const atStart = strip ? side === 'older' : side === 'newer';
     const pos: CSSProperties = strip
-      ? { left: c.x + 16, top: c.y + c.h / 2 }
+      ? { left: atStart ? c.x + 16 : c.x + c.w - 16, top: c.y + c.h / 2 }
       : { left: midX, top: atStart ? c.y + 16 : c.y + c.h - 16 };
     const nearest = beyond[0];
     if (!nearest) {
       const chevron: CSSProperties = strip
-        ? { left: c.x + 6 + 5, top: c.y + c.h / 2 }
+        ? { left: atStart ? c.x + 6 + 5 : c.x + c.w - 6 - 5, top: c.y + c.h / 2 }
         : { left: midX, top: atStart ? c.y + 6 + 5 : c.y + c.h - 6 - 5 };
-      const rotate = strip ? -90 : atStart ? 180 : 0;
+      const rotate = strip ? (atStart ? -90 : 90) : atStart ? 180 : 0;
       return (
         <svg key={side} data-edge={side} className={styles.chevron} style={chevron} width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
           <polyline points="1,3 5,7 9,3" transform={`rotate(${rotate} 5 5)`} />
@@ -422,7 +438,7 @@ export function ScarfCanvas({
     styles.wrap,
     variant === 'detail' ? styles.detail : '',
     marks ? styles.withRuler : '',
-    movable ? styles.movable : '',
+    movable ? (sideways ? styles.movableSideways : styles.movable) : '',
     dragging ? styles.grabbing : '',
   ].join(' ');
 
@@ -433,7 +449,7 @@ export function ScarfCanvas({
       tabIndex={movable ? 0 : undefined}
       role={movable ? 'group' : undefined}
       aria-roledescription={movable ? 'scarf' : undefined}
-      aria-label={movable ? `${name} cloth. Drag, or use the arrow keys, to move along the scarf.` : undefined}
+      aria-label={movable ? `${name} cloth. ${sideways ? 'Drag sideways, or use the left and right arrow keys,' : 'Drag, or use the arrow keys,'} to move along the scarf.` : undefined}
       onKeyDown={onKeyDown}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}

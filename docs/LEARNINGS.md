@@ -515,6 +515,18 @@ _Skill and hook proposals now wait for a tally of 5, not 3._
 
 - **Status:** adopted
 
+### strip-cue-promised-a-drag
+
+- **Type:** mistake
+
+- **Seen in:** #PR
+
+- **Detail:** B13 gave the shelf and loom strips an edge fade and a chevron but said they are "not draggable". A fade and chevron mean "there is more this way", so the learner swiped and nothing moved. Found by the user in real use, not by the spec or tests. The layout functions already took an `offset` for the strip, so only the component held it back.
+
+- **Resolution:** Strips now drag sideways (W3-J, B13 amended), with `touch-action: pan-y` so vertical swipes still scroll the page. When a spec adds a cue that something can move, give it the matching gesture, or leave the cue out.
+
+- **Status:** resolved
+
 ### tartan-dictionary-licence
 
 _Tartan Dictionary data has an NC-ND upstream and no stated licence._
