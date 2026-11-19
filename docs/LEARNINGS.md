@@ -519,7 +519,7 @@ _Skill and hook proposals now wait for a tally of 5, not 3._
 
 - **Type:** mistake
 
-- **Seen in:** #PR
+- **Seen in:** #74
 
 - **Detail:** B13 gave the shelf and loom strips an edge fade and a chevron but said they are "not draggable". A fade and chevron mean "there is more this way", so the learner swiped and nothing moved. Found by the user in real use, not by the spec or tests. The layout functions already took an `offset` for the strip, so only the component held it back.
 
