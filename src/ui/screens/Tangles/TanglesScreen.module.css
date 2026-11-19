@@ -1,0 +1,7 @@
+.title { margin: 0; font-family: var(--font-display); font-size: 1.45rem; font-weight: 700; }
+.sub { margin: 0; font-size: 0.8rem; color: var(--muted); }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.gd { font-family: var(--font-display); font-size: 1.1rem; }
+.en { color: var(--muted); font-size: 0.85rem; }
+.empty { margin: 0; }
+.note { margin: 0; font-size: 0.82rem; color: var(--muted); }

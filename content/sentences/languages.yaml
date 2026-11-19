@@ -1,0 +1,575 @@
+# Sentences for the languages scarf (W2-A)
+# AI-generated (review: generated). Every sentence is built only from W1-J vocabulary.
+# Licence: CC BY-SA 4.0
+
+- id: sent:lang-001
+  gd: Tha Gàidhlig agam.
+  en: I speak Gaelic.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Gàidhlig
+      itemId: lex:gaidhlig
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-002
+  gd: Tha Beurla agam.
+  en: I speak English.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Beurla
+      itemId: lex:beurla
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-003
+  gd: Tha Fraingis aice.
+  en: She speaks French.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Fraingis
+      itemId: lex:fraingis
+    - text: aice
+      itemId: form:aig.3sg-f
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-004
+  gd: Tha Gearmailtis aige.
+  en: He speaks German.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Gearmailtis
+      itemId: lex:gearmailtis
+    - text: aige
+      itemId: form:aig.3sg-m
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-005
+  gd: Tha Spàinntis agad.
+  en: You speak Spanish.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Spàinntis
+      itemId: lex:spainntis
+    - text: agad
+      itemId: form:aig.2sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-006
+  gd: Tha Cuimris againn.
+  en: We speak Welsh.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Cuimris
+      itemId: lex:cuimris
+    - text: againn
+      itemId: form:aig.1pl
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-007
+  gd: Tha Gaeilge aca.
+  en: They speak Irish.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Gaeilge
+      itemId: lex:gaeilge
+    - text: aca
+      itemId: form:aig.3pl
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-008
+  gd: Tha Albais agaibh.
+  en: You (plural) speak Scots.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Albais
+      itemId: lex:albais
+    - text: agaibh
+      itemId: form:aig.2pl
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-009
+  gd: Tha beagan Gàidhlig agam.
+  en: I have a little Gaelic.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: beagan
+      itemId: lex:beagan
+    - text: Gàidhlig
+      itemId: lex:gaidhlig
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-beagan-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-010
+  gd: Tha beagan Fraingis againn.
+  en: We have a little French.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: beagan
+      itemId: lex:beagan
+    - text: Fraingis
+      itemId: lex:fraingis
+    - text: againn
+      itemId: form:aig.1pl
+    - text: .
+      itemId: null
+  pattern: tha-beagan-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-011
+  gd: Tha Gàidhlig agus Beurla agam.
+  en: I have Gaelic and English.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Gàidhlig
+      itemId: lex:gaidhlig
+    - text: agus
+      itemId: lex:agus
+    - text: Beurla
+      itemId: lex:beurla
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-agus-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-012
+  gd: Tha Gàidhlig aig an tidsear.
+  en: The teacher has Gaelic.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Gàidhlig
+      itemId: lex:gaidhlig
+    - text: aig
+      itemId: lex:aig
+    - text: an
+      itemId: lex:an
+    - text: tidsear
+      itemId: lex:tidsear
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-art-N
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-013
+  gd: Tha Beurla aig an oileanach.
+  en: The student has English.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Beurla
+      itemId: lex:beurla
+    - text: aig
+      itemId: lex:aig
+    - text: an
+      itemId: lex:an
+    - text: oileanach
+      itemId: lex:oileanach
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-art-N
+  tags:
+    - topic:languages
+    - prep:aig
+    - grammar:possession-with-aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-014
+  gd: Tha an cànan doirbh.
+  en: The language is difficult.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: an
+      itemId: lex:an
+    - text: cànan
+      itemId: lex:canan
+    - text: doirbh
+      itemId: lex:doirbh
+    - text: .
+      itemId: null
+  pattern: tha-art-N-ADJ
+  tags: &a1
+    - topic:languages
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-015
+  gd: Tha an cànan furasta.
+  en: The language is easy.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: an
+      itemId: lex:an
+    - text: cànan
+      itemId: lex:canan
+    - text: furasta
+      itemId: lex:furasta
+    - text: .
+      itemId: null
+  pattern: tha-art-N-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-016
+  gd: Tha an tidsear slaodach.
+  en: The teacher is slow.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: an
+      itemId: lex:an
+    - text: tidsear
+      itemId: lex:tidsear
+    - text: slaodach
+      itemId: lex:slaodach
+    - text: .
+      itemId: null
+  pattern: tha-art-N-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-017
+  gd: Tha an oileanach luath.
+  en: The student is fast.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: an
+      itemId: lex:an
+    - text: oileanach
+      itemId: lex:oileanach
+    - text: luath
+      itemId: lex:luath
+    - text: .
+      itemId: null
+  pattern: tha-art-N-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-018
+  gd: Tha mearachd agam.
+  en: I have made a mistake.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mearachd
+      itemId: lex:mearachd
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:languages
+    - prep:aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-019
+  gd: Tha mearachd ann.
+  en: There is a mistake.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mearachd
+      itemId: lex:mearachd
+    - text: ann
+      itemId: form:ann.3sg-m
+    - text: .
+      itemId: null
+  pattern: tha-N-ann-P
+  tags:
+    - topic:languages
+    - prep:ann
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-020
+  gd: Bruidhinn Gàidhlig rium.
+  en: Speak Gaelic to me.
+  altGd: []
+  tokens:
+    - text: Bruidhinn
+      itemId: lex:bruidhinn
+    - text: Gàidhlig
+      itemId: lex:gaidhlig
+    - text: rium
+      itemId: form:ri.1sg
+    - text: .
+      itemId: null
+  pattern: imper-N-ri-P
+  tags:
+    - topic:languages
+    - prep:ri
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-021
+  gd: Bruidhinn Beurla riutha.
+  en: Speak English to them.
+  altGd: []
+  tokens:
+    - text: Bruidhinn
+      itemId: lex:bruidhinn
+    - text: Beurla
+      itemId: lex:beurla
+    - text: riutha
+      itemId: form:ri.3pl
+    - text: .
+      itemId: null
+  pattern: imper-N-ri-P
+  tags:
+    - topic:languages
+    - prep:ri
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-022
+  gd: Tha Alba bòidheach.
+  en: Scotland is beautiful.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: Alba
+      itemId: lex:alba
+    - text: bòidheach
+      itemId: lex:boidheach
+    - text: .
+      itemId: null
+  pattern: tha-N-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-023
+  gd: Tha mi slaodach ach tha thu luath.
+  en: I am slow but you are fast.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: slaodach
+      itemId: lex:slaodach
+    - text: ach
+      itemId: lex:ach
+    - text: tha
+      itemId: lex:tha
+    - text: thu
+      itemId: lex:thu
+    - text: luath
+      itemId: lex:luath
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ-ach-tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:lang-024
+  gd: Tha mi sgìth agus tha mi toilichte.
+  en: I am tired and I am happy.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: sgìth
+      itemId: lex:sgith
+    - text: agus
+      itemId: lex:agus
+    - text: tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: toilichte
+      itemId: lex:toilichte
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ-agus-tha-P-ADJ
+  tags:
+    - topic:languages
+    - topic:love
+    - topic:feelings
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated

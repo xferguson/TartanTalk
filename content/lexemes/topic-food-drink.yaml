@@ -1,0 +1,228 @@
+# Food and drink vocabulary, ordered roughly by everyday usefulness (no corpus lookup was possible; see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:aran
+  gd: "aran"
+  en: "bread"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:im
+  gd: "ìm"
+  en: "butter"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caise
+  gd: "càise"
+  en: "cheese"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ugh
+  gd: "ugh"
+  en: "egg"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feoil
+  gd: "feòil"
+  en: "meat"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iasg
+  gd: "iasg"
+  en: "fish"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buntata
+  gd: "buntàta"
+  en: "potatoes"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ti
+  gd: "tì"
+  en: "tea"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deoch
+  gd: "deoch"
+  en: "drink"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:brot
+  gd: "brot"
+  en: "broth, soup"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ubhal
+  gd: "ubhal"
+  en: "apple"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:siucar
+  gd: "siùcar"
+  en: "sugar"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:salann
+  gd: "salann"
+  en: "salt"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cofaidh
+  gd: "cofaidh"
+  en: "coffee"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uisge-beatha
+  gd: "uisge-beatha"
+  en: "whisky"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leann
+  gd: "leann"
+  en: "ale, beer"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fion
+  gd: "fìon"
+  en: "wine"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mil
+  gd: "mil"
+  en: "honey"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceic
+  gd: "cèic"
+  en: "cake"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:briosgaid
+  gd: "briosgaid"
+  en: "biscuit"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bracaist
+  gd: "bracaist"
+  en: "breakfast"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dinneir
+  gd: "dinneir"
+  en: "dinner"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lite
+  gd: "lite"
+  en: "porridge"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ocras
+  gd: "ocras"
+  en: "hunger"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pathadh
+  gd: "pathadh"
+  en: "thirst"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
