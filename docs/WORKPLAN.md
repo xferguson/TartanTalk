@@ -413,7 +413,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-I
 
-- **Status:** in progress (ccr-112afb0a-3ok0iz)
+- **Status:** done (#72)
 
 **One length table; the moth stays on the cloth.** The shelf and the scarf screen use the single `ELLS_PER_KIND` table in `src/app/services/length.ts` (their private copies go), so a scarf shows the same length everywhere. The perched moth follows the amended B2 rule, so it is never cut off by the edge of the canvas.
 
