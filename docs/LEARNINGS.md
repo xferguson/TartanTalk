@@ -344,6 +344,20 @@ _What the learner already knows must be checked wherever an exercise singles out
 
 - **Status:** open
 
+### moth-hidden-by-canvas-edge-or-fade
+
+_The perched moth was drawn where nobody could see it._
+
+- **Type:** issue
+
+- **Seen in:** #72
+
+- **Detail:** B2 placed the moth at a fixed 13px right of its hole, which on the 64px detail scarf puts most of it past the canvas edge. After B13 added edge fades and moth markers, a hole inside a faded edge could also get the moth, hidden under the fade and the marker. Unit tests passed both times; only a screenshot showed it.
+
+- **Resolution:** `mothPosition(h, g)` perches on whichever side has room and otherwise clamps inside the canvas. `perchHole` skips holes inside a faded edge. Check any canvas sprite at the canvas edges and under overlays with a screenshot, not just a unit test of its coordinates.
+
+- **Status:** resolved
+
 ### no-project-details-in-user-agent
 
 _A descriptive User-Agent nearly carried the project owner's handle to an outside service._
@@ -465,13 +479,13 @@ _Reweave and Tangles needed the B6 question card before the Loom screen (W2-G) e
 
 - **Tally:** 1
 
-- **Seen in:** #39
+- **Seen in:** #39, #72
 
 - **Detail:** W2-C needs a scarf's length in ells, but the per-kind weighting belongs to W2-B (not a dependency). W2-C also owns only `src/ui/screens/Shelf/**`, while vitest only runs `tests/unit/**` and the e2e smoke test hard-coded the morning greeting that B4 makes time-dependent.
 
 - **Resolution:** Kept the ell constants (word 0.02, form 0.03, sentence 0.06) in `Shelf/shelfModel.ts`, to move into W2-B's services. Put tests in `tests/unit/shelf/`. Made the smoke test accept either greeting. "Reweave {N} holes" uses the hole count of the target scarf, which B4 leaves ambiguous.
 
-- **Status:** open
+- **Status:** resolved (the shelf now uses the shared length table, #72)
 
 ### ell-weighting-has-no-owner-yet
 
@@ -479,13 +493,13 @@ _The spec says per-kind length weighting is "in W2-B", but a screen needs it fir
 
 - **Type:** difficulty
 
-- **Seen in:** #37, #39, #41
+- **Seen in:** #37, #39, #41, #72
 
 - **Detail:** B2 and B5 show a scarf's length in ells and say the kind weighting lives in W2-B. W2-D (scarf detail) merged first, with no service to ask. A UI task cannot edit `src/app/services/**`.
 
-- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it. Shelf currently uses different numbers (0.02, 0.03, 0.06), so the two screens disagree until they do.
+- **Resolution:** W2-D keeps a small `ELLS_PER_ITEM` table in `src/ui/screens/Scarf/scarfView.ts` (word 0.04, form 0.03, sentence 0.08). W2-B should own the table and W2-C (shelf) must use the same numbers, or the two screens will disagree. Placeholder values; tell the user before they become permanent. W2-B now owns it as `ELLS_PER_KIND` in `src/app/services/length.ts` with the same numbers; the Scarf and Shelf screens should switch to importing it. Shelf used different numbers (0.02, 0.03, 0.06), so a 120-word scarf read 2.4 ells on the shelf and 4.8 on its own screen. W3-I (#72) removed both private tables: every screen now uses `ellsForItem` / `ELLS_PER_KIND`.
 
-- **Status:** open
+- **Status:** resolved
 
 ### skill-proposal-threshold
 
