@@ -1,0 +1,83 @@
+# The 10 prepositions that have pronominal forms (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:aig
+  gd: "aig"
+  en: "at (possession: \"have\")"
+  pos: preposition
+  tags: [pos:preposition, prep:aig, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:air
+  gd: "air"
+  en: "on"
+  pos: preposition
+  tags: [pos:preposition, prep:air, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ann
+  gd: "ann an"
+  en: "in"
+  pos: preposition
+  tags: [pos:preposition, prep:ann, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:as
+  gd: "à"
+  en: "out of, from"
+  pos: preposition
+  tags: [pos:preposition, prep:as, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:do
+  gd: "do"
+  en: "to, for"
+  pos: preposition
+  tags: [pos:preposition, prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:de
+  gd: "de"
+  en: "of, off"
+  pos: preposition
+  tags: [pos:preposition, prep:de, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bho
+  gd: "bho"
+  en: "from"
+  pos: preposition
+  tags: [pos:preposition, prep:bho, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:le
+  gd: "le"
+  en: "with"
+  pos: preposition
+  tags: [pos:preposition, prep:le, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ri
+  gd: "ri"
+  en: "to, against"
+  pos: preposition
+  tags: [pos:preposition, prep:ri, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mu
+  gd: "mu"
+  en: "about"
+  pos: preposition
+  tags: [pos:preposition, prep:mu, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
