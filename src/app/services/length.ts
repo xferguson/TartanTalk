@@ -1,8 +1,8 @@
 import type { ItemId, LearnableItem } from '../../domain/types';
 
 /**
- * Ells each woven item adds (placeholders; the Scarf screen's `ELLS_PER_ITEM` uses the same numbers until it imports this table). Constants live here, in one
- * place, because the PRD says they need tuning against real use.
+ * Ells each woven item adds. The single source for every screen (shelf, scarf, loom), so a scarf
+ * shows the same length everywhere. Placeholders: the PRD says they need tuning against real use.
  */
 export const ELLS_PER_KIND: Record<LearnableItem['kind'], number> = {
   lexeme: 0.04,

@@ -114,8 +114,19 @@ describe('layout', () => {
     expect(strip[0].r).toBe(5);
   });
   it('perches the moth beside the first hole', () => {
-    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 120, r: 6, seed: 1 })).toEqual({ x: 41, y: 116, size: 22 });
-    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 5, r: 6, seed: 1 }).y).toBe(13);
+    const strip = geometry('strip', 300);
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 30, r: 6, seed: 1 }, strip)).toEqual({ x: 41, y: 26, size: 22 });
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 5, r: 6, seed: 1 }, strip).y).toBe(13);
+  });
+  it('keeps the whole moth on the canvas', () => {
+    const d = geometry('detail'); // 64 x 380
+    const at = (cx: number, cy: number, r: number) => mothPosition({ itemId: 'a', size: 'large', cx, cy, r, seed: 1 }, d);
+    expect(at(20, 100, 5).x).toBe(38); // room on the right: as before
+    expect(at(46, 100, 8).x).toBe(25); // no room on the right: perches on the left
+    expect(at(32, 100, 8).x).toBe(51); // room on neither side: clamped inside the canvas
+    expect(at(32, 379, 8).y).toBe(367);
+    const strip = geometry('strip', 300);
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 282, cy: 22, r: 7, seed: 1 }, strip).x).toBe(262);
   });
   it('words the text alternative', () => {
     expect(textAlternative('Love', '2.4 ells', 2)).toBe('Love, 2.4 ells, 2 moth holes');

@@ -216,9 +216,41 @@ export function rulerMarks(itemElls: readonly number[], bandSize: number): Ruler
   return [...kept, { text: roundElls(total), y: 0 }];
 }
 
-/** Moth perches to the right of the largest hole. */
-export function mothPosition(h: HolePlacement): { x: number; y: number; size: number } {
-  return { x: h.cx + h.r + 13, y: Math.max(13, h.cy - 4), size: 22 };
+/** Length of the fade at an end of the window with more cloth beyond it (B13). */
+export const EDGE_FADE_PX = 28;
+
+/**
+ * The hole the moth perches beside: the largest visible one that is clear of a faded edge,
+ * where the fade and the edge's moth marker would hide it. `visible` is largest first.
+ */
+export function perchHole(visible: HolePlacement[], count: number, g: Geometry, offset: number): HolePlacement | undefined {
+  const ends = clothEnds(count, g, offset);
+  const lowFaded = count > 0 && (g.variant === 'detail' ? !ends.newest : !ends.oldest);
+  const highFaded = count > 0 && (g.variant === 'detail' ? !ends.oldest : !ends.newest);
+  const lo = g.variant === 'detail' ? g.cloth.y : g.cloth.x;
+  const hi = lo + viewSpan(g);
+  return visible.find((p) => {
+    const along = g.variant === 'detail' ? p.cy : p.cx;
+    return (!lowFaded || along >= lo + EDGE_FADE_PX) && (!highFaded || along <= hi - EDGE_FADE_PX);
+  });
+}
+
+const MOTH_SIZE = 22;
+/** How far the 22px moth's wings and antennae reach from its centre. */
+const MOTH_REACH = 13;
+
+/**
+ * The moth perches to the right of the largest hole, or to its left when the right has no room.
+ * On the narrow detail scarf neither side may fit, so it is clamped inside the canvas and sits
+ * partly over its hole, nibbling, rather than being cut off by the canvas edge.
+ */
+export function mothPosition(h: HolePlacement, g: Geometry): { x: number; y: number; size: number } {
+  const fits = (x: number) => x - MOTH_REACH >= 0 && x + MOTH_REACH <= g.width;
+  const right = h.cx + h.r + MOTH_REACH;
+  const left = h.cx - h.r - MOTH_REACH;
+  const clamp = (v: number, hi: number) => Math.min(hi - MOTH_REACH, Math.max(MOTH_REACH, v));
+  const x = fits(right) ? right : fits(left) ? left : clamp(right, g.width);
+  return { x, y: clamp(h.cy - 4, g.height), size: MOTH_SIZE };
 }
 
 export function textAlternative(name: string, length: string, holeCount: number): string {

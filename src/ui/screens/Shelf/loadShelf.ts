@@ -1,7 +1,8 @@
 import type { ContentBundle } from '../../../content';
 import type { TartanDB } from '../../../db/db';
 import { listScarves } from '../../../db/repo';
-import type { Tartan } from '../../../domain/types';
+import { ellsForItem } from '../../../app/services/length';
+import type { LearnableItem, Tartan } from '../../../domain/types';
 import { buildEntry, sortByLastWorked, type ShelfEntry } from './shelfModel';
 
 /** Shown until a scarf's tartan exists in the content bundle (setts are still being sourced). */
@@ -25,7 +26,7 @@ export interface ShelfCard extends ShelfEntry {
 export async function loadShelf(
   database: TartanDB,
   bundle: ContentBundle,
-  gdOf: ReadonlyMap<string, { gd: string }>,
+  items: ReadonlyMap<string, LearnableItem>,
   now: number,
 ): Promise<ShelfCard[]> {
   const scarves = await listScarves(database);
@@ -33,8 +34,8 @@ export async function loadShelf(
   const cards = await Promise.all(
     scarves.map(async (scarf) => {
       const owned = await database.progress.where('ownerScarfId').equals(scarf.id).toArray();
-      const entry = buildEntry(scarf, owned, now);
-      const gd = new Map(scarf.wovenOrder.map((id) => [id, gdOf.get(id)?.gd ?? id]));
+      const entry = buildEntry(scarf, owned, now, (id) => ellsForItem(items.get(id)));
+      const gd = new Map(scarf.wovenOrder.map((id) => [id, items.get(id)?.gd ?? id]));
       return { ...entry, tartan: tartans.get(scarf.tartanId) ?? FALLBACK_TARTAN, gd };
     }),
   );

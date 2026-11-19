@@ -15,6 +15,7 @@ import {
   bandPx,
   clampOffset,
   clothEnds,
+  EDGE_FADE_PX as FADE_PX,
   geometry,
   maxOffset,
   offsetToCentre,
@@ -60,7 +61,6 @@ const PEEK_PX = 24;
 const KEY_STEP = 27; // three bands
 const PAGE_STEP = 300;
 const DRAG_THRESHOLD = 6;
-const FADE_PX = 28;
 const LINE_PX = 16; // wheel deltas given in lines
 const FALLBACK_STRIP_WIDTH = 280;
 const RULER_LEFT = 74; // 64px scarf + 10px gap

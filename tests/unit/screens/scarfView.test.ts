@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { buildScarfView, ELLS_PER_ITEM } from '../../../src/ui/screens/Scarf/scarfView';
+import { buildScarfView } from '../../../src/ui/screens/Scarf/scarfView';
+import { ELLS_PER_KIND as ELLS_PER_ITEM } from '../../../src/app/services/length';
 import { agam, gaol, iLoveYou, ort } from '../fixtures/slice';
 import type { LearnableItem, Progress, Scarf } from '../../../src/domain/types';
 
