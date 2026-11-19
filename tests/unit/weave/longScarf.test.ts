@@ -6,6 +6,7 @@ import {
   layoutBands,
   maxOffset,
   offsetToCentre,
+  perchHole,
   placeHoles,
   rulerMarks,
   splitHoles,
@@ -104,6 +105,25 @@ describe('holes on a long scarf', () => {
     const oldest = placed.find((p) => p.itemId === 'i5');
     if (!oldest) throw new Error('hole missing');
     expect(offsetToCentre(oldest, order.length, detail, 90)).toBe(540); // clamped at the oldest end
+  });
+});
+
+describe('where the moth perches on a long scarf', () => {
+  it('skips a hole in a faded edge, where the moth would be hidden behind the fade and its marker', () => {
+    const order = ids(60);
+    const holes = [
+      { itemId: 'i43', size: 'large' as const }, // just inside the strip's faded left edge
+      { itemId: 'i59', size: 'small' as const },
+    ];
+    const visible = splitHoles(placeHoles(holes, order, strip), strip).visible;
+    expect(visible.map((p) => p.itemId)).toEqual(['i43', 'i59']);
+    expect(perchHole(visible, order.length, strip, 0)?.itemId).toBe('i59');
+  });
+
+  it('perches by the largest hole while the cloth fits', () => {
+    const order = ids(3);
+    const visible = splitHoles(placeHoles([{ itemId: 'i0', size: 'large' }, { itemId: 'i2', size: 'small' }], order, strip), strip).visible;
+    expect(perchHole(visible, order.length, strip, 0)?.itemId).toBe('i0');
   });
 });
 

@@ -1,12 +1,7 @@
+import { ellsForItem } from '../../../app/services/length';
 import { mothHoles, type MothCandidate } from '../../../domain/moths';
-import type { ItemId, ItemKind, LearnableItem, Progress, Scarf } from '../../../domain/types';
+import type { ItemId, LearnableItem, Progress, Scarf } from '../../../domain/types';
 import type { ScarfCanvasHole } from '../../components/ScarfCanvas';
-
-/**
- * Cloth added by each kind of item. The spec leaves the weighting to W2-B, so this
- * lives here until the services own it; a sentence is the most cloth, a form the least.
- */
-export const ELLS_PER_ITEM: Record<ItemKind, number> = { lexeme: 0.04, form: 0.03, sentence: 0.08 };
 
 export interface ScarfView {
   ells: number;
@@ -30,10 +25,11 @@ export function buildScarfView({ scarf, items, progress, now }: Input): ScarfVie
   const itemElls: number[] = [];
   for (const id of scarf.wovenOrder) {
     const item = items.get(id);
-    itemElls.push(item ? ELLS_PER_ITEM[item.kind] : 0);
+    const e = ellsForItem(item);
+    itemElls.push(e);
     if (!item) continue;
     counts.total += 1;
-    ells += ELLS_PER_ITEM[item.kind];
+    ells += e;
     if (item.kind === 'lexeme') counts.words += 1;
     else if (item.kind === 'form') counts.forms += 1;
     else counts.sentences += 1;

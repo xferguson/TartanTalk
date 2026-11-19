@@ -6,6 +6,7 @@ import {
   clothLength,
   layoutBands,
   mothPosition,
+  perchHole,
   placeHoles,
   splitHoles,
   viewSpan,
@@ -107,9 +108,9 @@ export function paintScarf(ctx: CanvasRenderingContext2D, o: PaintOptions): void
     );
   }
 
-  const first = placed[0];
+  const first = perchHole(placed, n, g, offset);
   if (first) {
-    const m = mothPosition(first);
+    const m = mothPosition(first, g);
     drawMoth(ctx, m.x, m.y, m.size, o.moth);
   }
 }

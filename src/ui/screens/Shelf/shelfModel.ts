@@ -1,17 +1,6 @@
 import { mothHoles } from '../../../domain/moths';
 import type { ItemId, MothHole, Progress, Scarf } from '../../../domain/types';
 
-/**
- * Ells each woven item adds (PRD: word < form < sentence). Kept here until W2-B owns the
- * shared length service; the shelf only needs the totals.
- */
-export const ELLS_PER_ITEM = { lex: 0.02, form: 0.03, sent: 0.06 } as const;
-
-export function ellsFor(itemId: ItemId): number {
-  const kind = itemId.split(':', 1)[0] as keyof typeof ELLS_PER_ITEM;
-  return ELLS_PER_ITEM[kind] ?? ELLS_PER_ITEM.lex;
-}
-
 export interface ShelfEntry {
   scarf: Scarf;
   ells: number;
@@ -19,8 +8,11 @@ export interface ShelfEntry {
   lastWorked: number;
 }
 
-/** Everything the shelf shows for one scarf, from its own progress rows. */
-export function buildEntry(scarf: Scarf, owned: readonly Progress[], now: number): ShelfEntry {
+/**
+ * Everything the shelf shows for one scarf, from its own progress rows. `ellsOf` is the shared
+ * per-item length (`ellsForItem`), injected so the shelf and the scarf screen always agree.
+ */
+export function buildEntry(scarf: Scarf, owned: readonly Progress[], now: number, ellsOf: (itemId: ItemId) => number): ShelfEntry {
   const woven = new Set(scarf.wovenOrder);
   const rows = owned.filter((p) => woven.has(p.itemId));
   const candidates = rows.flatMap((p) =>
@@ -28,7 +20,7 @@ export function buildEntry(scarf: Scarf, owned: readonly Progress[], now: number
   );
   const { holes } = mothHoles(candidates, now, { totalItems: scarf.wovenOrder.length });
   const lastWorked = rows.reduce((m, p) => Math.max(m, p.wovenAt ?? 0), scarf.createdAt);
-  return { scarf, ells: scarf.wovenOrder.reduce((s, id) => s + ellsFor(id), 0), holes, lastWorked };
+  return { scarf, ells: scarf.wovenOrder.reduce((sum, id) => sum + ellsOf(id), 0), holes, lastWorked };
 }
 
 export function sortByLastWorked<T extends ShelfEntry>(entries: readonly T[]): T[] {

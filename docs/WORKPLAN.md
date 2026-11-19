@@ -411,6 +411,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** W1-A, W2-D
 
+### W3-I
+
+- **Status:** in progress (ccr-112afb0a-3ok0iz)
+
+**One length table; the moth stays on the cloth.** The shelf and the scarf screen use the single `ELLS_PER_KIND` table in `src/app/services/length.ts` (their private copies go), so a scarf shows the same length everywhere. The perched moth follows the amended B2 rule, so it is never cut off by the edge of the canvas.
+
+- **Owns:** `src/ui/screens/Shelf/**`, `src/ui/screens/Scarf/scarfView.ts`, `src/app/services/length.ts` (comment only), `src/weave/{layout,paint}.ts`, `tests/unit/shelf/**`, `tests/unit/screens/scarfView.test.ts`, `tests/unit/weave/**`
+
+- **Depends on:** W3-H
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 
@@ -533,7 +543,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Holes:** an irregular 12-point polygon. Each point is at radius `r*(0.75 + hash(seed+a, 7)*0.5)`. Fill with the card's `--surface`; stroke with `rgba(0,0,0,.25)` at 1px.
   - Strip radii: small 3.5, medium 5, large 7.
   - Detail radii: small 5, medium 6, large 8.
-- **Moth beside the first (largest) hole:** size 22 on strips and 22 on the detail view. Place it at `x = cx + r + 13` and `y = max(13, cy - 4)`.
+- **Moth beside the first (largest) hole:** size 22 on strips and 22 on the detail view. Place it at `x = cx + r + 13` and `y = max(13, cy - 4)`. **(Amended in W3-I: tech-lead spec.)** The moth reaches 13px either side of `x`. If that would cross the canvas's right edge, perch on the left instead (`x = cx - r - 13`). If neither side fits (the 64px detail scarf with a large hole near the middle), clamp `x` to `[13, width - 13]`, so the moth sits partly over its hole, nibbling. Clamp `y` to `[13, height - 13]`.
 - **Moth sprite** (scale s):
   - Antennae: two quadratic curves from (±0.08s, -0.28s), control point (±0.2s, -0.55s), ending at (±0.32s, -0.52s). Line width is the larger of 1 and 0.05s, in the body colour.
   - Upper wings: ellipses at (±0.3s, -0.02s), radii 0.32s × 0.24s, rotated ∓0.5 rad.
@@ -701,7 +711,7 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - Inside it: the B2 moth at size 18 (`MothSprite`), with a count badge at its upper right, offset (+10px, -10px). The badge is 0.66rem, weight 700, tabular-nums, `--on-accent` on `--amber`, pill radius, min-width 16px, padding 0 4px.
   - Label: "{n} moth hole(s) further along the scarf. Show them." at the older end, and "{n} moth hole(s) back towards the newest weaving. Show them." at the newer end.
   - Tapping it moves the window so the nearest hole beyond that edge sits at the window's centre (clamped), over 250ms ease-out, or instantly under reduced motion. Focus moves to that hole's button.
-- **The moth character:** perches beside the largest visible hole (B2 placement, in window coordinates). When no hole is visible, the only moths shown are the ones in the markers. The perched moth is never drawn outside the window.
+- **The moth character:** perches beside the largest visible hole (B2 placement, in window coordinates). **(Amended in W3-I.)** It skips holes whose centre is inside a faded edge (within 28px of an end with more cloth beyond), where the fade and that edge's marker would hide it. When no hole is visible, the only moths shown are the ones in the markers. The perched moth is never drawn outside the window.
 
 **Ruler (detail scarf):**
 - `ScarfCanvas` takes `itemElls: number[]` (the length each item adds, in `wovenOrder` order) and draws the ruler itself, in a 26px column 10px to the right of the 64px scarf. It sits inside the same moving window, so the component is 100px wide on the detail variant, and the B5 grid becomes 100px and 1fr with a 10px gap.

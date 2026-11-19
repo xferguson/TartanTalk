@@ -55,6 +55,7 @@ describe('ShelfScreen', () => {
     expect(screen.getByRole('link', { name: 'Love' }).getAttribute('href')).toBe('/scarf/s1');
     expect(screen.getByText('1 moth hole')).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Reweave 1 hole' }).getAttribute('href')).toBe('/reweave/s1');
-    expect(screen.getByText(/Your shelf · 0.02 ells woven/i)).toBeTruthy();
+    // The same length the scarf screen shows: one word is 0.04 ells in the shared table.
+    expect(screen.getByText(/Your shelf · 0.04 ells woven/i)).toBeTruthy();
   });
 });
