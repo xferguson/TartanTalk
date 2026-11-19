@@ -400,6 +400,22 @@ _A PR that conflicts with `main` never gets CI, so the session waits forever._
 
 - **Status:** adopted
 
+### rating-needs-no-next-step
+
+_After choosing Hard, Good or Easy, a "Next thread" button still appeared._
+
+- **Type:** mistake
+
+- **Tally:** 1
+
+- **Seen in:** #76
+
+- **Detail:** A review rating is the learner's "done with this one", but the session store only saved it and waited for a separate Next tap, so the learner tapped twice and expected the rating to advance. Found by the user in real use.
+
+- **Resolution:** `rate()` in the session store now shows the next card itself. A miss has no rating, so it still shows Next. Check each flow for steps that repeat a choice the learner has already made.
+
+- **Status:** resolved
+
 ### react-wheel-listeners-are-passive
 
 _A scarf window that moves on the mouse wheel couldn't stop the page scrolling through React's `onWheel`._
