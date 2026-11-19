@@ -697,7 +697,7 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Resolution:** Match both greetings, or fix the clock in the test. Never assert on text that changes with the real time.
 - **Status:** resolved
 
-### L15. A rating tap is already the "done" signal, so don't add a Next step after it
+### L26. A rating tap is already the "done" signal, so don't add a Next step after it
 - **Type:** mistake
 - **Tally:** 1
 - **Seen in:** this PR
