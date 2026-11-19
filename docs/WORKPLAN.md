@@ -423,7 +423,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W3-J
 
-- **Status:** in progress (ccr-0975da77-6zfy6w)
+- **Status:** done (#74)
 
 **Drag the strips sideways.** A shelf or loom strip whose cloth is longer than its card can be dragged left and right to see older cloth, as the detail scarf can be dragged up and down. Amends the strip section of Appendix B13. Tests first.
 
