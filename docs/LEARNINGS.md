@@ -336,7 +336,7 @@ _What the learner already knows must be checked wherever an exercise singles out
 
 - **Type:** issue
 
-- **Seen in:** #PR
+- **Seen in:** #69
 
 - **Detail:** Both scarf views squeezed their bands once the cloth was full (the strip at about 19 items on a phone, the detail scarf at 40), so learning more stopped showing. L20 fixed the empty and part-woven states but not the full state. The user reported it after weaving a long scarf.
 
