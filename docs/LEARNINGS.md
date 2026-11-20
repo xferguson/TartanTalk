@@ -712,3 +712,11 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** `install.spec.ts` looked for the morning greeting only. The Shelf greets "Feasgar math!" after 12:00, so CI failed whenever it ran in the afternoon (UTC). `smoke.spec.ts` already accepted both.
 - **Resolution:** Match both greetings, or fix the clock in the test. Never assert on text that changes with the real time.
 - **Status:** resolved
+
+### L26. A missed review must stay a moth hole and get a second try
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** (this PR)
+- **Detail:** A reweave miss was scheduled 10 minutes out and dropped from the session, so the scarf read "resting" with no hole and the learner never got a second chance. Found by the user in real use.
+- **Resolution:** A miss is due at once (`RELEARN_DELAY_MS = 0`), so its hole stays. The session asks it again at the end, once. A second miss tangles it; a hit mends it on the short interval. Walk each flow from the learner's chair, including leaving part-way.
+- **Status:** resolved

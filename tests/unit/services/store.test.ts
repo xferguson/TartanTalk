@@ -93,6 +93,70 @@ describe('session store', () => {
     expect(store.getState().feedback).toMatchObject({ suggestedRating: 'again', awaitingRating: false });
   });
 
+  /** Learns the whole scarf, then travels two days on so everything is due. */
+  async function dueScarf() {
+    h = harness();
+    const store = createSessionStore(() => h.deps);
+    const scarf = await startScarf(h.deps, { name: 'S', tagFilter: SCARF_TAGS, tartanId: 't' });
+    await store.getState().startLearning(scarf.id);
+    while (!store.getState().done) {
+      await passIntros(store);
+      if (store.getState().done) break;
+      await store.getState().submit(answerOf(store.getState().exercise!));
+      await store.getState().next();
+    }
+    h.clock.advance(2 * DAY);
+    await store.getState().startReweave(scarf.id);
+    return { store, scarf };
+  }
+
+  it('asks a missed thread again at the very end, after the others', async () => {
+    const { store } = await dueScarf();
+    const [first, ...others] = store.getState().queue;
+    await store.getState().submit('definitely wrong');
+    expect(store.getState().queue).toEqual([...others, first]);
+    // The miss is saved at once and the thread stays due, so its hole stays if the learner leaves.
+    const saved = (await getProgress(first, h.database))!;
+    expect(saved.fsrs!.due).toBeLessThanOrEqual(h.clock.now());
+    expect(saved.consecutiveMisses).toBe(1);
+  });
+
+  it('mends a missed thread on the second try, on a short interval', async () => {
+    const { store } = await dueScarf();
+    const first = store.getState().queue[0];
+    await store.getState().submit('definitely wrong');
+    while (store.getState().queue[0] !== first) {
+      await store.getState().next();
+      await store.getState().submit(answerOf(store.getState().exercise!));
+      await store.getState().rate('good');
+    }
+    await store.getState().next();
+    expect(store.getState().itemId).toBe(first);
+    await store.getState().submit(answerOf(store.getState().exercise!));
+    await store.getState().rate('good');
+    const mended = (await getProgress(first, h.database))!;
+    expect(mended.tangled).toBe(false);
+    expect(mended.consecutiveMisses).toBe(0);
+    expect(mended.fsrs!.due - h.clock.now()).toBe(DAY); // back on the first rung, not the 4-day one
+    expect(store.getState().queue).toHaveLength(0);
+  });
+
+  it('tangles a thread missed twice in a session, without a third try', async () => {
+    const { store } = await dueScarf();
+    const first = store.getState().queue[0];
+    await store.getState().submit('definitely wrong');
+    while (store.getState().queue[0] !== first) {
+      await store.getState().next();
+      await store.getState().submit(answerOf(store.getState().exercise!));
+      await store.getState().rate('good');
+    }
+    await store.getState().next();
+    await store.getState().submit('wrong again');
+    expect((await getProgress(first, h.database))!.tangled).toBe(true);
+    expect(store.getState().queue).toHaveLength(0);
+    expect(store.getState().tangledLeft).toBe(1);
+  });
+
   it('lets the learner say they already knew a sentence after its first correct answer', async () => {
     h = harness();
     const store = createSessionStore(() => h.deps);
