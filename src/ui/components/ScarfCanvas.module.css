@@ -1,6 +1,15 @@
 .wrap { position: relative; display: block; width: 100%; }
 .detail { width: 64px; }
+.withRuler { width: 100px; }
 .canvas { display: block; }
+
+/* Only a scarf longer than its window can be dragged; one that fits leaves the page scroll alone. */
+.movable { cursor: grab; touch-action: none; user-select: none; }
+.grabbing { cursor: grabbing; }
+/* A strip moves sideways only, so a vertical swipe on it still scrolls the page. */
+.movableSideways { cursor: grab; touch-action: pan-y; user-select: none; }
+.movableSideways:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; border-radius: 4px; }
+.movable:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; border-radius: 4px; }
 
 /* Holes are real buttons over the canvas so they can be focused and tapped. */
 .hole {
@@ -14,6 +23,67 @@
   cursor: pointer;
 }
 .hole:focus-visible { outline: 2px solid var(--heather); outline-offset: -2px; }
+
+/* "More cloth this way" (B13): sits 6px in from the window edge, pointing outward. */
+.chevron {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+/* A moth at the window edge standing in for the holes beyond it. Positioned by its centre. */
+.marker {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.markerButton {
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.markerButton:focus-visible { outline: 2px solid var(--heather); outline-offset: -2px; }
+.badge {
+  position: absolute;
+  left: calc(50% + 10px);
+  top: calc(50% - 10px);
+  transform: translate(-50%, -50%);
+  min-width: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--amber);
+  color: var(--on-accent);
+  font-size: 0.66rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* The ruler moves with the cloth and is clipped to the window. */
+.ruler {
+  position: absolute;
+  width: 26px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 10px;
+  pointer-events: none;
+}
+.tick { position: absolute; left: 0; white-space: nowrap; }
 
 .srOnly {
   position: absolute;

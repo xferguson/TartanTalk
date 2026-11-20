@@ -1,0 +1,11 @@
+.chip {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.attention { color: var(--amber); }
+.calm { color: var(--heather); }

@@ -1,0 +1,235 @@
+# Greetings and hospitality: set phrases, ordered by everyday usefulness (no corpus lookup was possible).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:phrase-halo
+  gd: "Halò"
+  en: "hello"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-madainn-mhath
+  gd: "Madainn mhath"
+  en: "good morning"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-latha-math
+  gd: "Latha math"
+  en: "good day"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-feasgar-math
+  gd: "Feasgar math"
+  en: "good afternoon, good evening"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-oidhche-mhath
+  gd: "Oidhche mhath"
+  en: "good night"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-ciamar-a-tha-thu
+  gd: "Ciamar a tha thu?"
+  en: "How are you?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-ciamar-a-tha-sibh
+  gd: "Ciamar a tha sibh?"
+  en: "How are you? (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tha-gu-math
+  gd: "Tha gu math"
+  en: "I'm well"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tha-gu-math-tapadh-leat
+  gd: "Tha gu math, tapadh leat"
+  en: "I'm well, thank you"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-chan-eil-dona
+  gd: "Chan eil dona"
+  en: "not bad"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tapadh-leat
+  gd: "Tapadh leat"
+  en: "thank you"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tapadh-leibh
+  gd: "Tapadh leibh"
+  en: "thank you (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-moran-taing
+  gd: "Mòran taing"
+  en: "many thanks"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-failte
+  gd: "Fàilte"
+  en: "welcome"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-ceud-mile-failte
+  gd: "Ceud mìle fàilte"
+  en: "a hundred thousand welcomes"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-failte-oirbh
+  gd: "Fàilte oirbh"
+  en: "welcome (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-beannachd-leat
+  gd: "Beannachd leat"
+  en: "goodbye (blessing with you)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-beannachd-leibh
+  gd: "Beannachd leibh"
+  en: "goodbye (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-mar-sin-leat
+  gd: "Mar sin leat"
+  en: "goodbye"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-mar-sin-leibh
+  gd: "Mar sin leibh"
+  en: "goodbye (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-slainte-mhath
+  gd: "Slàinte mhath"
+  en: "good health, cheers"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-gabh-mo-leisgeul
+  gd: "Gabh mo leisgeul"
+  en: "excuse me"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tha-mi-duilich
+  gd: "Tha mi duilich"
+  en: "I'm sorry"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-de-an-t-ainm-a-th-ort
+  gd: "Dè an t-ainm a th' ort?"
+  en: "What is your name?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-thig-a-steach
+  gd: "Thig a-steach"
+  en: "come in"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-suidh-sios
+  gd: "Suidh sìos"
+  en: "sit down"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-tha-mi-toilichte-d-fhaicinn
+  gd: "Tha mi toilichte d' fhaicinn"
+  en: "I'm pleased to see you"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-de-do-naidheachd
+  gd: "Dè do naidheachd?"
+  en: "What's your news?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-gabh-e-furasta
+  gd: "Gabh e furasta"
+  en: "take it easy"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

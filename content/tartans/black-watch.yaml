@@ -1,0 +1,11 @@
+# Licence: CC BY-SA 4.0
+id: black-watch
+name: Black Watch
+clan: Government
+sett: "G/48 K4 B24 K4 G48 K24"
+colours: { B: "#2c4084", G: "#0b5a3a", K: "#1c1c1c" }
+scale: 0.5
+provenance:
+  ref: "Approximate placeholder sett (not transcribed from any source)"
+  notes: "Written from general knowledge of the tartan's colours only. The stripe counts are NOT the real sett. Replace under W-TARTAN-SOURCES."
+verified: false

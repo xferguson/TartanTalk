@@ -1,0 +1,562 @@
+# Sentences for the love and feelings scarf (W2-A)
+# AI-generated (review: generated). Every sentence is built only from W1-J vocabulary.
+# Licence: CC BY-SA 4.0
+
+- id: sent:love-001
+  gd: Tha gaol agam ort.
+  en: I love you.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: agam
+      itemId: form:aig.1sg
+    - text: ort
+      itemId: form:air.2sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: true
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-002
+  gd: Tha gaol agad orm.
+  en: You love me.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: agad
+      itemId: form:aig.2sg
+    - text: orm
+      itemId: form:air.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-003
+  gd: Tha gaol aige oirre.
+  en: He loves her.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: aige
+      itemId: form:aig.3sg-m
+    - text: oirre
+      itemId: form:air.3sg-f
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-004
+  gd: Tha gaol aice air.
+  en: She loves him.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: aice
+      itemId: form:aig.3sg-f
+    - text: air
+      itemId: form:air.3sg-m
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-005
+  gd: Tha gaol againn oirbh.
+  en: We love you (plural).
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: againn
+      itemId: form:aig.1pl
+    - text: oirbh
+      itemId: form:air.2pl
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-006
+  gd: Tha gaol aca oirnn.
+  en: They love us.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: gaol
+      itemId: lex:gaol
+    - text: aca
+      itemId: form:aig.3pl
+    - text: oirnn
+      itemId: form:air.1pl
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-007
+  gd: Tha dèidh agam ort.
+  en: I like you.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: dèidh
+      itemId: lex:deidh
+    - text: agam
+      itemId: form:aig.1sg
+    - text: ort
+      itemId: form:air.2sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+    - prep:air
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-008
+  gd: Tha leannan agam.
+  en: I have a sweetheart.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: leannan
+      itemId: lex:leannan
+    - text: agam
+      itemId: form:aig.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-009
+  gd: Tha leannan aice.
+  en: She has a sweetheart.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: leannan
+      itemId: lex:leannan
+    - text: aice
+      itemId: form:aig.3sg-f
+    - text: .
+      itemId: null
+  pattern: tha-N-aig-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:aig
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-010
+  gd: Tha mi toilichte.
+  en: I am happy.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: toilichte
+      itemId: lex:toilichte
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: &a1
+    - topic:love
+    - topic:feelings
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-011
+  gd: Tha thu bòidheach.
+  en: You are beautiful.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: thu
+      itemId: lex:thu
+    - text: bòidheach
+      itemId: lex:boidheach
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-012
+  gd: Tha i briagha.
+  en: She is lovely.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: i
+      itemId: lex:i
+    - text: briagha
+      itemId: lex:briagha
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-013
+  gd: Tha e sgìth.
+  en: He is tired.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: e
+      itemId: lex:e
+    - text: sgìth
+      itemId: lex:sgith
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-014
+  gd: Tha mi duilich.
+  en: I am sorry.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: duilich
+      itemId: lex:duilich
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: *a1
+  isIdiom: true
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-015
+  gd: Tha mi glè thoilichte.
+  en: I am very happy.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: glè
+      itemId: lex:gle
+    - text: thoilichte
+      itemId: lex:toilichte
+    - text: .
+      itemId: null
+  pattern: tha-P-glè-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-016
+  gd: Tha i glè bhòidheach.
+  en: She is very beautiful.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: i
+      itemId: lex:i
+    - text: glè
+      itemId: lex:gle
+    - text: bhòidheach
+      itemId: lex:boidheach
+    - text: .
+      itemId: null
+  pattern: tha-P-glè-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-017
+  gd: Tha eagal orm.
+  en: I am afraid.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: eagal
+      itemId: lex:eagal
+    - text: orm
+      itemId: form:air.1sg
+    - text: .
+      itemId: null
+  pattern: tha-N-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:air
+  isIdiom: true
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-018
+  gd: Tha fearg oirre.
+  en: She is angry.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: fearg
+      itemId: lex:fearg
+    - text: oirre
+      itemId: form:air.3sg-f
+    - text: .
+      itemId: null
+  pattern: tha-N-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:air
+  isIdiom: true
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-019
+  gd: Tha bròn oirnn.
+  en: We are sad.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: bròn
+      itemId: lex:bron
+    - text: oirnn
+      itemId: form:air.1pl
+    - text: .
+      itemId: null
+  pattern: tha-N-air-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:air
+  isIdiom: true
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-020
+  gd: Thoir pòg dhomh.
+  en: Give me a kiss.
+  altGd: []
+  tokens:
+    - text: Thoir
+      itemId: lex:thoir
+    - text: pòg
+      itemId: lex:pog
+    - text: dhomh
+      itemId: form:do.1sg
+    - text: .
+      itemId: null
+  pattern: imper-N-do-P
+  tags:
+    - topic:love
+    - topic:feelings
+    - prep:do
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-021
+  gd: Tha mi sgìth ach tha mi toilichte.
+  en: I am tired but I am happy.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: sgìth
+      itemId: lex:sgith
+    - text: ach
+      itemId: lex:ach
+    - text: tha
+      itemId: lex:tha
+    - text: mi
+      itemId: lex:mi
+    - text: toilichte
+      itemId: lex:toilichte
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ-ach-tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-022
+  gd: Tha an cù snog.
+  en: The dog is nice.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: an
+      itemId: lex:an
+    - text: cù
+      itemId: lex:cu
+    - text: snog
+      itemId: lex:snog
+    - text: .
+      itemId: null
+  pattern: tha-art-N-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-023
+  gd: Ciamar a tha thu?
+  en: How are you?
+  altGd: []
+  tokens:
+    - text: Ciamar
+      itemId: lex:ciamar
+    - text: a
+      itemId: lex:a
+    - text: tha
+      itemId: lex:tha
+    - text: thu
+      itemId: lex:thu
+    - text: "?"
+      itemId: null
+  pattern: ciamar-a-tha-P
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated
+- id: sent:love-024
+  gd: Tha thu gràdhach.
+  en: You are loving.
+  altGd: []
+  tokens:
+    - text: Tha
+      itemId: lex:tha
+    - text: thu
+      itemId: lex:thu
+    - text: gràdhach
+      itemId: lex:gradhach
+    - text: .
+      itemId: null
+  pattern: tha-P-ADJ
+  tags: *a1
+  isIdiom: false
+  source:
+    ref: AI draft, hand-built from W1-J vocabulary (no corpus lookup possible; see SOURCES.md#sentences)
+    licence: CC BY-SA 4.0
+  review: generated

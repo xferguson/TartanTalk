@@ -15,7 +15,7 @@ A dev-only clock override lets testers fast-forward time to see moths.
 
 ## How to use this plan (for every agent session)
 1. Pick a task whose **Status** is `todo` and whose **Depends on** tasks are all `done`. Take only one task per session unless it says otherwise.
-2. In a docs-only PR, or as the first commit of your task PR, set the task's status to `in progress (<branch>)`. Edit only your own row.
+2. In a docs-only PR, or as the first commit of your task PR, set the task's status to `in progress (<branch>)`. Edit only your own task's Status line.
 3. Stay inside the task's **Owns** paths. If you must touch a path someone else owns, stop and note it in your PR and in `docs/LEARNINGS.md`, or split the change into a separate small PR.
 4. When your PR merges, set the status to `done (#PR)` in a docs-only follow-up. CI skips docs-only PRs, so these merge straight away.
 
@@ -27,8 +27,8 @@ A dev-only clock override lets testers fast-forward time to see moths.
 | `src/app/router.tsx` | All routes are already registered. Screen tasks edit only their own `src/ui/screens/<Screen>/` folder. |
 | `src/db/db.ts` | Owned by W1-K after F1. Others use its repository functions. |
 | `.github/workflows/*` | Owned by W1-H (to add the content step). Otherwise leave unchanged. |
-| `docs/WORKPLAN.md` | Edit only your own task row, or add new rows at the bottom of a wave. |
-| `docs/LEARNINGS.md` | Append entries; update a tally by adding your PR number to an existing entry. |
+| `docs/WORKPLAN.md` | Edit only your own task's **Status** line, or add a new task block at the bottom of a wave. Keep the blank lines between fields: they stop parallel edits from conflicting. |
+| `docs/LEARNINGS.md` | Add a new entry in alphabetical position under "Entries by slug" (never at the end). To record a repeat, add your PR number to that entry's **Seen in** line. |
 
 ### Engineering rules (summary; full text in `CLAUDE.md`)
 - Write the failing test first (red), make it pass (green), then refactor.
@@ -41,50 +41,418 @@ A dev-only clock override lets testers fast-forward time to see moths.
 ---
 
 ## Wave 0: Foundations (sequential, lead only)
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| F1 | UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed** | `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts` | none | done (#5) |
-| F2 | Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs | `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore) | none | done (#5) |
+### F1
+
+- **Status:** done (#5)
+
+UI foundations: tokens, self-hosted fonts, theme setting, hash router with every route, Layout/BottomNav, placeholder screens, shared types contract, **all slice dependencies installed**
+
+- **Owns:** `package*.json`, `src/app/**`, `src/styles/**`, `src/domain/types.ts`, `src/domain/theme.ts`, `src/db/db.ts` (v1), `src/ui/components/{Layout,BottomNav,Placeholder}*`, `tests/setup.ts`
+
+- **Depends on:** none
+
+### F2
+
+- **Status:** done (#5)
+
+Process: this workplan, `docs/LEARNINGS.md`, `CLAUDE.md` rules, CI skips docs-only PRs
+
+- **Owns:** `docs/WORKPLAN.md`, `docs/LEARNINGS.md`, `CLAUDE.md`, `.github/workflows/ci.yml` (paths-ignore)
+
+- **Depends on:** none
+
 
 ## Wave 1: fully parallel (each depends only on Wave 0)
 Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML and research with no code.
 
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W1-A | **Weave engine.** Spec: Appendix B2. Port the prototype from `design/mockups/round2.html`: sett parser (symmetric and asymmetric), 2/2 twill tile renderer (deterministic shading, cache), scarf layout from `wovenOrder` (band height by item kind), fringe, hole overlay drawing. Includes the `ScarfCanvas` React component (DPR, ResizeObserver, shuttle animation, reduced-motion) and a text alternative. | `src/weave/**`, `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**` | F1 | done (#13) |
-| W1-B | **Moth holes.** `mothHoles(items, now, opts)` returns small, medium or large holes at 0×, 1× and 3× of the last interval overdue, caps visible damage at about 15% of the scarf, and returns any overflow as an extra-moths count. | `src/domain/moths.ts`, `tests/unit/moths.test.ts` | F1 | todo |
-| W1-C | **Answer checking.** NFC normalisation, case folding, punctuation and apostrophe handling, accent-insensitive near match (correct, capped at Hard, with a nudge), `altGd` alternatives, and returning which token was wrong. | `src/domain/answer.ts`, `tests/unit/answer.test.ts` | F1 | done (#12) |
-| W1-D | **Scheduler.** Seeded ladder of 1, 4 and 16 days (Hard/Easy nudge within a step), then a ts-fsrs wrapper with desired retention. Again on a miss; two consecutive misses set `tangled`; relearning clears it. Retrievability helper. | `src/domain/scheduler.ts`, `tests/unit/scheduler.test.ts` | F1 | done (#10) |
-| W1-E | **Implicit credit.** A typed sentence gives full credit to every token item. A cloze gives the target full credit and the others weight 0.25, only when retrievability is below 0.9. Positive-only. Takes the "Good outcome" stability function as an injected parameter (no import from W1-D). | `src/domain/credit.ts`, `tests/unit/credit.test.ts` | F1 | todo |
-| W1-F | **Unlock and session builder.** Sentence eligibility (all tokens learned); word batches of 3-4, then their sentences; at most 2 sentences per new item in its first session (the rest held back); a minimum 4-card gap for the same focal item; a same-pattern penalty; relearn at max(10 minutes, end of batch). Owner-scarf assignment (an item is woven only into the scarf that introduced it). | `src/domain/unlock.ts`, `src/domain/session.ts`, `tests/unit/{unlock,session}.test.ts`, `tests/unit/fixtures/slice.ts` | F1 | done (#15) |
-| W1-G | **Exercise builder.** From an item and the known items, build recognise (multiple choice with plausible distractors, e.g. other persons of the same preposition), cloze (blank chosen from the sentence tokens) and produce prompts. | `src/domain/exercises.ts`, `tests/unit/exercises.test.ts` | F1 | todo |
-| W1-H | **Content pipeline.** zod schemas mirroring `types.ts`; `scripts/build-content.ts` (YAML to JSON in `src/content/generated/`) validates ids, token resolution, declared tags, required provenance, and that Ferguson and Murchison are present; a loader in `src/content/`; `content/README.md` (format guide); an npm `content` script; a CI step. | `scripts/build-content.ts`, `src/content/**`, `content/README.md`, `.github/workflows/ci.yml`, `package.json` (scripts only) | F1 | todo |
-| W1-I | **Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly. | `content/tartans/**` | F1 (format in Appendix A) | todo |
-| W1-J1 | **Prepositions and pronominal forms.** The 10 most common prepositions with all 7 person forms, sources and frequency evidence. | `content/lexemes/prepositions.yaml`, `content/forms/**` | F1 (format in Appendix A) | todo |
-| W1-J2 | **Core vocabulary.** The 50 most common nouns, 50 most common verbs, and the next most common function words (pronouns, articles, `tha`/`is`, conjunctions, question words, numbers), with a frequency source documented in `content/SOURCES.md` (section "Core"). | `content/lexemes/core-*.yaml`, `content/SOURCES.md#core` | F1 | todo |
-| W1-J3 | **Starter topics.** `content/topics.yaml` (all starter topics from the PRD) plus slice topic vocabulary for **love and feelings** and **languages**. | `content/topics.yaml`, `content/lexemes/topic-*.yaml` | F1 | todo |
-| W1-K | **Database v2 and repositories.** Dexie version 2 with `progress`, `reviewLog` and `scarves` tables; repository functions (get, put, list due, append review, scarf CRUD); export/import JSON; migration tests. | `src/db/**`, `tests/unit/db/**` | F1 | todo |
-| W1-L | **UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests. | `src/ui/components/{Button,Chip,Card,TagPicker,RatingBar,AccentKeys,ProgressBar,MothSprite}*`, `tests/unit/components/**` | F1 | todo |
-| W1-M | **Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio. | `docs/research/audio.md` | none | todo |
+### W1-A
+
+- **Status:** done (#13)
+
+**Weave engine.** Spec: Appendix B2. Port the prototype from `design/mockups/round2.html`: sett parser (symmetric and asymmetric), 2/2 twill tile renderer (deterministic shading, cache), scarf layout from `wovenOrder` (band height by item kind), fringe, hole overlay drawing. Includes the `ScarfCanvas` React component (DPR, ResizeObserver, shuttle animation, reduced-motion) and a text alternative.
+
+- **Owns:** `src/weave/**`, `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**`
+
+- **Depends on:** F1
+
+### W1-B
+
+- **Status:** done (#9)
+
+**Moth holes.** `mothHoles(items, now, opts)` returns small, medium or large holes at 0×, 1× and 3× of the last interval overdue, caps visible damage at about 15% of the scarf, and returns any overflow as an extra-moths count.
+
+- **Owns:** `src/domain/moths.ts`, `tests/unit/moths.test.ts`
+
+- **Depends on:** F1
+
+### W1-C
+
+- **Status:** done (#12)
+
+**Answer checking.** NFC normalisation, case folding, punctuation and apostrophe handling, accent-insensitive near match (correct, capped at Hard, with a nudge), `altGd` alternatives, and returning which token was wrong.
+
+- **Owns:** `src/domain/answer.ts`, `tests/unit/answer.test.ts`
+
+- **Depends on:** F1
+
+### W1-D
+
+- **Status:** done (#10)
+
+**Scheduler.** Seeded ladder of 1, 4 and 16 days (Hard/Easy nudge within a step), then a ts-fsrs wrapper with desired retention. Again on a miss; two consecutive misses set `tangled`; relearning clears it. Retrievability helper.
+
+- **Owns:** `src/domain/scheduler.ts`, `tests/unit/scheduler.test.ts`
+
+- **Depends on:** F1
+
+### W1-E
+
+- **Status:** done (#11)
+
+**Implicit credit.** A typed sentence gives full credit to every token item. A cloze gives the target full credit and the others weight 0.25, only when retrievability is below 0.9. Positive-only. Takes the "Good outcome" stability function as an injected parameter (no import from W1-D).
+
+- **Owns:** `src/domain/credit.ts`, `tests/unit/credit.test.ts`
+
+- **Depends on:** F1
+
+### W1-F
+
+- **Status:** done (#15)
+
+**Unlock and session builder.** Sentence eligibility (all tokens learned); word batches of 3-4, then their sentences; at most 2 sentences per new item in its first session (the rest held back); a minimum 4-card gap for the same focal item; a same-pattern penalty; relearn at max(10 minutes, end of batch). Owner-scarf assignment (an item is woven only into the scarf that introduced it).
+
+- **Owns:** `src/domain/unlock.ts`, `src/domain/session.ts`, `tests/unit/{unlock,session}.test.ts`, `tests/unit/fixtures/slice.ts`
+
+- **Depends on:** F1
+
+### W1-G
+
+- **Status:** done (#20)
+
+**Exercise builder.** From an item and the known items, build recognise (multiple choice with plausible distractors, e.g. other persons of the same preposition), cloze (blank chosen from the sentence tokens) and produce prompts.
+
+- **Owns:** `src/domain/exercises.ts`, `tests/unit/exercises.test.ts`
+
+- **Depends on:** F1
+
+### W1-H
+
+- **Status:** done (#21)
+
+**Content pipeline.** zod schemas mirroring `types.ts`; `scripts/build-content.ts` (YAML to JSON in `src/content/generated/`) validates ids, token resolution, declared tags, required provenance, and that Ferguson and Murchison are present; a loader in `src/content/`; `content/README.md` (format guide); an npm `content` script; a CI step.
+
+- **Owns:** `scripts/build-content.ts`, `src/content/**`, `content/README.md`, `.github/workflows/ci.yml`, `package.json` (scripts only)
+
+- **Depends on:** F1
+
+### W1-I
+
+- **Status:** done (#44): approximate placeholder setts only; exact setts tracked in W-TARTAN-EXACT-SETTS
+
+**Tartan data.** Research and transcribe setts with provenance: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Note the licence or terms for each source, and set `verified` honestly.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** F1 (format in Appendix A)
+
+### W1-J1
+
+- **Status:** done (#22)
+
+**Prepositions and pronominal forms.** The 10 most common prepositions with all 7 person forms, sources and frequency evidence.
+
+- **Owns:** `content/lexemes/prepositions.yaml`, `content/forms/**`
+
+- **Depends on:** F1 (format in Appendix A)
+
+### W1-J2
+
+- **Status:** done (#22)
+
+**Core vocabulary.** The 50 most common nouns, 50 most common verbs, and the next most common function words (pronouns, articles, `tha`/`is`, conjunctions, question words, numbers), with a frequency source documented in `content/SOURCES.md` (section "Core").
+
+- **Owns:** `content/lexemes/core-*.yaml`, `content/SOURCES.md#core`
+
+- **Depends on:** F1
+
+### W1-J3
+
+- **Status:** done (#22)
+
+**Starter topics.** `content/topics.yaml` (all starter topics from the PRD) plus slice topic vocabulary for **love and feelings** and **languages**.
+
+- **Owns:** `content/topics.yaml`, `content/lexemes/topic-*.yaml`
+
+- **Depends on:** F1
+
+### W1-K
+
+- **Status:** done (#26)
+
+**Database v2 and repositories.** Dexie version 2 with `progress`, `reviewLog` and `scarves` tables; repository functions (get, put, list due, append review, scarf CRUD); export/import JSON; migration tests.
+
+- **Owns:** `src/db/**`, `tests/unit/db/**`
+
+- **Depends on:** F1
+
+### W1-L
+
+- **Status:** done (#33)
+
+**UI kit.** Spec: Appendix B3. Button, Chip, Card, TagPicker, RatingBar (Hard/Good/Easy with interval hints), AccentKeys (à è ì ò ù that insert at the cursor), ProgressBar, MothSprite. CSS Modules on Hearth tokens; component tests.
+
+- **Owns:** `src/ui/components/{Button,Chip,Card,TagPicker,RatingBar,AccentKeys,ProgressBar,MothSprite}*`, `tests/unit/components/**`
+
+- **Depends on:** F1
+
+### W1-M
+
+- **Status:** done (#35)
+
+**Audio research.** Find openly licensed Scottish Gaelic audio for words and sentences, and assess TTS options for quality and licence. Recommend a go or no-go for day-one audio.
+
+- **Owns:** `docs/research/audio.md`
+
+- **Depends on:** none
+
 
 ## Wave 2: assembly (parallel within the wave once dependencies are met)
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W2-A | **Sentences.** Sentences and idioms built from J1-J3 vocabulary with full token links, patterns, tags and provenance (corpus first, then AI-generated and labelled). Enough for the love and languages scarves to unlock at least 2 sentences per batch. | `content/sentences/**`, `content/SOURCES.md#sentences` | W1-H, W1-J1, W1-J2, W1-J3 | todo |
-| W2-B | **App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service with a dev time-travel control in Settings. | `src/app/services/**`, `src/app/store/**`, `src/app/clock.ts`, `tests/unit/services/**` | W1-B, W1-C, W1-D, W1-E, W1-F, W1-G, W1-K | todo |
-| W2-C | **Shelf screen.** Spec: Appendix B4. Real scarves from the DB, ScarfCanvas strips, length in ells, moth-hole chips, and Reweave / Start a new scarf actions. | `src/ui/screens/Shelf/**` | W1-A, W1-B, W1-K, W1-L | todo |
-| W2-D | **Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags. | `src/ui/screens/Scarf/**` | W1-A, W1-B, W1-K, W1-L | todo |
-| W2-E | **New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create. | `src/ui/screens/NewScarf/**` | W1-H, W1-I, W1-J3, W1-K, W1-L | todo |
-| W2-F | **Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note. | `src/ui/screens/Library/**` | W1-A, W1-H, W1-I | todo |
-| W2-G | **Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note. | `src/ui/screens/Loom/**` | W1-L, W2-B | todo |
-| W2-H | **Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice. | `src/ui/screens/Reweave/**`, `src/ui/screens/Tangles/**` | W1-L, W2-B | todo |
+### W2-A
+
+- **Status:** done (#36)
+
+**Sentences.** Sentences and idioms built from J1-J3 vocabulary with full token links, patterns, tags and provenance (corpus first, then AI-generated and labelled). Enough for the love and languages scarves to unlock at least 2 sentences per batch.
+
+- **Owns:** `content/sentences/**`, `content/SOURCES.md#sentences`
+
+- **Depends on:** W1-H, W1-J1, W1-J2, W1-J3
+
+### W2-B
+
+- **Status:** done (#41)
+
+**App services and store.** A Zustand session store; services wiring the domain to the DB (start scarf, next card, answer, rate, weave, reweave, tangles); a clock service (the Settings control is W2-B2).
+
+- **Owns:** `src/app/services/**`, `src/app/store/**`, `src/app/clock.ts`, `tests/unit/services/**`
+
+- **Depends on:** W1-B, W1-C, W1-D, W1-E, W1-F, W1-G, W1-K
+
+### W2-B2
+
+- **Status:** todo
+
+**Dev time-travel control.** Settings gets a developer section (shown only in dev or behind a tap-seven-times toggle) with "+1 day", "+1 week" and "Reset" buttons on `appClock` from W2-B, saving the offset with `saveClockOffset` and loading it at boot with `loadClockOffset`. Split from W2-B because `SettingsScreen` and `src/main.tsx` are outside its Owns paths. W3-A needs it.
+
+- **Owns:** `src/ui/screens/Settings/**`, `src/main.tsx` (boot load only)
+
+- **Depends on:** W2-B
+
+### W2-C
+
+- **Status:** done (#39)
+
+**Shelf screen.** Spec: Appendix B4. Real scarves from the DB, ScarfCanvas strips, length in ells, moth-hole chips, and Reweave / Start a new scarf actions.
+
+- **Owns:** `src/ui/screens/Shelf/**`
+
+- **Depends on:** W1-A, W1-B, W1-K, W1-L
+
+### W2-D
+
+- **Status:** done (#37)
+
+**Scarf detail screen.** Spec: Appendix B5. Vertical scarf with an ell ruler, tappable holes leading to reweave, item counts and tags.
+
+- **Owns:** `src/ui/screens/Scarf/**`
+
+- **Depends on:** W1-A, W1-B, W1-K, W1-L
+
+### W2-E
+
+- **Status:** done (#45)
+
+**New scarf screen.** Spec: Appendix B8. Topic, grammar and tag picker with starter suggestions, a "N new / M already woven" preview, a tartan picker with search, and create.
+
+- **Owns:** `src/ui/screens/NewScarf/**`
+
+- **Depends on:** W1-H, W1-I, W1-J3, W1-K, W1-L
+
+### W2-F
+
+- **Status:** done (#47)
+
+**Library screen.** Spec: Appendix B9. Searchable tartan library, swatches, detail view with provenance and the "pattern unverified" note.
+
+- **Owns:** `src/ui/screens/Library/**`
+
+- **Depends on:** W1-A, W1-H, W1-I
+
+### W2-G
+
+- **Status:** done (#48)
+
+**Loom screen.** Spec: Appendix B6. Runs a session: exercises, accent keys, feedback, rating bar, a weave animation on learn, and the implicit-credit note.
+
+- **Owns:** `src/ui/screens/Loom/**`
+
+- **Depends on:** W1-L, W2-B
+
+### W2-H
+
+- **Status:** done (#49)
+
+**Reweave and Tangles screens.** Spec: Appendix B7 and B11. Reweaving flow (moth flutters off on success) and the Tangles basket with focused practice.
+
+- **Owns:** `src/ui/screens/Reweave/**`, `src/ui/screens/Tangles/**`
+
+- **Depends on:** W1-L, W2-B
+
 
 ## Wave 3: integration and hardening
-| ID | Task | Owns | Depends on | Status |
-|---|---|---|---|---|
-| W3-A | **End-to-end slice test.** A Playwright journey: create a scarf, learn a batch, unlock a sentence, time-travel, see moths, reweave. Fix integration bugs in small PRs. | `tests/e2e/slice.spec.ts` (fixes go in owner paths via separate PRs) | all of Wave 2 | todo |
-| W3-B | **Content QA and flagging.** A "flag error" button that stores the flag locally and can export flags; first review pass over AI content. | `src/ui/components/FlagButton*`, `content/**` review edits | W2-A, W2-G | todo |
-| W3-C | **Accessibility and polish audit.** Contrast in both themes, focus order, reduced motion, 44 px targets, `lang="gd"`, and text alternatives for canvases. | fixes via small PRs in owner paths | all of Wave 2 | todo |
+### W3-E
+
+- **Status:** done (#60)
+
+**Introduce first, and pick words sentence-first.** An introduce card (word and meaning, no quiz) with Got it / Later (24 h) / I already know this comes before any quiz. `planWordBatch` scores sentences by scarf words taught per new word, and scarf candidates pull in the words their sentences need. "Weave new" is now "Weave". "Known" words are saved as learned with no schedule and no band on the scarf.
+
+- **Owns:** `src/domain/{session,unlock}.ts`, `src/app/services/learning.ts`, `src/app/store/sessionStore.ts`, `src/ui/screens/Loom/**`, matching tests
+
+- **Depends on:** W2-G
+
+### W3-A
+
+- **Status:** todo
+
+**End-to-end slice test.** A Playwright journey: create a scarf, learn a batch, unlock a sentence, time-travel, see moths, reweave. Fix integration bugs in small PRs.
+
+- **Owns:** `tests/e2e/slice.spec.ts` (fixes go in owner paths via separate PRs)
+
+- **Depends on:** all of Wave 2
+
+### W3-B
+
+- **Status:** todo
+
+**Content QA and flagging.** A "flag error" button that stores the flag locally and can export flags; first review pass over AI content.
+
+- **Owns:** `src/ui/components/FlagButton*`, `content/**` review edits
+
+- **Depends on:** W2-A, W2-G
+
+### W3-C
+
+- **Status:** todo
+
+**Accessibility and polish audit.** Contrast in both themes, focus order, reduced motion, 44 px targets, `lang="gd"`, and text alternatives for canvases.
+
+- **Owns:** fixes via small PRs in owner paths
+
+- **Depends on:** all of Wave 2
+
+### W3-D
+
+- **Status:** done (#58)
+
+**Install prompt.** Spec: Appendix B12. A dismissible banner on touch devices that offers a one-tap install (Android/Chromium) or Add to Home Screen steps (iOS). Hidden when already installed or running standalone, and snoozed 14 days after "Not now". Never on desktop.
+
+- **Owns:** `src/domain/installPrompt.ts`, `src/app/install*`, `src/app/useInstallPrompt.ts`, `src/ui/components/InstallBanner*`, `src/ui/components/Layout*`, `tests/unit/install*`, `tests/unit/InstallBanner.test.tsx`, `tests/e2e/install.spec.ts`
+
+- **Depends on:** F1
+
+
+### W3-G
+
+- **Status:** done (#63)
+
+**Known sentences, and clozes only for words in play.** After a correct first answer to a sentence the learner has never seen, offer "I already knew this" (saved like a known word: learned, no schedule, no band). A cloze blanks only a word being learned in this run or one due for review, never a word marked known or not yet due; with no such word the sentence is typed whole. Applies to learning and reweaving.
+
+- **Owns:** `src/domain/{session,exercises}.ts`, `src/app/services/{learning,reviews}.ts`, `src/app/store/sessionStore.ts`, `src/ui/screens/Loom/**`, matching tests
+
+- **Depends on:** W3-E
+
+
+### W2-E2
+
+- **Status:** done (#52)
+
+**Pre-select a tartan from the Library.** The Library's "Use for a new scarf" goes to `/new?tartan=<id>`. The New scarf screen must read `tartan` from the query string and start with that tartan chosen (ignoring an unknown id).
+
+- **Owns:** `src/ui/screens/NewScarf/**`, `tests/unit/screens/NewScarfScreen.test.tsx`
+
+- **Depends on:** W2-E, W2-F
+
+### W3-F
+
+- **Status:** done (#62)
+
+**Bottom nav icons.** Spec: Appendix B10. Replace the placeholder squares with a drawn icon set (shelf, shuttle, tangle, tartan swatch, sliders), duotone with an amber thread accent and a heather indicator pill on the active room.
+
+- **Owns:** `src/ui/components/BottomNav*`, `tests/unit/BottomNav.test.tsx`
+
+- **Depends on:** F1
+
+### W3-G
+
+- **Status:** done (#65)
+
+**Shared test clean-up.** Register Testing Library's `cleanup` once in `tests/setup.ts`, so component tests no longer depend on each file adding `afterEach(cleanup)` (L12 proposal, approved by the user).
+
+- **Owns:** `tests/setup.ts`, `tests/unit/setupCleanup.test.tsx`
+
+- **Depends on:** F1
+
+### W3-H
+
+- **Status:** done (#70)
+
+**Long scarves.** Spec: Appendix B13. Bands keep their size for ever, so the scarf keeps growing after it fills the screen. The detail scarf becomes a window onto the cloth that you drag (no scrollbar), with edge cues, off-screen moth markers and a ruler that moves with the cloth. The shelf and loom strips show their newest end, and a new band slides the cloth along as it is woven. Pure layout first (`src/weave/layout.ts`: window, visible bands, off-screen holes, ruler marks), with unit tests written before the code.
+
+- **Owns:** `src/weave/**`, `src/ui/components/ScarfCanvas*`, `src/ui/screens/Scarf/**` (the ruler moves into `ScarfCanvas`), `tests/unit/weave/**`, `tests/unit/screens/ScarfScreen*`
+
+- **Depends on:** W1-A, W2-D
+
+### W3-I
+
+- **Status:** done (#72)
+
+**One length table; the moth stays on the cloth.** The shelf and the scarf screen use the single `ELLS_PER_KIND` table in `src/app/services/length.ts` (their private copies go), so a scarf shows the same length everywhere. The perched moth follows the amended B2 rule, so it is never cut off by the edge of the canvas.
+
+- **Owns:** `src/ui/screens/Shelf/**`, `src/ui/screens/Scarf/scarfView.ts`, `src/app/services/length.ts` (comment only), `src/weave/{layout,paint}.ts`, `tests/unit/shelf/**`, `tests/unit/screens/scarfView.test.ts`, `tests/unit/weave/**`
+
+- **Depends on:** W3-H
+
+### W3-J
+
+- **Status:** done (#74)
+
+**Drag the strips sideways.** A shelf or loom strip whose cloth is longer than its card can be dragged left and right to see older cloth, as the detail scarf can be dragged up and down. Amends the strip section of Appendix B13. Tests first.
+
+- **Owns:** `src/ui/components/ScarfCanvas*`, `tests/unit/weave/**`, `docs/WORKPLAN.md` (this row and B13), `docs/LEARNINGS.md`
+
+- **Depends on:** W3-H, W3-I
+
+## Backlog (unscheduled)
+Not part of any wave. Scheduled when the time is right.
+
+### W-TARTAN-SOURCES
+
+- **Status:** todo
+
+**Tartan sett sources.** Settle which sources we may take thread counts from under our CC BY-SA 4.0 content licence (see `content/tartans/SOURCES.md`), then transcribe the setts W1-I needs: all available Ferguson variants, Murchison and MacKenzie-linked setts, and about 20 well-known clan tartans. Candidates: the public-domain 1893 *Old and Rare Scottish Tartans* (Project Gutenberg 70853), Logan 1831/1845, Wikipedia, or written permission from the Scottish Register of Tartans or another keeper. Needs `gutenberg.org` (and perhaps `en.wikipedia.org`) in the session's allowed hosts. Finishing it completes W1-I, and unblocks the tartan content for W2-E and W2-F.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W1-H
+
+### W-TARTAN-EXACT-SETTS
+
+- **Status:** todo (needs W-TARTAN-SOURCES first)
+
+**Replace the approximate setts with real ones.** The 26 files in `content/tartans/` are placeholders: the colours are right in spirit, but the stripe counts are not the real setts. Once W-TARTAN-SOURCES settles a usable source, replace each sett, set `provenance` to the real source, and flip `verified` only after checking against a keeper such as the Scottish Register of Tartans. Remove the "Approximate placeholder" wording as each one is replaced.
+
+- **Owns:** `content/tartans/**`
+
+- **Depends on:** W-TARTAN-SOURCES
 
 ## Parallelism at a glance
 - **Wave 1 can run up to 15 sessions at once.** Code tasks own disjoint files, and data tasks own disjoint YAML folders.
@@ -178,14 +546,14 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Twill pixel rule:** at thread coordinates (x, y), show the warp colour when `((x + y) & 3) < 2`, else the weft colour.
 - **Shading:** multiply the colour by 1.05 for warp and 0.93 for weft. Thread-edge pixels are multiplied by a further 0.86: the left and right pixel columns of a warp thread, and the top and bottom pixel rows of a weft thread. Noise multiplier is `1 + (hash(X, Y) - 0.5) * 0.09`. Then add 6 to each channel and clamp to 255. The hash is `h = (x*374761393 + y*668265263)|0; h = (h ^ (h>>>13)) * 1274126177; return ((h ^ (h>>>16))>>>0) / 4294967295` (port it exactly, so it is deterministic).
 - **Thread size:** 2 device-independent px per thread on shelf strips and detail views; 3px on the reweave close-up and library swatches. The sett `scale` multiplies thread counts (minimum 1 per stripe).
-- **Shelf strip:** height 44px, full card width. The cloth is inset 10px at each end for the fringe.
+- **Shelf strip:** height 44px, full card width. The cloth is inset 10px at each end for the fringe. Once the cloth is longer than the card, see B13.
 - **Fringe:** every 3px down the edge, draw a 1.6px round-capped line 8px long outward, alternating ±1px. Its colour is the sett thread at index `(i*2) % length`.
-- **Vertical detail scarf:** canvas 64×380. The cloth spans x 4-60 and y 10-370, with the fringe top and bottom.
-- **Item bands:** each woven item is one band. Band height is 9px on the detail view: one line of `rgba(255,255,255,.12)` 1px between bands. Kind weighting for length is in W2-B, not here.
+- **Vertical detail scarf:** canvas 64×380. The cloth spans x 4-60 and y 10-370, with the fringe top and bottom. Once the cloth is longer than 360px, the canvas is a window onto it (B13).
+- **Item bands:** each woven item is one band. Band height is 9px on the detail view: one line of `rgba(255,255,255,.12)` 1px between bands. Bands are never squeezed to fit (B13). Kind weighting for length is in W2-B, not here.
 - **Holes:** an irregular 12-point polygon. Each point is at radius `r*(0.75 + hash(seed+a, 7)*0.5)`. Fill with the card's `--surface`; stroke with `rgba(0,0,0,.25)` at 1px.
   - Strip radii: small 3.5, medium 5, large 7.
   - Detail radii: small 5, medium 6, large 8.
-- **Moth beside the first (largest) hole:** size 22 on strips and 22 on the detail view. Place it at `x = cx + r + 13` and `y = max(13, cy - 4)`.
+- **Moth beside the first (largest) hole:** size 22 on strips and 22 on the detail view. Place it at `x = cx + r + 13` and `y = max(13, cy - 4)`. **(Amended in W3-I: tech-lead spec.)** The moth reaches 13px either side of `x`. If that would cross the canvas's right edge, perch on the left instead (`x = cx - r - 13`). If neither side fits (the 64px detail scarf with a large hole near the middle), clamp `x` to `[13, width - 13]`, so the moth sits partly over its hole, nibbling. Clamp `y` to `[13, height - 13]`.
 - **Moth sprite** (scale s):
   - Antennae: two quadratic curves from (±0.08s, -0.28s), control point (±0.2s, -0.55s), ending at (±0.32s, -0.52s). Line width is the larger of 1 and 0.05s, in the body colour.
   - Upper wings: ellipses at (±0.3s, -0.02s), radii 0.32s × 0.24s, rotated ∓0.5 rad.
@@ -233,13 +601,13 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
 - **Title:** the scarf name. Subtitle: "{tartan name} · begun {d MMM}".
 - **Body:** a three-column grid of 64px, 26px and 1fr with a 10px gap.
   - **Column 1:** the vertical scarf (B2).
-  - **Column 2:** the ruler, 380px tall, 0.68rem `--muted` tabular numbers. Labels at 0 and every 0.5 ell up to the total, plus the exact total. A label at value v sits at `top = 380 - v/total*370 - 5` px, vertically centred.
+  - **Column 2:** the ruler (moves inside `ScarfCanvas` in W3-H, see B13), 380px tall, 0.68rem `--muted` tabular numbers. Labels at 0 and every 0.5 ell up to the total, plus the exact total. A label at value v sits at `top = 380 - v/total*370 - 5` px, vertically centred.
   - **Column 3:** facts at 0.88rem, gap 10px. Each fact has a big number (display, 1.6rem, 700, line-height 1.1) above its text:
     - "{length}", "ells woven"
     - "{count}", "items: {w} words, {f} forms, {s} sentences"
     - "{holes}", "moth holes waiting"
     - Then the scarf's tags as non-interactive tag chips (TagPicker style, unselected).
-- **Actions:** primary "Weave new" (`/loom/:id`); ghost "Reweave {n}" (`/reweave/:id`) only when n > 0.
+- **Actions:** primary "Weave" (`/loom/:id`); ghost "Reweave {n}" (`/reweave/:id`) only when n > 0.
 - Tapping a hole goes to `/reweave/:id` focused on that item.
 
 ### B6. Loom screen (W2-G)
@@ -259,7 +627,8 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - Wrong: `--rust`, "Not quite. It's **{answer}**." and the item is re-queued.
 - **Rating:** after a correct review answer, show the label "How did that feel?" and the RatingBar (pre-selected Good, or Hard after an accent slip). No rating appears while learning a new item (the ladder handles it) or after a wrong answer (automatically Again).
 - **Implicit-credit note:** after a typed full sentence, show at 0.82rem `--muted`: "Typing the full sentence also counts as a review for {list of Gaelic words}."
-- **Weaving moment:** when an item is learned (2 correct answers), show the scarf strip with the shuttle animation adding its band, and the caption "Woven into {scarf}: +{fraction} ell".
+- **Already knew this (W3-G):** after a correct answer to a sentence shown for the first time (no earlier answer saved), a ghost button "I already knew this" sits after **Next** in the same ButtonRow. It saves the sentence as known (learned, no schedule, nothing woven), drops its remaining ladder cards, counts it as answered, and shows the next card. It never appears in reweave or tangles, or on later answers.
+- **Weaving moment:** when an item is learned (2 correct answers), show the scarf strip with the shuttle animation adding its band, and the caption "Woven into {scarf}: +{fraction} ell". On a long scarf the strip shows its newest end and the cloth slides along as the band is woven (B13).
 - **Empty state** (`/loom` without a scarf): show "Choose a scarf to weave" and the shelf's scarf list as links.
 
 ### B7. Reweave screen (W2-H)
@@ -296,11 +665,18 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - If unverified, a small "pattern unverified" chip (calm).
 - **Detail view:** tap a card for a large swatch (220px), the full sett, a colour key (swatch dots with codes), the provenance link and notes, and the button "Use for a new scarf", which goes to `/new` with that tartan pre-selected.
 
-### B10. Bottom navigation (F1, already built)
+### B10. Bottom navigation (F1, icons added in W3-F)
 - The mock-up shows four items (Shelf, Loom, Tangles, Library). F1 adds **Settings** as a fifth item, because the theme override needs a home (approved by the user).
-- Layout: a grid of equal columns with a 1px `--line` top border and 6px padding, on `--surface`. Each item is ≥44px tall, has an 18px rounded-square icon placeholder (radius 6, current colour, 0.35 opacity) and a 0.75rem label.
-- Active item: `--heather`, weight 700, icon at full opacity.
-- Real icons are a later design task (B11).
+- Layout: a grid of equal columns with a 1px `--line` top border and 6px padding, on `--surface`. Each item is ≥44px tall: an icon in a 52×28px indicator (radius `--radius-pill`), then a 0.75rem label, 2px apart.
+- **Icons** (no mock-up: the round 2 mock-up only had placeholder squares; tech-lead spec, built in W3-F). 24px inline SVG on a 24-unit grid, `stroke: currentColor`, stroke width 1.75, round caps and joins, `aria-hidden="true"`, `focusable="false"` (the label names the link). Each icon has base strokes plus accent **thread** strokes:
+  - Shelf: two folded scarves on a shelf; thread is a stripe on each scarf.
+  - Loom: a weaving shuttle lying at 35°; thread is the bobbin and the weft trailing from it.
+  - Tangles: a thread that loops back on itself; thread is its loose tail.
+  - Library: a tartan swatch (rounded square crossed by two stripes each way); thread is one stripe each way.
+  - Settings: three sliders; the knobs (r 2.25) are the accent, filled `--surface` when idle.
+- Idle item: `--muted`, thread at 0.55 opacity.
+- Active item: `--heather`, weight 700. The indicator fills with `color-mix(in srgb, var(--heather) 14%, transparent)`, and thread strokes and knobs turn `--amber` at full opacity.
+- Motion: none. Focus: the global `:focus-visible` ring.
 
 ### B11. Tangles screen (W2-H) (no mock-up: tech-lead spec)
 - **Title:** "Tangles". Subtitle: "Threads that need a little more practice."
@@ -308,3 +684,67 @@ Units are CSS px unless stated. All colours are Hearth tokens from `src/styles/t
   - A row: the Gaelic in display font at 1.1rem on the left, the English in `--muted` beneath it, and the owning scarf name as a calm chip on the right.
 - **Primary "Untangle {n}":** runs a learning-ladder session over all tangled items.
 - **Empty state:** "No tangles. Every thread is running smoothly."
+
+### B12. Install prompt (W3-D) (no mock-up: tech-lead spec)
+- **Placement:** a Card-style banner in `Layout`, directly above the bottom nav, inside the same max-width as `main`. `role="region"`, `aria-label="Install Tartan Talk"`.
+- **Copy:** title "Take Tartan Talk with you" (display, 1rem, 700). Body (0.85rem, `--muted`): native, "Install it to open from your home screen and weave offline." iOS, "Tap Share, then Add to Home Screen." Buttons: primary "Install" (native only, `--heather` background, `--on-accent` text) and secondary "Not now". Both at least 44px tall.
+- **When it shows (all must hold):** a touch-first device (`(pointer: coarse)`, or iPadOS reporting as a Mac with touch); not running standalone (`display-mode: standalone` or `navigator.standalone`); not already installed (`appinstalled` seen); not snoozed; and either the browser has fired `beforeinstallprompt` (native) or the device is iOS (instructions). Desktop never sees it.
+- **Snooze:** "Not now", or dismissing the browser's own dialog, hides it for 14 days. Installing hides it for good. State lives in `localStorage` key `tt-install` (local only, no cookies sent anywhere). If storage is unavailable the banner still works for the session.
+- **Motion:** none beyond the global transition rule. **Focus:** visible ring on both buttons.
+
+### B13. Long scarves (W3-H) (no mock-up: tech-lead spec agreed with the user; design check with the user once built)
+**Why:** both views squeezed their bands once the cloth was full: the strip at about 19 items on a phone, the detail scarf at 40. After that, learning more changed nothing you could see. Now every band keeps its size, the scarf really gets longer, and the newest weaving is always in view.
+
+**Principles:** holes stay on the band of the item they belong to. Nothing gets thinner or smaller as you learn. There is no visible scrollbar.
+
+**States:** empty and part-woven scarves (the cloth still fits) look exactly as they do now, including the dashed outline of the unwoven part (L20). Everything below applies once the cloth is longer than the space it is shown in.
+
+**Band size:** 16px wide on the strip and 9px tall on the detail scarf, always. Remove the squeeze in `bandSize` (`Math.min(..., g.cloth.w / n)` and `Math.min(..., g.cloth.h / n)`). The cloth is `n × band` long. Orientation is unchanged: the strip is woven left to right with the newest band at the right, and the detail scarf has the newest band at the top.
+
+**The window (detail scarf):**
+- The 64×380 canvas shows a window onto the cloth. `offset` is the distance in px from the newest end, clamped to `[0, max(0, clothLength - 360)]`. At `offset = 0` the newest band sits at the top of the cloth area, as now.
+- **Default:** `offset = 0` when the screen opens, so the latest weaving shows first. Older cloth is below. Drag up to see it.
+- **Drag:** pointer drag moves the cloth 1:1 with the finger or mouse, vertically, with no momentum. Use pointer capture. Set `touch-action: none` on the scarf only while it can move, so a scarf that fits never traps the page scroll. The cursor is `grab`, and `grabbing` while dragging. A drag of 6px or more cancels the click on a hole button under the pointer.
+- **Wheel:** `deltaY` moves the window. Call `preventDefault` only while the window can still move in that direction, so the page scrolls at the ends.
+- **Keyboard:** the window is focusable, with `tabindex="0"`, `role="group"`, `aria-roledescription="scarf"` and `aria-label="{name} cloth. Drag, or use the arrow keys, to move along the scarf."`. Down moves 27px (3 bands) towards the older end, and Up moves 27px back. Page Down and Page Up move 300px. Home goes to the newest end and End to the oldest. The focus ring follows B1.
+- **Rendering:** the canvas stays 64×380 however long the scarf is. Paint only the bands in view, shifted by `offset`. Anchor the twill pattern to cloth coordinates (translate the pattern by `offset`), so the weave does not swim while dragging. Draw the top fringe only when the newest end is in view (`offset = 0`), and the bottom fringe only when the oldest end is in view.
+
+**"There's more cloth" cue (instead of a scrollbar):**
+- **Edge fade:** at each end of the window with more cloth beyond it, the cloth fades out over 28px (a CSS `mask-image` linear gradient on the canvas, opaque to transparent). An end with nothing beyond it has no fade.
+- **Chevron:** at each faded end without a moth marker (below), show a 10px chevron in `--muted`, centred across the cloth, 6px in from the edge and pointing outward. It is decorative (`aria-hidden`).
+- **Peek:** the first time the detail screen shows a scarf that can move, in each app session, the window eases 24px towards the older end and back (300ms out, 300ms back, ease-in-out), once. Track peeked scarf ids in a module-level set (memory only, no storage). Skip the peek under reduced motion, and after the learner has moved that scarf themselves.
+
+**Holes in the window:**
+- Holes sit on their own band (`placeHoles`), in cloth coordinates. Only holes whose centre is inside the window are drawn and get a hole button.
+- **Off-screen moth markers:** when holes lie beyond an end of the window, a marker replaces the chevron at that end.
+  - A button with a 44×44px hit area, centred across the cloth, with its centre 16px in from the window's edge, over the edge fade.
+  - Inside it: the B2 moth at size 18 (`MothSprite`), with a count badge at its upper right, offset (+10px, -10px). The badge is 0.66rem, weight 700, tabular-nums, `--on-accent` on `--amber`, pill radius, min-width 16px, padding 0 4px.
+  - Label: "{n} moth hole(s) further along the scarf. Show them." at the older end, and "{n} moth hole(s) back towards the newest weaving. Show them." at the newer end.
+  - Tapping it moves the window so the nearest hole beyond that edge sits at the window's centre (clamped), over 250ms ease-out, or instantly under reduced motion. Focus moves to that hole's button.
+- **The moth character:** perches beside the largest visible hole (B2 placement, in window coordinates). **(Amended in W3-I.)** It skips holes whose centre is inside a faded edge (within 28px of an end with more cloth beyond), where the fade and that edge's marker would hide it. When no hole is visible, the only moths shown are the ones in the markers. The perched moth is never drawn outside the window.
+
+**Ruler (detail scarf):**
+- `ScarfCanvas` takes `itemElls: number[]` (the length each item adds, in `wovenOrder` order) and draws the ruler itself, in a 26px column 10px to the right of the 64px scarf. It sits inside the same moving window, so the component is 100px wide on the detail variant, and the B5 grid becomes 100px and 1fr with a 10px gap.
+- A pure function `rulerMarks(itemElls, bandPx)` returns `{ text, y }[]`, with y in cloth px from the newest end. It places marks at 0, every 0.5 ell, and the exact total. A mark sits where the cumulative length (counted from the oldest band) reaches its value, interpolated linearly within the band that crosses it. So 0 is at the oldest end and the total at the newest end. Drop a 0.5-ell mark closer than 14px to the total mark.
+- The labels are 0.68rem `--muted` tabular numbers, vertically centred on their y, moving with the cloth and clipped to the window. The ruler is `aria-hidden`; the text alternative and facts carry the numbers.
+
+**The strip (shelf and loom):** **(Amended in W3-J: drag sideways.)**
+- It is a window onto the cloth like the detail scarf, but moves left and right. `offset` is the distance in px from the newest end (the right end), clamped to `[0, max(0, n × 16 - (width - 20))]`. It opens at `offset = 0`, the newest end, with the right fringe at the right inset.
+- **Drag:** pointer drag moves the cloth 1:1 with the finger or mouse, horizontally, with no momentum and with pointer capture once it is a drag. Dragging right brings older cloth into view. A drag of 6px or more cancels the click on a hole button under the pointer. A tap that is not a drag still works as before.
+- **Page scroll stays free:** `touch-action: pan-y` on a strip that can move (never `none`), so a vertical swipe scrolls the page and only a horizontal one moves the cloth. A strip that fits has no `touch-action` and is not focusable. Cursor `grab`, and `grabbing` while dragging.
+- **Wheel:** only a horizontal gesture (`|deltaX| > |deltaY|`) moves the window, and only while it can still move that way. Ordinary vertical wheel scrolls the page.
+- **Keyboard:** the strip is focusable (`tabindex="0"`, `role="group"`, `aria-roledescription="scarf"`, `aria-label="{name} cloth. Drag sideways, or use the left and right arrow keys, to move along the scarf."`). Left moves 48px (3 bands) towards the older end and Right moves 48px back. Home goes to the left end of the screen (the oldest cloth) and End to the right end (the newest). The focus ring follows B1.
+- **Cues:** at each end of the window with more cloth beyond it, the cloth fades over 28px and shows a 10px chevron pointing outward, 6px in from the edge, or a marker when holes lie beyond it. Left is the older end, right the newer end. The markers stay decorative (`aria-hidden`, not buttons), centred 16px in from the edge. The card's hole chip already gives the count. There is no peek on strips (a shelf can hold many).
+- When the cloth fits, no fade, chevron, marker or `touch-action` appears, as before.
+- Visible holes and the perched moth follow B2 and the detail scarf's faded-edge rule.
+
+**Growth at the moment it happens** (the weaving moment in B6, and any view showing when a band is added):
+- When `wovenOrder` grows by one and the newest end is in view (on either view unless the learner has moved away from `offset = 0`):
+  1. If the cloth already overflows, it slides by one band (16px left on the strip, 9px down on the detail scarf) over 200ms ease-out, opening space at the newest end.
+  2. Then the B2 shuttle sweep (300ms) weaves the new band into that space.
+- If the learner has moved away from the newest end, the band is added without moving their view, on the strip too. The newer-end fade and chevron show there is fresh cloth that way.
+- Under reduced motion the band appears in place, with no slide and no sweep.
+
+**Text alternative:** unchanged (B2). It describes the whole scarf, not the window.
+
+**Tests (write first):** bands never shrink as the count grows; `offset` clamping; the band range in view for an offset; which holes are in view, beyond each end, and the nearest hole beyond each end; `rulerMarks` positions, with interpolation and the dropped crowded mark; the strip's newest-end view. Component tests: a scarf that fits has no fade, chevron, marker or `touch-action: none`; Home, End and the arrow keys move the window; a marker tap brings its hole into view and focuses its button; growing `wovenOrder` at `offset = 0` keeps the newest band in view, and growing it while moved away leaves the view where it was.

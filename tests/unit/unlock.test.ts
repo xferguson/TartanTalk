@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { candidateItems, isUnlocked, matchesFilter, newlyUnlocked, scarfPreview } from '../../src/domain/unlock';
 import type { Progress } from '../../src/domain/types';
-import { ALL_ITEMS, SENTENCES, agam, gaidhlig, gaol, iHaveGaelic, iLoveYou, ort, tha, youHaveGaelic } from './fixtures/slice';
+import { ALL_ITEMS, SENTENCES, agam, gaidhlig, gaol, iHaveGaelic, beurla, iLoveYou, ort, tha, youHaveGaelic } from './fixtures/slice';
 
 const learnedSet = (...ids: string[]) => new Set(ids);
 
@@ -49,10 +49,17 @@ describe('scarf filters', () => {
     expect(ids).toContain(iHaveGaelic.id);
   });
 
+  it('pulls in the supporting words of matching sentences even when they miss the filter', () => {
+    // A prep:aig-only scarf must still be able to teach tha and the nouns its sentences need.
+    const ids = candidateItems(ALL_ITEMS, ['prep:aig'], new Map()).map((i) => i.id);
+    expect(ids).toEqual(expect.arrayContaining([tha.id, gaidhlig.id, gaol.id, beurla.id, iHaveGaelic.id]));
+  });
+
   it('previews new items and those already woven in other scarves', () => {
     const progress = new Map([[agam.id, learnedProgress(agam.id, 'love')], [gaol.id, learnedProgress(gaol.id, 'love')]]);
     const preview = scarfPreview(ALL_ITEMS, ['prep:aig'], progress);
-    // aig-tagged items: agam, agad, aige + 6 sentences (all tagged prep:aig) = 9; agam is woven elsewhere.
-    expect(preview).toEqual({ newItems: 8, wovenElsewhere: 1 });
+    // aig-tagged items: agam, agad, aige + 6 sentences = 9, plus the words those sentences need:
+    // tha, gaol, Gàidhlig, Beurla, ort, orm = 15. agam and gaol are woven elsewhere.
+    expect(preview).toEqual({ newItems: 13, wovenElsewhere: 2 });
   });
 });
