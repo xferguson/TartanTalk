@@ -44,6 +44,8 @@ export interface SessionState {
   queue: ItemId[];
   /** Reweave items waiting for a tangle session instead. */
   tangledLeft: number;
+  /** Reweave items missed once this session and already given their second try. */
+  retried: ItemId[];
   card: Card | null;
   itemId: ItemId | null;
   exercise: Exercise | null;
@@ -89,6 +91,7 @@ const idle: SessionState = {
   loom: null,
   queue: [],
   tangledLeft: 0,
+  retried: [],
   card: null,
   itemId: null,
   exercise: null,
@@ -180,11 +183,19 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
         if (mode === 'reweave') {
           // A miss is saved at once as Again; a correct answer waits for the learner's rating.
           if (!check.correct) {
-            await rateReview(deps, itemId, 'again', exercise);
+            const { progress } = await rateReview(deps, itemId, 'again', exercise);
+            const { queue, retried, tangledLeft, total, answered } = get();
+            const rest = queue.slice(1);
+            // A first miss earns a second try at the very end of the session. A second miss
+            // (or one that tangles at once) is a tangle: no third try, it goes to Tangles.
+            const retry = !progress.tangled && !retried.includes(itemId);
             return set({
               feedback: { check, suggestedRating: 'again', awaitingRating: false },
-              queue: get().queue.slice(1),
-              answered: get().answered + 1,
+              queue: retry ? [...rest, itemId] : rest,
+              retried: retry ? [...retried, itemId] : retried,
+              total: retry ? total + 1 : total,
+              tangledLeft: progress.tangled ? tangledLeft + 1 : tangledLeft,
+              answered: retry ? answered : answered + 1,
             });
           }
           return set({ feedback: { check, suggestedRating: defaultRating(check), awaitingRating: true } });
