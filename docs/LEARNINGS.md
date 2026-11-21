@@ -74,7 +74,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** difficulty
 
-- **Seen in:** #2, #22, #29, #35
+- **Seen in:** #2, #22, #29, #35, #80
 
 - **Detail:** `tartandictionary.org` doesn't resolve from cloud sessions (curl), so sett data came from search-result snippets. In W1-I it was reachable through WebFetch, and `tartanregister.gov.uk` loads but hides thread counts behind a login. W1-M (audio) also hit `isca-archive.org`, `learn.microsoft.com`, `docs.cloud.google.com` and `commonvoice.mozilla.org`; its findings are search-snippet only and marked unverified.
 
@@ -219,7 +219,7 @@ Shared memory across agent sessions. Every PR adds to this file (see `CLAUDE.md`
 
 - **Type:** difficulty
 
-- **Seen in:** #22
+- **Seen in:** #22, #80
 
 - **Detail:** W1-J (prepositions, core vocabulary, topics) needed frequency evidence, but no dictionary or corpus host was reachable. Vocabulary came from model knowledge, so there are no honest `freqRank` values.
 
@@ -318,6 +318,22 @@ _A placeholder in the app can be a placeholder in the mock-up too._
 - **Resolution:** Grep the mock-up's CSS and JS for the element before designing. Prototype icons as standalone SVG and screenshot them at real size in both themes. When a spec points at another section, check that the section still says what the pointer expects.
 
 - **Status:** resolved
+
+### content-bundle-size
+
+_The content is bundled into the main JS chunk, so every word adds to first load._
+
+- **Type:** issue
+
+- **Tally:** 1
+
+- **Seen in:** #80
+
+- **Detail:** Growing the content to 1,387 lexemes and 1,156 sentences took the main chunk from 595 kB to 1.63 MB (238 kB gzip). `src/content/index.ts` loads all generated JSON eagerly.
+
+- **Resolution:** Fine for now. If content keeps growing, load each topic's items lazily or ship compact JSON.
+
+- **Status:** open
 
 ### known-items-leak-into-clozes
 _What the learner already knows must be checked wherever an exercise singles out a word._
@@ -560,9 +576,9 @@ _Tartan Dictionary data has an NC-ND upstream and no stated licence._
 ### sentences-from-generator-script
 - **Type:** efficiency
 
-- **Tally:** 1
+- **Tally:** 2
 
-- **Seen in:** #36
+- **Seen in:** #36, #80
 
 - **Detail:** Hand-writing token lists for 48 sentences is error-prone. A throwaway script that takes plain Gaelic text, looks each word up in the lexeme and form YAML by surface form, and fails on any word that is missing or ambiguous (for example `air`, `ann`, which are both a lexeme and a 3sg-m form) caught every link problem before `npm run content` ran.
 
@@ -594,6 +610,22 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 - **Detail:** With several `render` calls in one test file, earlier renders stayed in the DOM, so `getAllByRole` counted buttons from other tests.
 
 - **Resolution:** Component test files call `afterEach(cleanup)`. Now done once in `tests/setup.ts`; see L12, which this duplicates.
+
+- **Status:** resolved
+
+### ud-treebank-frequency-source
+
+_An openly licensed Gaelic corpus is reachable from cloud sessions._
+
+- **Type:** efficiency
+
+- **Tally:** 1
+
+- **Seen in:** #80
+
+- **Detail:** Dictionary and corpus hosts (faclair.com, learngaelic.scot, tatoeba.org, dasg.ac.uk) were refused, but `raw.githubusercontent.com` works with `curl`. The UD Scottish Gaelic treebank (ARCOSG, CC BY-SA 4.0) has about 84,000 lemmatised tokens, enough for honest `freqRank` values.
+
+- **Resolution:** Rank by lemma count (method in `content/SOURCES.md`). Gaelic homographs (`a'` as article or verb particle, `do` as to, your or past particle, `'s`, `na`, `air`, `às`) need context rules or `word|id` overrides when linking sentence tokens. Recorded in the research-sources skill.
 
 - **Status:** resolved
 
@@ -658,10 +690,10 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 ### L15. Listing a topic as a starter before it has vocabulary lets users build an empty scarf
 - **Type:** mistake
 - **Tally:** 1
-- **Seen in:** #60
+- **Seen in:** #60, #80
 - **Detail:** All PRD themes were offered as starters, but only love and languages had words. A tester picked nature, hills, wild animals, food and greetings and was told "out of words" straight away.
-- **Resolution:** Added 20+ words or phrases for each of those five topics. Remaining starters (weather, music, sport and others) are still empty. Either fill them or hide a starter until it has items (follow-up).
-- **Status:** open
+- **Resolution:** Added 20+ words or phrases for each of those five topics. Remaining starters (weather, music, sport and others) are still empty. Either fill them or hide a starter until it has items (follow-up). (#80) A topic with words but no sentences was the next gap. Every topic now has 50+ new words, every one used in a sentence. A check that every topic has sentences that unlock in its first batches would catch a regression.
+- **Status:** resolved
 
 ### L21. Stubbing `matchMedia` in Playwright: a MediaQueryList's `matches` is read-only
 
