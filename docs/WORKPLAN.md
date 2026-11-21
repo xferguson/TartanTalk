@@ -433,7 +433,7 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 ### W-CONTENT-50
 
-- **Status:** in progress (ccr-e01c06cf-a40e0x)
+- **Status:** done (#80)
 
 **Every topic gets 50+ new words with matching sentences.** A tester opened a topic with no sentences. Give each of the 19 topics at least 50 new topic-tagged words, high-frequency words first, and sentences that use every new word. Proverbs and sayings get traditional proverbs and idioms. Add `freqRank` from an openly licensed corpus, so the session builder teaches the most frequent words first. Record sources and limits in `content/SOURCES.md`.
 
