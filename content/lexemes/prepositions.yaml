@@ -6,6 +6,7 @@
   gd: "aig"
   en: "at (possession: \"have\")"
   pos: preposition
+  freqRank: 11
   tags: [pos:preposition, prep:aig, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -14,6 +15,7 @@
   gd: "air"
   en: "on"
   pos: preposition
+  freqRank: 5
   tags: [pos:preposition, prep:air, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -30,6 +32,7 @@
   gd: "à"
   en: "out of, from"
   pos: preposition
+  freqRank: 166
   tags: [pos:preposition, prep:as, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -38,6 +41,7 @@
   gd: "do"
   en: "to, for"
   pos: preposition
+  freqRank: 12
   tags: [pos:preposition, prep:do, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -46,6 +50,7 @@
   gd: "de"
   en: "of, off"
   pos: preposition
+  freqRank: 22
   tags: [pos:preposition, prep:de, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -54,6 +59,7 @@
   gd: "bho"
   en: "from"
   pos: preposition
+  freqRank: 34
   tags: [pos:preposition, prep:bho, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -62,6 +68,7 @@
   gd: "le"
   en: "with"
   pos: preposition
+  freqRank: 21
   tags: [pos:preposition, prep:le, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -70,6 +77,7 @@
   gd: "ri"
   en: "to, against"
   pos: preposition
+  freqRank: 18
   tags: [pos:preposition, prep:ri, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -78,6 +86,7 @@
   gd: "mu"
   en: "about"
   pos: preposition
+  freqRank: 40
   tags: [pos:preposition, prep:mu, grammar:pronominal-preposition]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed

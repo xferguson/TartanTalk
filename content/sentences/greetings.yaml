@@ -1,0 +1,1002 @@
+# Sentences for the greetings scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:greetings-001
+  gd: "Cupa tì, Mas e do thoil e."
+  en: "A cup of tea, please."
+  altGd: []
+  tokens:
+    - { text: "Cupa", itemId: lex:cupa }
+    - { text: "tì", itemId: lex:ti }
+    - { text: ",", itemId: null }
+    - { text: "Mas e do thoil e", itemId: lex:phrase-mas-e-do-thoil-e }
+    - { text: ".", itemId: null }
+  pattern: N-N-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-002
+  gd: "Thoir dhomh am bainne, mas e ur toil e."
+  en: "Give me the milk, please."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "am", itemId: lex:an }
+    - { text: "bainne", itemId: lex:bainne }
+    - { text: ",", itemId: null }
+    - { text: "mas e ur toil e", itemId: lex:phrase-mas-e-ur-toil-e }
+    - { text: ".", itemId: null }
+  pattern: V-do-P-art-N-X
+  tags: [topic:greetings, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-003
+  gd: "'S e do bheatha, a charaid."
+  en: "You're welcome, friend."
+  altGd: []
+  tokens:
+    - { text: "'S e do bheatha", itemId: lex:phrase-se-do-bheatha }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "charaid", itemId: lex:caraid }
+    - { text: ".", itemId: null }
+  pattern: X-a-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-004
+  gd: "'S e ur beatha!"
+  en: "You're welcome!"
+  altGd: []
+  tokens:
+    - { text: "'S e ur beatha", itemId: lex:phrase-se-ur-beatha }
+    - { text: "!", itemId: null }
+  pattern: X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-005
+  gd: "Tha gu math, ciamar a tha thu fhèin?"
+  en: "I'm well, and how are you?"
+  altGd: []
+  tokens:
+    - { text: "Tha gu math", itemId: lex:phrase-tha-gu-math }
+    - { text: ",", itemId: null }
+    - { text: "ciamar a tha thu fhèin", itemId: lex:phrase-ciamar-a-tha-thu-fhein }
+    - { text: "?", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-006
+  gd: "Halò! Dè an t-ainm a th' oirbh?"
+  en: "Hello! What is your name?"
+  altGd: []
+  tokens:
+    - { text: "Halò", itemId: lex:phrase-halo }
+    - { text: "!", itemId: null }
+    - { text: "Dè an t-ainm a th' oirbh", itemId: lex:phrase-de-an-t-ainm-a-th-oirbh }
+    - { text: "?", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-007
+  gd: "Is mise an tidsear."
+  en: "I am the teacher."
+  altGd: []
+  tokens:
+    - { text: "Is mise", itemId: lex:phrase-is-mise }
+    - { text: "an", itemId: lex:an }
+    - { text: "tidsear", itemId: lex:tidsear }
+    - { text: ".", itemId: null }
+  pattern: X-art-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-008
+  gd: "Halò, cò às a tha thu?"
+  en: "Hello, where are you from?"
+  altGd: []
+  tokens:
+    - { text: "Halò", itemId: lex:phrase-halo }
+    - { text: ",", itemId: null }
+    - { text: "cò às a tha thu", itemId: lex:phrase-co-as-a-tha-thu }
+    - { text: "?", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-009
+  gd: "Feasgar math, cò às a tha sibh?"
+  en: "Good evening, where are you from?"
+  altGd: []
+  tokens:
+    - { text: "Feasgar math", itemId: lex:phrase-feasgar-math }
+    - { text: ",", itemId: null }
+    - { text: "cò às a tha sibh", itemId: lex:phrase-co-as-a-tha-sibh }
+    - { text: "?", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-010
+  gd: "Tha mi glè mhath, tapadh leat."
+  en: "I'm very well, thank you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "glè mhath", itemId: lex:phrase-gle-mhath }
+    - { text: ",", itemId: null }
+    - { text: "tapadh leat", itemId: lex:phrase-tapadh-leat }
+    - { text: ".", itemId: null }
+  pattern: tha-P-X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-011
+  gd: "Tha sin math fhèin!"
+  en: "That's great!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "math fhèin", itemId: lex:phrase-math-fhein }
+    - { text: "!", itemId: null }
+  pattern: tha-X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-012
+  gd: "Chan eil mi gu math an-diugh."
+  en: "I'm not well today."
+  altGd: []
+  tokens:
+    - { text: "Chan eil mi gu math", itemId: lex:phrase-chan-eil-mi-gu-math }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: X-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-013
+  gd: "Tha mi meadhanach."
+  en: "I'm so-so."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "meadhanach", itemId: lex:meadhanach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-014
+  gd: "Bha an cèilidh sgoinneil!"
+  en: "The ceilidh was brilliant!"
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cèilidh", itemId: lex:ceilidh }
+    - { text: "sgoinneil", itemId: lex:sgoinneil }
+    - { text: "!", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-015
+  gd: "Tha sin taghta!"
+  en: "That's grand!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "taghta", itemId: lex:taghta }
+    - { text: "!", itemId: null }
+  pattern: tha-X-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-016
+  gd: "Ceart ma-thà, chì mi a-màireach thu."
+  en: "Right then, I'll see you tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Ceart ma-thà", itemId: lex:phrase-ceart-ma-tha }
+    - { text: ",", itemId: null }
+    - { text: "chì", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: "thu", itemId: lex:thu }
+    - { text: ".", itemId: null }
+  pattern: X-V-P-ADV-P
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-017
+  gd: "Thig a-steach, ma-thà."
+  en: "Come in, then."
+  altGd: []
+  tokens:
+    - { text: "Thig", itemId: lex:thig }
+    - { text: "a-steach", itemId: lex:a-steach }
+    - { text: ",", itemId: null }
+    - { text: "ma-thà", itemId: lex:ma-tha }
+    - { text: ".", itemId: null }
+  pattern: V-ADV-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-018
+  gd: "Seadh, tha sin ceart."
+  en: "Yes, that's right."
+  altGd: []
+  tokens:
+    - { text: "Seadh", itemId: lex:seadh }
+    - { text: ",", itemId: null }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "ceart", itemId: lex:ceart }
+    - { text: ".", itemId: null }
+  pattern: X-tha-X-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-019
+  gd: "Tha i coibhneil, gu dearbh."
+  en: "She is kind, indeed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "coibhneil", itemId: lex:coibhneil }
+    - { text: ",", itemId: null }
+    - { text: "gu dearbh", itemId: lex:phrase-gu-dearbh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-020
+  gd: "Slàn leat, a charaid."
+  en: "Farewell, friend."
+  altGd: []
+  tokens:
+    - { text: "Slàn leat", itemId: lex:phrase-slan-leat }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "charaid", itemId: lex:caraid }
+    - { text: ".", itemId: null }
+  pattern: X-a-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-021
+  gd: "Slàn leibh an-dràsta."
+  en: "Goodbye for now."
+  altGd: []
+  tokens:
+    - { text: "Slàn leibh", itemId: lex:phrase-slan-leibh }
+    - { text: "an-dràsta", itemId: lex:an-drasta }
+    - { text: ".", itemId: null }
+  pattern: X-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-022
+  gd: "Turas math dhachaigh!"
+  en: "Have a good trip home!"
+  altGd: []
+  tokens:
+    - { text: "Turas math", itemId: lex:phrase-turas-math }
+    - { text: "dhachaigh", itemId: lex:dhachaigh }
+    - { text: "!", itemId: null }
+  pattern: X-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-023
+  gd: "Meal do naidheachd air an duais!"
+  en: "Congratulations on the prize!"
+  altGd: []
+  tokens:
+    - { text: "Meal do naidheachd", itemId: lex:phrase-meal-do-naidheachd }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "duais", itemId: lex:duais }
+    - { text: "!", itemId: null }
+  pattern: X-air-art-N
+  tags: [topic:greetings, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-024
+  gd: "Meal ur naidheachd air a' phòsadh!"
+  en: "Congratulations on the wedding!"
+  altGd: []
+  tokens:
+    - { text: "Meal ur naidheachd", itemId: lex:phrase-meal-ur-naidheachd }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phòsadh", itemId: lex:posadh }
+    - { text: "!", itemId: null }
+  pattern: X-air-art-N
+  tags: [topic:greetings, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-025
+  gd: "Gabhaibh mo leisgeul, chan eil fhios agam."
+  en: "Excuse me, I don't know."
+  altGd: []
+  tokens:
+    - { text: "Gabhaibh mo leisgeul", itemId: lex:phrase-gabhaibh-mo-leisgeul }
+    - { text: ",", itemId: null }
+    - { text: "chan eil fhios agam", itemId: lex:phrase-chan-eil-fhios-agam }
+    - { text: ".", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-026
+  gd: "Dè tha dol, a charaid?"
+  en: "How's it going, friend?"
+  altGd: []
+  tokens:
+    - { text: "Dè tha dol", itemId: lex:phrase-de-tha-dol }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "charaid", itemId: lex:caraid }
+    - { text: "?", itemId: null }
+  pattern: X-a-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-027
+  gd: "Tha aoigh againn a-nochd."
+  en: "We have a guest tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "aoigh", itemId: lex:aoigh }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ADV
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-028
+  gd: "Tha an aoigheachd math an-seo."
+  en: "The hospitality is good here."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "aoigheachd", itemId: lex:aoigheachd }
+    - { text: "math", itemId: lex:math }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-029
+  gd: "Fhuair mi cuireadh dhan chèilidh."
+  en: "I got an invitation to the ceilidh."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "cuireadh", itemId: lex:cuireadh }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "chèilidh", itemId: lex:ceilidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-do-N
+  tags: [topic:greetings, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-030
+  gd: "Thadhail sinn air ar caraidean."
+  en: "We visited our friends."
+  altGd: []
+  tokens:
+    - { text: "Thadhail", itemId: lex:tadhail }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air", itemId: lex:air }
+    - { text: "ar", itemId: lex:ar }
+    - { text: "caraidean", itemId: lex:caraid }
+    - { text: ".", itemId: null }
+  pattern: V-P-air-P-N
+  tags: [topic:greetings, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-031
+  gd: "Choinnich mi ri mo nàbaidh."
+  en: "I met my neighbour."
+  altGd: []
+  tokens:
+    - { text: "Choinnich", itemId: lex:coinnich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "nàbaidh", itemId: lex:nabaidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-ri-P-N
+  tags: [topic:greetings, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-032
+  gd: "Chuir iad fàilte oirnn."
+  en: "They welcomed us."
+  altGd: []
+  tokens:
+    - { text: "Chuir", itemId: lex:cuir }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "fàilte", itemId: lex:phrase-failte }
+    - { text: "oirnn", itemId: form:air.1pl }
+    - { text: ".", itemId: null }
+  pattern: V-P-X-air-P
+  tags: [topic:greetings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-033
+  gd: "Dh'fhàiltich iad sinn."
+  en: "They welcomed us."
+  altGd: []
+  tokens:
+    - { text: "Dh'fhàiltich", itemId: lex:failtich }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: ".", itemId: null }
+  pattern: V-P-P
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-034
+  gd: "Tha an taigh-òsta seo snog."
+  en: "This hotel is nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh-òsta", itemId: lex:taigh-osta }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "snog", itemId: lex:snog }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-035
+  gd: "Tha na daoine fàilteach."
+  en: "The people are welcoming."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "daoine", itemId: lex:duine }
+    - { text: "fàilteach", itemId: lex:failteach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-036
+  gd: "Tha càirdeas mòr againn."
+  en: "We have a great friendship."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "càirdeas", itemId: lex:cairdeas }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-037
+  gd: "Tha nàbaidh ùr againn."
+  en: "We have a new neighbour."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "nàbaidh", itemId: lex:nabaidh }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-038
+  gd: "Tha coigreach aig an doras."
+  en: "There is a stranger at the door."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "coigreach", itemId: lex:coigreach }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-039
+  gd: "Is aithne dhomh i."
+  en: "I know her."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "aithne", itemId: lex:aithne }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "i", itemId: lex:i }
+    - { text: ".", itemId: null }
+  pattern: is-N-do-P-P
+  tags: [topic:greetings, prep:do]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-040
+  gd: "Thoir mo bheannachd dhan teaghlach."
+  en: "Give my blessing to the family."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bheannachd", itemId: lex:beannachd }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "teaghlach", itemId: lex:teaghlach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-do-N
+  tags: [topic:greetings, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-041
+  gd: "Beannaich an taigh seo."
+  en: "Bless this house."
+  altGd: []
+  tokens:
+    - { text: "Beannaich", itemId: lex:beannaich }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-042
+  gd: "Dh'aithnich mi thu!"
+  en: "I recognised you!"
+  altGd: []
+  tokens:
+    - { text: "Dh'aithnich", itemId: lex:aithnich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "!", itemId: null }
+  pattern: V-P-P
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-043
+  gd: "Tha cead agad a dhol a-steach."
+  en: "You have permission to go in."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cead", itemId: lex:cead }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "a", itemId: lex:a }
+    - { text: "dhol", itemId: lex:rach }
+    - { text: "a-steach", itemId: lex:a-steach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-a-V-ADV
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-044
+  gd: "Dè an àireamh fòn agad?"
+  en: "What is your phone number?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "àireamh", itemId: lex:aireamh }
+    - { text: "fòn", itemId: lex:fon }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-N-aig-P
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-045
+  gd: "Bha turas math againn."
+  en: "We had a good trip."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "turas", itemId: lex:turas }
+    - { text: "math", itemId: lex:math }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-aig-P
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-046
+  gd: "Tillidh mi a-màireach."
+  en: "I will return tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Tillidh", itemId: lex:till }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: ".", itemId: null }
+  pattern: V-P-ADV
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-047
+  gd: "Dhealaich sinn aig an doras."
+  en: "We parted at the door."
+  altGd: []
+  tokens:
+    - { text: "Dhealaich", itemId: lex:dealaich }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: ".", itemId: null }
+  pattern: V-P-aig-art-N
+  tags: [topic:greetings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-048
+  gd: "Tha a' chlann modhail."
+  en: "The children are polite."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlann", itemId: lex:clann }
+    - { text: "modhail", itemId: lex:modhail }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-049
+  gd: "Tha e fialaidh."
+  en: "He is generous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fialaidh", itemId: lex:fialaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-050
+  gd: "Tha na daoine aoigheil."
+  en: "The people are hospitable."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "daoine", itemId: lex:duine }
+    - { text: "aoigheil", itemId: lex:aoigheil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-051
+  gd: "Tha eòlas agam air.3sg-m."
+  en: "I know him."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "eòlas", itemId: lex:eolas }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-air-P
+  tags: [topic:greetings, prep:aig, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-052
+  gd: "Mòran taing airson a' chuiridh."
+  en: "Many thanks for the invitation."
+  altGd: []
+  tokens:
+    - { text: "Mòran taing", itemId: lex:phrase-moran-taing }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chuiridh", itemId: lex:cuireadh }
+    - { text: ".", itemId: null }
+  pattern: X-airson-art-N
+  tags: [topic:greetings, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-053
+  gd: "Madainn mhath! Ciamar a tha sibh?"
+  en: "Good morning! How are you?"
+  altGd: []
+  tokens:
+    - { text: "Madainn mhath", itemId: lex:phrase-madainn-mhath }
+    - { text: "!", itemId: null }
+    - { text: "Ciamar a tha sibh", itemId: lex:phrase-ciamar-a-tha-sibh }
+    - { text: "?", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-054
+  gd: "Oidhche mhath, beannachd leat."
+  en: "Good night, goodbye."
+  altGd: []
+  tokens:
+    - { text: "Oidhche mhath", itemId: lex:phrase-oidhche-mhath }
+    - { text: ",", itemId: null }
+    - { text: "beannachd leat", itemId: lex:phrase-beannachd-leat }
+    - { text: ".", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-055
+  gd: "Ceud mìle fàilte gu Alba!"
+  en: "A hundred thousand welcomes to Scotland!"
+  altGd: []
+  tokens:
+    - { text: "Ceud mìle fàilte", itemId: lex:phrase-ceud-mile-failte }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "Alba", itemId: lex:alba }
+    - { text: "!", itemId: null }
+  pattern: X-gu-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-056
+  gd: "Slàinte mhath, a charaidean!"
+  en: "Cheers, friends!"
+  altGd: []
+  tokens:
+    - { text: "Slàinte mhath", itemId: lex:phrase-slainte-mhath }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "charaidean", itemId: lex:caraid }
+    - { text: "!", itemId: null }
+  pattern: X-a-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-057
+  gd: "Gabh mo leisgeul, càite a bheil an taigh-beag?"
+  en: "Excuse me, where is the toilet?"
+  altGd: []
+  tokens:
+    - { text: "Gabh mo leisgeul", itemId: lex:phrase-gabh-mo-leisgeul }
+    - { text: ",", itemId: null }
+    - { text: "càite", itemId: lex:caite }
+    - { text: "a", itemId: lex:a }
+    - { text: "bheil", itemId: lex:eil }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh-beag", itemId: lex:taigh-beag }
+    - { text: "?", itemId: null }
+  pattern: X-X-a-eil-art-N
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-058
+  gd: "Halò, tha mi toilichte d' fhaicinn."
+  en: "Hello, I'm pleased to see you."
+  altGd: []
+  tokens:
+    - { text: "Halò", itemId: lex:phrase-halo }
+    - { text: ",", itemId: null }
+    - { text: "tha mi toilichte d' fhaicinn", itemId: lex:phrase-tha-mi-toilichte-d-fhaicinn }
+    - { text: ".", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-059
+  gd: "Taing dhut!"
+  en: "Thanks!"
+  altGd: []
+  tokens:
+    - { text: "Taing", itemId: lex:taing }
+    - { text: "dhut", itemId: form:do.2sg }
+    - { text: "!", itemId: null }
+  pattern: N-do-P
+  tags: [topic:greetings, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-060
+  gd: "Latha math dhut!"
+  en: "Good day to you!"
+  altGd: []
+  tokens:
+    - { text: "Latha math", itemId: lex:phrase-latha-math }
+    - { text: "dhut", itemId: form:do.2sg }
+    - { text: "!", itemId: null }
+  pattern: X-do-P
+  tags: [topic:greetings, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-061
+  gd: "Tapadh leibh, mar sin leibh."
+  en: "Thank you, goodbye."
+  altGd: []
+  tokens:
+    - { text: "Tapadh leibh", itemId: lex:phrase-tapadh-leibh }
+    - { text: ",", itemId: null }
+    - { text: "mar sin leibh", itemId: lex:phrase-mar-sin-leibh }
+    - { text: ".", itemId: null }
+  pattern: X-X
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-062
+  gd: "Tha ur taigh snog."
+  en: "Your house is nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ur", itemId: lex:ur }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: "snog", itemId: lex:snog }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:greetings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:greetings-063
+  gd: "Fuirich gus an till mi."
+  en: "Wait until I return."
+  altGd: []
+  tokens:
+    - { text: "Fuirich", itemId: lex:fuirich }
+    - { text: "gus", itemId: lex:gus }
+    - { text: "an", itemId: lex:an-q }
+    - { text: "till", itemId: lex:till }
+    - { text: "mi", itemId: lex:mi }
+    - { text: ".", itemId: null }
+  pattern: V-gus-an-q-V-P
+  tags: [topic:greetings, prep:gus]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

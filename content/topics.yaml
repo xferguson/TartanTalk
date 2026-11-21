@@ -1,4 +1,4 @@
-# Starter topics (W1-J3). Every PRD theme is listed; love, languages, nature, hills-glens-lochs, wild-animals-birds, food-drink and greetings have vocabulary so far.
+# Starter topics (W1-J3). Every PRD theme is listed, and every topic has 50+ words and matching sentences (see content/SOURCES.md, "Content expansion").
 # Licence: CC BY-SA 4.0
 
 - { id: love, name: "Love and feelings", tags: [topic:love, topic:feelings], starter: true }

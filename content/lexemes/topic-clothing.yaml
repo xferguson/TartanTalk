@@ -1,0 +1,466 @@
+# clothing vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:aodach
+  gd: "aodach"
+  en: "clothes, cloth"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feileadh
+  gd: "fèileadh"
+  en: "kilt"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feileadh-mor
+  gd: "fèileadh-mòr"
+  en: "great kilt, belted plaid"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:briogais
+  gd: "briogais"
+  en: "trousers"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:triubhas
+  gd: "triubhas"
+  en: "trews"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leine
+  gd: "lèine"
+  en: "shirt"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seacaid
+  gd: "seacaid"
+  en: "jacket"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cota
+  gd: "còta"
+  en: "coat"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geansaidh
+  gd: "geansaidh"
+  en: "jumper, sweater"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgiort
+  gd: "sgiort"
+  en: "skirt"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dreasa
+  gd: "dreasa"
+  en: "dress"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ad
+  gd: "ad"
+  en: "hat"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bonaid
+  gd: "bonaid"
+  en: "bonnet"
+  pos: noun
+  freqRank: 2749
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:brog
+  gd: "bròg"
+  en: "shoe"
+  pos: noun
+  gender: f
+  freqRank: 680
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:botann
+  gd: "bòtann"
+  en: "boot"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stocainn
+  gd: "stocainn"
+  en: "sock, stocking"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:miotag
+  gd: "miotag"
+  en: "glove"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgarfa
+  gd: "sgarfa"
+  en: "scarf"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crios
+  gd: "crios"
+  en: "belt"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sporan
+  gd: "sporan"
+  en: "sporran, purse"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgian-dubh
+  gd: "sgian-dubh"
+  en: "sgian dubh (stocking knife)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:braiste
+  gd: "bràiste"
+  en: "brooch"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:putan
+  gd: "putan"
+  en: "button"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pocaid
+  gd: "pòcaid"
+  en: "pocket"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aparan
+  gd: "aparan"
+  en: "apron"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taillear
+  gd: "tàillear"
+  en: "tailor"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caith
+  gd: "caith"
+  en: "wear, spend"
+  pos: verb
+  freqRank: 735
+  tags: [pos:verb, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:salach
+  gd: "salach"
+  en: "dirty"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:spaideil
+  gd: "spaideil"
+  en: "smart, well-dressed"
+  pos: adjective
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fasanta
+  gd: "fasanta"
+  en: "fashionable"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:freagarrach
+  gd: "freagarrach"
+  en: "suitable, fitting"
+  pos: adjective
+  freqRank: 1124
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teann
+  gd: "teann"
+  en: "tight"
+  pos: adjective
+  freqRank: 680
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuasgailte
+  gd: "fuasgailte"
+  en: "loose"
+  pos: adjective
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iarnaig
+  gd: "iarnaig"
+  en: "iron (clothes)"
+  pos: verb
+  tags: [pos:verb, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deise
+  gd: "deise"
+  en: "suit"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eideadh
+  gd: "èideadh"
+  en: "costume, uniform"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fo-aodach
+  gd: "fo-aodach"
+  en: "underwear"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:baga
+  gd: "baga"
+  en: "bag"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:speuclairean
+  gd: "speuclairean"
+  en: "glasses, spectacles"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fasan
+  gd: "fasan"
+  en: "fashion"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:meud
+  gd: "meud"
+  en: "size"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pris
+  gd: "prìs"
+  en: "price"
+  pos: noun
+  gender: f
+  freqRank: 604
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:daor
+  gd: "daor"
+  en: "expensive"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saor-cheap
+  gd: "saor"
+  en: "cheap, free"
+  pos: adjective
+  freqRank: 209
+  tags: [pos:adjective, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buth
+  gd: "bùth"
+  en: "shop"
+  pos: noun
+  freqRank: 799
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seorsa
+  gd: "seòrsa"
+  en: "kind, sort"
+  pos: noun
+  gender: m
+  freqRank: 106
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ribean
+  gd: "ribean"
+  en: "ribbon"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:falt
+  gd: "falt"
+  en: "hair"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glun
+  gd: "glùn"
+  en: "knee"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leine-oidhche
+  gd: "lèine-oidhche"
+  en: "nightdress"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:clothing]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

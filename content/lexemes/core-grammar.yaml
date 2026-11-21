@@ -1,0 +1,666 @@
+# core-grammar vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:ag
+  gd: "ag"
+  en: "(verb particle: is ...-ing, as in \"a' dol\", \"ag ithe\")"
+  pos: particle
+  freqRank: 7
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eil
+  gd: "eil"
+  en: "is, are (after chan, a, nach: chan eil, a bheil)"
+  pos: verb
+  freqRank: 27
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:robh
+  gd: "robh"
+  en: "was, were (after cha, an, nach: cha robh, an robh)"
+  pos: verb
+  freqRank: 20
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:an-q
+  gd: "an"
+  en: "(question particle: do?, does?, is?)"
+  pos: particle
+  freqRank: 1
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:do-past
+  gd: "do"
+  en: "(past tense particle after an, cha, nach)"
+  pos: particle
+  freqRank: 12
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mo
+  gd: "mo"
+  en: "my"
+  pos: pronoun
+  freqRank: 88
+  tags: [pos:pronoun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:do-your
+  gd: "do"
+  en: "your (singular)"
+  pos: pronoun
+  freqRank: 12
+  tags: [pos:pronoun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ar
+  gd: "ar"
+  en: "our"
+  pos: pronoun
+  freqRank: 197
+  tags: [pos:pronoun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ur
+  gd: "ur"
+  en: "your (plural or formal)"
+  pos: pronoun
+  freqRank: 637
+  tags: [pos:pronoun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eile
+  gd: "eile"
+  en: "other, else"
+  pos: adjective
+  freqRank: 39
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fear
+  gd: "fear"
+  en: "man, one (masculine)"
+  pos: noun
+  gender: m
+  freqRank: 46
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:te
+  gd: "tè"
+  en: "one (feminine), woman"
+  pos: noun
+  gender: f
+  freqRank: 148
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:math
+  gd: "math"
+  en: "good"
+  pos: adjective
+  freqRank: 35
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mor
+  gd: "mòr"
+  en: "big, great"
+  pos: adjective
+  freqRank: 56
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beag
+  gd: "beag"
+  en: "small, little"
+  pos: adjective
+  freqRank: 81
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dona
+  gd: "dona"
+  en: "bad"
+  pos: adjective
+  freqRank: 565
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ur-new
+  gd: "ùr"
+  en: "new, fresh"
+  pos: adjective
+  freqRank: 86
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sean
+  gd: "sean"
+  en: "old"
+  pos: adjective
+  freqRank: 371
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:og
+  gd: "òg"
+  en: "young"
+  pos: adjective
+  freqRank: 178
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fhein
+  gd: "fhèin"
+  en: "self, own, even"
+  pos: pronoun
+  freqRank: 39
+  tags: [pos:pronoun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuideachd
+  gd: "cuideachd"
+  en: "also, too"
+  pos: adverb
+  freqRank: 71
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-nis
+  gd: "a-nis"
+  en: "now"
+  pos: adverb
+  freqRank: 190
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:an-drasta
+  gd: "an-dràsta"
+  en: "just now, at the moment"
+  pos: adverb
+  freqRank: 433
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fhathast
+  gd: "fhathast"
+  en: "yet, still"
+  pos: adverb
+  freqRank: 100
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-riamh
+  gd: "a-riamh"
+  en: "ever, never (in the past)"
+  pos: adverb
+  freqRank: 1124
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-rithist
+  gd: "a-rithist"
+  en: "again"
+  pos: adverb
+  freqRank: 139
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:direach
+  gd: "dìreach"
+  en: "just, exactly, straight"
+  pos: adverb
+  freqRank: 66
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-mhain
+  gd: "a-mhàin"
+  en: "only"
+  pos: adverb
+  freqRank: 530
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ro
+  gd: "ro"
+  en: "too (excessively)"
+  pos: adverb
+  freqRank: 97
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cho
+  gd: "cho"
+  en: "so, as"
+  pos: adverb
+  freqRank: 59
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nas
+  gd: "nas"
+  en: "more (comparative, as in \"nas motha\")"
+  pos: particle
+  freqRank: 117
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:as-most
+  gd: "as"
+  en: "most (superlative, as in \"as fheàrr\")"
+  pos: particle
+  freqRank: 43
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:na-than
+  gd: "na"
+  en: "than"
+  pos: conjunction
+  freqRank: 47
+  tags: [pos:conjunction]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uile
+  gd: "uile"
+  en: "all, every (a h-uile: every)"
+  pos: adjective
+  freqRank: 76
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:moran
+  gd: "mòran"
+  en: "many, a lot"
+  pos: noun
+  gender: m
+  freqRank: 244
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:torr
+  gd: "tòrr"
+  en: "lots, plenty"
+  pos: noun
+  gender: m
+  freqRank: 187
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gu-leor
+  gd: "gu leòr"
+  en: "enough, plenty"
+  pos: adverb
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sam-bith
+  gd: "sam bith"
+  en: "any, at all"
+  pos: adjective
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taobh
+  gd: "taobh"
+  en: "side"
+  pos: noun
+  gender: m
+  freqRank: 41
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uair
+  gd: "uair"
+  en: "hour, time, once"
+  pos: noun
+  gender: f
+  freqRank: 81
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fios
+  gd: "fios"
+  en: "knowledge (chan eil fhios agam: I don't know)"
+  pos: noun
+  gender: m
+  freqRank: 52
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toigh
+  gd: "toigh"
+  en: "liking (is toigh leam: I like)"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:urrainn
+  gd: "urrainn"
+  en: "able (is urrainn dhomh: I can)"
+  pos: noun
+  gender: f
+  freqRank: 192
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aithne
+  gd: "aithne"
+  en: "knowledge of (is aithne dhomh: I know (a person or place))"
+  pos: noun
+  gender: f
+  freqRank: 889
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coma
+  gd: "coma"
+  en: "indifferent (tha mi coma: I don't mind)"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feum
+  gd: "feum"
+  en: "must, need"
+  pos: verb
+  freqRank: 48
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ma
+  gd: "ma"
+  en: "if"
+  pos: conjunction
+  freqRank: 68
+  tags: [pos:conjunction]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mar
+  gd: "mar"
+  en: "like, as"
+  pos: preposition
+  freqRank: 27
+  tags: [pos:preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ged
+  gd: "ged"
+  en: "although"
+  pos: conjunction
+  freqRank: 130
+  tags: [pos:conjunction]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gun
+  gd: "gun"
+  en: "that (conjunction), without"
+  pos: conjunction
+  freqRank: 78
+  tags: [pos:conjunction]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:airson
+  gd: "airson"
+  en: "for, in order to"
+  pos: preposition
+  freqRank: 36
+  tags: [pos:preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gus
+  gd: "gus"
+  en: "until, in order to"
+  pos: preposition
+  freqRank: 124
+  tags: [pos:preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fad
+  gd: "fad"
+  en: "length, during, all (fad an latha: all day)"
+  pos: noun
+  gender: m
+  freqRank: 141
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-steach
+  gd: "a-steach"
+  en: "in (motion inwards)"
+  pos: adverb
+  freqRank: 73
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-mach
+  gd: "a-mach"
+  en: "out (motion outwards)"
+  pos: adverb
+  freqRank: 44
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-staigh
+  gd: "a-staigh"
+  en: "inside"
+  pos: adverb
+  freqRank: 80
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-muigh
+  gd: "a-muigh"
+  en: "outside"
+  pos: adverb
+  freqRank: 279
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:suas
+  gd: "suas"
+  en: "up (motion)"
+  pos: adverb
+  freqRank: 51
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sios
+  gd: "sìos"
+  en: "down (motion)"
+  pos: adverb
+  freqRank: 95
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-nochd
+  gd: "a-nochd"
+  en: "tonight"
+  pos: adverb
+  freqRank: 799
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:a-raoir
+  gd: "a-raoir"
+  en: "last night"
+  pos: adverb
+  freqRank: 995
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:an-uiridh
+  gd: "an-uiridh"
+  en: "last year"
+  pos: adverb
+  freqRank: 1303
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gu-brath
+  gd: "gu bràth"
+  en: "forever, ever"
+  pos: adverb
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceud
+  gd: "ceud"
+  en: "hundred"
+  pos: numeral
+  freqRank: 115
+  tags: [pos:numeral]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mile
+  gd: "mìle"
+  en: "thousand, mile"
+  pos: numeral
+  freqRank: 225
+  tags: [pos:numeral]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fichead
+  gd: "fichead"
+  en: "twenty"
+  pos: numeral
+  freqRank: 104
+  tags: [pos:numeral]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ciad
+  gd: "ciad"
+  en: "first"
+  pos: numeral
+  freqRank: 268
+  tags: [pos:numeral]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:am-bliadhna
+  gd: "am-bliadhna"
+  en: "this year"
+  pos: adverb
+  freqRank: 1550
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:na-dont
+  gd: "na"
+  en: "don't (before a command)"
+  pos: particle
+  freqRank: 47
+  tags: [pos:particle]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:air-ais
+  gd: "air ais"
+  en: "back (in return, backwards)"
+  pos: adverb
+  tags: [pos:adverb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:droch
+  gd: "droch"
+  en: "bad (before a noun)"
+  pos: adjective
+  freqRank: 261
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ge
+  gd: "ge"
+  en: "though, although (in sayings)"
+  pos: conjunction
+  freqRank: 799
+  tags: [pos:conjunction]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gach
+  gd: "gach"
+  en: "each, every"
+  pos: adjective
+  freqRank: 183
+  tags: [pos:adjective]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

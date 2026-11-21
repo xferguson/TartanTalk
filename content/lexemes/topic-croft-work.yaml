@@ -1,0 +1,478 @@
+# croft-work vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:croit
+  gd: "croit"
+  en: "croft"
+  pos: noun
+  gender: f
+  freqRank: 218
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:croitear
+  gd: "croitear"
+  en: "crofter"
+  pos: noun
+  gender: m
+  freqRank: 735
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:croitearachd
+  gd: "croitearachd"
+  en: "crofting"
+  pos: noun
+  gender: f
+  freqRank: 1124
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:moine
+  gd: "mòine"
+  en: "peat"
+  pos: noun
+  gender: f
+  freqRank: 1124
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buain
+  gd: "buain"
+  en: "cut, harvest, reap"
+  pos: verb
+  freqRank: 1303
+  tags: [pos:verb, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tairsgeir
+  gd: "tairsgeir"
+  en: "peat iron"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cruach
+  gd: "cruach"
+  en: "stack (of peat or hay)"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coirce
+  gd: "coirce"
+  en: "oats"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eorna
+  gd: "eòrna"
+  en: "barley"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:arbhar
+  gd: "arbhar"
+  en: "corn, grain"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:spaid
+  gd: "spaid"
+  en: "spade"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grapa
+  gd: "gràpa"
+  en: "garden fork, graip"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:racan
+  gd: "ràcan"
+  en: "rake"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:treabh
+  gd: "treabh"
+  en: "plough"
+  pos: verb
+  freqRank: 2749
+  tags: [pos:verb, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feansa
+  gd: "feansa"
+  en: "fence"
+  pos: noun
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geata
+  gd: "geata"
+  en: "gate"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sabhal
+  gd: "sabhal"
+  en: "barn"
+  pos: noun
+  gender: m
+  freqRank: 889
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:inneal
+  gd: "inneal"
+  en: "machine, tool"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tractar
+  gd: "tractar"
+  en: "tractor"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cairt
+  gd: "cairt"
+  en: "cart"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saothair
+  gd: "saothair"
+  en: "labour, toil"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:trang
+  gd: "trang"
+  en: "busy"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caraich
+  gd: "càraich"
+  en: "repair, fix"
+  pos: verb
+  tags: [pos:verb, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuadach
+  gd: "fuadach"
+  en: "eviction (na Fuadaichean: the Clearances)"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uachdaran
+  gd: "uachdaran"
+  en: "landlord"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bothan
+  gd: "bothan"
+  en: "bothy, hut"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taigh-dubh
+  gd: "taigh-dubh"
+  en: "blackhouse"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tughadh
+  gd: "tughadh"
+  en: "thatch"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:connadh
+  gd: "connadh"
+  en: "fuel"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuagh
+  gd: "tuagh"
+  en: "axe"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sabh
+  gd: "sàbh"
+  en: "saw"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ord
+  gd: "òrd"
+  en: "hammer"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tairnge
+  gd: "tàirnge"
+  en: "nail"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cosnadh
+  gd: "cosnadh"
+  en: "employment, earnings"
+  pos: noun
+  gender: m
+  freqRank: 530
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coisinn
+  gd: "coisinn"
+  en: "earn, win"
+  pos: verb
+  freqRank: 1550
+  tags: [pos:verb, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuarastal
+  gd: "tuarastal"
+  en: "salary, wage"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:paigh
+  gd: "pàigh"
+  en: "pay"
+  pos: verb
+  freqRank: 371
+  tags: [pos:verb, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geamair
+  gd: "geamair"
+  en: "gamekeeper"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gille
+  gd: "gille"
+  en: "lad, servant"
+  pos: noun
+  gender: m
+  freqRank: 141
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maighstir
+  gd: "maighstir"
+  en: "master"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uidheam
+  gd: "uidheam"
+  en: "equipment, gear"
+  pos: noun
+  gender: f
+  freqRank: 680
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:trath
+  gd: "tràth"
+  en: "early"
+  pos: adjective
+  freqRank: 371
+  tags: [pos:adjective, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:anmoch
+  gd: "anmoch"
+  en: "late"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dicheall
+  gd: "dìcheall"
+  en: "best effort"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dicheallach
+  gd: "dìcheallach"
+  en: "diligent, hard-working"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceardach
+  gd: "ceàrdach"
+  en: "smithy, forge"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gobha
+  gd: "gobha"
+  en: "blacksmith"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saor
+  gd: "saor"
+  en: "joiner, carpenter"
+  pos: noun
+  gender: m
+  freqRank: 209
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clachair
+  gd: "clachair"
+  en: "stonemason"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:muillear
+  gd: "muillear"
+  en: "miller"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:croft-work]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

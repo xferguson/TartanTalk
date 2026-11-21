@@ -1,0 +1,1085 @@
+# Sentences for the wild-animals-birds scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:wild-animals-birds-001
+  gd: "Tha broc anns a' choille."
+  en: "There is a badger in the wood."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "broc", itemId: lex:broc }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choille", itemId: lex:coille }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-002
+  gd: "Tha gràineag anns a' ghàrradh."
+  en: "There is a hedgehog in the garden."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gràineag", itemId: lex:graineag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghàrradh", itemId: lex:garradh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-003
+  gd: "Tha feòrag ruadh air a' chraoibh."
+  en: "There is a red squirrel on the tree."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "feòrag", itemId: lex:feorag }
+    - { text: "ruadh", itemId: lex:ruadh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chraoibh", itemId: lex:craobh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-004
+  gd: "Tha eala gheal air an loch."
+  en: "There is a white swan on the loch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "eala", itemId: lex:eala }
+    - { text: "gheal", itemId: lex:geal }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-005
+  gd: "Tha a' chorra-ghritheach ag iasgach."
+  en: "The heron is fishing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chorra-ghritheach", itemId: lex:corra-ghritheach }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "iasgach", itemId: lex:iasgach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-006
+  gd: "Tha smeòrach a' seinn."
+  en: "A thrush is singing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "smeòrach", itemId: lex:smeorach }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "seinn", itemId: lex:seinn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-007
+  gd: "Tha brù-dhearg air a' bhalla."
+  en: "There is a robin on the wall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "brù-dhearg", itemId: lex:bru-dhearg }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhalla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-008
+  gd: "Tha an dreathan-donn beag."
+  en: "The wren is small."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dreathan-donn", itemId: lex:dreathan-donn }
+    - { text: "beag", itemId: lex:beag }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-009
+  gd: "Tha gealbhonn aig an uinneig."
+  en: "There is a sparrow at the window."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gealbhonn", itemId: lex:gealbhonn }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "uinneig", itemId: lex:uinneag }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-010
+  gd: "Tha an uiseag a' seinn anns an speur."
+  en: "The skylark is singing in the sky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "uiseag", itemId: lex:uiseag }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "seinn", itemId: lex:seinn }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "speur", itemId: lex:speur }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-011
+  gd: "Chuala mi a' chuthag."
+  en: "I heard the cuckoo."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chuthag", itemId: lex:cuthag }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-012
+  gd: "Tha clamhan anns an adhar."
+  en: "There is a buzzard in the sky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "clamhan", itemId: lex:clamhan }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "adhar", itemId: lex:adhar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-013
+  gd: "Tha curracag anns an achadh."
+  en: "There is a lapwing in the field."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "curracag", itemId: lex:curracag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "achadh", itemId: lex:achadh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-014
+  gd: "Chuala mi an guilbneach air a' chladach."
+  en: "I heard the curlew on the shore."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:an }
+    - { text: "guilbneach", itemId: lex:guilbneach }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chladach", itemId: lex:cladach }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-015
+  gd: "Tha gille-brìghde air an tràigh."
+  en: "There is an oystercatcher on the beach."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gille-brìghde", itemId: lex:gille-brighde }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "tràigh", itemId: lex:traigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-016
+  gd: "Tha lach air an lochan."
+  en: "There is a wild duck on the lochan."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "lach", itemId: lex:lach }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "lochan", itemId: lex:lochan }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-017
+  gd: "Tha an tarmachan geal sa gheamhradh."
+  en: "The ptarmigan is white in winter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tarmachan", itemId: lex:tarmachan }
+    - { text: "geal", itemId: lex:geal }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "gheamhradh", itemId: lex:geamhradh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ann-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-018
+  gd: "Tha an capall-coille mòr."
+  en: "The capercaillie is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "capall-coille", itemId: lex:capall-coille }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-019
+  gd: "Chunnaic mi earb anns a' choille."
+  en: "I saw a roe deer in the wood."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "earb", itemId: lex:earb }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choille", itemId: lex:coille }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-020
+  gd: "Tha am boc luath."
+  en: "The buck is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "boc", itemId: lex:boc }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-021
+  gd: "Tha an eilid agus an laogh còmhla."
+  en: "The hind and the calf are together."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "eilid", itemId: lex:eilid }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "an", itemId: lex:an }
+    - { text: "laogh", itemId: lex:laogh }
+    - { text: "còmhla", itemId: lex:comhla }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-agus-art-N-ADV
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-022
+  gd: "Tha dealan-dè air an fhlùr."
+  en: "There is a butterfly on the flower."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dealan-dè", itemId: lex:dealan-de }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhlùr", itemId: lex:flur }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-023
+  gd: "Tha damhan-allaidh air a' bhalla."
+  en: "There is a spider on the wall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "damhan-allaidh", itemId: lex:damhan-allaidh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhalla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-024
+  gd: "Tha an seangan beag ach làidir."
+  en: "The ant is small but strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seangan", itemId: lex:seangan }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "ach", itemId: lex:ach }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ach-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-025
+  gd: "Tha boiteagan anns an ùir."
+  en: "There are worms in the soil."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "boiteagan", itemId: lex:boiteag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "ùir", itemId: lex:uir }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-026
+  gd: "Tha seilcheag air an duilleig."
+  en: "There is a snail on the leaf."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "seilcheag", itemId: lex:seilcheag }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "duilleig", itemId: lex:duilleag }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-027
+  gd: "Tha a' mheanbh-chuileag uamhasach!"
+  en: "The midge is terrible!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mheanbh-chuileag", itemId: lex:meanbh-chuileag }
+    - { text: "uamhasach", itemId: lex:uamhasach }
+    - { text: "!", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-028
+  gd: "Tha cuileag air an aran."
+  en: "There is a fly on the bread."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cuileag", itemId: lex:cuileag }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "aran", itemId: lex:aran }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-029
+  gd: "Tha speach anns a' chidsin."
+  en: "There is a wasp in the kitchen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "speach", itemId: lex:speach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidsin", itemId: lex:cidsin }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-030
+  gd: "Tha leòmann air a' chlò."
+  en: "There is a moth on the tweed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "leòmann", itemId: lex:leomann }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlò", itemId: lex:clo }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-031
+  gd: "Tha daolag dhubh air an làr."
+  en: "There is a black beetle on the floor."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "daolag", itemId: lex:daolag }
+    - { text: "dhubh", itemId: lex:dubh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "làr", itemId: lex:lar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-032
+  gd: "Tha nead anns a' chraoibh."
+  en: "There is a nest in the tree."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "nead", itemId: lex:nead }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chraoibh", itemId: lex:craobh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-033
+  gd: "Lorg mi ite gheal."
+  en: "I found a white feather."
+  altGd: []
+  tokens:
+    - { text: "Lorg", itemId: lex:lorg }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ite", itemId: lex:ite }
+    - { text: "gheal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-034
+  gd: "Tha sgiathan mòra aig an iolaire."
+  en: "The eagle has big wings."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgiathan", itemId: lex:sgiath }
+    - { text: "mòra", itemId: lex:mor }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "iolaire", itemId: lex:iolaire }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-035
+  gd: "Tha gob buidhe aig an lon-dubh."
+  en: "The blackbird has a yellow beak."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gob", itemId: lex:gob }
+    - { text: "buidhe", itemId: lex:buidhe }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "lon-dubh", itemId: lex:lon-dubh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-036
+  gd: "Tha spògan mòra aig a' bhroc."
+  en: "The badger has big paws."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "spògan", itemId: lex:spog }
+    - { text: "mòra", itemId: lex:mor }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhroc", itemId: lex:broc }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-037
+  gd: "Tha fionnadh tiugh aig an t-sionnach."
+  en: "The fox has thick fur."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fionnadh", itemId: lex:fionnadh }
+    - { text: "tiugh", itemId: lex:tiugh }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sionnach", itemId: lex:sionnach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-038
+  gd: "Bidh na h-eòin ag itealaich."
+  en: "The birds fly."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-eòin", itemId: lex:eun }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "itealaich", itemId: lex:itealaich }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-V
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-039
+  gd: "Bidh an sionnach a' sealg air an oidhche."
+  en: "The fox hunts at night."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "an", itemId: lex:an }
+    - { text: "sionnach", itemId: lex:sionnach }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "sealg", itemId: lex:sealg }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-040
+  gd: "Tha fiadh-bheatha mhath air an eilean."
+  en: "There is good wildlife on the island."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fiadh-bheatha", itemId: lex:fiadh-bheatha }
+    - { text: "mhath", itemId: lex:math }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "eilean", itemId: lex:eilean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-041
+  gd: "Tha toll aig a' choineanach."
+  en: "The rabbit has a burrow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "toll", itemId: lex:toll }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choineanach", itemId: lex:coineanach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:wild-animals-birds, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-042
+  gd: "Lorg an iolaire creach."
+  en: "The eagle found prey."
+  altGd: []
+  tokens:
+    - { text: "Lorg", itemId: lex:lorg }
+    - { text: "an", itemId: lex:an }
+    - { text: "iolaire", itemId: lex:iolaire }
+    - { text: "creach", itemId: lex:creach }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-043
+  gd: "Dh'fhalaich an luch."
+  en: "The mouse hid."
+  altGd: []
+  tokens:
+    - { text: "Dh'fhalaich", itemId: lex:falaich }
+    - { text: "an", itemId: lex:an }
+    - { text: "luch", itemId: lex:luch }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-044
+  gd: "Tha easgann anns an abhainn."
+  en: "There is an eel in the river."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "easgann", itemId: lex:easgann }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "abhainn", itemId: lex:abhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-045
+  gd: "Is e biast mhòr a th' ann."
+  en: "It is a big beast."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "biast", itemId: lex:biast }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-046
+  gd: "Is e ainmhidh fiadhaich a th' ann."
+  en: "It is a wild animal."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "ainmhidh", itemId: lex:ainmhidh }
+    - { text: "fiadhaich", itemId: lex:fiadhaich }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-047
+  gd: "Tha seillean air an fhraoch."
+  en: "There is a bee on the heather."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "seillean", itemId: lex:seillean }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhraoch", itemId: lex:fraoch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-048
+  gd: "Thàinig na gòbhlain-gaoithe."
+  en: "The swallows have come."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "na", itemId: lex:na }
+    - { text: "gòbhlain-gaoithe", itemId: lex:gobhlan-gaoithe }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-049
+  gd: "Lorg an cù cnàimh."
+  en: "The dog found a bone."
+  altGd: []
+  tokens:
+    - { text: "Lorg", itemId: lex:lorg }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù", itemId: lex:cu }
+    - { text: "cnàimh", itemId: lex:cnaimh }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-050
+  gd: "Tha an sealgair anns a' mhonadh."
+  en: "The hunter is on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sealgair", itemId: lex:sealgair }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhonadh", itemId: lex:monadh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-051
+  gd: "Tha fiadh air a' bheinn."
+  en: "There is a deer on the mountain."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fiadh", itemId: lex:fiadh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-052
+  gd: "Tha an ròn air a' chreig."
+  en: "The seal is on the rock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "ròn", itemId: lex:ron }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chreig", itemId: lex:creag }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-053
+  gd: "Tha an dòbhran ag iasgach."
+  en: "The otter is fishing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dòbhran", itemId: lex:dobhran }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "iasgach", itemId: lex:iasgach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-N
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-054
+  gd: "Tha maigheach anns an fheur."
+  en: "There is a hare in the grass."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "maigheach", itemId: lex:maigheach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "fheur", itemId: lex:feur }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-055
+  gd: "Tha am fitheach dubh."
+  en: "The raven is black."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fitheach", itemId: lex:fitheach }
+    - { text: "dubh", itemId: lex:dubh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-056
+  gd: "Chuala mi a' chomhachag a-raoir."
+  en: "I heard the owl last night."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chomhachag", itemId: lex:comhachag }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ADV
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-057
+  gd: "Tha an damh làidir."
+  en: "The stag is strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "damh", itemId: lex:damh }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-058
+  gd: "Tha na geòidh a' tighinn."
+  en: "The geese are coming."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "geòidh", itemId: lex:geadh }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-059
+  gd: "Tha faoileag air a' chidhe."
+  en: "There is a seagull on the pier."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "faoileag", itemId: lex:faoileag }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidhe", itemId: lex:cidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:wild-animals-birds, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-060
+  gd: "Tha nathair anns an fhraoch."
+  en: "There is an adder in the heather."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "nathair", itemId: lex:nathair }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhraoch", itemId: lex:fraoch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-061
+  gd: "Tha losgann anns an lòn."
+  en: "There is a frog in the marsh."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "losgann", itemId: lex:losgann }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "lòn", itemId: lex:lon }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-062
+  gd: "Tha taghan anns a' choille."
+  en: "There is a pine marten in the wood."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "taghan", itemId: lex:taghan }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choille", itemId: lex:coille }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:wild-animals-birds, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:wild-animals-birds-063
+  gd: "Tha an iolaire mòr."
+  en: "The eagle is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "iolaire", itemId: lex:iolaire }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:wild-animals-birds]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

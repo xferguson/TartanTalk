@@ -431,6 +431,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** W3-H, W3-I
 
+### W-CONTENT-50
+
+- **Status:** in progress (ccr-e01c06cf-a40e0x)
+
+**Every topic gets 50+ new words with matching sentences.** A tester opened a topic with no sentences. Give each of the 19 topics at least 50 new topic-tagged words, high-frequency words first, and sentences that use every new word. Proverbs and sayings get traditional proverbs and idioms. Add `freqRank` from an openly licensed corpus, so the session builder teaches the most frequent words first. Record sources and limits in `content/SOURCES.md`.
+
+- **Owns:** `content/lexemes/**`, `content/sentences/**`, `content/topics.yaml` (comment only), `content/SOURCES.md`, `src/content/generated/**`, `.claude/skills/research-sources/SKILL.md` (source notes), `docs/WORKPLAN.md` (this row), `docs/LEARNINGS.md`
+
+- **Depends on:** W2-A
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 

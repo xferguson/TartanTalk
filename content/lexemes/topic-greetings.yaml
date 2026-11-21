@@ -233,3 +233,455 @@
   tags: [pos:other, topic:greetings]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
+
+- id: lex:phrase-mas-e-do-thoil-e
+  gd: "Mas e do thoil e"
+  en: "please"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-mas-e-ur-toil-e
+  gd: "Mas e ur toil e"
+  en: "please (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-se-do-bheatha
+  gd: "'S e do bheatha"
+  en: "you're welcome"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-se-ur-beatha
+  gd: "'S e ur beatha"
+  en: "you're welcome (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-ciamar-a-tha-thu-fhein
+  gd: "Ciamar a tha thu fhèin?"
+  en: "And how are you yourself?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-de-an-t-ainm-a-th-oirbh
+  gd: "Dè an t-ainm a th' oirbh?"
+  en: "What is your name? (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-is-mise
+  gd: "Is mise"
+  en: "I am (introducing yourself)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-co-as-a-tha-thu
+  gd: "Cò às a tha thu?"
+  en: "Where are you from?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-co-as-a-tha-sibh
+  gd: "Cò às a tha sibh?"
+  en: "Where are you from? (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-gle-mhath
+  gd: "Glè mhath"
+  en: "very good, very well"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-math-fhein
+  gd: "Math fhèin"
+  en: "great, very good"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-chan-eil-mi-gu-math
+  gd: "Chan eil mi gu math"
+  en: "I'm not well"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-ceart-ma-tha
+  gd: "Ceart ma-thà"
+  en: "right then, OK"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-gu-dearbh
+  gd: "Gu dearbh"
+  en: "indeed, certainly"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-slan-leat
+  gd: "Slàn leat"
+  en: "farewell"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-slan-leibh
+  gd: "Slàn leibh"
+  en: "farewell (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-turas-math
+  gd: "Turas math"
+  en: "have a good trip"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-meal-do-naidheachd
+  gd: "Meal do naidheachd"
+  en: "congratulations"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-meal-ur-naidheachd
+  gd: "Meal ur naidheachd"
+  en: "congratulations (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-gabhaibh-mo-leisgeul
+  gd: "Gabhaibh mo leisgeul"
+  en: "excuse me (formal or plural)"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-chan-eil-fhios-agam
+  gd: "Chan eil fhios agam"
+  en: "I don't know"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-de-tha-dol
+  gd: "Dè tha dol?"
+  en: "What's happening?, How's it going?"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:meadhanach
+  gd: "meadhanach"
+  en: "so-so, middling"
+  pos: adjective
+  freqRank: 735
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgoinneil
+  gd: "sgoinneil"
+  en: "brilliant, great"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taghta
+  gd: "taghta"
+  en: "grand, excellent"
+  pos: adjective
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ma-tha
+  gd: "ma-thà"
+  en: "then, in that case"
+  pos: adverb
+  freqRank: 110
+  tags: [pos:adverb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seadh
+  gd: "seadh"
+  en: "yes, indeed"
+  pos: other
+  tags: [pos:other, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aoigh
+  gd: "aoigh"
+  en: "guest"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aoigheachd
+  gd: "aoigheachd"
+  en: "hospitality"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuireadh
+  gd: "cuireadh"
+  en: "invitation"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tadhail
+  gd: "tadhail"
+  en: "visit, call in"
+  pos: verb
+  freqRank: 889
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coinnich
+  gd: "coinnich"
+  en: "meet"
+  pos: verb
+  freqRank: 192
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:failtich
+  gd: "fàiltich"
+  en: "welcome"
+  pos: verb
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taigh-osta
+  gd: "taigh-òsta"
+  en: "hotel, inn"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:failteach
+  gd: "fàilteach"
+  en: "welcoming"
+  pos: adjective
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cairdeas
+  gd: "càirdeas"
+  en: "friendship"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nabaidh
+  gd: "nàbaidh"
+  en: "neighbour"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coigreach
+  gd: "coigreach"
+  en: "stranger"
+  pos: noun
+  gender: m
+  freqRank: 889
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eolas
+  gd: "eòlas"
+  en: "knowledge, acquaintance"
+  pos: noun
+  gender: m
+  freqRank: 604
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taing
+  gd: "taing"
+  en: "thanks"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beannachd
+  gd: "beannachd"
+  en: "blessing"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beannaich
+  gd: "beannaich"
+  en: "bless"
+  pos: verb
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aithnich
+  gd: "aithnich"
+  en: "recognise"
+  pos: verb
+  freqRank: 637
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cead
+  gd: "cead"
+  en: "permission, leave"
+  pos: noun
+  gender: m
+  freqRank: 477
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fon
+  gd: "fòn"
+  en: "phone"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aireamh
+  gd: "àireamh"
+  en: "number"
+  pos: noun
+  gender: f
+  freqRank: 680
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:turas
+  gd: "turas"
+  en: "trip, journey, time"
+  pos: noun
+  gender: m
+  freqRank: 336
+  tags: [pos:noun, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:till
+  gd: "till"
+  en: "return"
+  pos: verb
+  freqRank: 168
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dealaich
+  gd: "dealaich"
+  en: "part, separate"
+  pos: verb
+  freqRank: 735
+  tags: [pos:verb, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:modhail
+  gd: "modhail"
+  en: "polite, well-mannered"
+  pos: adjective
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fialaidh
+  gd: "fialaidh"
+  en: "generous"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aoigheil
+  gd: "aoigheil"
+  en: "hospitable"
+  pos: adjective
+  tags: [pos:adjective, topic:greetings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

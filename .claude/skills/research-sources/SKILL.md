@@ -18,7 +18,8 @@ Content in `content/` is CC BY-SA 4.0 and the app is free and open source. Data 
 The session network is an allowlist. A host that fails with `getaddrinfo ENOTFOUND` is blocked, not missing.
 - Use **WebFetch** for reading pages. It reached `tartandictionary.org` and `tartanregister.gov.uk` when `curl` did not. Its answers are summarised by a small model, so **stripe codes and numbers can be garbled**. Never mark data `verified: true` from a WebFetch summary.
 - `curl` to non-allowlisted hosts is refused. Do not work around it.
-- Blocked when last tried: `en.wikipedia.org`, `commons.wikimedia.org`, `gutenberg.org` (added to the allowlist in #29 but still failing), `tartansauthority.com`. Ask the user to allow a host, with the reason, rather than trying others.
+- Blocked when last tried: `en.wikipedia.org`, `commons.wikimedia.org`, `gutenberg.org` (added to the allowlist in #29 but still failing), `tartansauthority.com`. The Gaelic content expansion also found `www.faclair.com`, `learngaelic.scot`, `tatoeba.org`, `downloads.tatoeba.org`, `www.dasg.ac.uk`, `en.wiktionary.org`, `dumps.wikimedia.org` and `opus.nlpl.eu` refused by the proxy (HTTP 403). Ask the user to allow a host, with the reason, rather than trying others.
+- **Works with `curl`:** `raw.githubusercontent.com`, so openly licensed data kept on GitHub can be downloaded directly, with exact numbers and no summarising.
 - If a host is blocked, say so in your report and carry on with what does not need it. Do not invent data to fill the gap.
 
 ## 3. Known sources
@@ -28,6 +29,8 @@ The session network is an allowlist. A host that fails with `getaddrinfo ENOTFOU
 | Tartan Dictionary, `tartandictionary.org` | No licence stated. Its upstream chain includes `thetartan/tartan-database`, CC BY-NC-ND 4.0. | **Do not use as a data source.** Fine as a pointer to find a name. |
 | *Old and Rare Scottish Tartans* (1893), Project Gutenberg 70853 | Public domain. | Not yet read. |
 | Logan, *The Clans of the Scottish Highlands* (1845-47) | Public domain. Page images on HathiTrust. | Not yet read. |
+| UD Scottish Gaelic treebank (ARCOSG), `github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG` | CC BY-SA 4.0. | About 84,000 lemmatised tokens. Used for `freqRank` (method in `content/SOURCES.md`, "Frequency ranks"). Its sentences are real CC BY-SA Gaelic, but long and full of words we don't have. |
+| Nicolson, *A Collection of Gaelic Proverbs and Familiar Phrases* (1881) | Public domain. | Not reachable yet. Check the traditional proverbs in `content/sentences/proverbs.yaml` against it. |
 
 ## 4. Record provenance
 - Every record carries `source` or `provenance` with a `ref`, a `url` where there is one, and notes on the licence. Set `verified` and `review` honestly.
