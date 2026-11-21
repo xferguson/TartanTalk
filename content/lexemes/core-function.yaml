@@ -6,6 +6,7 @@
   gd: "mi"
   en: "I, me"
   pos: pronoun
+  freqRank: 15
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -14,6 +15,7 @@
   gd: "thu"
   en: "you (singular)"
   pos: pronoun
+  freqRank: 20
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -22,6 +24,7 @@
   gd: "e"
   en: "he, him, it"
   pos: pronoun
+  freqRank: 4
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -30,6 +33,7 @@
   gd: "i"
   en: "she, her, it"
   pos: pronoun
+  freqRank: 13
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -38,6 +42,7 @@
   gd: "sinn"
   en: "we, us"
   pos: pronoun
+  freqRank: 31
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -46,6 +51,7 @@
   gd: "sibh"
   en: "you (plural or formal)"
   pos: pronoun
+  freqRank: 62
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -54,6 +60,7 @@
   gd: "iad"
   en: "they, them"
   pos: pronoun
+  freqRank: 10
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -62,6 +69,7 @@
   gd: "an"
   en: "the (article, before most consonants)"
   pos: article
+  freqRank: 1
   tags: [pos:article]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -70,6 +78,7 @@
   gd: "na"
   en: "the (plural article)"
   pos: article
+  freqRank: 47
   tags: [pos:article]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -78,6 +87,7 @@
   gd: "tha"
   en: "is, am, are"
   pos: verb
+  freqRank: 8
   tags: [pos:verb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -86,6 +96,7 @@
   gd: "bha"
   en: "was, were"
   pos: verb
+  freqRank: 13
   tags: [pos:verb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -94,6 +105,7 @@
   gd: "bidh"
   en: "will be, is (habitually)"
   pos: verb
+  freqRank: 87
   tags: [pos:verb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -102,6 +114,7 @@
   gd: "is"
   en: "is (the copula)"
   pos: verb
+  freqRank: 6
   tags: [pos:verb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -110,6 +123,7 @@
   gd: "agus"
   en: "and"
   pos: conjunction
+  freqRank: 9
   tags: [pos:conjunction]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -118,6 +132,7 @@
   gd: "ach"
   en: "but"
   pos: conjunction
+  freqRank: 16
   tags: [pos:conjunction]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -126,6 +141,7 @@
   gd: "no"
   en: "or"
   pos: conjunction
+  freqRank: 49
   tags: [pos:conjunction]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -134,6 +150,7 @@
   gd: "oir"
   en: "because"
   pos: conjunction
+  freqRank: 253
   tags: [pos:conjunction]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -142,6 +159,7 @@
   gd: "nuair"
   en: "when"
   pos: conjunction
+  freqRank: 53
   tags: [pos:conjunction]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -206,6 +224,7 @@
   gd: "cha"
   en: "not (negative particle)"
   pos: particle
+  freqRank: 17
   tags: [pos:particle]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -214,6 +233,7 @@
   gd: "nach"
   en: "not (negative question and subordinate)"
   pos: particle
+  freqRank: 30
   tags: [pos:particle]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -222,6 +242,7 @@
   gd: "a"
   en: "to, her, who (a common particle)"
   pos: particle
+  freqRank: 3
   tags: [pos:particle]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -230,6 +251,7 @@
   gd: "gu"
   en: "to, until (also links an adjective to a verb)"
   pos: particle
+  freqRank: 8
   tags: [pos:particle]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -262,6 +284,7 @@
   gd: "an-diugh"
   en: "today"
   pos: adverb
+  freqRank: 113
   tags: [pos:adverb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -270,6 +293,7 @@
   gd: "an-dè"
   en: "yesterday"
   pos: adverb
+  freqRank: 530
   tags: [pos:adverb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -278,6 +302,7 @@
   gd: "a-màireach"
   en: "tomorrow"
   pos: adverb
+  freqRank: 455
   tags: [pos:adverb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -302,6 +327,7 @@
   gd: "glè"
   en: "very"
   pos: adverb
+  freqRank: 336
   tags: [pos:adverb]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -310,6 +336,7 @@
   gd: "cuideigin"
   en: "someone"
   pos: pronoun
+  freqRank: 299
   tags: [pos:pronoun]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -318,6 +345,7 @@
   gd: "aon"
   en: "one"
   pos: numeral
+  freqRank: 61
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -326,6 +354,7 @@
   gd: "dhà"
   en: "two"
   pos: numeral
+  freqRank: 311
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -334,6 +363,7 @@
   gd: "trì"
   en: "three"
   pos: numeral
+  freqRank: 128
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -342,6 +372,7 @@
   gd: "ceithir"
   en: "four"
   pos: numeral
+  freqRank: 218
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -350,6 +381,7 @@
   gd: "còig"
   en: "five"
   pos: numeral
+  freqRank: 336
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -358,6 +390,7 @@
   gd: "sia"
   en: "six"
   pos: numeral
+  freqRank: 322
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -366,6 +399,7 @@
   gd: "seachd"
   en: "seven"
   pos: numeral
+  freqRank: 299
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -374,6 +408,7 @@
   gd: "ochd"
   en: "eight"
   pos: numeral
+  freqRank: 358
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -382,6 +417,7 @@
   gd: "naoi"
   en: "nine"
   pos: numeral
+  freqRank: 477
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed
@@ -390,6 +426,7 @@
   gd: "deich"
   en: "ten"
   pos: numeral
+  freqRank: 390
   tags: [pos:numeral]
   source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
   review: unreviewed

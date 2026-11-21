@@ -1,0 +1,1020 @@
+# Sentences for the nature scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:nature-001
+  gd: "Tha an saoghal mòr."
+  en: "The world is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "saoghal", itemId: lex:saoghal }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-002
+  gd: "Is toigh leam nàdar."
+  en: "I like nature."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "nàdar", itemId: lex:nadar }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:nature, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-003
+  gd: "Feumaidh sinn an àrainneachd a dhìon."
+  en: "We must protect the environment."
+  altGd: []
+  tokens:
+    - { text: "Feumaidh", itemId: lex:feum }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "an", itemId: lex:an }
+    - { text: "àrainneachd", itemId: lex:arainneachd }
+    - { text: "a", itemId: lex:a }
+    - { text: "dhìon", itemId: lex:dion }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-a-V
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-004
+  gd: "Tha an t-adhar gorm."
+  en: "The sky is blue."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-adhar", itemId: lex:adhar }
+    - { text: "gorm", itemId: lex:gorm }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-005
+  gd: "Tha solas na grèine blàth."
+  en: "The sunlight is warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "solas", itemId: lex:solas }
+    - { text: "na", itemId: lex:na }
+    - { text: "grèine", itemId: lex:grian }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-N-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-006
+  gd: "Thàinig an dorchadas."
+  en: "The darkness came."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "an", itemId: lex:an }
+    - { text: "dorchadas", itemId: lex:dorchadas }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-007
+  gd: "Tha ròs dearg anns a' ghàrradh."
+  en: "There is a red rose in the garden."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ròs", itemId: lex:ros }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghàrradh", itemId: lex:garradh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-008
+  gd: "Chunnaic mi sòbhrach anns a' choille."
+  en: "I saw a primrose in the wood."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "sòbhrach", itemId: lex:sobhrach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choille", itemId: lex:coille }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-009
+  gd: "Tha neòinean anns an fheur."
+  en: "There is a daisy in the grass."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "neòinean", itemId: lex:neoinean }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "fheur", itemId: lex:feur }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-010
+  gd: "Tha an conasg buidhe."
+  en: "The gorse is yellow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "conasg", itemId: lex:conasg }
+    - { text: "buidhe", itemId: lex:buidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-011
+  gd: "Tha raineach air a' chnoc."
+  en: "There is bracken on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "raineach", itemId: lex:raineach }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chnoc", itemId: lex:cnoc }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-012
+  gd: "Tha luachair anns an lòn."
+  en: "There are rushes in the marsh."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "luachair", itemId: lex:luachair }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "lòn", itemId: lex:lon }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-013
+  gd: "Tha an giuthas àrd."
+  en: "The pine is tall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "giuthas", itemId: lex:giuthas }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-014
+  gd: "Tha an darach làidir."
+  en: "The oak is strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "darach", itemId: lex:darach }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-015
+  gd: "Tha a' bheith geal."
+  en: "The birch is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheith", itemId: lex:beith }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-016
+  gd: "Tha caorann aig an doras."
+  en: "There is a rowan at the door."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "caorann", itemId: lex:caorann }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:nature, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-017
+  gd: "Tha an seileach ri taobh na h-aibhne."
+  en: "The willow is beside the river."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seileach", itemId: lex:seileach }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "taobh", itemId: lex:taobh }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-aibhne", itemId: lex:abhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ri-N-art-N
+  tags: [topic:nature, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-018
+  gd: "Tha an uinnseann mòr."
+  en: "The ash tree is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "uinnseann", itemId: lex:uinnseann }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-019
+  gd: "Tha cnò air a' challtainn."
+  en: "There is a nut on the hazel."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cnò", itemId: lex:cno }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "challtainn", itemId: lex:calltainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-020
+  gd: "Tha an t-iubhar glè shean."
+  en: "The yew is very old."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-iubhar", itemId: lex:iubhar }
+    - { text: "glè", itemId: lex:gle }
+    - { text: "shean", itemId: lex:sean }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-021
+  gd: "Tha freumh na craoibhe domhainn."
+  en: "The tree's root is deep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "freumh", itemId: lex:freumh }
+    - { text: "na", itemId: lex:na }
+    - { text: "craoibhe", itemId: lex:craobh }
+    - { text: "domhainn", itemId: lex:domhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-022
+  gd: "Thuit a' gheug."
+  en: "The branch fell."
+  altGd: []
+  tokens:
+    - { text: "Thuit", itemId: lex:tuit }
+    - { text: "a'", itemId: lex:an }
+    - { text: "gheug", itemId: lex:geug }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-023
+  gd: "Chuir sinn sìol san talamh."
+  en: "We put seed in the ground."
+  altGd: []
+  tokens:
+    - { text: "Chuir", itemId: lex:cuir }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "sìol", itemId: lex:siol }
+    - { text: "san", itemId: lex:ann }
+    - { text: "talamh", itemId: lex:talamh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ann-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-024
+  gd: "Tha meas air a' chraoibh."
+  en: "There is fruit on the tree."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "meas", itemId: lex:meas }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chraoibh", itemId: lex:craobh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-025
+  gd: "Tha na dearcan dearg."
+  en: "The berries are red."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "dearcan", itemId: lex:dearc }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-026
+  gd: "Thog sinn smeuran."
+  en: "We picked brambles."
+  altGd: []
+  tokens:
+    - { text: "Thog", itemId: lex:tog }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "smeuran", itemId: lex:smeur }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-027
+  gd: "Tha feamainn air an tràigh."
+  en: "There is seaweed on the beach."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "feamainn", itemId: lex:feamainn }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "tràigh", itemId: lex:traigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-028
+  gd: "Tha a' ghainmheach blàth."
+  en: "The sand is warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghainmheach", itemId: lex:gainmheach }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-029
+  gd: "Tha poll air mo bhrògan."
+  en: "There is mud on my shoes."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "poll", itemId: lex:poll }
+    - { text: "air", itemId: lex:air }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhrògan", itemId: lex:brog }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-030
+  gd: "Tha am feur a' fàs."
+  en: "The grass is growing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "feur", itemId: lex:feur }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fàs", itemId: lex:fas }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-031
+  gd: "Tha an sealladh àlainn."
+  en: "The view is beautiful."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sealladh", itemId: lex:sealladh }
+    - { text: "àlainn", itemId: lex:alainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-032
+  gd: "Tha an t-eilean fiadhaich."
+  en: "The island is wild."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eilean", itemId: lex:eilean }
+    - { text: "fiadhaich", itemId: lex:fiadhaich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-033
+  gd: "Tha e dorcha a-nis."
+  en: "It is dark now."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "dorcha", itemId: lex:dorcha }
+    - { text: "a-nis", itemId: lex:a-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-034
+  gd: "Tha sin nàdarra."
+  en: "That is natural."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "nàdarra", itemId: lex:nadarra }
+    - { text: ".", itemId: null }
+  pattern: tha-X-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-035
+  gd: "Tha bàrr math ann am-bliadhna."
+  en: "There is a good crop this year."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bàrr", itemId: lex:barr }
+    - { text: "math", itemId: lex:math }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "am-bliadhna", itemId: lex:am-bliadhna }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P-ADV
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-036
+  gd: "Tha lus beag air a' chloich."
+  en: "There is a little plant on the stone."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "lus", itemId: lex:lus }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chloich", itemId: lex:cloch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-037
+  gd: "Tha an linne domhainn."
+  en: "The pool is deep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "linne", itemId: lex:linne }
+    - { text: "domhainn", itemId: lex:domhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-038
+  gd: "Shuidh sinn air bruach na h-aibhne."
+  en: "We sat on the river bank."
+  altGd: []
+  tokens:
+    - { text: "Shuidh", itemId: lex:suidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air", itemId: lex:air }
+    - { text: "bruach", itemId: lex:bruach }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-aibhne", itemId: lex:abhainn }
+    - { text: ".", itemId: null }
+  pattern: V-P-air-N-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-039
+  gd: "Tha a' phàirc mòr."
+  en: "The park is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phàirc", itemId: lex:pairc }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-040
+  gd: "Tha an gàrradh agam snog."
+  en: "My garden is nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gàrradh", itemId: lex:garradh }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "snog", itemId: lex:snog }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:nature, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-041
+  gd: "Tha an ùir fliuch."
+  en: "The soil is wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "ùir", itemId: lex:uir }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-042
+  gd: "Is e creutair beag a th' ann."
+  en: "It is a little creature."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "creutair", itemId: lex:creutair }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-043
+  gd: "Tha beatha ùr anns an earrach."
+  en: "There is new life in the spring."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "beatha", itemId: lex:beatha }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "earrach", itemId: lex:earrach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-044
+  gd: "Is e fàsach a th' ann."
+  en: "It is a wilderness."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "fàsach", itemId: lex:fasach }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-045
+  gd: "Tha doire bheag anns a' ghleann."
+  en: "There is a little grove in the glen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "doire", itemId: lex:doire }
+    - { text: "bheag", itemId: lex:beag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-046
+  gd: "Tha fiodh air an teine."
+  en: "There is wood on the fire."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fiodh", itemId: lex:fiodh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "teine", itemId: lex:teine }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-047
+  gd: "Tha bileag air an uisge."
+  en: "There is a petal on the water."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bileag", itemId: lex:bileag }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "uisge", itemId: lex:uisge }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-048
+  gd: "Tha na rionnagan soilleir a-nochd."
+  en: "The stars are bright tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "rionnagan", itemId: lex:rionnag }
+    - { text: "soilleir", itemId: lex:soilleir }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-049
+  gd: "Tha a' ghealach làn."
+  en: "The moon is full."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghealach", itemId: lex:gealach }
+    - { text: "làn", itemId: lex:lan }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-050
+  gd: "Tha a' ghrian blàth."
+  en: "The sun is warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghrian", itemId: lex:grian }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-051
+  gd: "Tha na craobhan uaine."
+  en: "The trees are green."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "craobhan", itemId: lex:craobh }
+    - { text: "uaine", itemId: lex:uaine }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-052
+  gd: "Tha am fraoch purpaidh."
+  en: "The heather is purple."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fraoch", itemId: lex:fraoch }
+    - { text: "purpaidh", itemId: lex:purpaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-053
+  gd: "Tha an abhainn luath."
+  en: "The river is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "abhainn", itemId: lex:abhainn }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-054
+  gd: "Tha an t-allt fuar."
+  en: "The stream is cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-allt", itemId: lex:allt }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-055
+  gd: "Tha duilleagan air an talamh."
+  en: "There are leaves on the ground."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "duilleagan", itemId: lex:duilleag }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "talamh", itemId: lex:talamh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-056
+  gd: "Tha na flùraichean dearg."
+  en: "The flowers are red."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "flùraichean", itemId: lex:flur }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-057
+  gd: "Tha cloch mhòr anns an achadh."
+  en: "There is a big stone in the field."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cloch", itemId: lex:cloch }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "achadh", itemId: lex:achadh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-058
+  gd: "Tha gaoth fhuar ann."
+  en: "There is a cold wind."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gaoth", itemId: lex:gaoth }
+    - { text: "fhuar", itemId: lex:fuar }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P
+  tags: [topic:nature, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-059
+  gd: "Tha an speur dorcha."
+  en: "The sky is dark."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "speur", itemId: lex:speur }
+    - { text: "dorcha", itemId: lex:dorcha }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:nature]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-060
+  gd: "Tha sneachda air a' bheinn."
+  en: "There is snow on the mountain."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:nature, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:nature-061
+  gd: "Is toigh leam an samhradh."
+  en: "I like the summer."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "samhradh", itemId: lex:samhradh }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N
+  tags: [topic:nature, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

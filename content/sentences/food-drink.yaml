@@ -1,0 +1,1063 @@
+# Sentences for the food-drink scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:food-drink-001
+  gd: "Gabh cupa tì."
+  en: "Have a cup of tea."
+  altGd: []
+  tokens:
+    - { text: "Gabh", itemId: lex:gabh }
+    - { text: "cupa", itemId: lex:cupa }
+    - { text: "tì", itemId: lex:ti }
+    - { text: ".", itemId: null }
+  pattern: V-N-N
+  tags: [topic:food-drink]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-002
+  gd: "Tha glainne fìon agam."
+  en: "I have a glass of wine."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "glainne", itemId: lex:glainne }
+    - { text: "fìon", itemId: lex:fion }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-003
+  gd: "Tha an truinnsear làn."
+  en: "The plate is full."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "truinnsear", itemId: lex:truinnsear }
+    - { text: "làn", itemId: lex:lan }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-004
+  gd: "Cuir am brot anns a' bhobhla."
+  en: "Put the soup in the bowl."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "am", itemId: lex:an }
+    - { text: "brot", itemId: lex:brot }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhobhla", itemId: lex:bobhla }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-005
+  gd: "Thoir dhomh an sgian."
+  en: "Give me the knife."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgian", itemId: lex:sgian }
+    - { text: ".", itemId: null }
+  pattern: V-do-P-art-N
+  tags: [topic:food-drink, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-006
+  gd: "Tha forc agus spàin air a' bhòrd."
+  en: "There is a fork and a spoon on the table."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "forc", itemId: lex:forc }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "spàin", itemId: lex:spain }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-air-art-N
+  tags: [topic:food-drink, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-007
+  gd: "Tha a' phoit teth."
+  en: "The pot is hot."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phoit", itemId: lex:poit }
+    - { text: "teth", itemId: lex:teth }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-008
+  gd: "Tha an t-aran anns an àmhainn."
+  en: "The bread is in the oven."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-aran", itemId: lex:aran }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "àmhainn", itemId: lex:amhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-009
+  gd: "Tha an còcaire math."
+  en: "The cook is good."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "còcaire", itemId: lex:cocaire }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-010
+  gd: "Tha am buntàta a' bruich."
+  en: "The potatoes are cooking."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "buntàta", itemId: lex:buntata }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "bruich", itemId: lex:bruich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-011
+  gd: "Tha am biadh blasta."
+  en: "The food is tasty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "biadh", itemId: lex:biadh }
+    - { text: "blasta", itemId: lex:blasta }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-012
+  gd: "Tha a' chèic milis."
+  en: "The cake is sweet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chèic", itemId: lex:ceic }
+    - { text: "milis", itemId: lex:milis }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-013
+  gd: "Tha an cofaidh searbh."
+  en: "The coffee is bitter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cofaidh", itemId: lex:cofaidh }
+    - { text: "searbh", itemId: lex:searbh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-014
+  gd: "Tha an t-iasg saillte."
+  en: "The fish is salty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-iasg", itemId: lex:iasg }
+    - { text: "saillte", itemId: lex:saillte }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-015
+  gd: "Tha mi acrach."
+  en: "I am hungry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "acrach", itemId: lex:acrach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-016
+  gd: "Dè tha agad airson do dhiathad?"
+  en: "What do you have for your lunch?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "dhiathad", itemId: lex:diathad }
+    - { text: "?", itemId: null }
+  pattern: X-tha-aig-P-airson-P-N
+  tags: [topic:food-drink, prep:aig, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-017
+  gd: "Bidh suipear againn aig seachd uairean."
+  en: "We have supper at seven o'clock."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "suipear", itemId: lex:suipear }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "seachd", itemId: lex:seachd }
+    - { text: "uairean", itemId: lex:uair }
+    - { text: ".", itemId: null }
+  pattern: bidh-N-aig-P-aig-NUM-N
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-018
+  gd: "Dè am mìlsean?"
+  en: "What is the dessert?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "am", itemId: lex:an }
+    - { text: "mìlsean", itemId: lex:milsean }
+    - { text: "?", itemId: null }
+  pattern: X-art-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-019
+  gd: "Tha uachdar air a' bhrot."
+  en: "There is cream on the soup."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uachdar", itemId: lex:uachdar }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhrot", itemId: lex:brot }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:food-drink, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-020
+  gd: "Is toigh leam iogart."
+  en: "I like yoghurt."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "iogart", itemId: lex:iogart }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-021
+  gd: "Ith na curranan agad."
+  en: "Eat your carrots."
+  altGd: []
+  tokens:
+    - { text: "Ith", itemId: lex:ith }
+    - { text: "na", itemId: lex:na }
+    - { text: "curranan", itemId: lex:curran }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-022
+  gd: "Tha uinnean anns a' bhrot."
+  en: "There is an onion in the soup."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uinnean", itemId: lex:uinnean }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhrot", itemId: lex:brot }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-023
+  gd: "Is toigh leam snèap agus buntàta."
+  en: "I like turnip and potatoes."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "snèap", itemId: lex:sneap }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "buntàta", itemId: lex:buntata }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-agus-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-024
+  gd: "Tha a' pheasair uaine."
+  en: "The peas are green."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "pheasair", itemId: lex:peasair }
+    - { text: "uaine", itemId: lex:uaine }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-025
+  gd: "Tha càl math dhut."
+  en: "Kale is good for you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "càl", itemId: lex:cal }
+    - { text: "math", itemId: lex:math }
+    - { text: "dhut", itemId: form:do.2sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-do-P
+  tags: [topic:food-drink, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-026
+  gd: "Ith do ghlasraich."
+  en: "Eat your vegetables."
+  altGd: []
+  tokens:
+    - { text: "Ith", itemId: lex:ith }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "ghlasraich", itemId: lex:glasraich }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-027
+  gd: "Tha orainsear agam."
+  en: "I have an orange."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "orainsear", itemId: lex:orainsear }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-028
+  gd: "Is toigh leam sùbh-làir."
+  en: "I like strawberries."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "sùbh-làir", itemId: lex:subh-lair }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-029
+  gd: "Tha isbean air an truinnsear."
+  en: "There is a sausage on the plate."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "isbean", itemId: lex:isbean }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "truinnsear", itemId: lex:truinnsear }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:food-drink, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-030
+  gd: "Is toigh leam hama."
+  en: "I like ham."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "hama", itemId: lex:hama }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-031
+  gd: "Tha marag dhubh blasta."
+  en: "Black pudding is tasty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "marag", itemId: lex:marag }
+    - { text: "dhubh", itemId: lex:dubh }
+    - { text: "blasta", itemId: lex:blasta }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-032
+  gd: "Dh'ith sinn taigeis air Oidhche Bhurns."
+  en: "We ate haggis on Burns Night."
+  altGd: []
+  tokens:
+    - { text: "Dh'ith", itemId: lex:ith }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "taigeis", itemId: lex:taigeis }
+    - { text: "air", itemId: lex:air }
+    - { text: "Oidhche Bhurns", itemId: lex:oidhche-bhurns }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-N
+  tags: [topic:food-drink, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-033
+  gd: "Rinn mo sheanmhair bonnach."
+  en: "My grandmother made a bannock."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanmhair", itemId: lex:seanmhair }
+    - { text: "bonnach", itemId: lex:bonnach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-034
+  gd: "Tha aran-coirce agus càise againn."
+  en: "We have oatcakes and cheese."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "aran-coirce", itemId: lex:aran-coirce }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "càise", itemId: lex:caise }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-035
+  gd: "Is toigh leis a' chlann seòclaid."
+  en: "The children like chocolate."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leis", itemId: lex:le }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlann", itemId: lex:clann }
+    - { text: "seòclaid", itemId: lex:seoclaid }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-art-N-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-036
+  gd: "Tha an reòiteag fuar."
+  en: "The ice cream is cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "reòiteag", itemId: lex:reoiteag }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-037
+  gd: "Òl do shùgh."
+  en: "Drink your juice."
+  altGd: []
+  tokens:
+    - { text: "Òl", itemId: lex:ol }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "shùgh", itemId: lex:sugh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-038
+  gd: "Cuir salann agus piobar air an fheòil."
+  en: "Put salt and pepper on the meat."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "salann", itemId: lex:salann }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "piobar", itemId: lex:piobar }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fheòil", itemId: lex:feoil }
+    - { text: ".", itemId: null }
+  pattern: V-N-agus-N-air-art-N
+  tags: [topic:food-drink, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-039
+  gd: "Tha ola anns a' phoit."
+  en: "There is oil in the pot."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ola", itemId: lex:ola }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phoit", itemId: lex:poit }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-040
+  gd: "Tha min agus siùcar anns a' chèic."
+  en: "There is flour and sugar in the cake."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "min", itemId: lex:min }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "siùcar", itemId: lex:siucar }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chèic", itemId: lex:ceic }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-041
+  gd: "Chaidh sinn don taigh-bìdh."
+  en: "We went to the restaurant."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "don", itemId: lex:do }
+    - { text: "taigh-bìdh", itemId: lex:taigh-bidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-do-N
+  tags: [topic:food-drink, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-042
+  gd: "Leugh mi an clàr-bìdh."
+  en: "I read the menu."
+  altGd: []
+  tokens:
+    - { text: "Leugh", itemId: lex:leugh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:an }
+    - { text: "clàr-bìdh", itemId: lex:clar-bidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-043
+  gd: "Rinn mi ceapaire càise."
+  en: "I made a cheese sandwich."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ceapaire", itemId: lex:ceapaire }
+    - { text: "càise", itemId: lex:caise }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-044
+  gd: "Tha blas math air.3sg-m."
+  en: "It tastes good."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "blas", itemId: lex:blas }
+    - { text: "math", itemId: lex:math }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-P
+  tags: [topic:food-drink, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-045
+  gd: "Tha fàileadh math anns a' chidsin."
+  en: "There is a good smell in the kitchen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fàileadh", itemId: lex:faileadh }
+    - { text: "math", itemId: lex:math }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidsin", itemId: lex:cidsin }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-046
+  gd: "Tha mo ghlainne falamh."
+  en: "My glass is empty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "ghlainne", itemId: lex:glainne }
+    - { text: "falamh", itemId: lex:falamh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-047
+  gd: "Blais seo!"
+  en: "Taste this!"
+  altGd: []
+  tokens:
+    - { text: "Blais", itemId: lex:blais }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "!", itemId: null }
+  pattern: V-X
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-048
+  gd: "Dheasaich i am biadh."
+  en: "She prepared the food."
+  altGd: []
+  tokens:
+    - { text: "Dheasaich", itemId: lex:deasaich }
+    - { text: "i", itemId: lex:i }
+    - { text: "am", itemId: lex:an }
+    - { text: "biadh", itemId: lex:biadh }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-049
+  gd: "Bidh m' athair a' fuine arain."
+  en: "My father bakes bread."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "athair", itemId: lex:athair }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuine", itemId: lex:fuin }
+    - { text: "arain", itemId: lex:aran }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-N-ag-V-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-050
+  gd: "Doirt am bainne."
+  en: "Pour the milk."
+  altGd: []
+  tokens:
+    - { text: "Doirt", itemId: lex:doirt }
+    - { text: "am", itemId: lex:an }
+    - { text: "bainne", itemId: lex:bainne }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-051
+  gd: "Tha an t-ìm bog."
+  en: "The butter is soft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ìm", itemId: lex:im }
+    - { text: "bog", itemId: lex:bog }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-052
+  gd: "Tha ugh agam airson mo bhracaist."
+  en: "I have an egg for my breakfast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ugh", itemId: lex:ugh }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhracaist", itemId: lex:bracaist }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-airson-P-N
+  tags: [topic:food-drink, prep:aig, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-053
+  gd: "Dh'òl mi tì agus dh'ith mi briosgaid."
+  en: "I drank tea and I ate a biscuit."
+  altGd: []
+  tokens:
+    - { text: "Dh'òl", itemId: lex:ol }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "tì", itemId: lex:ti }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "dh'ith", itemId: lex:ith }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "briosgaid", itemId: lex:briosgaid }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-agus-V-P-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-054
+  gd: "Tha an lite teth."
+  en: "The porridge is hot."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lite", itemId: lex:lite }
+    - { text: "teth", itemId: lex:teth }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-055
+  gd: "Is toigh leam mil air aran."
+  en: "I like honey on bread."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "mil", itemId: lex:mil }
+    - { text: "air", itemId: lex:air }
+    - { text: "aran", itemId: lex:aran }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-air-N
+  tags: [topic:food-drink, prep:le, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-056
+  gd: "Tha an ubhal dearg."
+  en: "The apple is red."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "ubhal", itemId: lex:ubhal }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-057
+  gd: "Òlaidh sinn uisge-beatha."
+  en: "We will drink whisky."
+  altGd: []
+  tokens:
+    - { text: "Òlaidh", itemId: lex:ol }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "uisge-beatha", itemId: lex:uisge-beatha }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:food-drink]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-058
+  gd: "Tha leann fuar anns a' phreas."
+  en: "There is cold beer in the cupboard."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "leann", itemId: lex:leann }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phreas", itemId: lex:preas }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:food-drink, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-059
+  gd: "Dè an dinneir a th' againn?"
+  en: "What is for dinner?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "dinneir", itemId: lex:dinneir }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-060
+  gd: "Tha pathadh orm."
+  en: "I am thirsty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "pathadh", itemId: lex:pathadh }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:food-drink, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-061
+  gd: "Tha an t-ocras orm."
+  en: "I am hungry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ocras", itemId: lex:ocras }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-P
+  tags: [topic:food-drink, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-062
+  gd: "Is fheàrr leam cofaidh na tì."
+  en: "I prefer coffee to tea."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "cofaidh", itemId: lex:cofaidh }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "tì", itemId: lex:ti }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-na-than-N
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-063
+  gd: "Am bu toigh leat cupa eile?"
+  en: "Would you like another cup?"
+  altGd: []
+  tokens:
+    - { text: "Am", itemId: lex:an-q }
+    - { text: "bu", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leat", itemId: form:le.2sg }
+    - { text: "cupa", itemId: lex:cupa }
+    - { text: "eile", itemId: lex:eile }
+    - { text: "?", itemId: null }
+  pattern: an-q-is-ADJ-le-P-N-ADJ
+  tags: [topic:food-drink, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:food-drink-064
+  gd: "Tha biadh gu leòr againn."
+  en: "We have plenty of food."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "biadh", itemId: lex:biadh }
+    - { text: "gu leòr", itemId: lex:gu-leor }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADV-aig-P
+  tags: [topic:food-drink, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

@@ -1,0 +1,929 @@
+# Sentences for the folklore scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:folklore-001
+  gd: "Tha sìthichean a' fuireach anns an t-sìthean."
+  en: "Fairies live in the fairy hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sìthichean", itemId: lex:sithiche }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìthean", itemId: lex:sithean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-002
+  gd: "Tha sìth anns a' ghleann a-nis."
+  en: "There is peace in the glen now."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sìth", itemId: lex:sith }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: "a-nis", itemId: lex:a-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-ADV
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-003
+  gd: "Chuala mi a' bhean-shìth a' caoineadh."
+  en: "I heard the banshee weeping."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhean-shìth", itemId: lex:bean-shith }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "caoineadh", itemId: lex:caoin }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ag-V
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-004
+  gd: "Tha each-uisge anns an loch."
+  en: "There is a water horse in the loch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "each-uisge", itemId: lex:each-uisge }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-005
+  gd: "Tha ùruisg a' fuireach anns an eas."
+  en: "A goblin lives in the waterfall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ùruisg", itemId: lex:uruisg }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "eas", itemId: lex:eas }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-006
+  gd: "Bha glaistig aig an tobar."
+  en: "There was a glaistig at the well."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "glaistig", itemId: lex:glaistig }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "tobar", itemId: lex:tobar }
+    - { text: ".", itemId: null }
+  pattern: bha-N-aig-art-N
+  tags: [topic:folklore, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-007
+  gd: "Rinn am brùnaidh an obair air an oidhche."
+  en: "The brownie did the work at night."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "am", itemId: lex:an }
+    - { text: "brùnaidh", itemId: lex:brunaidh }
+    - { text: "an", itemId: lex:an }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-art-N-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-008
+  gd: "Chunnaic e taibhse!"
+  en: "He saw a ghost!"
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "e", itemId: lex:e }
+    - { text: "taibhse", itemId: lex:taibhse }
+    - { text: "!", itemId: null }
+  pattern: V-P-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-009
+  gd: "Bha bòcan anns an taigh."
+  en: "There was a bogle in the house."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "bòcan", itemId: lex:bocan }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-010
+  gd: "Bha bana-bhuidseach a' fuireach anns a' choille."
+  en: "A witch lived in the wood."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "bana-bhuidseach", itemId: lex:bana-bhuidseach }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choille", itemId: lex:coille }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ag-V-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-011
+  gd: "Bha an draoidh glic."
+  en: "The druid was wise."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "draoidh", itemId: lex:draoidh }
+    - { text: "glic", itemId: lex:glic }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-012
+  gd: "Tha draoidheachd anns an sgeul."
+  en: "There is magic in the tale."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "draoidheachd", itemId: lex:draoidheachd }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-013
+  gd: "Chuir i geas air.3sg-m."
+  en: "She put a spell on him."
+  altGd: []
+  tokens:
+    - { text: "Chuir", itemId: lex:cuir }
+    - { text: "i", itemId: lex:i }
+    - { text: "geas", itemId: lex:geas }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-P
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-014
+  gd: "Tha mallachd air an taigh."
+  en: "There is a curse on the house."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mallachd", itemId: lex:mallachd }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-015
+  gd: "Thug i seun dha."
+  en: "She gave him a charm."
+  altGd: []
+  tokens:
+    - { text: "Thug", itemId: lex:thoir }
+    - { text: "i", itemId: lex:i }
+    - { text: "seun", itemId: lex:seun }
+    - { text: "dha", itemId: form:do.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-do-P
+  tags: [topic:folklore, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-016
+  gd: "Tha an dà shealladh aice."
+  en: "She has the second sight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dà shealladh", itemId: lex:da-shealladh }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P
+  tags: [topic:folklore, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-017
+  gd: "Bha an fhàisneachd ceart."
+  en: "The prophecy was right."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhàisneachd", itemId: lex:faisneachd }
+    - { text: "ceart", itemId: lex:ceart }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-018
+  gd: "Is e fiosaiche a th' ann."
+  en: "He is a seer."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "fiosaiche", itemId: lex:fiosaiche }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-019
+  gd: "Dh'innis an seanchaidh sgeul."
+  en: "The storyteller told a tale."
+  altGd: []
+  tokens:
+    - { text: "Dh'innis", itemId: lex:innis }
+    - { text: "an", itemId: lex:an }
+    - { text: "seanchaidh", itemId: lex:seanchaidh }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-020
+  gd: "Is toigh leam an sgeulachd sin."
+  en: "I like that story."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeulachd", itemId: lex:sgeulachd }
+    - { text: "sin", itemId: lex:sin }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N-X
+  tags: [topic:folklore, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-021
+  gd: "Is e uirsgeul a th' ann."
+  en: "It is a legend."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "uirsgeul", itemId: lex:uirsgeul }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-022
+  gd: "Bha Fionn mòr agus làidir."
+  en: "Fionn was big and strong."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "Fionn", itemId: lex:fionn }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-agus-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-023
+  gd: "Bha an curaidh gun eagal."
+  en: "The champion was without fear."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "curaidh", itemId: lex:curaidh }
+    - { text: "gun", itemId: lex:gun }
+    - { text: "eagal", itemId: lex:eagal }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-gun-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-024
+  gd: "Is e gaisgeach a bh' ann."
+  en: "He was a hero."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "gaisgeach", itemId: lex:gaisgeach }
+    - { text: "a", itemId: lex:a }
+    - { text: "bh'", itemId: lex:bha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-bha-ann-P
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-025
+  gd: "Bha famhair a' fuireach air a' bheinn."
+  en: "A giant lived on the mountain."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "famhair", itemId: lex:famhair }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ag-V-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-026
+  gd: "Chunnaic e dràgon."
+  en: "He saw a dragon."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "e", itemId: lex:e }
+    - { text: "dràgon", itemId: lex:dragon }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-027
+  gd: "Tha uilebheist anns an loch."
+  en: "There is a monster in the loch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uilebheist", itemId: lex:uilebheist }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-028
+  gd: "Chunnaic e maighdeann-mhara air a' chreig."
+  en: "He saw a mermaid on the rock."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "e", itemId: lex:e }
+    - { text: "maighdeann-mhara", itemId: lex:maighdeann-mhara }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chreig", itemId: lex:creag }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-029
+  gd: "Bha maighdeann bhòidheach anns a' chaisteal."
+  en: "There was a beautiful maiden in the castle."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "maighdeann", itemId: lex:maighdeann }
+    - { text: "bhòidheach", itemId: lex:boidheach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chaisteal", itemId: lex:caisteal }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-030
+  gd: "Bha an rìgh saidhbhir."
+  en: "The king was rich."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "rìgh", itemId: lex:righ }
+    - { text: "saidhbhir", itemId: lex:saidhbhir }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-031
+  gd: "Bha a' bhanrigh glic."
+  en: "The queen was wise."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhanrigh", itemId: lex:banrigh }
+    - { text: "glic", itemId: lex:glic }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-032
+  gd: "Phòs am prionnsa a' bhana-phrionnsa."
+  en: "The prince married the princess."
+  altGd: []
+  tokens:
+    - { text: "Phòs", itemId: lex:pos }
+    - { text: "am", itemId: lex:an }
+    - { text: "prionnsa", itemId: lex:prionnsa }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhana-phrionnsa", itemId: lex:bana-phrionnsa }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-art-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-033
+  gd: "Tha claidheamh mòr aige."
+  en: "He has a big sword."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "claidheamh", itemId: lex:claidheamh }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:folklore, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-034
+  gd: "Lorg iad òr."
+  en: "They found gold."
+  altGd: []
+  tokens:
+    - { text: "Lorg", itemId: lex:lorg }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "òr", itemId: lex:or }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-035
+  gd: "Tha ionmhas anns an uamh."
+  en: "There is treasure in the cave."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ionmhas", itemId: lex:ionmhas }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "uamh", itemId: lex:uamh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-036
+  gd: "Bha an oidhche draoidheil."
+  en: "The night was magical."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: "draoidheil", itemId: lex:draoidheil }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-037
+  gd: "Bha an stoirm uamhasach."
+  en: "The storm was terrible."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "stoirm", itemId: lex:stoirm }
+    - { text: "uamhasach", itemId: lex:uamhasach }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-038
+  gd: "Tha an sgeul eagalach."
+  en: "The tale is frightening."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: "eagalach", itemId: lex:eagalach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-039
+  gd: "Tha an t-àite dìomhair."
+  en: "The place is mysterious."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-àite", itemId: lex:aite }
+    - { text: "dìomhair", itemId: lex:diomhair }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-040
+  gd: "Chùm i an rùn."
+  en: "She kept the secret."
+  altGd: []
+  tokens:
+    - { text: "Chùm", itemId: lex:cum }
+    - { text: "i", itemId: lex:i }
+    - { text: "an", itemId: lex:an }
+    - { text: "rùn", itemId: lex:run }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-041
+  gd: "Tha bàs agus beatha anns an sgeul."
+  en: "There is death and life in the tale."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bàs", itemId: lex:bas }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "beatha", itemId: lex:beatha }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-042
+  gd: "Tha an sionnach marbh."
+  en: "The fox is dead."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sionnach", itemId: lex:sionnach }
+    - { text: "marbh", itemId: lex:marbh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-043
+  gd: "Tha anam aig a h-uile creutair."
+  en: "Every creature has a soul."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "anam", itemId: lex:anam }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a", itemId: lex:a }
+    - { text: "h-uile", itemId: lex:uile }
+    - { text: "creutair", itemId: lex:creutair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-a-ADJ-N
+  tags: [topic:folklore, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-044
+  gd: "Chaidh e gu neamh."
+  en: "He went to heaven."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "e", itemId: lex:e }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "neamh", itemId: lex:neamh }
+    - { text: ".", itemId: null }
+  pattern: V-P-gu-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-045
+  gd: "Thàinig an diabhal a-steach."
+  en: "The devil came in."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "an", itemId: lex:an }
+    - { text: "diabhal", itemId: lex:diabhal }
+    - { text: "a-steach", itemId: lex:a-steach }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-ADV
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-046
+  gd: "Is e aingeal a th' innte."
+  en: "She is an angel."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "aingeal", itemId: lex:aingeal }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "innte", itemId: form:ann.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-047
+  gd: "Tha tursachan mòra air an eilean."
+  en: "There are big standing stones on the island."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tursachan", itemId: lex:tursa }
+    - { text: "mòra", itemId: lex:mor }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "eilean", itemId: lex:eilean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-048
+  gd: "Tha an cladh sàmhach air an oidhche."
+  en: "The graveyard is quiet at night."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cladh", itemId: lex:cladh }
+    - { text: "sàmhach", itemId: lex:samhach }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-049
+  gd: "Bha cailleach a' fuireach anns a' ghleann."
+  en: "An old woman lived in the glen."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "cailleach", itemId: lex:cailleach }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ag-V-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-050
+  gd: "Dh'innis am bodach sgeulachd."
+  en: "The old man told a story."
+  altGd: []
+  tokens:
+    - { text: "Dh'innis", itemId: lex:innis }
+    - { text: "am", itemId: lex:an }
+    - { text: "bodach", itemId: lex:bodach }
+    - { text: "sgeulachd", itemId: lex:sgeulachd }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:folklore]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-051
+  gd: "Chuala sinn mac-talla anns a' ghleann."
+  en: "We heard an echo in the glen."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "mac-talla", itemId: lex:mac-talla }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-052
+  gd: "Chunnaic mi sgàil air a' bhalla."
+  en: "I saw a shadow on the wall."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "sgàil", itemId: lex:sgail }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhalla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-art-N
+  tags: [topic:folklore, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-053
+  gd: "Bha sìthiche beag anns a' ghàrradh."
+  en: "There was a little fairy in the garden."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "sìthiche", itemId: lex:sithiche }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghàrradh", itemId: lex:garradh }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-art-N
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:folklore-054
+  gd: "An e taibhse a th' ann?"
+  en: "Is it a ghost?"
+  altGd: []
+  tokens:
+    - { text: "An", itemId: lex:an-q }
+    - { text: "e", itemId: lex:e }
+    - { text: "taibhse", itemId: lex:taibhse }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "?", itemId: null }
+  pattern: an-q-P-N-a-tha-ann-P
+  tags: [topic:folklore, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

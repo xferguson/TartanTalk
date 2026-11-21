@@ -1,0 +1,1497 @@
+# Sentences for the proverbs scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:proverbs-001
+  gd: "Is fheàrr làn dùirn de cheàird na làn dùirn de dh'òr."
+  en: "A handful of craft is better than a handful of gold."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "làn", itemId: lex:lan }
+    - { text: "dùirn", itemId: lex:dorn }
+    - { text: "de", itemId: lex:de }
+    - { text: "cheàird", itemId: lex:ceaird }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "làn", itemId: lex:lan }
+    - { text: "dùirn", itemId: lex:dorn }
+    - { text: "de", itemId: lex:de }
+    - { text: "dh'òr", itemId: lex:or }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-ADJ-N-de-N-na-than-ADJ-N-de-N
+  tags: [topic:proverbs, prep:de]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-002
+  gd: "Tìr gun teanga, tìr gun anam."
+  en: "A land without a language is a land without a soul."
+  altGd: []
+  tokens:
+    - { text: "Tìr", itemId: lex:tir }
+    - { text: "gun", itemId: lex:gun }
+    - { text: "teanga", itemId: lex:teanga }
+    - { text: ",", itemId: null }
+    - { text: "tìr", itemId: lex:tir }
+    - { text: "gun", itemId: lex:gun }
+    - { text: "anam", itemId: lex:anam }
+    - { text: ".", itemId: null }
+  pattern: N-gun-N-N-gun-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-003
+  gd: "Is fheàrr Gàidhlig bhriste na Gàidhlig sa chiste."
+  en: "Broken Gaelic is better than Gaelic in the coffin."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: "bhriste", itemId: lex:briste }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "chiste", itemId: lex:ciste }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-N-ADJ-na-than-N-ann-N
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-004
+  gd: "Cha tig às a' phoit ach an toit a bhios innte."
+  en: "Nothing comes out of the pot but the steam that is in it."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "tig", itemId: lex:thig }
+    - { text: "às", itemId: lex:as }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phoit", itemId: lex:poit }
+    - { text: "ach", itemId: lex:ach }
+    - { text: "an", itemId: lex:an }
+    - { text: "toit", itemId: lex:toit }
+    - { text: "a", itemId: lex:a }
+    - { text: "bhios", itemId: lex:bidh }
+    - { text: "innte", itemId: form:ann.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: cha-V-as-art-N-ach-art-N-a-bidh-ann-P
+  tags: [topic:proverbs, prep:as, prep:ann]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-005
+  gd: "Is e obair latha tòiseachadh."
+  en: "Beginning is a day's work."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "latha", itemId: lex:latha }
+    - { text: "tòiseachadh", itemId: lex:toisich }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-N-V
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-006
+  gd: "Mol an latha math mu oidhche."
+  en: "Praise the good day at nightfall."
+  altGd: []
+  tokens:
+    - { text: "Mol", itemId: lex:mol }
+    - { text: "an", itemId: lex:an }
+    - { text: "latha", itemId: lex:latha }
+    - { text: "math", itemId: lex:math }
+    - { text: "mu", itemId: lex:mu }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-ADJ-mu-N
+  tags: [topic:proverbs, prep:mu]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-007
+  gd: "Bàthaidh uisge teth teine."
+  en: "Hot water will quench fire."
+  altGd: []
+  tokens:
+    - { text: "Bàthaidh", itemId: lex:bath }
+    - { text: "uisge", itemId: lex:uisge }
+    - { text: "teth", itemId: lex:teth }
+    - { text: "teine", itemId: lex:teine }
+    - { text: ".", itemId: null }
+  pattern: V-N-ADJ-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-008
+  gd: "Is trom an t-eallach an t-aineolas."
+  en: "Ignorance is a heavy burden."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "trom", itemId: lex:trom }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eallach", itemId: lex:eallach }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-aineolas", itemId: lex:aineolas }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-art-N-art-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-009
+  gd: "Gheibh foighidinn furtachd."
+  en: "Patience brings relief."
+  altGd: []
+  tokens:
+    - { text: "Gheibh", itemId: lex:faigh }
+    - { text: "foighidinn", itemId: lex:foighidinn }
+    - { text: "furtachd", itemId: lex:furtachd }
+    - { text: ".", itemId: null }
+  pattern: V-N-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-010
+  gd: "An rud a nìthear gu math, chithear a bhuil."
+  en: "What is done well, its result will be seen."
+  altGd: []
+  tokens:
+    - { text: "An", itemId: lex:an }
+    - { text: "rud", itemId: lex:rud }
+    - { text: "a", itemId: lex:a }
+    - { text: "nìthear", itemId: lex:dean }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "math", itemId: lex:math }
+    - { text: ",", itemId: null }
+    - { text: "chithear", itemId: lex:faic }
+    - { text: "a", itemId: lex:a }
+    - { text: "bhuil", itemId: lex:buil }
+    - { text: ".", itemId: null }
+  pattern: art-N-a-V-gu-ADJ-V-a-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-011
+  gd: "Cha bhi luathas agus grinneas còmhla."
+  en: "Speed and neatness do not go together."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "bhi", itemId: lex:bi }
+    - { text: "luathas", itemId: lex:luathas }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "grinneas", itemId: lex:grinneas }
+    - { text: "còmhla", itemId: lex:comhla }
+    - { text: ".", itemId: null }
+  pattern: cha-V-N-agus-N-ADV
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-012
+  gd: "Is fheàrr teicheadh math na droch fhuireach."
+  en: "A good retreat is better than a bad stand."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "teicheadh", itemId: lex:teich }
+    - { text: "math", itemId: lex:math }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "droch", itemId: lex:droch }
+    - { text: "fhuireach", itemId: lex:fuirich }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-V-ADJ-na-than-ADJ-V
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-013
+  gd: "Cha toir muir no monadh a chuid bho dhuine."
+  en: "Neither sea nor moor will take a person's due from them."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "toir", itemId: lex:thoir }
+    - { text: "muir", itemId: lex:muir }
+    - { text: "no", itemId: lex:no }
+    - { text: "monadh", itemId: lex:monadh }
+    - { text: "a", itemId: lex:a }
+    - { text: "chuid", itemId: lex:cuid }
+    - { text: "bho", itemId: lex:bho }
+    - { text: "dhuine", itemId: lex:duine }
+    - { text: ".", itemId: null }
+  pattern: cha-V-N-no-N-a-N-bho-N
+  tags: [topic:proverbs, prep:bho]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-014
+  gd: "Is e an t-ubhal as àirde air a' chraoibh as mìlse."
+  en: "The highest apple on the tree is the sweetest."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ubhal", itemId: lex:ubhal }
+    - { text: "as", itemId: lex:as-most }
+    - { text: "àirde", itemId: lex:ard }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chraoibh", itemId: lex:craobh }
+    - { text: "as", itemId: lex:as-most }
+    - { text: "mìlse", itemId: lex:milis }
+    - { text: ".", itemId: null }
+  pattern: is-P-art-N-as-most-ADJ-air-art-N-as-most-ADJ
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-015
+  gd: "Cha tèid fiach air beul dùinte."
+  en: "A closed mouth incurs no debt."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "tèid", itemId: lex:rach }
+    - { text: "fiach", itemId: lex:fiach }
+    - { text: "air", itemId: lex:air }
+    - { text: "beul", itemId: lex:beul }
+    - { text: "dùinte", itemId: lex:duin }
+    - { text: ".", itemId: null }
+  pattern: cha-V-N-air-N-V
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-016
+  gd: "Thig crìoch air an t-saoghal, ach mairidh gaol is ceòl."
+  en: "The world will come to an end, but love and music will last."
+  altGd: []
+  tokens:
+    - { text: "Thig", itemId: lex:thig }
+    - { text: "crìoch", itemId: lex:crioch }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-saoghal", itemId: lex:saoghal }
+    - { text: ",", itemId: null }
+    - { text: "ach", itemId: lex:ach }
+    - { text: "mairidh", itemId: lex:mair }
+    - { text: "gaol", itemId: lex:gaol }
+    - { text: "is", itemId: lex:agus }
+    - { text: "ceòl", itemId: lex:ceol }
+    - { text: ".", itemId: null }
+  pattern: V-N-air-art-N-ach-V-N-agus-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-017
+  gd: "Is math an sgàthan sùil caraid."
+  en: "A friend's eye is a good mirror."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "math", itemId: lex:math }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgàthan", itemId: lex:sgathan }
+    - { text: "sùil", itemId: lex:suil }
+    - { text: "caraid", itemId: lex:caraid }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-art-N-N-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-018
+  gd: "Is fheàrr caraid sa chùirt na crùn san sporan."
+  en: "A friend in court is better than a crown in the purse."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "caraid", itemId: lex:caraid }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "chùirt", itemId: lex:cuirt }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "crùn", itemId: lex:crun }
+    - { text: "san", itemId: lex:ann }
+    - { text: "sporan", itemId: lex:sporan }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-N-ann-N-na-than-N-ann-N
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-019
+  gd: "Cha mhisde sgeul math aithris dà uair."
+  en: "A good tale is none the worse for being told twice."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "mhisde", itemId: lex:misde }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: "math", itemId: lex:math }
+    - { text: "aithris", itemId: lex:aithris }
+    - { text: "dà", itemId: lex:dha }
+    - { text: "uair", itemId: lex:uair }
+    - { text: ".", itemId: null }
+  pattern: cha-ADJ-N-ADJ-V-NUM-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-020
+  gd: "Is fada glaodh à Loch Obha."
+  en: "It is a far cry from Loch Awe."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fada", itemId: lex:fada }
+    - { text: "glaodh", itemId: lex:glaodh }
+    - { text: "à", itemId: lex:as }
+    - { text: "Loch Obha", itemId: lex:loch-obha }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-N-as-N
+  tags: [topic:proverbs, prep:as]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-021
+  gd: "Ge milis am fìon, tha e searbh ri dhìol."
+  en: "Though the wine is sweet, it is bitter to pay for."
+  altGd: []
+  tokens:
+    - { text: "Ge", itemId: lex:ge }
+    - { text: "milis", itemId: lex:milis }
+    - { text: "am", itemId: lex:an }
+    - { text: "fìon", itemId: lex:fion }
+    - { text: ",", itemId: null }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "searbh", itemId: lex:searbh }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "dhìol", itemId: lex:diol }
+    - { text: ".", itemId: null }
+  pattern: ge-ADJ-art-N-tha-P-ADJ-ri-V
+  tags: [topic:proverbs, prep:ri]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-022
+  gd: "Is math an còcaire an t-ocras."
+  en: "Hunger is a good cook."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "math", itemId: lex:math }
+    - { text: "an", itemId: lex:an }
+    - { text: "còcaire", itemId: lex:cocaire }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ocras", itemId: lex:ocras }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-art-N-art-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-023
+  gd: "Is e an t-ionnsachadh òg an t-ionnsachadh bòidheach."
+  en: "Learning when young is beautiful learning."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ionnsachadh", itemId: lex:ionnsachadh }
+    - { text: "òg", itemId: lex:og }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-ionnsachadh", itemId: lex:ionnsachadh }
+    - { text: "bòidheach", itemId: lex:boidheach }
+    - { text: ".", itemId: null }
+  pattern: is-P-art-N-ADJ-art-N-ADJ
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-024
+  gd: "Cha dèan aon smeòrach samhradh."
+  en: "One thrush does not make a summer."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "dèan", itemId: lex:dean }
+    - { text: "aon", itemId: lex:aon }
+    - { text: "smeòrach", itemId: lex:smeorach }
+    - { text: "samhradh", itemId: lex:samhradh }
+    - { text: ".", itemId: null }
+  pattern: cha-V-NUM-N-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-025
+  gd: "Rud sam bith a thig leis a' ghaoith, falbhaidh e leis an uisge."
+  en: "Whatever comes with the wind will go with the rain."
+  altGd: []
+  tokens:
+    - { text: "Rud", itemId: lex:rud }
+    - { text: "sam bith", itemId: lex:sam-bith }
+    - { text: "a", itemId: lex:a }
+    - { text: "thig", itemId: lex:thig }
+    - { text: "leis", itemId: lex:le }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghaoith", itemId: lex:gaoth }
+    - { text: ",", itemId: null }
+    - { text: "falbhaidh", itemId: lex:falbh }
+    - { text: "e", itemId: lex:e }
+    - { text: "leis", itemId: lex:le }
+    - { text: "an", itemId: lex:an }
+    - { text: "uisge", itemId: lex:uisge }
+    - { text: ".", itemId: null }
+  pattern: N-ADJ-a-V-le-art-N-V-P-le-art-N
+  tags: [topic:proverbs, prep:le]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-026
+  gd: "Is e deireadh gach cogaidh sìth."
+  en: "The end of every war is peace."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "deireadh", itemId: lex:deireadh }
+    - { text: "gach", itemId: lex:gach }
+    - { text: "cogaidh", itemId: lex:cogadh }
+    - { text: "sìth", itemId: lex:sith }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-N-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-027
+  gd: "Ruigidh each mall muileann."
+  en: "A slow horse will reach the mill."
+  altGd: []
+  tokens:
+    - { text: "Ruigidh", itemId: lex:ruig }
+    - { text: "each", itemId: lex:each }
+    - { text: "mall", itemId: lex:mall }
+    - { text: "muileann", itemId: lex:muileann }
+    - { text: ".", itemId: null }
+  pattern: V-N-ADJ-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-028
+  gd: "Is ann air a shon fhèin a nì an cat crònan."
+  en: "The cat purrs for its own sake."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "air", itemId: lex:air }
+    - { text: "a", itemId: lex:a }
+    - { text: "shon", itemId: lex:son }
+    - { text: "fhèin", itemId: lex:fhein }
+    - { text: "a", itemId: lex:a }
+    - { text: "nì", itemId: lex:dean }
+    - { text: "an", itemId: lex:an }
+    - { text: "cat", itemId: lex:cat }
+    - { text: "crònan", itemId: lex:cronan }
+    - { text: ".", itemId: null }
+  pattern: is-ann-P-air-a-N-P-a-V-art-N-N
+  tags: [topic:proverbs, prep:ann, prep:air]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-029
+  gd: "Is fheàrr a bhith sàmhach na droch òran a ghabhail."
+  en: "Better to be silent than to sing a bad song."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "a", itemId: lex:a }
+    - { text: "bhith", itemId: lex:bi }
+    - { text: "sàmhach", itemId: lex:samhach }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "droch", itemId: lex:droch }
+    - { text: "òran", itemId: lex:oran }
+    - { text: "a", itemId: lex:a }
+    - { text: "ghabhail", itemId: lex:gabh }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-a-V-ADJ-na-than-ADJ-N-a-V
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-030
+  gd: "Cuiridh mi clach air do chàrn."
+  en: "I will add a stone to your cairn."
+  altGd: []
+  tokens:
+    - { text: "Cuiridh", itemId: lex:cuir }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "clach", itemId: lex:cloch }
+    - { text: "air", itemId: lex:air }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "chàrn", itemId: lex:carn }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-P-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-031
+  gd: "Nì cabhag maille."
+  en: "Haste makes delay."
+  altGd: []
+  tokens:
+    - { text: "Nì", itemId: lex:dean }
+    - { text: "cabhag", itemId: lex:cabhag }
+    - { text: "maille", itemId: lex:maille }
+    - { text: ".", itemId: null }
+  pattern: V-N-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "Traditional saying, recalled from general knowledge (not looked up); check against Nicolson, Gaelic Proverbs (1881, public domain)", licence: "CC BY-SA 4.0" }
+  review: unreviewed
+
+- id: sent:proverbs-032
+  gd: "Tha mi coma."
+  en: "I don't mind."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "coma", itemId: lex:coma }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-033
+  gd: "Mar as àbhaist."
+  en: "As usual."
+  altGd: []
+  tokens:
+    - { text: "Mar", itemId: lex:mar }
+    - { text: "as", itemId: lex:as-most }
+    - { text: "àbhaist", itemId: lex:abhaist }
+    - { text: ".", itemId: null }
+  pattern: mar-as-most-N
+  tags: [topic:proverbs, prep:mar]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-034
+  gd: "Tha e an urra riut."
+  en: "It's up to you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:ann }
+    - { text: "urra", itemId: lex:urra }
+    - { text: "riut", itemId: form:ri.2sg }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ann-N-ri-P
+  tags: [topic:proverbs, prep:ann, prep:ri]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-035
+  gd: "Chan eil e gu diofar."
+  en: "It doesn't matter."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "eil", itemId: lex:eil }
+    - { text: "e", itemId: lex:e }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "diofar", itemId: lex:diofar }
+    - { text: ".", itemId: null }
+  pattern: cha-eil-P-gu-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-036
+  gd: "Is fhiach e."
+  en: "It's worth it."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fhiach", itemId: lex:fiach }
+    - { text: "e", itemId: lex:e }
+    - { text: ".", itemId: null }
+  pattern: is-N-P
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-037
+  gd: "Chan fhiach e."
+  en: "It's not worth it."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "fhiach", itemId: lex:fiach }
+    - { text: "e", itemId: lex:e }
+    - { text: ".", itemId: null }
+  pattern: cha-N-P
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-038
+  gd: "Tha mi a' dol às mo chiall."
+  en: "I'm going out of my mind."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "às", itemId: lex:as }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "chiall", itemId: lex:ciall }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-as-P-N
+  tags: [topic:proverbs, prep:as]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-039
+  gd: "Cùm do theanga!"
+  en: "Hold your tongue!"
+  altGd: []
+  tokens:
+    - { text: "Cùm", itemId: lex:cum }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "theanga", itemId: lex:teanga }
+    - { text: "!", itemId: null }
+  pattern: V-P-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-040
+  gd: "Thug e an aire."
+  en: "He paid attention."
+  altGd: []
+  tokens:
+    - { text: "Thug", itemId: lex:thoir }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "aire", itemId: lex:aire }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-041
+  gd: "Tha e air a dhòigh."
+  en: "He is delighted."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "air", itemId: lex:air }
+    - { text: "a", itemId: lex:a }
+    - { text: "dhòigh", itemId: lex:doigh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-air-a-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-042
+  gd: "Cuir crìoch air.3sg-m."
+  en: "Finish it."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "crìoch", itemId: lex:crioch }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: V-N-air-P
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-043
+  gd: "Tha an t-àm ann."
+  en: "It's time."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-àm", itemId: lex:am }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-P
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-044
+  gd: "Tha mi sgìth dheth."
+  en: "I'm tired of it."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: "dheth", itemId: form:de.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-de-P
+  tags: [topic:proverbs, prep:de]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-045
+  gd: "Chan eil sgillinn ruadh agam."
+  en: "I haven't a red penny."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "eil", itemId: lex:eil }
+    - { text: "sgillinn", itemId: lex:sgillinn }
+    - { text: "ruadh", itemId: lex:ruadh }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: cha-eil-N-ADJ-aig-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-046
+  gd: "Mo chreach!"
+  en: "Alas!"
+  altGd: []
+  tokens:
+    - { text: "Mo", itemId: lex:mo }
+    - { text: "chreach", itemId: lex:creach }
+    - { text: "!", itemId: null }
+  pattern: P-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-047
+  gd: "Obh obh!"
+  en: "Oh dear!"
+  altGd: []
+  tokens:
+    - { text: "Obh obh", itemId: lex:obh-obh }
+    - { text: "!", itemId: null }
+  pattern: X
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-048
+  gd: "Is fheàrr leam fuireach an-seo."
+  en: "I'd rather stay here."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-V-ADV
+  tags: [topic:proverbs, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-049
+  gd: "B' fheàrr leam tì."
+  en: "I'd prefer tea."
+  altGd: []
+  tokens:
+    - { text: "B'", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "tì", itemId: lex:ti }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:proverbs, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-050
+  gd: "Rinn e an gnothach."
+  en: "He managed it."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "gnothach", itemId: lex:gnothach }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-051
+  gd: "Tha mi air mo dhòigh."
+  en: "I'm delighted."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "air", itemId: lex:air }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "dhòigh", itemId: lex:doigh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-air-P-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-052
+  gd: "Leig leis."
+  en: "Leave it be."
+  altGd: []
+  tokens:
+    - { text: "Leig", itemId: lex:leig }
+    - { text: "leis", itemId: form:le.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: V-le-P
+  tags: [topic:proverbs, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-053
+  gd: "Gabh air do shocair."
+  en: "Take it easy."
+  altGd: []
+  tokens:
+    - { text: "Gabh", itemId: lex:gabh }
+    - { text: "air", itemId: lex:air }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "shocair", itemId: lex:socair }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-054
+  gd: "Tha fios agad!"
+  en: "You know!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fios", itemId: lex:fios }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "!", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-055
+  gd: "Nach math sin!"
+  en: "Isn't that good!"
+  altGd: []
+  tokens:
+    - { text: "Nach", itemId: lex:nach }
+    - { text: "math", itemId: lex:math }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "!", itemId: null }
+  pattern: nach-ADJ-X
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-056
+  gd: "Tha dà thaobh air gach sgeul."
+  en: "There are two sides to every story."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dà", itemId: lex:dha }
+    - { text: "thaobh", itemId: lex:taobh }
+    - { text: "air", itemId: lex:air }
+    - { text: "gach", itemId: lex:gach }
+    - { text: "sgeul", itemId: lex:sgeul }
+    - { text: ".", itemId: null }
+  pattern: tha-NUM-N-air-ADJ-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-057
+  gd: "Seo agad e."
+  en: "Here you are."
+  altGd: []
+  tokens:
+    - { text: "Seo", itemId: lex:seo }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "e", itemId: lex:e }
+    - { text: ".", itemId: null }
+  pattern: X-aig-P-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-058
+  gd: "Tha mi an dùil."
+  en: "I expect so."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:ann }
+    - { text: "dùil", itemId: lex:duil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ann-N
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-059
+  gd: "Is coma leam."
+  en: "I don't care."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "coma", itemId: lex:coma }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P
+  tags: [topic:proverbs, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-060
+  gd: "Is beag orm e."
+  en: "I dislike it."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: "e", itemId: lex:e }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-air-P-P
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-061
+  gd: "Cha mhòr nach do thuit mi."
+  en: "I almost fell."
+  altGd: []
+  tokens:
+    - { text: "Cha", itemId: lex:cha }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "nach", itemId: lex:nach }
+    - { text: "do", itemId: lex:do-past }
+    - { text: "thuit", itemId: lex:tuit }
+    - { text: "mi", itemId: lex:mi }
+    - { text: ".", itemId: null }
+  pattern: cha-ADJ-nach-do-past-V-P
+  tags: [topic:proverbs]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-062
+  gd: "Tha e math air ceòl."
+  en: "He is good at music."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "math", itemId: lex:math }
+    - { text: "air", itemId: lex:air }
+    - { text: "ceòl", itemId: lex:ceol }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-air-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-063
+  gd: "Air m' onair!"
+  en: "On my honour!"
+  altGd: []
+  tokens:
+    - { text: "Air", itemId: lex:air }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "onair", itemId: lex:onair }
+    - { text: "!", itemId: null }
+  pattern: air-P-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-064
+  gd: "Is iomadh seanfhacal a th' aig na Gàidheil."
+  en: "The Gaels have many a proverb."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "iomadh", itemId: lex:iomadh }
+    - { text: "seanfhacal", itemId: lex:seanfhacal }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "na", itemId: lex:na }
+    - { text: "Gàidheil", itemId: lex:gaidheal }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-N-a-tha-aig-art-N
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-065
+  gd: "Is minig a bha mi ceàrr."
+  en: "I have often been wrong."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "minig", itemId: lex:minig }
+    - { text: "a", itemId: lex:a }
+    - { text: "bha", itemId: lex:bha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ceàrr", itemId: lex:cearr }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-a-bha-P-ADJ
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-066
+  gd: "Bidh e a' tighinn an-seo gu tric."
+  en: "He comes here often."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "tric", itemId: lex:tric }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-ADV-gu-ADJ
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-067
+  gd: "Tha gliocas anns na seanfhaclan."
+  en: "There is wisdom in the proverbs."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gliocas", itemId: lex:gliocas }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "na", itemId: lex:na }
+    - { text: "seanfhaclan", itemId: lex:seanfhacal }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-068
+  gd: "Is e amadan a th' ann."
+  en: "He is a fool."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "amadan", itemId: lex:amadan }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-069
+  gd: "Tha an t-eallach aotrom."
+  en: "The load is light."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eallach", itemId: lex:eallach }
+    - { text: "aotrom", itemId: lex:aotrom }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-070
+  gd: "Chan e beairteas a h-uile rud."
+  en: "Wealth is not everything."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "e", itemId: lex:e }
+    - { text: "beairteas", itemId: lex:beairteas }
+    - { text: "a", itemId: lex:a }
+    - { text: "h-uile", itemId: lex:uile }
+    - { text: "rud", itemId: lex:rud }
+    - { text: ".", itemId: null }
+  pattern: cha-P-N-a-ADJ-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-071
+  gd: "Bha iad bochd ach toilichte."
+  en: "They were poor but happy."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "bochd", itemId: lex:bochd }
+    - { text: "ach", itemId: lex:ach }
+    - { text: "toilichte", itemId: lex:toilichte }
+    - { text: ".", itemId: null }
+  pattern: bha-P-ADJ-ach-ADJ
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-072
+  gd: "Chaill an leanabh fiacail."
+  en: "The child lost a tooth."
+  altGd: []
+  tokens:
+    - { text: "Chaill", itemId: lex:caill }
+    - { text: "an", itemId: lex:an }
+    - { text: "leanabh", itemId: lex:leanabh }
+    - { text: "fiacail", itemId: lex:fiacail }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-073
+  gd: "Rinn e olc."
+  en: "He did harm."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "e", itemId: lex:e }
+    - { text: "olc", itemId: lex:olc }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-074
+  gd: "Tha mathas anns a h-uile duine."
+  en: "There is goodness in everyone."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mathas", itemId: lex:mathas }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a", itemId: lex:a }
+    - { text: "h-uile", itemId: lex:uile }
+    - { text: "duine", itemId: lex:duine }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-a-ADJ-N
+  tags: [topic:proverbs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-075
+  gd: "Na bi dìomhain."
+  en: "Don't be idle."
+  altGd: []
+  tokens:
+    - { text: "Na", itemId: lex:na-dont }
+    - { text: "bi", itemId: lex:bi }
+    - { text: "dìomhain", itemId: lex:diomhain }
+    - { text: ".", itemId: null }
+  pattern: na-dont-V-ADJ
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-076
+  gd: "Tha urram mòr aige."
+  en: "He has great respect."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "urram", itemId: lex:urram }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-077
+  gd: "Innis an fhìrinn."
+  en: "Tell the truth."
+  altGd: []
+  tokens:
+    - { text: "Innis", itemId: lex:innis }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhìrinn", itemId: lex:firinn }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-078
+  gd: "Sin breug!"
+  en: "That's a lie!"
+  altGd: []
+  tokens:
+    - { text: "Sin", itemId: lex:sin }
+    - { text: "breug", itemId: lex:breug }
+    - { text: "!", itemId: null }
+  pattern: X-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-079
+  gd: "Is fheàrr slàinte na beairteas."
+  en: "Health is better than wealth."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fheàrr", itemId: lex:fhearr }
+    - { text: "slàinte", itemId: lex:slainte }
+    - { text: "na", itemId: lex:na-than }
+    - { text: "beairteas", itemId: lex:beairteas }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-N-na-than-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-080
+  gd: "Chan eil leigheas air.3sg-m."
+  en: "There is no cure for it."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "eil", itemId: lex:eil }
+    - { text: "leigheas", itemId: lex:leigheas }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: cha-eil-N-air-P
+  tags: [topic:proverbs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-081
+  gd: "Tha mi tinn an-diugh."
+  en: "I am ill today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "tinn", itemId: lex:tinn }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-082
+  gd: "Thàinig caochladh air an t-sìde."
+  en: "The weather changed."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "caochladh", itemId: lex:caochladh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìde", itemId: lex:side }
+    - { text: ".", itemId: null }
+  pattern: V-N-air-art-N
+  tags: [topic:proverbs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-083
+  gd: "Atharraich do bheatha."
+  en: "Change your life."
+  altGd: []
+  tokens:
+    - { text: "Atharraich", itemId: lex:atharraich }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "bheatha", itemId: lex:beatha }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:proverbs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-084
+  gd: "Bho thoiseach gu deireadh."
+  en: "From beginning to end."
+  altGd: []
+  tokens:
+    - { text: "Bho", itemId: lex:bho }
+    - { text: "thoiseach", itemId: lex:toiseach }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "deireadh", itemId: lex:deireadh }
+    - { text: ".", itemId: null }
+  pattern: bho-N-gu-N
+  tags: [topic:proverbs, prep:bho]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-085
+  gd: "Is math an comann a th' againn."
+  en: "We have good company."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "math", itemId: lex:math }
+    - { text: "an", itemId: lex:an }
+    - { text: "comann", itemId: lex:comann }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-art-N-a-tha-aig-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:proverbs-086
+  gd: "Tha tòrr airgid aige."
+  en: "He has lots of money."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tòrr", itemId: lex:torr }
+    - { text: "airgid", itemId: lex:airgead }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-aig-P
+  tags: [topic:proverbs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

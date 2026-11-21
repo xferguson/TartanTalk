@@ -1,0 +1,1005 @@
+# Sentences for the weather scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:weather-001
+  gd: "Ciamar a tha an t-sìde?"
+  en: "What is the weather like?"
+  altGd: []
+  tokens:
+    - { text: "Ciamar", itemId: lex:ciamar }
+    - { text: "a", itemId: lex:a }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìde", itemId: lex:side }
+    - { text: "?", itemId: null }
+  pattern: X-a-tha-art-N
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-002
+  gd: "Tha an t-sìde math an-diugh."
+  en: "The weather is good today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìde", itemId: lex:side }
+    - { text: "math", itemId: lex:math }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-003
+  gd: "Tha an t-sìde dona."
+  en: "The weather is bad."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìde", itemId: lex:side }
+    - { text: "dona", itemId: lex:dona }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-004
+  gd: "Tha e fliuch an-diugh."
+  en: "It is wet today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-005
+  gd: "Tha e tioram a-nis."
+  en: "It is dry now."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "tioram", itemId: lex:tioram }
+    - { text: "a-nis", itemId: lex:a-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-006
+  gd: "Tha e teth an-diugh."
+  en: "It is hot today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "teth", itemId: lex:teth }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-007
+  gd: "Tha e blàth sa mhadainn."
+  en: "It is warm in the morning."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "mhadainn", itemId: lex:madainn }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-008
+  gd: "Tha e fionnar a-nochd."
+  en: "It is cool tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fionnar", itemId: lex:fionnar }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-009
+  gd: "Tha e grianach!"
+  en: "It's sunny!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "grianach", itemId: lex:grianach }
+    - { text: "!", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-010
+  gd: "Tha e sgòthach agus fuar."
+  en: "It is cloudy and cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "sgòthach", itemId: lex:sgothach }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-agus-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-011
+  gd: "Tha e gaothach air an eilean."
+  en: "It is windy on the island."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "gaothach", itemId: lex:gaothach }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "eilean", itemId: lex:eilean }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-012
+  gd: "Tha e ceòthach air a' mhonadh."
+  en: "It is misty on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "ceòthach", itemId: lex:ceothach }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhonadh", itemId: lex:monadh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-013
+  gd: "Bha e stoirmeil a-raoir."
+  en: "It was stormy last night."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "e", itemId: lex:e }
+    - { text: "stoirmeil", itemId: lex:stoirmeil }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: bha-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-014
+  gd: "Tha an loch reòta."
+  en: "The loch is frozen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: "reòta", itemId: lex:reota }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-015
+  gd: "Bidh e frasach a-màireach."
+  en: "It will be showery tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "e", itemId: lex:e }
+    - { text: "frasach", itemId: lex:frasach }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-016
+  gd: "Tha an t-sìde garbh."
+  en: "The weather is rough."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sìde", itemId: lex:side }
+    - { text: "garbh", itemId: lex:garbh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-017
+  gd: "'S e latha glan a th' ann."
+  en: "It is a clear day."
+  altGd: []
+  tokens:
+    - { text: "'S", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "latha", itemId: lex:latha }
+    - { text: "glan", itemId: lex:glan }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-018
+  gd: "Tha sgòth mhòr anns an speur."
+  en: "There is a big cloud in the sky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgòth", itemId: lex:sgoth }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "speur", itemId: lex:speur }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-019
+  gd: "Bha fras ann sa mhadainn."
+  en: "There was a shower in the morning."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "fras", itemId: lex:fras }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "mhadainn", itemId: lex:madainn }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-P-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-020
+  gd: "Tha stoirm a' tighinn."
+  en: "A storm is coming."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "stoirm", itemId: lex:stoirm }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-021
+  gd: "Chuala mi tàirneanach a-raoir."
+  en: "I heard thunder last night."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "tàirneanach", itemId: lex:tairneanach }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-022
+  gd: "Chunnaic mi dealanach."
+  en: "I saw lightning."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "dealanach", itemId: lex:dealanach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-023
+  gd: "Bha clach-mheallain ann an-dè."
+  en: "There was hail yesterday."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "clach-mheallain", itemId: lex:clach-mheallain }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "an-dè", itemId: lex:an-de }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-P-ADV
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-024
+  gd: "Bidh reothadh ann a-nochd."
+  en: "There will be frost tonight."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "reothadh", itemId: lex:reothadh }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: bidh-N-ann-P-ADV
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-025
+  gd: "Tha deigh air an rathad."
+  en: "There is ice on the road."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "deigh", itemId: lex:deigh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "rathad", itemId: lex:rathad }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-026
+  gd: "Tha ceathach air an loch."
+  en: "There is fog on the loch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceathach", itemId: lex:ceathach }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-027
+  gd: "Tha driùchd air an fheur."
+  en: "There is dew on the grass."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "driùchd", itemId: lex:driuchd }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fheur", itemId: lex:feur }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-028
+  gd: "Chunnaic sinn bogha-froise!"
+  en: "We saw a rainbow!"
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "bogha-froise", itemId: lex:bogha-froise }
+    - { text: "!", itemId: null }
+  pattern: V-P-N
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-029
+  gd: "Tha teas mòr ann an-diugh."
+  en: "There is great heat today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "teas", itemId: lex:teas }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P-ADV
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-030
+  gd: "Tha fuachd orm."
+  en: "I feel cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fuachd", itemId: lex:fuachd }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-031
+  gd: "Dè an teòthachd an-diugh?"
+  en: "What is the temperature today?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "teòthachd", itemId: lex:teothachd }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-032
+  gd: "Bha tuil anns a' ghleann."
+  en: "There was a flood in the glen."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "tuil", itemId: lex:tuil }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-art-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-033
+  gd: "Bha tart ann anns an t-samhradh."
+  en: "There was a drought in the summer."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "tart", itemId: lex:tart }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-samhradh", itemId: lex:samhradh }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-P-ann-art-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-034
+  gd: "Tha cathadh air a' bheinn."
+  en: "There is a blizzard on the mountain."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cathadh", itemId: lex:cathadh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weather, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-035
+  gd: "Tha oiteag bhlàth ann."
+  en: "There is a warm breeze."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "oiteag", itemId: lex:oiteag }
+    - { text: "bhlàth", itemId: lex:blath }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-036
+  gd: "Bha gailleann ann a-raoir."
+  en: "There was a gale last night."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "gailleann", itemId: lex:gailleann }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-P-ADV
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-037
+  gd: "Tha dìle ann!"
+  en: "It's pouring!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dìle", itemId: lex:dile }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "!", itemId: null }
+  pattern: tha-N-ann-P
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-038
+  gd: "Dè an ro-aithris airson a-màireach?"
+  en: "What is the forecast for tomorrow?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "ro-aithris", itemId: lex:ro-aithris }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-airson-ADV
+  tags: [topic:weather, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-039
+  gd: "Tha e a' sileadh."
+  en: "It is raining."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "sileadh", itemId: lex:sil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-040
+  gd: "Tha a' ghaoth a' sèideadh."
+  en: "The wind is blowing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghaoth", itemId: lex:gaoth }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "sèideadh", itemId: lex:seid }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-041
+  gd: "Tha an sneachda a' leaghadh."
+  en: "The snow is melting."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "leaghadh", itemId: lex:leagh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-042
+  gd: "Tha a' ghrian a' deàrrsadh."
+  en: "The sun is shining."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghrian", itemId: lex:grian }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "deàrrsadh", itemId: lex:dearrs }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-043
+  gd: "Tha an sneachda a' tuiteam."
+  en: "The snow is falling."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tuiteam", itemId: lex:tuit }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-044
+  gd: "Tha e fuar san Fhaoilleach."
+  en: "It is cold in January."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: "san", itemId: lex:ann }
+    - { text: "Fhaoilleach", itemId: lex:faoilleach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-045
+  gd: "Tha an Gearran fliuch."
+  en: "February is wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "Gearran", itemId: lex:gearran }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-046
+  gd: "Bidh a' ghaoth làidir sa Mhàrt."
+  en: "The wind is strong in March."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghaoth", itemId: lex:gaoth }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "Mhàrt", itemId: lex:mart }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ADJ-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-047
+  gd: "Bidh na h-uain a' tighinn sa Ghiblean."
+  en: "The lambs come in April."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-uain", itemId: lex:uan }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "Ghiblean", itemId: lex:giblean }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-V-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-048
+  gd: "Tha an Cèitean blàth."
+  en: "May is warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "Cèitean", itemId: lex:ceitean }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-049
+  gd: "Tha an t-Ògmhios grianach."
+  en: "June is sunny."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-Ògmhios", itemId: lex:ogmhios }
+    - { text: "grianach", itemId: lex:grianach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-050
+  gd: "Tha an t-Iuchar teth."
+  en: "July is hot."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-Iuchar", itemId: lex:iuchar }
+    - { text: "teth", itemId: lex:teth }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-051
+  gd: "Bidh mi a' dol a Leòdhas san Lùnastal."
+  en: "I go to Lewis in August."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "a", itemId: lex:a }
+    - { text: "Leòdhas", itemId: lex:leodhas }
+    - { text: "san", itemId: lex:ann }
+    - { text: "Lùnastal", itemId: lex:lunastal }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-a-N-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-052
+  gd: "Tha an t-Sultain fliuch."
+  en: "September is wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-Sultain", itemId: lex:sultain }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-053
+  gd: "Tha an Dàmhair gaothach."
+  en: "October is windy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "Dàmhair", itemId: lex:damhair }
+    - { text: "gaothach", itemId: lex:gaothach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-054
+  gd: "Tha Oidhche Shamhna san t-Samhain."
+  en: "Halloween is in November."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Oidhche Shamhna", itemId: lex:oidhche-shamhna }
+    - { text: "san", itemId: lex:ann }
+    - { text: "t-Samhain", itemId: lex:samhain }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-055
+  gd: "Bidh an Nollaig san Dùbhlachd."
+  en: "Christmas is in December."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "an", itemId: lex:an }
+    - { text: "Nollaig", itemId: lex:nollaig }
+    - { text: "san", itemId: lex:ann }
+    - { text: "Dùbhlachd", itemId: lex:dubhlachd }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ann-N
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-056
+  gd: "Tha uisge ann a-rithist!"
+  en: "It's raining again!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uisge", itemId: lex:uisge }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "a-rithist", itemId: lex:a-rithist }
+    - { text: "!", itemId: null }
+  pattern: tha-N-ann-P-ADV
+  tags: [topic:weather, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-057
+  gd: "Bha an geamhradh fuar agus fliuch."
+  en: "The winter was cold and wet."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "geamhradh", itemId: lex:geamhradh }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ-agus-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-058
+  gd: "Tha an t-earrach blàth am-bliadhna."
+  en: "The spring is warm this year."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-earrach", itemId: lex:earrach }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: "am-bliadhna", itemId: lex:am-bliadhna }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-059
+  gd: "Tha e cho fuar an-diugh!"
+  en: "It is so cold today!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "cho", itemId: lex:cho }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: "!", itemId: null }
+  pattern: tha-P-ADV-ADJ-ADV
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weather-060
+  gd: "Ged a tha e fuar, tha e grianach."
+  en: "Although it is cold, it is sunny."
+  altGd: []
+  tokens:
+    - { text: "Ged", itemId: lex:ged }
+    - { text: "a", itemId: lex:a }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ",", itemId: null }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "grianach", itemId: lex:grianach }
+    - { text: ".", itemId: null }
+  pattern: ged-a-tha-P-ADJ-tha-P-ADJ
+  tags: [topic:weather]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

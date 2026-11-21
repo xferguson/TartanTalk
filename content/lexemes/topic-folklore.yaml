@@ -1,0 +1,513 @@
+# folklore vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:sithiche
+  gd: "sìthiche"
+  en: "fairy"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sith
+  gd: "sìth"
+  en: "peace"
+  pos: noun
+  gender: f
+  freqRank: 1124
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sithean
+  gd: "sìthean"
+  en: "fairy hill"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bean-shith
+  gd: "bean-shìth"
+  en: "banshee, fairy woman"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:each-uisge
+  gd: "each-uisge"
+  en: "water horse, kelpie"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uruisg
+  gd: "ùruisg"
+  en: "brownie, goblin of the waterfall"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glaistig
+  gd: "glaistig"
+  en: "glaistig (a female spirit)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:brunaidh
+  gd: "brùnaidh"
+  en: "brownie"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taibhse
+  gd: "taibhse"
+  en: "ghost"
+  pos: noun
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bocan
+  gd: "bòcan"
+  en: "bogle, spook"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bana-bhuidseach
+  gd: "bana-bhuidseach"
+  en: "witch"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:draoidh
+  gd: "draoidh"
+  en: "druid, wizard"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:draoidheachd
+  gd: "draoidheachd"
+  en: "magic"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geas
+  gd: "geas"
+  en: "spell, taboo"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mallachd
+  gd: "mallachd"
+  en: "curse"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seun
+  gd: "seun"
+  en: "charm"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:da-shealladh
+  gd: "dà shealladh"
+  en: "second sight"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faisneachd
+  gd: "fàisneachd"
+  en: "prophecy"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fiosaiche
+  gd: "fiosaiche"
+  en: "seer, fortune-teller"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seanchaidh
+  gd: "seanchaidh"
+  en: "storyteller, tradition bearer"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgeul
+  gd: "sgeul"
+  en: "tale, story"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgeulachd
+  gd: "sgeulachd"
+  en: "story"
+  pos: noun
+  gender: f
+  freqRank: 261
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uirsgeul
+  gd: "uirsgeul"
+  en: "myth, legend"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fionn
+  gd: "Fionn"
+  en: "Fionn (Fionn mac Cumhaill)"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:curaidh
+  gd: "curaidh"
+  en: "champion, warrior"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gaisgeach
+  gd: "gaisgeach"
+  en: "hero, warrior"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:famhair
+  gd: "famhair"
+  en: "giant"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dragon
+  gd: "dràgon"
+  en: "dragon"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uilebheist
+  gd: "uilebheist"
+  en: "monster"
+  pos: noun
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maighdeann-mhara
+  gd: "maighdeann-mhara"
+  en: "mermaid"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maighdeann
+  gd: "maighdeann"
+  en: "maiden"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:righ
+  gd: "rìgh"
+  en: "king"
+  pos: noun
+  gender: m
+  freqRank: 141
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:banrigh
+  gd: "banrigh"
+  en: "queen"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:prionnsa
+  gd: "prionnsa"
+  en: "prince"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bana-phrionnsa
+  gd: "bana-phrionnsa"
+  en: "princess"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:claidheamh
+  gd: "claidheamh"
+  en: "sword"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:or
+  gd: "òr"
+  en: "gold"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionmhas
+  gd: "ionmhas"
+  en: "treasure"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:draoidheil
+  gd: "draoidheil"
+  en: "magical"
+  pos: adjective
+  tags: [pos:adjective, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uamhasach
+  gd: "uamhasach"
+  en: "terrible, awful"
+  pos: adjective
+  freqRank: 637
+  tags: [pos:adjective, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eagalach
+  gd: "eagalach"
+  en: "frightening"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diomhair
+  gd: "dìomhair"
+  en: "secret, mysterious"
+  pos: adjective
+  freqRank: 995
+  tags: [pos:adjective, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:run
+  gd: "rùn"
+  en: "secret, intention"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bas
+  gd: "bàs"
+  en: "death"
+  pos: noun
+  gender: m
+  freqRank: 455
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:marbh
+  gd: "marbh"
+  en: "dead"
+  pos: adjective
+  freqRank: 477
+  tags: [pos:adjective, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:anam
+  gd: "anam"
+  en: "soul"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:neamh
+  gd: "neamh"
+  en: "heaven"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diabhal
+  gd: "diabhal"
+  en: "devil"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aingeal
+  gd: "aingeal"
+  en: "angel"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tursa
+  gd: "tursa"
+  en: "standing stone"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cladh
+  gd: "cladh"
+  en: "graveyard"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cailleach
+  gd: "cailleach"
+  en: "old woman, hag"
+  pos: noun
+  gender: f
+  freqRank: 504
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bodach
+  gd: "bodach"
+  en: "old man"
+  pos: noun
+  gender: m
+  freqRank: 530
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mac-talla
+  gd: "mac-talla"
+  en: "echo"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgail
+  gd: "sgàil"
+  en: "shadow, shade"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:folklore]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

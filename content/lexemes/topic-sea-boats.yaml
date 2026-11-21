@@ -1,0 +1,473 @@
+# sea-boats vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:cuan
+  gd: "cuan"
+  en: "ocean, sea"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tonn
+  gd: "tonn"
+  en: "wave"
+  pos: noun
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seol-mara
+  gd: "seòl-mara"
+  en: "tide"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seol
+  gd: "seòl"
+  en: "sail"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seoladh
+  gd: "seòladh"
+  en: "sailing"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iasgair
+  gd: "iasgair"
+  en: "fisherman"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iasgach
+  gd: "iasgach"
+  en: "fishing"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lion
+  gd: "lìon"
+  en: "net"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slat-iasgaich
+  gd: "slat-iasgaich"
+  en: "fishing rod"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dubhan
+  gd: "dubhan"
+  en: "hook"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:acarsaid
+  gd: "acarsaid"
+  en: "harbour, anchorage"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cidhe
+  gd: "cidhe"
+  en: "pier, quay"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maraiche
+  gd: "maraiche"
+  en: "sailor"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgiobair
+  gd: "sgiobair"
+  en: "skipper"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ramh
+  gd: "ràmh"
+  en: "oar"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomair
+  gd: "iomair"
+  en: "row"
+  pos: verb
+  freqRank: 1124
+  tags: [pos:verb, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crann
+  gd: "crann"
+  en: "mast"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stiuir
+  gd: "stiùir"
+  en: "rudder, helm"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:acair
+  gd: "acair"
+  en: "anchor"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ropa
+  gd: "ròpa"
+  en: "rope"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eathar
+  gd: "eathar"
+  en: "small boat"
+  pos: noun
+  freqRank: 1550
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:long
+  gd: "long"
+  en: "ship"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bat-aiseig
+  gd: "bàt-aiseig"
+  en: "ferry"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aiseag
+  gd: "aiseag"
+  en: "ferry crossing"
+  pos: noun
+  freqRank: 604
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bradan
+  gd: "bradan"
+  en: "salmon"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgadan
+  gd: "sgadan"
+  en: "herring"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rionnach
+  gd: "rionnach"
+  en: "mackerel"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:trosg
+  gd: "trosg"
+  en: "cod"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:adag
+  gd: "adag"
+  en: "haddock"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:giomach
+  gd: "giomach"
+  en: "lobster"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:partan
+  gd: "partan"
+  en: "crab"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feusgan
+  gd: "feusgan"
+  en: "mussel"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maorach
+  gd: "maorach"
+  en: "shellfish"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faochag
+  gd: "faochag"
+  en: "whelk"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:muc-mhara
+  gd: "muc-mhara"
+  en: "whale"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leumadair
+  gd: "leumadair"
+  en: "dolphin"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sulaire
+  gd: "sùlaire"
+  en: "gannet"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buthaid
+  gd: "buthaid"
+  en: "puffin"
+  pos: noun
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cunnartach
+  gd: "cunnartach"
+  en: "dangerous"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bath
+  gd: "bàth"
+  en: "drown, quench"
+  pos: verb
+  freqRank: 889
+  tags: [pos:verb, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sal
+  gd: "sàl"
+  en: "salt water, brine"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cobhar
+  gd: "cobhar"
+  en: "foam"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grunnd
+  gd: "grunnd"
+  en: "bottom (of the sea), ground"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taigh-solais
+  gd: "taigh-solais"
+  en: "lighthouse"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cliabh
+  gd: "cliabh"
+  en: "creel, basket"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slige
+  gd: "slige"
+  en: "shell"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:costa
+  gd: "costa"
+  en: "coast"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caladh
+  gd: "caladh"
+  en: "harbour"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:falbh
+  gd: "falbh"
+  en: "go, leave"
+  pos: verb
+  freqRank: 54
+  tags: [pos:verb, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ruig
+  gd: "ruig"
+  en: "reach, arrive"
+  pos: verb
+  freqRank: 174
+  tags: [pos:verb, topic:sea-boats]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

@@ -1,0 +1,878 @@
+# Sentences for the farm-animals scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:farm-animals-001
+  gd: "Tha bò anns an achadh."
+  en: "There is a cow in the field."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bò", itemId: lex:bo }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "achadh", itemId: lex:achadh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-002
+  gd: "Tha an tarbh mòr agus feargach."
+  en: "The bull is big and angry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tarbh", itemId: lex:tarbh }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "feargach", itemId: lex:feargach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-003
+  gd: "Tha laogh ùr againn."
+  en: "We have a new calf."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "laogh", itemId: lex:laogh }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-004
+  gd: "Tha a' chaora geal."
+  en: "The sheep is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chaora", itemId: lex:caora }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-005
+  gd: "Tha adharcan mòra air an reithe."
+  en: "The ram has big horns."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "adharcan", itemId: lex:adharc }
+    - { text: "mòra", itemId: lex:mor }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "reithe", itemId: lex:reithe }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-006
+  gd: "Tha an t-uan beag."
+  en: "The lamb is small."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-uan", itemId: lex:uan }
+    - { text: "beag", itemId: lex:beag }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-007
+  gd: "Tha a' mhuc salach."
+  en: "The pig is dirty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhuc", itemId: lex:muc }
+    - { text: "salach", itemId: lex:salach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-008
+  gd: "Tha ugh aig a' chearc."
+  en: "The hen has an egg."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ugh", itemId: lex:ugh }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chearc", itemId: lex:cearc }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-009
+  gd: "Chuala mi an coileach sa mhadainn."
+  en: "I heard the cockerel in the morning."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:an }
+    - { text: "coileach", itemId: lex:coileach }
+    - { text: "sa", itemId: lex:ann }
+    - { text: "mhadainn", itemId: lex:madainn }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ann-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-010
+  gd: "Tha an tunnag air an loch."
+  en: "The duck is on the loch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tunnag", itemId: lex:tunnag }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-011
+  gd: "Tha gobhar air a' chreig."
+  en: "There is a goat on the rock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gobhar", itemId: lex:gobhar }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chreig", itemId: lex:creag }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-012
+  gd: "Tha searrach ri taobh na làire."
+  en: "There is a foal beside the mare."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "searrach", itemId: lex:searrach }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "taobh", itemId: lex:taobh }
+    - { text: "na", itemId: lex:na }
+    - { text: "làire", itemId: lex:lair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ri-N-art-N
+  tags: [topic:farm-animals, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-013
+  gd: "Is e asal bheag a th' ann."
+  en: "It is a little donkey."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "asal", itemId: lex:asal }
+    - { text: "bheag", itemId: lex:beag }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-014
+  gd: "Tha an crodh anns a' bhàthaich."
+  en: "The cattle are in the byre."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "crodh", itemId: lex:crodh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhàthaich", itemId: lex:bathach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-015
+  gd: "Tha an sprèidh air a' mhonadh."
+  en: "The livestock are on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sprèidh", itemId: lex:spreidh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhonadh", itemId: lex:monadh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-016
+  gd: "Tha treud mòr aig a' chìobair."
+  en: "The shepherd has a big flock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "treud", itemId: lex:treud }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chìobair", itemId: lex:ciobair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-017
+  gd: "Tha am buachaille còmhla ris a' chrodh."
+  en: "The herdsman is with the cattle."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "buachaille", itemId: lex:buachaille }
+    - { text: "còmhla", itemId: lex:comhla }
+    - { text: "ris", itemId: lex:ri }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chrodh", itemId: lex:crodh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ri-art-N
+  tags: [topic:farm-animals, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-018
+  gd: "Tha an cù-chaorach glic."
+  en: "The sheepdog is clever."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù-chaorach", itemId: lex:cu-chaorach }
+    - { text: "glic", itemId: lex:glic }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-019
+  gd: "Tha na h-iseanan buidhe."
+  en: "The chicks are yellow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-iseanan", itemId: lex:isean }
+    - { text: "buidhe", itemId: lex:buidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-020
+  gd: "Bidh i a' bleoghann na bà."
+  en: "She milks the cow."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "i", itemId: lex:i }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "bleoghann", itemId: lex:bleoghain }
+    - { text: "na", itemId: lex:na }
+    - { text: "bà", itemId: lex:bo }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-art-N
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-021
+  gd: "Bhiath sinn na cearcan."
+  en: "We fed the hens."
+  altGd: []
+  tokens:
+    - { text: "Bhiath", itemId: lex:biath }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "na", itemId: lex:na }
+    - { text: "cearcan", itemId: lex:cearc }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-022
+  gd: "Tha na caoraich anns a' bhuaile."
+  en: "The sheep are in the fold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "caoraich", itemId: lex:caora }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhuaile", itemId: lex:buaile }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-023
+  gd: "Tha an t-each anns an stàball."
+  en: "The horse is in the stable."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-each", itemId: lex:each }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "stàball", itemId: lex:staball }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-024
+  gd: "Thoir fodar dhan each."
+  en: "Give fodder to the horse."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "fodar", itemId: lex:fodar }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "each", itemId: lex:each }
+    - { text: ".", itemId: null }
+  pattern: V-N-do-N
+  tags: [topic:farm-animals, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-025
+  gd: "Tha connlach air an làr."
+  en: "There is straw on the floor."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "connlach", itemId: lex:connlach }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "làr", itemId: lex:lar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-026
+  gd: "Tha earball fada aig a' chat."
+  en: "The cat has a long tail."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "earball", itemId: lex:earball }
+    - { text: "fada", itemId: lex:fada }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chat", itemId: lex:cat }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-027
+  gd: "Is e leathar a th' ann."
+  en: "It is leather."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "leathar", itemId: lex:leathar }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-028
+  gd: "Tha pònaidh aig an nighean."
+  en: "The girl has a pony."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "pònaidh", itemId: lex:ponaidh }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "nighean", itemId: lex:nighean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-029
+  gd: "Tha piseag ùr againn."
+  en: "We have a new kitten."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "piseag", itemId: lex:piseag }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-030
+  gd: "Tha an cuilean a' cluich."
+  en: "The puppy is playing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cuilean", itemId: lex:cuilean }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-031
+  gd: "Tha luch anns a' chidsin."
+  en: "There is a mouse in the kitchen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "luch", itemId: lex:luch }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidsin", itemId: lex:cidsin }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-032
+  gd: "Chunnaic mi radan anns an t-sabhal."
+  en: "I saw a rat in the barn."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "radan", itemId: lex:radan }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sabhal", itemId: lex:sabhal }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ann-art-N
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-033
+  gd: "Tha calman air a' mhullach."
+  en: "There is a pigeon on the roof."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "calman", itemId: lex:calman }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhullach", itemId: lex:mullach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-034
+  gd: "Ithidh sinn turcaidh aig an Nollaig."
+  en: "We will eat turkey at Christmas."
+  altGd: []
+  tokens:
+    - { text: "Ithidh", itemId: lex:ith }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "turcaidh", itemId: lex:turcaidh }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "Nollaig", itemId: lex:nollaig }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-035
+  gd: "Tha an gamhainn làidir."
+  en: "The stirk is strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gamhainn", itemId: lex:gamhainn }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-036
+  gd: "Tha an agh òg."
+  en: "The heifer is young."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "agh", itemId: lex:agh }
+    - { text: "òg", itemId: lex:og }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-037
+  gd: "Is toigh leam a' bhò Ghàidhealach."
+  en: "I like the Highland cow."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhò", itemId: lex:bo }
+    - { text: "Ghàidhealach", itemId: lex:gaidhealach }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N-ADJ
+  tags: [topic:farm-animals, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-038
+  gd: "Rinn an cù comhart."
+  en: "The dog barked."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù", itemId: lex:cu }
+    - { text: "comhart", itemId: lex:comhart }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:farm-animals]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-039
+  gd: "Rinn a' bhò geum."
+  en: "The cow lowed."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhò", itemId: lex:bo }
+    - { text: "geum", itemId: lex:geum }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:farm-animals]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-040
+  gd: "Chuala mi mèilich nan caorach."
+  en: "I heard the bleating of the sheep."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "mèilich", itemId: lex:meilich }
+    - { text: "nan", itemId: lex:na }
+    - { text: "caorach", itemId: lex:caora }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-art-N
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-041
+  gd: "Tha peata agam."
+  en: "I have a pet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "peata", itemId: lex:peata }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-042
+  gd: "Is e beathach mòr a th' ann."
+  en: "It is a big animal."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "beathach", itemId: lex:beathach }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:farm-animals, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-043
+  gd: "Tha tuathanas aig m' uncail."
+  en: "My uncle has a farm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tuathanas", itemId: lex:tuathanas }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "uncail", itemId: lex:uncail }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-044
+  gd: "Tha an tuathanach trang."
+  en: "The farmer is busy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tuathanach", itemId: lex:tuathanach }
+    - { text: "trang", itemId: lex:trang }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-045
+  gd: "Is toigh leam a bhith a' marcachd."
+  en: "I like riding."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "a", itemId: lex:a }
+    - { text: "bhith", itemId: lex:bi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "marcachd", itemId: lex:marcaich }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-a-V-ag-V
+  tags: [topic:farm-animals, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-046
+  gd: "Tha an dìollaid air an each."
+  en: "The saddle is on the horse."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dìollaid", itemId: lex:diollaid }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "each", itemId: lex:each }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:farm-animals, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-047
+  gd: "Tha an t-each luath."
+  en: "The horse is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-each", itemId: lex:each }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-048
+  gd: "Tha bainne aig a' bhò."
+  en: "The cow has milk."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bainne", itemId: lex:bainne }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhò", itemId: lex:bo }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-049
+  gd: "Tha na h-eich a' ruith."
+  en: "The horses are running."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-eich", itemId: lex:each }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ruith", itemId: lex:ruith }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-art-V
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-050
+  gd: "Tha an cat a' cadal."
+  en: "The cat is sleeping."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cat", itemId: lex:cat }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cadal", itemId: lex:caidil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:farm-animals]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:farm-animals-051
+  gd: "Tha aon chù a-mhàin agam."
+  en: "I have only one dog."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "aon", itemId: lex:aon }
+    - { text: "chù", itemId: lex:cu }
+    - { text: "a-mhàin", itemId: lex:a-mhain }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-NUM-N-ADV-aig-P
+  tags: [topic:farm-animals, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

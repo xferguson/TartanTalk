@@ -1,0 +1,865 @@
+# Sentences for the clothing scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:clothing-001
+  gd: "Tha aodach ùr agam."
+  en: "I have new clothes."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "aodach", itemId: lex:aodach }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-002
+  gd: "Tha e a' caitheamh fèileadh."
+  en: "He is wearing a kilt."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "caitheamh", itemId: lex:caith }
+    - { text: "fèileadh", itemId: lex:feileadh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-003
+  gd: "Bha am fèileadh-mòr fada."
+  en: "The great kilt was long."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fèileadh-mòr", itemId: lex:feileadh-mor }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-004
+  gd: "Cuir ort do bhriogais."
+  en: "Put on your trousers."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "bhriogais", itemId: lex:briogais }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-P-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-005
+  gd: "Tha triubhas tartain air.3sg-m."
+  en: "He is wearing tartan trews."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "triubhas", itemId: lex:triubhas }
+    - { text: "tartain", itemId: lex:tartan }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-air-P
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-006
+  gd: "Tha an lèine geal."
+  en: "The shirt is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lèine", itemId: lex:leine }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-007
+  gd: "Cuir ort do sheacaid."
+  en: "Put on your jacket."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "sheacaid", itemId: lex:seacaid }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-P-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-008
+  gd: "Cuir ort do chòta, tha e fuar."
+  en: "Put on your coat, it's cold."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "chòta", itemId: lex:cota }
+    - { text: ",", itemId: null }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-P-N-tha-P-ADJ
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-009
+  gd: "Tha geansaidh blàth agam."
+  en: "I have a warm jumper."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "geansaidh", itemId: lex:geansaidh }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-010
+  gd: "Tha an sgiort dearg."
+  en: "The skirt is red."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgiort", itemId: lex:sgiort }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-011
+  gd: "Tha dreasa ùr aice."
+  en: "She has a new dress."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dreasa", itemId: lex:dreasa }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-012
+  gd: "Cuir ort d' ad."
+  en: "Put on your hat."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: "d'", itemId: lex:do-your }
+    - { text: "ad", itemId: lex:ad }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-P-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-013
+  gd: "Tha bonaid air a cheann."
+  en: "He has a bonnet on his head."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bonaid", itemId: lex:bonaid }
+    - { text: "air", itemId: lex:air }
+    - { text: "a", itemId: lex:a }
+    - { text: "cheann", itemId: lex:ceann }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-a-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-014
+  gd: "Tha mo bhrògan fliuch."
+  en: "My shoes are wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhrògan", itemId: lex:brog }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-015
+  gd: "Tha bòtannan agam airson an t-sneachda."
+  en: "I have boots for the snow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bòtannan", itemId: lex:botann }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sneachda", itemId: lex:sneachda }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-airson-art-N
+  tags: [topic:clothing, prep:aig, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-016
+  gd: "Tha toll anns an stocainn agam."
+  en: "There is a hole in my sock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "toll", itemId: lex:toll }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "stocainn", itemId: lex:stocainn }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-aig-P
+  tags: [topic:clothing, prep:ann, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-017
+  gd: "Cuir ort do mhiotagan."
+  en: "Put on your gloves."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "mhiotagan", itemId: lex:miotag }
+    - { text: ".", itemId: null }
+  pattern: V-air-P-P-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-018
+  gd: "Fighidh mo sheanmhair sgarfa dhomh."
+  en: "My grandmother will weave a scarf for me."
+  altGd: []
+  tokens:
+    - { text: "Fighidh", itemId: lex:figh }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanmhair", itemId: lex:seanmhair }
+    - { text: "sgarfa", itemId: lex:sgarfa }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-N-do-P
+  tags: [topic:clothing, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-019
+  gd: "Tha an crios ro theann."
+  en: "The belt is too tight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "crios", itemId: lex:crios }
+    - { text: "ro", itemId: lex:ro }
+    - { text: "theann", itemId: lex:teann }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-020
+  gd: "Tha sporan air a' phìobaire."
+  en: "The piper is wearing a sporran."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sporan", itemId: lex:sporan }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phìobaire", itemId: lex:piobaire }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-021
+  gd: "Tha sgian-dubh aige."
+  en: "He has a sgian dubh."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgian-dubh", itemId: lex:sgian-dubh }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-022
+  gd: "Tha bràiste airgid air a' bhreacan."
+  en: "There is a silver brooch on the plaid."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bràiste", itemId: lex:braiste }
+    - { text: "airgid", itemId: lex:airgead }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhreacan", itemId: lex:breacan }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-air-art-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-023
+  gd: "Chaill mi putan."
+  en: "I lost a button."
+  altGd: []
+  tokens:
+    - { text: "Chaill", itemId: lex:caill }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "putan", itemId: lex:putan }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-024
+  gd: "Tha airgead anns a' phòcaid agam."
+  en: "There is money in my pocket."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "airgead", itemId: lex:airgead }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phòcaid", itemId: lex:pocaid }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-aig-P
+  tags: [topic:clothing, prep:ann, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-025
+  gd: "Tha aparan air a' chòcaire."
+  en: "The cook is wearing an apron."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "aparan", itemId: lex:aparan }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chòcaire", itemId: lex:cocaire }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-026
+  gd: "Rinn an tàillear deise."
+  en: "The tailor made a suit."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "an", itemId: lex:an }
+    - { text: "tàillear", itemId: lex:taillear }
+    - { text: "deise", itemId: lex:deise }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-027
+  gd: "Tha an lèine salach."
+  en: "The shirt is dirty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lèine", itemId: lex:leine }
+    - { text: "salach", itemId: lex:salach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-028
+  gd: "Tha e spaideil an-diugh."
+  en: "He is smart today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "spaideil", itemId: lex:spaideil }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-029
+  gd: "Tha an dreasa fasanta."
+  en: "The dress is fashionable."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dreasa", itemId: lex:dreasa }
+    - { text: "fasanta", itemId: lex:fasanta }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-030
+  gd: "Tha an t-seacaid freagarrach."
+  en: "The jacket is suitable."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-seacaid", itemId: lex:seacaid }
+    - { text: "freagarrach", itemId: lex:freagarrach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-031
+  gd: "Tha na brògan teann."
+  en: "The shoes are tight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "brògan", itemId: lex:brog }
+    - { text: "teann", itemId: lex:teann }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-032
+  gd: "Tha an geansaidh fuasgailte."
+  en: "The jumper is loose."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "geansaidh", itemId: lex:geansaidh }
+    - { text: "fuasgailte", itemId: lex:fuasgailte }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-033
+  gd: "Iarnaig an lèine."
+  en: "Iron the shirt."
+  altGd: []
+  tokens:
+    - { text: "Iarnaig", itemId: lex:iarnaig }
+    - { text: "an", itemId: lex:an }
+    - { text: "lèine", itemId: lex:leine }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-034
+  gd: "Tha deise ùr aige."
+  en: "He has a new suit."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "deise", itemId: lex:deise }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-035
+  gd: "Tha èideadh sgoile orra."
+  en: "They are wearing school uniform."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "èideadh", itemId: lex:eideadh }
+    - { text: "sgoile", itemId: lex:sgoil }
+    - { text: "orra", itemId: form:air.3pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-air-P
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-036
+  gd: "Nigh am fo-aodach."
+  en: "Wash the underwear."
+  altGd: []
+  tokens:
+    - { text: "Nigh", itemId: lex:nigh }
+    - { text: "am", itemId: lex:an }
+    - { text: "fo-aodach", itemId: lex:fo-aodach }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-037
+  gd: "Tha am baga trom."
+  en: "The bag is heavy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "baga", itemId: lex:baga }
+    - { text: "trom", itemId: lex:trom }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-038
+  gd: "Càite a bheil na speuclairean agam?"
+  en: "Where are my glasses?"
+  altGd: []
+  tokens:
+    - { text: "Càite", itemId: lex:caite }
+    - { text: "a", itemId: lex:a }
+    - { text: "bheil", itemId: lex:eil }
+    - { text: "na", itemId: lex:na }
+    - { text: "speuclairean", itemId: lex:speuclairean }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "?", itemId: null }
+  pattern: X-a-eil-art-N-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-039
+  gd: "Tha am fasan seo snog."
+  en: "This fashion is nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fasan", itemId: lex:fasan }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "snog", itemId: lex:snog }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-040
+  gd: "Dè am meud a th' agad?"
+  en: "What size are you?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "am", itemId: lex:an }
+    - { text: "meud", itemId: lex:meud }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-041
+  gd: "Dè a' phrìs a th' air.3sg-m?"
+  en: "What is the price of it?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phrìs", itemId: lex:pris }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-air-P
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-042
+  gd: "Tha an còta seo daor."
+  en: "This coat is expensive."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "còta", itemId: lex:cota }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "daor", itemId: lex:daor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-043
+  gd: "Tha an lèine seo saor."
+  en: "This shirt is cheap."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lèine", itemId: lex:leine }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "saor", itemId: lex:saor-cheap }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-044
+  gd: "Tha bùth aodaich anns a' bhaile."
+  en: "There is a clothes shop in the town."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bùth", itemId: lex:buth }
+    - { text: "aodaich", itemId: lex:aodach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-ann-art-N
+  tags: [topic:clothing, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-045
+  gd: "Is toigh leam an seòrsa seo."
+  en: "I like this kind."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "seòrsa", itemId: lex:seorsa }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N-X
+  tags: [topic:clothing, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-046
+  gd: "Tha ribean air an tiodhlac."
+  en: "There is a ribbon on the present."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ribean", itemId: lex:ribean }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "tiodhlac", itemId: lex:tiodhlac }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:clothing, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-047
+  gd: "Tha falt fada oirre."
+  en: "She has long hair."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "falt", itemId: lex:falt }
+    - { text: "fada", itemId: lex:fada }
+    - { text: "oirre", itemId: form:air.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-P
+  tags: [topic:clothing, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-048
+  gd: "Bhuail e a ghlùn."
+  en: "He hit his knee."
+  altGd: []
+  tokens:
+    - { text: "Bhuail", itemId: lex:buail }
+    - { text: "e", itemId: lex:e }
+    - { text: "a", itemId: lex:a }
+    - { text: "ghlùn", itemId: lex:glun }
+    - { text: ".", itemId: null }
+  pattern: V-P-a-N
+  tags: [topic:clothing]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-049
+  gd: "Tha lèine-oidhche ùr aice."
+  en: "She has a new nightdress."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "lèine-oidhche", itemId: lex:leine-oidhche }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-050
+  gd: "Cuir dhìot do chòta."
+  en: "Take off your coat."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "dhìot", itemId: form:de.2sg }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "chòta", itemId: lex:cota }
+    - { text: ".", itemId: null }
+  pattern: V-de-P-P-N
+  tags: [topic:clothing, prep:de]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-051
+  gd: "Tha sgarfa tartain agam."
+  en: "I have a tartan scarf."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgarfa", itemId: lex:sgarfa }
+    - { text: "tartain", itemId: lex:tartan }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-aig-P
+  tags: [topic:clothing, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:clothing-052
+  gd: "Tha tè eile anns a' bhùth."
+  en: "There is another one in the shop."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tè", itemId: lex:te }
+    - { text: "eile", itemId: lex:eile }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhùth", itemId: lex:buth }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:clothing, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

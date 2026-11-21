@@ -1,0 +1,653 @@
+# proverbs vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:seanfhacal
+  gd: "seanfhacal"
+  en: "proverb"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fhearr
+  gd: "fheàrr"
+  en: "better (is fheàrr: is better, is fheàrr leam: I prefer)"
+  pos: adjective
+  freqRank: 889
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:minig
+  gd: "minig"
+  en: "often (is minig: it is often)"
+  pos: adjective
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tric
+  gd: "tric"
+  en: "often, frequent"
+  pos: adjective
+  freqRank: 235
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:foighidinn
+  gd: "foighidinn"
+  en: "patience"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:furtachd
+  gd: "furtachd"
+  en: "relief, comfort"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gliocas
+  gd: "gliocas"
+  en: "wisdom"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:amadan
+  gd: "amadan"
+  en: "fool"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aineolas
+  gd: "aineolas"
+  en: "ignorance"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eallach
+  gd: "eallach"
+  en: "burden, load"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:trom
+  gd: "trom"
+  en: "heavy"
+  pos: adjective
+  freqRank: 799
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aotrom
+  gd: "aotrom"
+  en: "light (not heavy)"
+  pos: adjective
+  freqRank: 1124
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beairteas
+  gd: "beairteas"
+  en: "wealth, riches"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bochd
+  gd: "bochd"
+  en: "poor"
+  pos: adjective
+  freqRank: 530
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saidhbhir
+  gd: "saidhbhir"
+  en: "rich, wealthy"
+  pos: adjective
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuirt
+  gd: "cùirt"
+  en: "court"
+  pos: noun
+  gender: f
+  freqRank: 889
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crun
+  gd: "crùn"
+  en: "crown"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dorn
+  gd: "dòrn"
+  en: "fist (làn dùirn: a handful)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toit
+  gd: "toit"
+  en: "smoke, steam"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cabhag
+  gd: "cabhag"
+  en: "hurry, haste"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maille
+  gd: "maille"
+  en: "delay"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luathas
+  gd: "luathas"
+  en: "speed"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grinneas
+  gd: "grinneas"
+  en: "neatness, elegance"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comhla
+  gd: "còmhla"
+  en: "together (còmhla ri: along with)"
+  pos: adverb
+  freqRank: 116
+  tags: [pos:adverb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mol
+  gd: "mol"
+  en: "praise"
+  pos: verb
+  freqRank: 404
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teich
+  gd: "teich"
+  en: "flee, retreat"
+  pos: verb
+  freqRank: 889
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mair
+  gd: "mair"
+  en: "last, endure"
+  pos: verb
+  freqRank: 680
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fiach
+  gd: "fiach"
+  en: "worth, debt (is fhiach e: it is worth it)"
+  pos: noun
+  gender: m
+  freqRank: 565
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beul
+  gd: "beul"
+  en: "mouth"
+  pos: noun
+  gender: m
+  freqRank: 390
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aithris
+  gd: "aithris"
+  en: "tell, recite"
+  pos: verb
+  freqRank: 565
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cogadh
+  gd: "cogadh"
+  en: "war"
+  pos: noun
+  gender: m
+  freqRank: 358
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comann
+  gd: "comann"
+  en: "company, society"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fiacail
+  gd: "fiacail"
+  en: "tooth"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:olc
+  gd: "olc"
+  en: "evil, harm"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mathas
+  gd: "mathas"
+  en: "goodness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diomhain
+  gd: "dìomhain"
+  en: "idle"
+  pos: adjective
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:urram
+  gd: "urram"
+  en: "respect, honour"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:onair
+  gd: "onair"
+  en: "honour"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:firinn
+  gd: "fìrinn"
+  en: "truth"
+  pos: noun
+  gender: f
+  freqRank: 799
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:breug
+  gd: "breug"
+  en: "lie"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slainte
+  gd: "slàinte"
+  en: "health"
+  pos: noun
+  gender: f
+  freqRank: 680
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leigheas
+  gd: "leigheas"
+  en: "cure, remedy"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tinn
+  gd: "tinn"
+  en: "ill, sick"
+  pos: adjective
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caochladh
+  gd: "caochladh"
+  en: "change"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:atharraich
+  gd: "atharraich"
+  en: "change"
+  pos: verb
+  freqRank: 530
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toiseach
+  gd: "toiseach"
+  en: "beginning, front"
+  pos: noun
+  gender: m
+  freqRank: 151
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deireadh
+  gd: "deireadh"
+  en: "end"
+  pos: noun
+  gender: m
+  freqRank: 124
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glaodh
+  gd: "glaodh"
+  en: "shout, cry"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diol
+  gd: "dìol"
+  en: "pay for, repay"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:abhaist
+  gd: "àbhaist"
+  en: "custom, habit (mar as àbhaist: as usual)"
+  pos: noun
+  gender: f
+  freqRank: 637
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:doigh
+  gd: "dòigh"
+  en: "way, manner (air mo dhòigh: delighted)"
+  pos: noun
+  gender: f
+  freqRank: 124
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomadh
+  gd: "iomadh"
+  en: "many a"
+  pos: adjective
+  freqRank: 371
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:briste
+  gd: "briste"
+  en: "broken"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ciste
+  gd: "ciste"
+  en: "chest, coffin"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buil
+  gd: "buil"
+  en: "effect, result"
+  pos: noun
+  gender: f
+  freqRank: 995
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuid
+  gd: "cuid"
+  en: "share, portion, some"
+  pos: noun
+  gender: f
+  freqRank: 106
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:misde
+  gd: "misde"
+  en: "the worse (cha mhisde: none the worse)"
+  pos: adjective
+  tags: [pos:adjective, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:loch-obha
+  gd: "Loch Obha"
+  en: "Loch Awe"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:son
+  gd: "son"
+  en: "sake (air a shon: for his sake)"
+  pos: noun
+  gender: m
+  freqRank: 416
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cronan
+  gd: "crònan"
+  en: "purring, humming"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:urra
+  gd: "urra"
+  en: "responsibility (an urra ri: up to)"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diofar
+  gd: "diofar"
+  en: "difference"
+  pos: noun
+  gender: m
+  freqRank: 433
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aire
+  gd: "aire"
+  en: "attention (thoir an aire: pay attention)"
+  pos: noun
+  gender: f
+  freqRank: 530
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgillinn
+  gd: "sgillinn"
+  en: "penny"
+  pos: noun
+  gender: f
+  freqRank: 637
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gnothach
+  gd: "gnothach"
+  en: "business, matter"
+  pos: noun
+  gender: m
+  freqRank: 174
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leig
+  gd: "leig"
+  en: "let, allow"
+  pos: verb
+  freqRank: 154
+  tags: [pos:verb, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:socair
+  gd: "socair"
+  en: "ease (air do shocair: take it easy)"
+  pos: noun
+  gender: f
+  freqRank: 680
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duil
+  gd: "dùil"
+  en: "expectation, hope"
+  pos: noun
+  gender: f
+  freqRank: 178
+  tags: [pos:noun, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:obh-obh
+  gd: "Obh obh"
+  en: "oh dear"
+  pos: other
+  tags: [pos:other, topic:proverbs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

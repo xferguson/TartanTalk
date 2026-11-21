@@ -1,0 +1,482 @@
+# family-home vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:teaghlach
+  gd: "teaghlach"
+  en: "family"
+  pos: noun
+  gender: m
+  freqRank: 404
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mac
+  gd: "mac"
+  en: "son"
+  pos: noun
+  gender: m
+  freqRank: 89
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seanair
+  gd: "seanair"
+  en: "grandfather"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seanmhair
+  gd: "seanmhair"
+  en: "grandmother"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:antaidh
+  gd: "antaidh"
+  en: "aunt"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uncail
+  gd: "uncail"
+  en: "uncle"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:co-ogha
+  gd: "co-ogha"
+  en: "cousin"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:parant
+  gd: "pàrant"
+  en: "parent"
+  pos: noun
+  gender: m
+  freqRank: 889
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:paiste
+  gd: "pàiste"
+  en: "child"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clann
+  gd: "clann"
+  en: "children"
+  pos: noun
+  gender: f
+  freqRank: 178
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dachaigh
+  gd: "dachaigh"
+  en: "home"
+  pos: noun
+  gender: f
+  freqRank: 433
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dhachaigh
+  gd: "dhachaigh"
+  en: "home (homewards)"
+  pos: adverb
+  freqRank: 604
+  tags: [pos:adverb, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seomar
+  gd: "seòmar"
+  en: "room"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cidsin
+  gd: "cidsin"
+  en: "kitchen"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seomar-cadail
+  gd: "seòmar-cadail"
+  en: "bedroom"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seomar-suidhe
+  gd: "seòmar-suidhe"
+  en: "living room"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seomar-ionnlaid
+  gd: "seòmar-ionnlaid"
+  en: "bathroom"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leabaidh
+  gd: "leabaidh"
+  en: "bed"
+  pos: noun
+  gender: f
+  freqRank: 799
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seithear
+  gd: "sèithear"
+  en: "chair"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bord
+  gd: "bòrd"
+  en: "table"
+  pos: noun
+  gender: m
+  freqRank: 358
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uinneag
+  gd: "uinneag"
+  en: "window"
+  pos: noun
+  gender: f
+  freqRank: 735
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:balla
+  gd: "balla"
+  en: "wall"
+  pos: noun
+  gender: m
+  freqRank: 477
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:staidhre
+  gd: "staidhre"
+  en: "stairs"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lar
+  gd: "làr"
+  en: "floor"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iuchair
+  gd: "iuchair"
+  en: "key"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:similear
+  gd: "similear"
+  en: "chimney"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:telebhisean
+  gd: "telebhisean"
+  en: "television"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coimpiutair
+  gd: "coimpiutair"
+  en: "computer"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uaireadair
+  gd: "uaireadair"
+  en: "watch, clock"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dealbh
+  gd: "dealbh"
+  en: "picture"
+  pos: noun
+  freqRank: 455
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgathan
+  gd: "sgàthan"
+  en: "mirror"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuirtear
+  gd: "cùirtear"
+  en: "curtain"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:brat-urlair
+  gd: "brat-ùrlair"
+  en: "carpet"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:preas
+  gd: "preas"
+  en: "cupboard"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taigh-beag
+  gd: "taigh-beag"
+  en: "toilet"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:frasair
+  gd: "frasair"
+  en: "shower (in a bathroom)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:amar
+  gd: "amar"
+  en: "bath"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nigh
+  gd: "nigh"
+  en: "wash"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sguab
+  gd: "sguab"
+  en: "sweep, brush"
+  pos: verb
+  freqRank: 1550
+  tags: [pos:verb, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:posta
+  gd: "pòsta"
+  en: "married"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aosta
+  gd: "aosta"
+  en: "old, elderly"
+  pos: adjective
+  tags: [pos:adjective, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glic
+  gd: "glic"
+  en: "wise, clever"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ogha
+  gd: "ogha"
+  en: "grandchild"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caraid-twins
+  gd: "càraid"
+  en: "twins, a couple"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aois
+  gd: "aois"
+  en: "age"
+  pos: noun
+  gender: f
+  freqRank: 346
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mal
+  gd: "màl"
+  en: "rent"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sraid
+  gd: "sràid"
+  en: "street"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fainne
+  gd: "fàinne"
+  en: "ring"
+  pos: noun
+  gender: f
+  freqRank: 735
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cinneadh
+  gd: "cinneadh"
+  en: "clan, kindred"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:togalach
+  gd: "togalach"
+  en: "building"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:family-home]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
