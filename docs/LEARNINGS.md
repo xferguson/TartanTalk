@@ -592,7 +592,7 @@ _Content PRs must commit the regenerated `src/content/generated/`._
 
 - **Type:** mistake
 
-- **Seen in:** #29
+- **Seen in:** #29, #80 (regenerated in the same PR, so CI passed first time)
 
 - **Detail:** CI runs `npm run content` and fails if `src/content/generated` differs. A data-only PR (W1-I) added tartans without regenerating, so CI went red. That folder is outside a data task's Owns paths.
 
