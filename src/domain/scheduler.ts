@@ -15,7 +15,11 @@ export const DAY_MS = 24 * 60 * 60 * 1000;
 export const SEEDED_INTERVALS_DAYS = [1, 4, 16] as const;
 export const HARD_FACTOR = 0.5;
 export const EASY_FACTOR = 1.5;
-export const RELEARN_DELAY_MS = 10 * 60 * 1000;
+/**
+ * A missed item has no waiting time: it stays due, so its moth hole stays until
+ * it is mended. The session asks it again at its end; leaving first loses nothing.
+ */
+export const RELEARN_DELAY_MS = 0;
 export const DEFAULT_RETENTION = 0.9;
 /** Consecutive misses that tangle an item. */
 export const TANGLE_AFTER_MISSES = 2;

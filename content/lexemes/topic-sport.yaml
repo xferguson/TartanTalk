@@ -1,0 +1,479 @@
+# sport vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:spors
+  gd: "spòrs"
+  en: "sport, fun"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ball-coise
+  gd: "ball-coise"
+  en: "football"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ball
+  gd: "ball"
+  en: "ball"
+  pos: noun
+  gender: m
+  freqRank: 91
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomain
+  gd: "iomain"
+  en: "shinty"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caman
+  gd: "caman"
+  en: "shinty stick"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgioba
+  gd: "sgioba"
+  en: "team"
+  pos: noun
+  gender: m
+  freqRank: 416
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cluicheadair
+  gd: "cluicheadair"
+  en: "player"
+  pos: noun
+  gender: m
+  freqRank: 209
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geama
+  gd: "geama"
+  en: "game"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:maids
+  gd: "maids"
+  en: "match"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tadhal
+  gd: "tadhal"
+  en: "goal"
+  pos: noun
+  gender: m
+  freqRank: 261
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buannaich
+  gd: "buannaich"
+  en: "win"
+  pos: verb
+  freqRank: 1303
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caill
+  gd: "caill"
+  en: "lose"
+  pos: verb
+  freqRank: 172
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:farpais
+  gd: "farpais"
+  en: "competition"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reis
+  gd: "rèis"
+  en: "race"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:snamh
+  gd: "snàmh"
+  en: "swim"
+  pos: verb
+  freqRank: 889
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:streap
+  gd: "streap"
+  en: "climb"
+  pos: verb
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:goilf
+  gd: "goilf"
+  en: "golf"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teanas
+  gd: "teanas"
+  en: "tennis"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rugbaidh
+  gd: "rugbaidh"
+  en: "rugby"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rothaireachd
+  gd: "rothaireachd"
+  en: "cycling"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:baidhsagal
+  gd: "baidhsagal"
+  en: "bicycle"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:treanaich
+  gd: "trèanaich"
+  en: "train"
+  pos: verb
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:neart
+  gd: "neart"
+  en: "strength"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:laidir
+  gd: "làidir"
+  en: "strong"
+  pos: adjective
+  freqRank: 290
+  tags: [pos:adjective, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lag
+  gd: "lag"
+  en: "weak"
+  pos: adjective
+  tags: [pos:adjective, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fallain
+  gd: "fallain"
+  en: "healthy"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aclaidh
+  gd: "aclaidh"
+  en: "fit, agile"
+  pos: adjective
+  tags: [pos:adjective, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceum
+  gd: "ceum"
+  en: "step"
+  pos: noun
+  gender: m
+  freqRank: 565
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leum
+  gd: "leum"
+  en: "jump"
+  pos: verb
+  freqRank: 735
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:breab
+  gd: "breab"
+  en: "kick"
+  pos: verb
+  freqRank: 2749
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tilg
+  gd: "tilg"
+  en: "throw"
+  pos: verb
+  freqRank: 1124
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glac
+  gd: "glac"
+  en: "catch"
+  pos: verb
+  freqRank: 995
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:raon-cluiche
+  gd: "raon-cluiche"
+  en: "pitch, playing field"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:britheamh
+  gd: "britheamh"
+  en: "referee, judge"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coidse
+  gd: "coidse"
+  en: "coach"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buaidh
+  gd: "buaidh"
+  en: "victory"
+  pos: noun
+  gender: f
+  freqRank: 390
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duais
+  gd: "duais"
+  en: "prize"
+  pos: noun
+  gender: f
+  freqRank: 604
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bonn
+  gd: "bonn"
+  en: "medal, coin"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuach
+  gd: "cuach"
+  en: "cup, trophy"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgor
+  gd: "sgòr"
+  en: "score"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:puing
+  gd: "puing"
+  en: "point"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luchd-leantainn
+  gd: "luchd-leantainn"
+  en: "supporters, fans"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cabar
+  gd: "cabar"
+  en: "caber"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tarraing
+  gd: "tarraing"
+  en: "pull"
+  pos: verb
+  freqRank: 433
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ullaich
+  gd: "ullaich"
+  en: "prepare"
+  pos: verb
+  freqRank: 1550
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dubhlan
+  gd: "dùbhlan"
+  en: "challenge"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cothrom
+  gd: "cothrom"
+  en: "chance, opportunity"
+  pos: noun
+  gender: m
+  freqRank: 268
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dion
+  gd: "dìon"
+  en: "defend, protect"
+  pos: verb
+  freqRank: 299
+  tags: [pos:verb, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionnsaigh
+  gd: "ionnsaigh"
+  en: "attack"
+  pos: noun
+  gender: f
+  freqRank: 637
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taic
+  gd: "taic"
+  en: "support"
+  pos: noun
+  gender: f
+  freqRank: 299
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mionaid
+  gd: "mionaid"
+  en: "minute"
+  pos: noun
+  gender: f
+  freqRank: 268
+  tags: [pos:noun, topic:sport]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

@@ -1,0 +1,892 @@
+# Sentences for the croft-work scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:croft-work-001
+  gd: "Tha croit aig mo sheanair."
+  en: "My grandfather has a croft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "croit", itemId: lex:croit }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanair", itemId: lex:seanair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:croft-work, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-002
+  gd: "Is e croitear a th' ann."
+  en: "He is a crofter."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "croitear", itemId: lex:croitear }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-003
+  gd: "Tha croitearachd doirbh."
+  en: "Crofting is hard."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "croitearachd", itemId: lex:croitearachd }
+    - { text: "doirbh", itemId: lex:doirbh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-004
+  gd: "Bidh sinn a' buain na mòna as t-earrach."
+  en: "We cut the peat in the spring."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "buain", itemId: lex:buain }
+    - { text: "na", itemId: lex:na }
+    - { text: "mòna", itemId: lex:moine }
+    - { text: "as", itemId: lex:ann }
+    - { text: "t-earrach", itemId: lex:earrach }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-art-N-ann-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-005
+  gd: "Tha an tairsgeir aig an doras."
+  en: "The peat iron is at the door."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tairsgeir", itemId: lex:tairsgeir }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-art-N
+  tags: [topic:croft-work, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-006
+  gd: "Thog sinn cruach mhòine."
+  en: "We built a peat stack."
+  altGd: []
+  tokens:
+    - { text: "Thog", itemId: lex:tog }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "cruach", itemId: lex:cruach }
+    - { text: "mhòine", itemId: lex:moine }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-007
+  gd: "Tha coirce anns an achadh."
+  en: "There are oats in the field."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "coirce", itemId: lex:coirce }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "achadh", itemId: lex:achadh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-008
+  gd: "Tha an t-eòrna buidhe."
+  en: "The barley is yellow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eòrna", itemId: lex:eorna }
+    - { text: "buidhe", itemId: lex:buidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-009
+  gd: "Tha an t-arbhar àrd."
+  en: "The corn is tall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-arbhar", itemId: lex:arbhar }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-010
+  gd: "Thoir dhomh an spaid."
+  en: "Give me the spade."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "spaid", itemId: lex:spaid }
+    - { text: ".", itemId: null }
+  pattern: V-do-P-art-N
+  tags: [topic:croft-work, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-011
+  gd: "Tha an gràpa anns an t-sabhal."
+  en: "The fork is in the barn."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gràpa", itemId: lex:grapa }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sabhal", itemId: lex:sabhal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-012
+  gd: "Cleachd an ràcan."
+  en: "Use the rake."
+  altGd: []
+  tokens:
+    - { text: "Cleachd", itemId: lex:cleachd }
+    - { text: "an", itemId: lex:an }
+    - { text: "ràcan", itemId: lex:racan }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-013
+  gd: "Bidh e a' treabhadh an achaidh."
+  en: "He ploughs the field."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "treabhadh", itemId: lex:treabh }
+    - { text: "an", itemId: lex:an }
+    - { text: "achaidh", itemId: lex:achadh }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-014
+  gd: "Tha feansa ùr againn."
+  en: "We have a new fence."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "feansa", itemId: lex:feansa }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:croft-work, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-015
+  gd: "Dùin an geata!"
+  en: "Close the gate!"
+  altGd: []
+  tokens:
+    - { text: "Dùin", itemId: lex:duin }
+    - { text: "an", itemId: lex:an }
+    - { text: "geata", itemId: lex:geata }
+    - { text: "!", itemId: null }
+  pattern: V-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-016
+  gd: "Tha an sabhal mòr."
+  en: "The barn is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sabhal", itemId: lex:sabhal }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-017
+  gd: "Tha an t-inneal ùr."
+  en: "The machine is new."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-inneal", itemId: lex:inneal }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-018
+  gd: "Tha an tractar dearg."
+  en: "The tractor is red."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tractar", itemId: lex:tractar }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-019
+  gd: "Tha a' chairt làn."
+  en: "The cart is full."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chairt", itemId: lex:cairt }
+    - { text: "làn", itemId: lex:lan }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-020
+  gd: "Is e saothair chruaidh a th' ann."
+  en: "It is hard toil."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "saothair", itemId: lex:saothair }
+    - { text: "chruaidh", itemId: lex:cruaidh }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-021
+  gd: "Tha mi trang an-diugh."
+  en: "I am busy today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "trang", itemId: lex:trang }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-022
+  gd: "Chàraich e am balla."
+  en: "He repaired the wall."
+  altGd: []
+  tokens:
+    - { text: "Chàraich", itemId: lex:caraich }
+    - { text: "e", itemId: lex:e }
+    - { text: "am", itemId: lex:an }
+    - { text: "balla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-023
+  gd: "Bha na fuadaichean uamhasach."
+  en: "The Clearances were terrible."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "na", itemId: lex:na }
+    - { text: "fuadaichean", itemId: lex:fuadach }
+    - { text: "uamhasach", itemId: lex:uamhasach }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-024
+  gd: "Bha an t-uachdaran saidhbhir."
+  en: "The landlord was rich."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-uachdaran", itemId: lex:uachdaran }
+    - { text: "saidhbhir", itemId: lex:saidhbhir }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-025
+  gd: "Tha bothan air a' mhonadh."
+  en: "There is a bothy on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bothan", itemId: lex:bothan }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhonadh", itemId: lex:monadh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:croft-work, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-026
+  gd: "Tha an taigh-dubh sean."
+  en: "The blackhouse is old."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh-dubh", itemId: lex:taigh-dubh }
+    - { text: "sean", itemId: lex:sean }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-027
+  gd: "Tha tughadh air an taigh."
+  en: "There is thatch on the house."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tughadh", itemId: lex:tughadh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:croft-work, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-028
+  gd: "Tha connadh againn airson a' gheamhraidh."
+  en: "We have fuel for the winter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "connadh", itemId: lex:connadh }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "airson", itemId: lex:airson }
+    - { text: "a'", itemId: lex:an }
+    - { text: "gheamhraidh", itemId: lex:geamhradh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-airson-art-N
+  tags: [topic:croft-work, prep:aig, prep:airson]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-029
+  gd: "Gearr am fiodh leis an tuaigh."
+  en: "Cut the wood with the axe."
+  altGd: []
+  tokens:
+    - { text: "Gearr", itemId: lex:gearr }
+    - { text: "am", itemId: lex:an }
+    - { text: "fiodh", itemId: lex:fiodh }
+    - { text: "leis", itemId: lex:le }
+    - { text: "an", itemId: lex:an }
+    - { text: "tuaigh", itemId: lex:tuagh }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-le-art-N
+  tags: [topic:croft-work, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-030
+  gd: "Tha sàbh anns an t-sabhal."
+  en: "There is a saw in the barn."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sàbh", itemId: lex:sabh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sabhal", itemId: lex:sabhal }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-031
+  gd: "Thoir dhomh an t-òrd."
+  en: "Give me the hammer."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-òrd", itemId: lex:ord }
+    - { text: ".", itemId: null }
+  pattern: V-do-P-art-N
+  tags: [topic:croft-work, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-032
+  gd: "Tha tàirnge anns a' bhalla."
+  en: "There is a nail in the wall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tàirnge", itemId: lex:tairnge }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhalla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-033
+  gd: "Fhuair i cosnadh."
+  en: "She got work."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "i", itemId: lex:i }
+    - { text: "cosnadh", itemId: lex:cosnadh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-034
+  gd: "Choisinn e airgead."
+  en: "He earned money."
+  altGd: []
+  tokens:
+    - { text: "Choisinn", itemId: lex:coisinn }
+    - { text: "e", itemId: lex:e }
+    - { text: "airgead", itemId: lex:airgead }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-035
+  gd: "Tha an tuarastal beag."
+  en: "The wage is small."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tuarastal", itemId: lex:tuarastal }
+    - { text: "beag", itemId: lex:beag }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-036
+  gd: "Phàigh mi am màl."
+  en: "I paid the rent."
+  altGd: []
+  tokens:
+    - { text: "Phàigh", itemId: lex:paigh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "am", itemId: lex:an }
+    - { text: "màl", itemId: lex:mal }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-037
+  gd: "Tha an geamair a' coimhead nam fiadh."
+  en: "The gamekeeper is watching the deer."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "geamair", itemId: lex:geamair }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "coimhead", itemId: lex:coimhead }
+    - { text: "nam", itemId: lex:na }
+    - { text: "fiadh", itemId: lex:fiadh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-038
+  gd: "Tha an gille ag obair air a' chroit."
+  en: "The lad is working on the croft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gille", itemId: lex:gille }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chroit", itemId: lex:croit }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-N-air-art-N
+  tags: [topic:croft-work, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-039
+  gd: "Is e am maighstir a th' ann."
+  en: "He is the master."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "am", itemId: lex:an }
+    - { text: "maighstir", itemId: lex:maighstir }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-art-N-a-tha-ann-P
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-040
+  gd: "Tha an uidheam againn."
+  en: "We have the equipment."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "uidheam", itemId: lex:uidheam }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P
+  tags: [topic:croft-work, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-041
+  gd: "Dh'èirich sinn tràth."
+  en: "We got up early."
+  altGd: []
+  tokens:
+    - { text: "Dh'èirich", itemId: lex:eirich }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "tràth", itemId: lex:trath }
+    - { text: ".", itemId: null }
+  pattern: V-P-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-042
+  gd: "Tha e anmoch."
+  en: "It is late."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "anmoch", itemId: lex:anmoch }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-043
+  gd: "Rinn e a dhìcheall."
+  en: "He did his best."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "e", itemId: lex:e }
+    - { text: "a", itemId: lex:a }
+    - { text: "dhìcheall", itemId: lex:dicheall }
+    - { text: ".", itemId: null }
+  pattern: V-P-a-N
+  tags: [topic:croft-work]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-044
+  gd: "Tha i dìcheallach."
+  en: "She is hard-working."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "dìcheallach", itemId: lex:dicheallach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-045
+  gd: "Tha ceàrdach anns a' bhaile."
+  en: "There is a smithy in the village."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceàrdach", itemId: lex:ceardach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-046
+  gd: "Is e gobha math a th' ann."
+  en: "He is a good blacksmith."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "gobha", itemId: lex:gobha }
+    - { text: "math", itemId: lex:math }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:croft-work, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-047
+  gd: "Rinn an saor bòrd."
+  en: "The joiner made a table."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "an", itemId: lex:an }
+    - { text: "saor", itemId: lex:saor }
+    - { text: "bòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-048
+  gd: "Thog an clachair balla."
+  en: "The stonemason built a wall."
+  altGd: []
+  tokens:
+    - { text: "Thog", itemId: lex:tog }
+    - { text: "an", itemId: lex:an }
+    - { text: "clachair", itemId: lex:clachair }
+    - { text: "balla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-049
+  gd: "Tha am muillear aig a' mhuileann."
+  en: "The miller is at the mill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "muillear", itemId: lex:muillear }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhuileann", itemId: lex:muileann }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-art-N
+  tags: [topic:croft-work, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-050
+  gd: "Tha mòine air an teine."
+  en: "There is peat on the fire."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mòine", itemId: lex:moine }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "teine", itemId: lex:teine }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:croft-work, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-051
+  gd: "Tha obair na croite trom."
+  en: "The work of the croft is heavy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "na", itemId: lex:na }
+    - { text: "croite", itemId: lex:croit }
+    - { text: "trom", itemId: lex:trom }
+    - { text: ".", itemId: null }
+  pattern: tha-N-art-N-ADJ
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-052
+  gd: "Bidh an croitear ag obair fad an latha."
+  en: "The crofter works all day."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "an", itemId: lex:an }
+    - { text: "croitear", itemId: lex:croitear }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "fad", itemId: lex:fad }
+    - { text: "an", itemId: lex:an }
+    - { text: "latha", itemId: lex:latha }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-N-N-art-N
+  tags: [topic:croft-work]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:croft-work-053
+  gd: "Tha ceud caora air a' chroit."
+  en: "There are a hundred sheep on the croft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceud", itemId: lex:ceud }
+    - { text: "caora", itemId: lex:caora }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chroit", itemId: lex:croit }
+    - { text: ".", itemId: null }
+  pattern: tha-NUM-N-air-art-N
+  tags: [topic:croft-work, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

@@ -1,0 +1,879 @@
+# Sentences for the sea-boats scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:sea-boats-001
+  gd: "Tha an cuan mòr agus domhainn."
+  en: "The ocean is big and deep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cuan", itemId: lex:cuan }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "domhainn", itemId: lex:domhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-002
+  gd: "Tha na tuinn àrd an-diugh."
+  en: "The waves are high today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "tuinn", itemId: lex:tonn }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-003
+  gd: "Tha an seòl-mara a' tighinn a-steach."
+  en: "The tide is coming in."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seòl-mara", itemId: lex:seol-mara }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: "a-steach", itemId: lex:a-steach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-004
+  gd: "Tha an seòl geal."
+  en: "The sail is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seòl", itemId: lex:seol }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-005
+  gd: "Is toigh leam seòladh."
+  en: "I like sailing."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "seòladh", itemId: lex:seoladh }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:sea-boats, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-006
+  gd: "Tha an t-iasgair a' dol a-mach."
+  en: "The fisherman is going out."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-iasgair", itemId: lex:iasgair }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "a-mach", itemId: lex:a-mach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-007
+  gd: "Tha iasgach math ann am-bliadhna."
+  en: "There is good fishing this year."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "iasgach", itemId: lex:iasgach }
+    - { text: "math", itemId: lex:math }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "am-bliadhna", itemId: lex:am-bliadhna }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P-ADV
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-008
+  gd: "Chuir iad an lìon a-mach."
+  en: "They put the net out."
+  altGd: []
+  tokens:
+    - { text: "Chuir", itemId: lex:cuir }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an", itemId: lex:an }
+    - { text: "lìon", itemId: lex:lion }
+    - { text: "a-mach", itemId: lex:a-mach }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-009
+  gd: "Tha slat-iasgaich ùr agam."
+  en: "I have a new fishing rod."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "slat-iasgaich", itemId: lex:slat-iasgaich }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:sea-boats, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-010
+  gd: "Tha iasg air an dubhan!"
+  en: "There is a fish on the hook!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "iasg", itemId: lex:iasg }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "dubhan", itemId: lex:dubhan }
+    - { text: "!", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-011
+  gd: "Tha na bàtaichean anns an acarsaid."
+  en: "The boats are in the harbour."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "bàtaichean", itemId: lex:bata }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "acarsaid", itemId: lex:acarsaid }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-012
+  gd: "Tha am bàta aig a' chidhe."
+  en: "The boat is at the pier."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàta", itemId: lex:bata }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidhe", itemId: lex:cidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-art-N
+  tags: [topic:sea-boats, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-013
+  gd: "Tha am maraiche sgìth."
+  en: "The sailor is tired."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "maraiche", itemId: lex:maraiche }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-014
+  gd: "Is e an sgiobair a th' ann."
+  en: "He is the skipper."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgiobair", itemId: lex:sgiobair }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-art-N-a-tha-ann-P
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-015
+  gd: "Chaill e ràmh."
+  en: "He lost an oar."
+  altGd: []
+  tokens:
+    - { text: "Chaill", itemId: lex:caill }
+    - { text: "e", itemId: lex:e }
+    - { text: "ràmh", itemId: lex:ramh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-016
+  gd: "Iomair am bàta!"
+  en: "Row the boat!"
+  altGd: []
+  tokens:
+    - { text: "Iomair", itemId: lex:iomair }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàta", itemId: lex:bata }
+    - { text: "!", itemId: null }
+  pattern: V-art-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-017
+  gd: "Tha an crann àrd."
+  en: "The mast is tall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "crann", itemId: lex:crann }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-018
+  gd: "Tha i aig an stiùir."
+  en: "She is at the helm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "stiùir", itemId: lex:stiuir }
+    - { text: ".", itemId: null }
+  pattern: tha-P-aig-art-N
+  tags: [topic:sea-boats, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-019
+  gd: "Chuir iad an acair sìos."
+  en: "They put the anchor down."
+  altGd: []
+  tokens:
+    - { text: "Chuir", itemId: lex:cuir }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an", itemId: lex:an }
+    - { text: "acair", itemId: lex:acair }
+    - { text: "sìos", itemId: lex:sios }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-020
+  gd: "Tha an ròpa fada."
+  en: "The rope is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "ròpa", itemId: lex:ropa }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-021
+  gd: "Tha eathar beag aige."
+  en: "He has a small boat."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "eathar", itemId: lex:eathar }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:sea-boats, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-022
+  gd: "Tha an long mhòr anns a' chaladh."
+  en: "The big ship is in the harbour."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "long", itemId: lex:long }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chaladh", itemId: lex:caladh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ann-art-N
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-023
+  gd: "Bidh am bàt-aiseig a' falbh aig deich uairean."
+  en: "The ferry leaves at ten o'clock."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàt-aiseig", itemId: lex:bat-aiseig }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "falbh", itemId: lex:falbh }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "deich", itemId: lex:deich }
+    - { text: "uairean", itemId: lex:uair }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-V-aig-NUM-N
+  tags: [topic:sea-boats, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-024
+  gd: "Tha an aiseag fada."
+  en: "The crossing is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "aiseag", itemId: lex:aiseag }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-025
+  gd: "Ghlac e bradan mòr."
+  en: "He caught a big salmon."
+  altGd: []
+  tokens:
+    - { text: "Ghlac", itemId: lex:glac }
+    - { text: "e", itemId: lex:e }
+    - { text: "bradan", itemId: lex:bradan }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-026
+  gd: "Tha sgadan blasta."
+  en: "Herring is tasty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgadan", itemId: lex:sgadan }
+    - { text: "blasta", itemId: lex:blasta }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-027
+  gd: "Ghlac sinn rionnach."
+  en: "We caught a mackerel."
+  altGd: []
+  tokens:
+    - { text: "Ghlac", itemId: lex:glac }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "rionnach", itemId: lex:rionnach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-028
+  gd: "Is toigh leam trosg agus buntàta."
+  en: "I like cod and potatoes."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "trosg", itemId: lex:trosg }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "buntàta", itemId: lex:buntata }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-agus-N
+  tags: [topic:sea-boats, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-029
+  gd: "Tha adag anns an lìon."
+  en: "There is a haddock in the net."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "adag", itemId: lex:adag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "lìon", itemId: lex:lion }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-030
+  gd: "Tha giomach anns a' chliabh."
+  en: "There is a lobster in the creel."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "giomach", itemId: lex:giomach }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chliabh", itemId: lex:cliabh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-031
+  gd: "Tha partan air an tràigh."
+  en: "There is a crab on the beach."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "partan", itemId: lex:partan }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "tràigh", itemId: lex:traigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-032
+  gd: "Thog sinn feusgain."
+  en: "We gathered mussels."
+  altGd: []
+  tokens:
+    - { text: "Thog", itemId: lex:tog }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "feusgain", itemId: lex:feusgan }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-033
+  gd: "Tha maorach blasta an-seo."
+  en: "The shellfish is tasty here."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "maorach", itemId: lex:maorach }
+    - { text: "blasta", itemId: lex:blasta }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-034
+  gd: "Tha faochagan air a' chreig."
+  en: "There are whelks on the rock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "faochagan", itemId: lex:faochag }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chreig", itemId: lex:creag }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-035
+  gd: "Chunnaic sinn muc-mhara!"
+  en: "We saw a whale!"
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "muc-mhara", itemId: lex:muc-mhara }
+    - { text: "!", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-036
+  gd: "Tha leumadair anns a' bhàgh."
+  en: "There is a dolphin in the bay."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "leumadair", itemId: lex:leumadair }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhàgh", itemId: lex:bagh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:sea-boats, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-037
+  gd: "Tha sùlaire a' tuiteam dhan mhuir."
+  en: "A gannet is diving into the sea."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sùlaire", itemId: lex:sulaire }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tuiteam", itemId: lex:tuit }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "mhuir", itemId: lex:muir }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V-do-N
+  tags: [topic:sea-boats, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-038
+  gd: "Tha buthaid air an sgeir."
+  en: "There is a puffin on the skerry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "buthaid", itemId: lex:buthaid }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeir", itemId: lex:sgeir }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-039
+  gd: "Tha an cuan cunnartach."
+  en: "The ocean is dangerous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cuan", itemId: lex:cuan }
+    - { text: "cunnartach", itemId: lex:cunnartach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-040
+  gd: "Tha sàl air a' bhàta."
+  en: "There is salt water on the boat."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sàl", itemId: lex:sal }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhàta", itemId: lex:bata }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-041
+  gd: "Tha cobhar geal air na tuinn."
+  en: "There is white foam on the waves."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cobhar", itemId: lex:cobhar }
+    - { text: "geal", itemId: lex:geal }
+    - { text: "air", itemId: lex:air }
+    - { text: "na", itemId: lex:na }
+    - { text: "tuinn", itemId: lex:tonn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-042
+  gd: "Tha an grunnd creagach."
+  en: "The bottom is rocky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "grunnd", itemId: lex:grunnd }
+    - { text: "creagach", itemId: lex:creagach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-043
+  gd: "Tha an taigh-solais geal."
+  en: "The lighthouse is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh-solais", itemId: lex:taigh-solais }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-044
+  gd: "Tha cliabh air a' chidhe."
+  en: "There is a creel on the pier."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cliabh", itemId: lex:cliabh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidhe", itemId: lex:cidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:sea-boats, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-045
+  gd: "Thog i slige bhòidheach."
+  en: "She picked up a beautiful shell."
+  altGd: []
+  tokens:
+    - { text: "Thog", itemId: lex:tog }
+    - { text: "i", itemId: lex:i }
+    - { text: "slige", itemId: lex:slige }
+    - { text: "bhòidheach", itemId: lex:boidheach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-046
+  gd: "Tha an costa fiadhaich."
+  en: "The coast is wild."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "costa", itemId: lex:costa }
+    - { text: "fiadhaich", itemId: lex:fiadhaich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-047
+  gd: "Tha an caladh làn de bhàtaichean."
+  en: "The harbour is full of boats."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "caladh", itemId: lex:caladh }
+    - { text: "làn", itemId: lex:lan }
+    - { text: "de", itemId: lex:de }
+    - { text: "bhàtaichean", itemId: lex:bata }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-de-N
+  tags: [topic:sea-boats, prep:de]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-048
+  gd: "Tha am bàta a' falbh a-nis."
+  en: "The boat is leaving now."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàta", itemId: lex:bata }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "falbh", itemId: lex:falbh }
+    - { text: "a-nis", itemId: lex:a-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-049
+  gd: "Ràinig am bàt-aiseig an t-eilean."
+  en: "The ferry reached the island."
+  altGd: []
+  tokens:
+    - { text: "Ràinig", itemId: lex:ruig }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàt-aiseig", itemId: lex:bat-aiseig }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eilean", itemId: lex:eilean }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-art-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-050
+  gd: "Bidh mi a' dol a dh'iasgach."
+  en: "I go fishing."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "a", itemId: lex:a }
+    - { text: "dh'iasgach", itemId: lex:iasgach }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-a-N
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-051
+  gd: "Tha an cuan ciùin an-diugh."
+  en: "The sea is calm today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cuan", itemId: lex:cuan }
+    - { text: "ciùin", itemId: lex:ciuin }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sea-boats-052
+  gd: "Bha an t-iasgair a' seòladh dhachaigh."
+  en: "The fisherman was sailing home."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-iasgair", itemId: lex:iasgair }
+    - { text: "a'", itemId: lex:an }
+    - { text: "seòladh", itemId: lex:seoladh }
+    - { text: "dhachaigh", itemId: lex:dhachaigh }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-art-N-ADV
+  tags: [topic:sea-boats]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

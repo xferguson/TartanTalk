@@ -1,0 +1,839 @@
+# Sentences for the sport scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:sport-001
+  gd: "Is toigh leam spòrs."
+  en: "I like sport."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "spòrs", itemId: lex:spors }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:sport, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-002
+  gd: "Tha mi a' cluich ball-coise."
+  en: "I play football."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: "ball-coise", itemId: lex:ball-coise }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-003
+  gd: "Breab am ball!"
+  en: "Kick the ball!"
+  altGd: []
+  tokens:
+    - { text: "Breab", itemId: lex:breab }
+    - { text: "am", itemId: lex:an }
+    - { text: "ball", itemId: lex:ball }
+    - { text: "!", itemId: null }
+  pattern: V-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-004
+  gd: "Is e iomain spòrs nan Gàidheal."
+  en: "Shinty is the sport of the Gaels."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "iomain", itemId: lex:iomain }
+    - { text: "spòrs", itemId: lex:spors }
+    - { text: "nan", itemId: lex:na }
+    - { text: "Gàidheal", itemId: lex:gaidheal }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-N-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-005
+  gd: "Tha caman ùr agam."
+  en: "I have a new shinty stick."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "caman", itemId: lex:caman }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:sport, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-006
+  gd: "Tha an sgioba againn math."
+  en: "Our team is good."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgioba", itemId: lex:sgioba }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:sport, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-007
+  gd: "Tha an cluicheadair luath."
+  en: "The player is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cluicheadair", itemId: lex:cluicheadair }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-008
+  gd: "Bha an geama math."
+  en: "The game was good."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "geama", itemId: lex:geama }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-009
+  gd: "Cò bhuannaich am maids?"
+  en: "Who won the match?"
+  altGd: []
+  tokens:
+    - { text: "Cò", itemId: lex:co }
+    - { text: "bhuannaich", itemId: lex:buannaich }
+    - { text: "am", itemId: lex:an }
+    - { text: "maids", itemId: lex:maids }
+    - { text: "?", itemId: null }
+  pattern: X-V-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-010
+  gd: "Fhuair iad tadhal."
+  en: "They scored a goal."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "tadhal", itemId: lex:tadhal }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-011
+  gd: "Bhuannaich sinn!"
+  en: "We won!"
+  altGd: []
+  tokens:
+    - { text: "Bhuannaich", itemId: lex:buannaich }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "!", itemId: null }
+  pattern: V-P
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-012
+  gd: "Chaill iad an geama."
+  en: "They lost the game."
+  altGd: []
+  tokens:
+    - { text: "Chaill", itemId: lex:caill }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an", itemId: lex:an }
+    - { text: "geama", itemId: lex:geama }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-013
+  gd: "Tha farpais ann a-màireach."
+  en: "There is a competition tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "farpais", itemId: lex:farpais }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-P-ADV
+  tags: [topic:sport, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-014
+  gd: "Ruith i anns an rèis."
+  en: "She ran in the race."
+  altGd: []
+  tokens:
+    - { text: "Ruith", itemId: lex:ruith }
+    - { text: "i", itemId: lex:i }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "rèis", itemId: lex:reis }
+    - { text: ".", itemId: null }
+  pattern: V-P-ann-art-N
+  tags: [topic:sport, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-015
+  gd: "Is urrainn dhomh snàmh."
+  en: "I can swim."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "urrainn", itemId: lex:urrainn }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "snàmh", itemId: lex:snamh }
+    - { text: ".", itemId: null }
+  pattern: is-N-do-P-V
+  tags: [topic:sport, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-016
+  gd: "Bidh sinn a' streap nam beann."
+  en: "We climb the mountains."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "streap", itemId: lex:streap }
+    - { text: "nam", itemId: lex:na }
+    - { text: "beann", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-017
+  gd: "Bidh e a' cluich goilf."
+  en: "He plays golf."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: "goilf", itemId: lex:goilf }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-018
+  gd: "Is toigh leatha teanas."
+  en: "She likes tennis."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leatha", itemId: form:le.3sg-f }
+    - { text: "teanas", itemId: lex:teanas }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:sport, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-019
+  gd: "Chunnaic mi rugbaidh air an telebhisean."
+  en: "I saw rugby on the television."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "rugbaidh", itemId: lex:rugbaidh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "telebhisean", itemId: lex:telebhisean }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-art-N
+  tags: [topic:sport, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-020
+  gd: "Is toigh leam rothaireachd."
+  en: "I like cycling."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "rothaireachd", itemId: lex:rothaireachd }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:sport, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-021
+  gd: "Tha baidhsagal ùr aig mo bhràthair."
+  en: "My brother has a new bicycle."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "baidhsagal", itemId: lex:baidhsagal }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhràthair", itemId: lex:brathair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P-N
+  tags: [topic:sport, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-022
+  gd: "Bidh iad a' trèanadh a h-uile latha."
+  en: "They train every day."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "trèanadh", itemId: lex:treanaich }
+    - { text: "a", itemId: lex:a }
+    - { text: "h-uile", itemId: lex:uile }
+    - { text: "latha", itemId: lex:latha }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-a-ADJ-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-023
+  gd: "Tha neart mòr aige."
+  en: "He has great strength."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "neart", itemId: lex:neart }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:sport, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-024
+  gd: "Tha e làidir."
+  en: "He is strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-025
+  gd: "Tha mi lag an-diugh."
+  en: "I am weak today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "lag", itemId: lex:lag }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-026
+  gd: "Tha i fallain."
+  en: "She is healthy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "fallain", itemId: lex:fallain }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-027
+  gd: "Tha an cù aclaidh."
+  en: "The dog is agile."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù", itemId: lex:cu }
+    - { text: "aclaidh", itemId: lex:aclaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-028
+  gd: "Gabh ceum air ais."
+  en: "Take a step back."
+  altGd: []
+  tokens:
+    - { text: "Gabh", itemId: lex:gabh }
+    - { text: "ceum", itemId: lex:ceum }
+    - { text: "air ais", itemId: lex:air-ais }
+    - { text: ".", itemId: null }
+  pattern: V-N-ADV
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-029
+  gd: "Leum am balach."
+  en: "The boy jumped."
+  altGd: []
+  tokens:
+    - { text: "Leum", itemId: lex:leum }
+    - { text: "am", itemId: lex:an }
+    - { text: "balach", itemId: lex:balach }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-030
+  gd: "Tilg am ball dhomh."
+  en: "Throw me the ball."
+  altGd: []
+  tokens:
+    - { text: "Tilg", itemId: lex:tilg }
+    - { text: "am", itemId: lex:an }
+    - { text: "ball", itemId: lex:ball }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-do-P
+  tags: [topic:sport, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-031
+  gd: "Ghlac i am ball."
+  en: "She caught the ball."
+  altGd: []
+  tokens:
+    - { text: "Ghlac", itemId: lex:glac }
+    - { text: "i", itemId: lex:i }
+    - { text: "am", itemId: lex:an }
+    - { text: "ball", itemId: lex:ball }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-032
+  gd: "Tha an raon-cluiche fliuch."
+  en: "The pitch is wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "raon-cluiche", itemId: lex:raon-cluiche }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-033
+  gd: "Tha am britheamh ceàrr!"
+  en: "The referee is wrong!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "britheamh", itemId: lex:britheamh }
+    - { text: "ceàrr", itemId: lex:cearr }
+    - { text: "!", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-034
+  gd: "Tha an coidse toilichte."
+  en: "The coach is happy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "coidse", itemId: lex:coidse }
+    - { text: "toilichte", itemId: lex:toilichte }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-035
+  gd: "Fhuair sinn buaidh."
+  en: "We won (we got victory)."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "buaidh", itemId: lex:buaidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sport]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-036
+  gd: "Fhuair i duais."
+  en: "She got a prize."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "i", itemId: lex:i }
+    - { text: "duais", itemId: lex:duais }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-037
+  gd: "Fhuair e bonn òir."
+  en: "He got a gold medal."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "e", itemId: lex:e }
+    - { text: "bonn", itemId: lex:bonn }
+    - { text: "òir", itemId: lex:or }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-038
+  gd: "Bhuannaich iad a' chuach."
+  en: "They won the cup."
+  altGd: []
+  tokens:
+    - { text: "Bhuannaich", itemId: lex:buannaich }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chuach", itemId: lex:cuach }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-039
+  gd: "Dè an sgòr?"
+  en: "What is the score?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgòr", itemId: lex:sgor }
+    - { text: "?", itemId: null }
+  pattern: X-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-040
+  gd: "Fhuair sinn trì puingean."
+  en: "We got three points."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "trì", itemId: lex:tri }
+    - { text: "puingean", itemId: lex:puing }
+    - { text: ".", itemId: null }
+  pattern: V-P-NUM-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-041
+  gd: "Tha an luchd-leantainn toilichte."
+  en: "The supporters are happy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "luchd-leantainn", itemId: lex:luchd-leantainn }
+    - { text: "toilichte", itemId: lex:toilichte }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-042
+  gd: "Thilg e an cabar."
+  en: "He tossed the caber."
+  altGd: []
+  tokens:
+    - { text: "Thilg", itemId: lex:tilg }
+    - { text: "e", itemId: lex:e }
+    - { text: "an", itemId: lex:an }
+    - { text: "cabar", itemId: lex:cabar }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-043
+  gd: "Tharraing iad an ròpa."
+  en: "They pulled the rope."
+  altGd: []
+  tokens:
+    - { text: "Tharraing", itemId: lex:tarraing }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an", itemId: lex:an }
+    - { text: "ròpa", itemId: lex:ropa }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-044
+  gd: "Feumaidh sinn ullachadh."
+  en: "We must prepare."
+  altGd: []
+  tokens:
+    - { text: "Feumaidh", itemId: lex:feum }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "ullachadh", itemId: lex:ullaich }
+    - { text: ".", itemId: null }
+  pattern: V-P-V
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-045
+  gd: "Is e dùbhlan mòr a th' ann."
+  en: "It is a big challenge."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "dùbhlan", itemId: lex:dubhlan }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:sport, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-046
+  gd: "Seo do chothrom!"
+  en: "This is your chance!"
+  altGd: []
+  tokens:
+    - { text: "Seo", itemId: lex:seo }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "chothrom", itemId: lex:cothrom }
+    - { text: "!", itemId: null }
+  pattern: X-P-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-047
+  gd: "Feumaidh sinn dìon."
+  en: "We must defend."
+  altGd: []
+  tokens:
+    - { text: "Feumaidh", itemId: lex:feum }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "dìon", itemId: lex:dion }
+    - { text: ".", itemId: null }
+  pattern: V-P-V
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-048
+  gd: "Rinn iad ionnsaigh."
+  en: "They attacked."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "ionnsaigh", itemId: lex:ionnsaigh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-049
+  gd: "Tha taic againn."
+  en: "We have support."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "taic", itemId: lex:taic }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:sport, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-050
+  gd: "Fuirich mionaid!"
+  en: "Wait a minute!"
+  altGd: []
+  tokens:
+    - { text: "Fuirich", itemId: lex:fuirich }
+    - { text: "mionaid", itemId: lex:mionaid }
+    - { text: "!", itemId: null }
+  pattern: V-N
+  tags: [topic:sport]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-051
+  gd: "Bidh mi a' snàmh anns an loch."
+  en: "I swim in the loch."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "snàmh", itemId: lex:snamh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-ann-art-N
+  tags: [topic:sport, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:sport-052
+  gd: "Tha an sgioba sgìth a-nis."
+  en: "The team is tired now."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgioba", itemId: lex:sgioba }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: "a-nis", itemId: lex:a-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-ADV
+  tags: [topic:sport]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

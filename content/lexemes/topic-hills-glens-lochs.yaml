@@ -1,0 +1,711 @@
+# Hills, glens and lochs vocabulary, ordered roughly by everyday usefulness (no corpus lookup was possible; see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:gleann
+  gd: "gleann"
+  en: "glen, valley"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cnoc
+  gd: "cnoc"
+  en: "hill"
+  pos: noun
+  gender: m
+  freqRank: 889
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:monadh
+  gd: "monadh"
+  en: "mountain, moor"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:creag
+  gd: "creag"
+  en: "rock, crag"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sliabh
+  gd: "sliabh"
+  en: "moor, hill"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:srath
+  gd: "srath"
+  en: "strath, broad valley"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bealach
+  gd: "bealach"
+  en: "pass"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mointeach
+  gd: "mòinteach"
+  en: "moorland"
+  pos: noun
+  gender: f
+  freqRank: 504
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lochan
+  gd: "lochan"
+  en: "small loch"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eas
+  gd: "eas"
+  en: "waterfall"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuaran
+  gd: "fuaran"
+  en: "spring (water)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tobar
+  gd: "tobar"
+  en: "well"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:drochaid
+  gd: "drochaid"
+  en: "bridge"
+  pos: noun
+  gender: f
+  freqRank: 565
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slighe
+  gd: "slighe"
+  en: "path, way"
+  pos: noun
+  gender: f
+  freqRank: 889
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mullach
+  gd: "mullach"
+  en: "summit"
+  pos: noun
+  gender: m
+  freqRank: 735
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coire
+  gd: "coire"
+  en: "corrie, hollow"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bagh
+  gd: "bàgh"
+  en: "bay"
+  pos: noun
+  gender: m
+  freqRank: 889
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cladach
+  gd: "cladach"
+  en: "shore"
+  pos: noun
+  gender: m
+  freqRank: 433
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:meall
+  gd: "meall"
+  en: "rounded hill"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgurr
+  gd: "sgùrr"
+  en: "sharp peak"
+  pos: noun
+  gender: m
+  freqRank: 565
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceo
+  gd: "ceò"
+  en: "mist"
+  pos: noun
+  gender: m
+  freqRank: 604
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ard
+  gd: "àrd"
+  en: "high"
+  pos: adjective
+  freqRank: 183
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iosal
+  gd: "ìosal"
+  en: "low"
+  pos: adjective
+  freqRank: 637
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fada
+  gd: "fada"
+  en: "long, far"
+  pos: adjective
+  freqRank: 110
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caisteal
+  gd: "caisteal"
+  en: "castle"
+  pos: noun
+  gender: m
+  freqRank: 565
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aird
+  gd: "àird"
+  en: "height, headland, point of the compass"
+  pos: noun
+  gender: f
+  freqRank: 799
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rubha
+  gd: "rubha"
+  en: "point, promontory"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caolas
+  gd: "caolas"
+  en: "strait, kyle"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:inbhir
+  gd: "inbhir"
+  en: "river mouth"
+  pos: noun
+  gender: m
+  freqRank: 390
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:camas
+  gd: "camas"
+  en: "bay, cove"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dun
+  gd: "dùn"
+  en: "fort, mound"
+  pos: noun
+  gender: m
+  freqRank: 279
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:carn
+  gd: "càrn"
+  en: "cairn"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tom
+  gd: "tom"
+  en: "knoll, hillock"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leathad
+  gd: "leathad"
+  en: "slope"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bruthach
+  gd: "bruthach"
+  en: "brae, slope"
+  pos: noun
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aonach
+  gd: "aonach"
+  en: "ridge, moor"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:druim
+  gd: "druim"
+  en: "ridge, back"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stuc
+  gd: "stùc"
+  en: "peak, pinnacle"
+  pos: noun
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:binnean
+  gd: "binnean"
+  en: "pinnacle"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uamh
+  gd: "uamh"
+  en: "cave"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:frith
+  gd: "frìth"
+  en: "deer forest"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glumag
+  gd: "glumag"
+  en: "pool, puddle"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lub
+  gd: "lùb"
+  en: "bend, loop"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sruth
+  gd: "sruth"
+  en: "stream, current"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:loch-mara
+  gd: "loch-mara"
+  en: "sea loch"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgeir
+  gd: "sgeir"
+  en: "skerry, sea rock"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tir-mor
+  gd: "tìr-mòr"
+  en: "mainland"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgire
+  gd: "sgìre"
+  en: "district, parish"
+  pos: noun
+  gender: f
+  freqRank: 162
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crioch
+  gd: "crìoch"
+  en: "border, end"
+  pos: noun
+  gender: f
+  freqRank: 261
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fearann
+  gd: "fearann"
+  en: "land, estate"
+  pos: noun
+  gender: m
+  freqRank: 637
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuath
+  gd: "tuath"
+  en: "north"
+  pos: noun
+  freqRank: 197
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deas
+  gd: "deas"
+  en: "south"
+  pos: noun
+  freqRank: 279
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ear
+  gd: "ear"
+  en: "east"
+  pos: noun
+  freqRank: 735
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iar
+  gd: "iar"
+  en: "west"
+  pos: noun
+  freqRank: 299
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mapa
+  gd: "mapa"
+  en: "map"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coisiche
+  gd: "coisiche"
+  en: "walker"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cas-steep
+  gd: "cas"
+  en: "steep"
+  pos: adjective
+  freqRank: 159
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reidh
+  gd: "rèidh"
+  en: "level, flat"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:domhainn
+  gd: "domhainn"
+  en: "deep"
+  pos: adjective
+  freqRank: 995
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:farsaing
+  gd: "farsaing"
+  en: "wide"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cumhang
+  gd: "cumhang"
+  en: "narrow"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:creagach
+  gd: "creagach"
+  en: "rocky"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomallach
+  gd: "iomallach"
+  en: "remote"
+  pos: adjective
+  freqRank: 995
+  tags: [pos:adjective, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leac
+  gd: "leac"
+  en: "flagstone, slab"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beinn-nibheis
+  gd: "Beinn Nibheis"
+  en: "Ben Nevis"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:loch-laomainn
+  gd: "Loch Laomainn"
+  en: "Loch Lomond"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:inbhir-nis
+  gd: "Inbhir Nis"
+  en: "Inverness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dun-eideann
+  gd: "Dùn Èideann"
+  en: "Edinburgh"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glaschu
+  gd: "Glaschu"
+  en: "Glasgow"
+  pos: noun
+  gender: m
+  freqRank: 404
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leodhas
+  gd: "Leòdhas"
+  en: "Lewis"
+  pos: noun
+  gender: m
+  freqRank: 637
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ile
+  gd: "Ìle"
+  en: "Islay"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:obar-dheathain
+  gd: "Obar Dheathain"
+  en: "Aberdeen"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aite
+  gd: "àite"
+  en: "place"
+  pos: noun
+  gender: m
+  freqRank: 63
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cnocan
+  gd: "cnocan"
+  en: "hillock"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

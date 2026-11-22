@@ -1,0 +1,879 @@
+# Sentences for the love-more scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:love-more-001
+  gd: "Tha mi an dòchas gu bheil thu gu math."
+  en: "I hope you are well."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:ann }
+    - { text: "dòchas", itemId: lex:dochas }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "bheil", itemId: lex:eil }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ann-N-gu-eil-P-gu-ADJ
+  tags: [topic:love, topic:feelings, prep:ann]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-002
+  gd: "Tha sonas agus sìth san taigh."
+  en: "There is happiness and peace in the house."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sonas", itemId: lex:sonas }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "sìth", itemId: lex:sith }
+    - { text: "san", itemId: lex:ann }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-ann-N
+  tags: [topic:love, topic:feelings, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-003
+  gd: "Rinn i gàire."
+  en: "She laughed."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "i", itemId: lex:i }
+    - { text: "gàire", itemId: lex:gaire }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:love, topic:feelings]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-004
+  gd: "Thàinig deòir."
+  en: "Tears came."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "deòir", itemId: lex:deur }
+    - { text: ".", itemId: null }
+  pattern: V-N
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-005
+  gd: "Tha cianalas orm."
+  en: "I am homesick."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cianalas", itemId: lex:cianalas }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-006
+  gd: "Tha iomagain orm."
+  en: "I am worried."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "iomagain", itemId: lex:iomagain }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-007
+  gd: "Tha uaigneas oirre."
+  en: "She is lonely."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uaigneas", itemId: lex:uaigneas }
+    - { text: "oirre", itemId: form:air.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-008
+  gd: "Tha nàire orm."
+  en: "I am embarrassed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "nàire", itemId: lex:naire }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-009
+  gd: "Tha moit orm às mo nighean."
+  en: "I am proud of my daughter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "moit", itemId: lex:moit }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: "às", itemId: lex:as }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "nighean", itemId: lex:nighean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P-as-P-N
+  tags: [topic:love, topic:feelings, prep:air, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-010
+  gd: "Tha farmad agam riut."
+  en: "I envy you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "farmad", itemId: lex:farmad }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "riut", itemId: form:ri.2sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ri-P
+  tags: [topic:love, topic:feelings, prep:aig, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-011
+  gd: "Tha eud air.3sg-m."
+  en: "He is jealous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "eud", itemId: lex:eud }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-012
+  gd: "Tha truas agam rithe."
+  en: "I pity her."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "truas", itemId: lex:truas }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "rithe", itemId: form:ri.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ri-P
+  tags: [topic:love, topic:feelings, prep:aig, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-013
+  gd: "Tha thu bòidheach, a luaidh."
+  en: "You are beautiful, darling."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "bòidheach", itemId: lex:boidheach }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "luaidh", itemId: lex:luaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-a-N
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-014
+  gd: "Tha mo chèile toilichte."
+  en: "My spouse is happy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "chèile", itemId: lex:ceile }
+    - { text: "toilichte", itemId: lex:toilichte }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-015
+  gd: "Bha am pòsadh math."
+  en: "The wedding was good."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "am", itemId: lex:an }
+    - { text: "pòsadh", itemId: lex:posadh }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-016
+  gd: "Phòs iad an-uiridh."
+  en: "They married last year."
+  altGd: []
+  tokens:
+    - { text: "Phòs", itemId: lex:pos }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an-uiridh", itemId: lex:an-uiridh }
+    - { text: ".", itemId: null }
+  pattern: V-P-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-017
+  gd: "Tha faireachdainn làidir agam."
+  en: "I have a strong feeling."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "faireachdainn", itemId: lex:faireachdainn }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-018
+  gd: "Tha inntinn mhath aice."
+  en: "She has a good mind."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "inntinn", itemId: lex:inntinn }
+    - { text: "mhath", itemId: lex:math }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-019
+  gd: "Tha smuain agam."
+  en: "I have an idea."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "smuain", itemId: lex:smuain }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-020
+  gd: "Tha e cridheil."
+  en: "He is cheerful."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "cridheil", itemId: lex:cridheil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-021
+  gd: "Tha mi brònach an-diugh."
+  en: "I am sad today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "brònach", itemId: lex:bronach }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-022
+  gd: "Tha an tidsear feargach."
+  en: "The teacher is angry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tidsear", itemId: lex:tidsear }
+    - { text: "feargach", itemId: lex:feargach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-023
+  gd: "Tha mi iomagaineach."
+  en: "I am anxious."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "iomagaineach", itemId: lex:iomagaineach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-024
+  gd: "Tha sinn dòchasach."
+  en: "We are hopeful."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "dòchasach", itemId: lex:dochasach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-025
+  gd: "Tha iad sona còmhla."
+  en: "They are happy together."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "sona", itemId: lex:sona }
+    - { text: "còmhla", itemId: lex:comhla }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-026
+  gd: "Tha e aonaranach."
+  en: "He is lonely."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "aonaranach", itemId: lex:aonaranach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-027
+  gd: "Tha i eudmhor."
+  en: "She is jealous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "eudmhor", itemId: lex:eudmhor }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-028
+  gd: "Tha mi moiteil asad."
+  en: "I am proud of you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "moiteil", itemId: lex:moiteil }
+    - { text: "asad", itemId: form:as.2sg }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-as-P
+  tags: [topic:love, topic:feelings, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-029
+  gd: "Tha am balach diùid."
+  en: "The boy is shy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "balach", itemId: lex:balach }
+    - { text: "diùid", itemId: lex:diuid }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-030
+  gd: "Tha an oidhche ciùin."
+  en: "The night is calm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "oidhche", itemId: lex:oidhche }
+    - { text: "ciùin", itemId: lex:ciuin }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-031
+  gd: "Tha thu glè choibhneil."
+  en: "You are very kind."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "glè", itemId: lex:gle }
+    - { text: "choibhneil", itemId: lex:coibhneil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADV-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-032
+  gd: "Tha i laghach."
+  en: "She is nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "laghach", itemId: lex:laghach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-033
+  gd: "Tha na daoine càirdeil."
+  en: "The people are friendly."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "daoine", itemId: lex:duine }
+    - { text: "càirdeil", itemId: lex:cairdeil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-034
+  gd: "Tha an cù dìleas."
+  en: "The dog is faithful."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù", itemId: lex:cu }
+    - { text: "dìleas", itemId: lex:dileas }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-035
+  gd: "Tha gràin agam air.3sg-m."
+  en: "I hate it."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gràin", itemId: lex:grain }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-air-P
+  tags: [topic:love, topic:feelings, prep:aig, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-036
+  gd: "Is fuath leam an t-uisge."
+  en: "I hate the rain."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "fuath", itemId: lex:fuath }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-uisge", itemId: lex:uisge }
+    - { text: ".", itemId: null }
+  pattern: is-N-le-P-art-N
+  tags: [topic:love, topic:feelings, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-037
+  gd: "Fhuair mi tlachd às."
+  en: "I enjoyed it."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "tlachd", itemId: lex:tlachd }
+    - { text: "às", itemId: form:as.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-as-P
+  tags: [topic:love, topic:feelings, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-038
+  gd: "Bha an leanabh a' caoineadh."
+  en: "The baby was crying."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "leanabh", itemId: lex:leanabh }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "caoineadh", itemId: lex:caoin }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ag-V
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-039
+  gd: "Gràdhaichidh mi thu gu bràth."
+  en: "I will love you forever."
+  altGd: []
+  tokens:
+    - { text: "Gràdhaichidh", itemId: lex:gradhaich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "gu bràth", itemId: lex:gu-brath }
+    - { text: ".", itemId: null }
+  pattern: V-P-P-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-040
+  gd: "Tha cuimhne mhath agam."
+  en: "I have a good memory."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cuimhne", itemId: lex:cuimhne }
+    - { text: "mhath", itemId: lex:math }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-041
+  gd: "Tha mi ag ionndrainn mo dhachaigh."
+  en: "I miss my home."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "ionndrainn", itemId: lex:ionndrainn }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "dhachaigh", itemId: lex:dhachaigh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-P-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-042
+  gd: "Tha earbsa agam annad."
+  en: "I trust you."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "earbsa", itemId: lex:earbsa }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "annad", itemId: form:ann.2sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ann-P
+  tags: [topic:love, topic:feelings, prep:aig, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-043
+  gd: "Tha misneachd aice."
+  en: "She has courage."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "misneachd", itemId: lex:misneachd }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-044
+  gd: "Tha sunnd math orm."
+  en: "I am in good spirits."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sunnd", itemId: lex:sunnd }
+    - { text: "math", itemId: lex:math }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-045
+  gd: "Tha mi leisg an-diugh."
+  en: "I am lazy today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "leisg", itemId: lex:leisg }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ADV
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-046
+  gd: "Tha e mì-thoilichte."
+  en: "He is unhappy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "mì-thoilichte", itemId: lex:mi-thoilichte }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-047
+  gd: "Bha fiamh-ghàire oirre."
+  en: "She was smiling."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "fiamh-ghàire", itemId: lex:fiamh-ghaire }
+    - { text: "oirre", itemId: form:air.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: bha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-048
+  gd: "Chan eil teagamh agam."
+  en: "I have no doubt."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "eil", itemId: lex:eil }
+    - { text: "teagamh", itemId: lex:teagamh }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: cha-eil-N-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-049
+  gd: "Tha iongnadh orm."
+  en: "I am surprised."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "iongnadh", itemId: lex:iongnadh }
+    - { text: "orm", itemId: form:air.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-P
+  tags: [topic:love, topic:feelings, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-050
+  gd: "Na gabh dragh."
+  en: "Don't worry."
+  altGd: []
+  tokens:
+    - { text: "Na", itemId: lex:na-dont }
+    - { text: "gabh", itemId: lex:gabh }
+    - { text: "dragh", itemId: lex:dragh }
+    - { text: ".", itemId: null }
+  pattern: na-dont-V-N
+  tags: [topic:love, topic:feelings]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-051
+  gd: "Tha mi cinnteach."
+  en: "I am sure."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "cinnteach", itemId: lex:cinnteach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-052
+  gd: "Tha an taigh sàmhach."
+  en: "The house is quiet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: "sàmhach", itemId: lex:samhach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:love, topic:feelings]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-053
+  gd: "Is toigh leam thu."
+  en: "I like you."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "thu", itemId: lex:thu }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-P
+  tags: [topic:love, topic:feelings, prep:le]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-054
+  gd: "Tha gaol agam ort, a ghràidh."
+  en: "I love you, my dear."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "gaol", itemId: lex:gaol }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "ort", itemId: form:air.2sg }
+    - { text: ",", itemId: null }
+    - { text: "a", itemId: lex:a }
+    - { text: "ghràidh", itemId: lex:gradh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-air-P-a-N
+  tags: [topic:love, topic:feelings, prep:aig, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:love-more-055
+  gd: "Tha cridhe mòr aige."
+  en: "He has a big heart."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cridhe", itemId: lex:cridhe }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:love, topic:feelings, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

@@ -1,0 +1,919 @@
+# Sentences for the music scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:music-001
+  gd: "Is toigh leam ceòl Gàidhlig."
+  en: "I like Gaelic music."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "ceòl", itemId: lex:ceol }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-N
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-002
+  gd: "Sheinn i òran bòidheach."
+  en: "She sang a beautiful song."
+  altGd: []
+  tokens:
+    - { text: "Sheinn", itemId: lex:seinn }
+    - { text: "i", itemId: lex:i }
+    - { text: "òran", itemId: lex:oran }
+    - { text: "bòidheach", itemId: lex:boidheach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-003
+  gd: "Tha an seinneadair ainmeil."
+  en: "The singer is famous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seinneadair", itemId: lex:seinneadair }
+    - { text: "ainmeil", itemId: lex:ainmeil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-004
+  gd: "Tha fìdheall aig mo phiuthar."
+  en: "My sister has a fiddle."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fìdheall", itemId: lex:fidheall }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "phiuthar", itemId: lex:piuthar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-005
+  gd: "Tha am fìdhlear math."
+  en: "The fiddler is good."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fìdhlear", itemId: lex:fidhlear }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-006
+  gd: "Chluich e a' phìob."
+  en: "He played the pipe."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phìob", itemId: lex:piob }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-007
+  gd: "Tha a' phìob-mhòr àrd."
+  en: "The bagpipes are loud."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phìob-mhòr", itemId: lex:piob-mhor }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-008
+  gd: "Tha am pìobaire a' cluich."
+  en: "The piper is playing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "pìobaire", itemId: lex:piobaire }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-009
+  gd: "Is toigh leam pìobaireachd."
+  en: "I like pipe music."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "pìobaireachd", itemId: lex:piobaireachd }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-010
+  gd: "Tha clàrsach aice."
+  en: "She has a harp."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "clàrsach", itemId: lex:clarsach }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-011
+  gd: "Tha an clàrsair glè mhath."
+  en: "The harper is very good."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "clàrsair", itemId: lex:clarsair }
+    - { text: "glè", itemId: lex:gle }
+    - { text: "mhath", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-012
+  gd: "Tha giotàr ùr agam."
+  en: "I have a new guitar."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "giotàr", itemId: lex:giotar }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-013
+  gd: "Chluich e am bogsa aig a' chèilidh."
+  en: "He played the accordion at the ceilidh."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "e", itemId: lex:e }
+    - { text: "am", itemId: lex:an }
+    - { text: "bogsa", itemId: lex:bogsa }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chèilidh", itemId: lex:ceilidh }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-aig-art-N
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-014
+  gd: "Tha an druma àrd."
+  en: "The drum is loud."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "druma", itemId: lex:druma }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-015
+  gd: "Tha piàna anns an t-seòmar."
+  en: "There is a piano in the room."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "piàna", itemId: lex:piana }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-seòmar", itemId: lex:seomar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-016
+  gd: "Chluich i port air an fheadaig."
+  en: "She played a tune on the whistle."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "i", itemId: lex:i }
+    - { text: "port", itemId: lex:port }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fheadaig", itemId: lex:feadag }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-art-N
+  tags: [topic:music, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-017
+  gd: "Tha am port seo luath."
+  en: "This tune is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "port", itemId: lex:port }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-018
+  gd: "Is toigh leam port-à-beul."
+  en: "I like mouth music."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "port-à-beul", itemId: lex:port-a-beul }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-019
+  gd: "Tha am fonn seo brònach."
+  en: "This tune is sad."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fonn", itemId: lex:fonn }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "brònach", itemId: lex:bronach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-020
+  gd: "Seinn a' chiad rann."
+  en: "Sing the first verse."
+  altGd: []
+  tokens:
+    - { text: "Seinn", itemId: lex:seinn }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chiad", itemId: lex:ciad }
+    - { text: "rann", itemId: lex:rann }
+    - { text: ".", itemId: null }
+  pattern: V-art-NUM-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-021
+  gd: "Tha sèist an òrain furasta."
+  en: "The chorus of the song is easy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sèist", itemId: lex:seist }
+    - { text: "an", itemId: lex:an }
+    - { text: "òrain", itemId: lex:oran }
+    - { text: "furasta", itemId: lex:furasta }
+    - { text: ".", itemId: null }
+  pattern: tha-N-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-022
+  gd: "Tha mi ann an còisir."
+  en: "I am in a choir."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "còisir", itemId: lex:coisir }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ann-N
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-023
+  gd: "Tha an còmhlan a' cluich a-nochd."
+  en: "The band is playing tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "còmhlan", itemId: lex:comhlan }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ADV
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-024
+  gd: "Bha a' chuirm-chiùil math."
+  en: "The concert was good."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chuirm-chiùil", itemId: lex:cuirm-chiuil }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-025
+  gd: "Cheannaich mi an clàr ùr aca."
+  en: "I bought their new album."
+  altGd: []
+  tokens:
+    - { text: "Cheannaich", itemId: lex:ceannaich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "an", itemId: lex:an }
+    - { text: "clàr", itemId: lex:clar }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aca", itemId: form:aig.3pl }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N-ADJ-aig-P
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-026
+  gd: "Tha an guth aige binn."
+  en: "His voice is sweet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "guth", itemId: lex:guth }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: "binn", itemId: lex:binn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-027
+  gd: "Chluich iad ruidhle."
+  en: "They played a reel."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "ruidhle", itemId: lex:ruidhle }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-028
+  gd: "Chluich am pìobaire marsail."
+  en: "The piper played a march."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "am", itemId: lex:an }
+    - { text: "pìobaire", itemId: lex:piobaire }
+    - { text: "marsail", itemId: lex:marsail }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-029
+  gd: "Is e cumha a th' ann."
+  en: "It is a lament."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "cumha", itemId: lex:cumha }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-030
+  gd: "Sheinn a' mhàthair tàladh."
+  en: "The mother sang a lullaby."
+  altGd: []
+  tokens:
+    - { text: "Sheinn", itemId: lex:seinn }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhàthair", itemId: lex:mathair }
+    - { text: "tàladh", itemId: lex:taladh }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-031
+  gd: "Tha an teaghlach glè cheòlmhor."
+  en: "The family is very musical."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "teaghlach", itemId: lex:teaghlach }
+    - { text: "glè", itemId: lex:gle }
+    - { text: "cheòlmhor", itemId: lex:ceolmhor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-032
+  gd: "Is e ceòladair math a th' innte."
+  en: "She is a good musician."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "ceòladair", itemId: lex:ceoladair }
+    - { text: "math", itemId: lex:math }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "innte", itemId: form:ann.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-033
+  gd: "Dè an ionnstramaid a th' agad?"
+  en: "What instrument do you play?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "ionnstramaid", itemId: lex:ionnstramaid }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "agad", itemId: form:aig.2sg }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-aig-P
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-034
+  gd: "Tha teud ùr air an fhìdhill."
+  en: "There is a new string on the fiddle."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "teud", itemId: lex:teud }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhìdhill", itemId: lex:fidheall }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:music, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-035
+  gd: "Tha am bogha aige fada."
+  en: "His bow is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "bogha", itemId: lex:bogha }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-036
+  gd: "Tha am piàna às a ghleus."
+  en: "The piano is out of tune."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "piàna", itemId: lex:piana }
+    - { text: "às", itemId: lex:as }
+    - { text: "a", itemId: lex:a }
+    - { text: "ghleus", itemId: lex:gleus }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-as-a-N
+  tags: [topic:music, prep:as]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-037
+  gd: "Is e duan fada a th' ann."
+  en: "It is a long poem."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "duan", itemId: lex:duan }
+    - { text: "fada", itemId: lex:fada }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-038
+  gd: "Sheinn iad luinneag."
+  en: "They sang a ditty."
+  altGd: []
+  tokens:
+    - { text: "Sheinn", itemId: lex:seinn }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "luinneag", itemId: lex:luinneag }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-039
+  gd: "Is toigh leatha sean-nòs."
+  en: "She likes sean-nòs singing."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leatha", itemId: form:le.3sg-f }
+    - { text: "sean-nòs", itemId: lex:sean-nos }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-040
+  gd: "Chlàraich iad òran ùr."
+  en: "They recorded a new song."
+  altGd: []
+  tokens:
+    - { text: "Chlàraich", itemId: lex:claraich }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "òran", itemId: lex:oran }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-041
+  gd: "Bidh mi ag èisteachd ris an rèidio."
+  en: "I listen to the radio."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "èisteachd", itemId: lex:eist }
+    - { text: "ris", itemId: lex:ri }
+    - { text: "an", itemId: lex:an }
+    - { text: "rèidio", itemId: lex:reidio }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-ri-art-N
+  tags: [topic:music, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-042
+  gd: "Tha an còmhlan air an àrd-ùrlar."
+  en: "The band is on the stage."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "còmhlan", itemId: lex:comhlan }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "àrd-ùrlar", itemId: lex:ard-urlar }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:music, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-043
+  gd: "Tha binneas anns a' cheòl."
+  en: "There is sweetness in the music."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "binneas", itemId: lex:binneas }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "cheòl", itemId: lex:ceol }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-044
+  gd: "Tha ruitheam làidir aig a' phort."
+  en: "The tune has a strong rhythm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ruitheam", itemId: lex:ruitheam }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phort", itemId: lex:port }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-045
+  gd: "Cùm a' bhuille."
+  en: "Keep the beat."
+  altGd: []
+  tokens:
+    - { text: "Cùm", itemId: lex:cum }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhuille", itemId: lex:buille }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-046
+  gd: "Seinn e gu mall."
+  en: "Sing it slowly."
+  altGd: []
+  tokens:
+    - { text: "Seinn", itemId: lex:seinn }
+    - { text: "e", itemId: lex:e }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "mall", itemId: lex:mall }
+    - { text: ".", itemId: null }
+  pattern: V-P-gu-ADJ
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-047
+  gd: "Bha toirm mhòr anns an talla."
+  en: "There was a great din in the hall."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "toirm", itemId: lex:toirm }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "talla", itemId: lex:talla }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-art-N
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-048
+  gd: "Is toigh leam ceòl traidiseanta."
+  en: "I like traditional music."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "ceòl", itemId: lex:ceol }
+    - { text: "traidiseanta", itemId: lex:traidiseanta }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N-ADJ
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-049
+  gd: "Chluich i pìos air a' phiàna."
+  en: "She played a piece on the piano."
+  altGd: []
+  tokens:
+    - { text: "Chluich", itemId: lex:cluich }
+    - { text: "i", itemId: lex:i }
+    - { text: "pìos", itemId: lex:pios }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phiàna", itemId: lex:piana }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-air-art-N
+  tags: [topic:music, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-050
+  gd: "Leugh mi na nòtaichean."
+  en: "I read the notes."
+  altGd: []
+  tokens:
+    - { text: "Leugh", itemId: lex:leugh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "na", itemId: lex:na }
+    - { text: "nòtaichean", itemId: lex:nota }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:music]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-051
+  gd: "Tha an fhìdhleireachd aice sgoinneil."
+  en: "Her fiddle playing is brilliant."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhìdhleireachd", itemId: lex:fidhleireachd }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: "sgoinneil", itemId: lex:sgoinneil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:music, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-052
+  gd: "Is toigh leam a bhith a' seinn."
+  en: "I like to sing."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "a", itemId: lex:a }
+    - { text: "bhith", itemId: lex:bi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "seinn", itemId: lex:seinn }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-a-V-ag-V
+  tags: [topic:music, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-053
+  gd: "Chuala mi òran math air an rèidio."
+  en: "I heard a good song on the radio."
+  altGd: []
+  tokens:
+    - { text: "Chuala", itemId: lex:cluinn }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "òran", itemId: lex:oran }
+    - { text: "math", itemId: lex:math }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "rèidio", itemId: lex:reidio }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ-air-art-N
+  tags: [topic:music, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:music-054
+  gd: "Tha fichead duine anns a' chòisir."
+  en: "There are twenty people in the choir."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fichead", itemId: lex:fichead }
+    - { text: "duine", itemId: lex:duine }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chòisir", itemId: lex:coisir }
+    - { text: ".", itemId: null }
+  pattern: tha-NUM-N-ann-art-N
+  tags: [topic:music, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

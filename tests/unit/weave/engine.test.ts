@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { hash, seedOf } from '../../../src/weave/hash';
 import { hexToRgb, parseSett, threadColours } from '../../../src/weave/sett';
 import { twillPixels } from '../../../src/weave/twill';
-import { geometry, layoutBands, mothPosition, placeHoles, textAlternative } from '../../../src/weave/layout';
+import { geometry, layoutBands, mothPosition, placeHoles, textAlternative, wovenRect } from '../../../src/weave/layout';
 
 describe('hash', () => {
   it('is deterministic and within 0..1', () => {
@@ -71,13 +71,33 @@ describe('layout', () => {
     expect([d.width, d.height]).toEqual([64, 380]);
     expect(d.cloth).toEqual({ x: 4, y: 10, w: 56, h: 360 });
   });
-  it('lays detail bands 9px high in weaving order, squeezing when full', () => {
+  it('lays detail bands 9px high, newest at the top, never squeezing', () => {
     const d = geometry('detail');
     const bands = layoutBands(['a', 'b', 'c'], d);
-    expect(bands.map((b) => b.rect.y)).toEqual([10, 19, 28]);
+    expect(bands.map((b) => b.rect.y)).toEqual([28, 19, 10]);
     expect(bands[0].rect.h).toBe(9);
     const many = layoutBands(Array.from({ length: 90 }, (_, i) => `i${i}`), d);
-    expect(many[89].rect.y + many[89].rect.h).toBeCloseTo(370);
+    expect(many.every((b) => b.rect.h === 9)).toBe(true);
+    expect(many[89].rect.y).toBe(10); // the newest band is in view
+    expect(many[0].rect.y).toBe(10 + 89 * 9); // the oldest is far below the window
+  });
+  it('weaves the strip left to right, 16px per item, never squeezing', () => {
+    const s = geometry('strip', 300);
+    expect(layoutBands(['a', 'b'], s).map((b) => [b.rect.x, b.rect.w])).toEqual([[10, 16], [26, 16]]);
+    const many = layoutBands(Array.from({ length: 40 }, (_, i) => `i${i}`), s);
+    expect(many.every((b) => b.rect.w === 16)).toBe(true);
+    expect(many[39].rect.x + many[39].rect.w).toBe(290); // newest end at the right inset
+    expect(many[0].rect.x).toBe(290 - 40 * 16);
+  });
+  it('grows the woven cloth from nothing as items are woven', () => {
+    const s = geometry('strip', 300);
+    const d = geometry('detail');
+    expect(wovenRect(0, s).w).toBe(0);
+    expect(wovenRect(3, s)).toEqual({ x: 10, y: 0, w: 48, h: 44 });
+    expect(wovenRect(100, s).w).toBeCloseTo(280);
+    expect(wovenRect(0, d).h).toBe(0);
+    expect(wovenRect(3, d)).toEqual({ x: 4, y: 10, w: 56, h: 27 });
+    expect(wovenRect(100, d).h).toBeCloseTo(360);
   });
   it('places holes on their item band, largest first, with radii by variant', () => {
     const d = geometry('detail');
@@ -89,13 +109,24 @@ describe('layout', () => {
     expect(placed.map((p) => p.itemId)).toEqual(['a', 'b']);
     expect(placed[0].r).toBe(8);
     expect(placed[1].r).toBe(5);
-    expect(placed[0].cy).toBeCloseTo(14.5);
+    expect(placed[0].cy).toBeCloseTo(23.5); // 'a' is the older band, so it sits below 'b'
     const strip = placeHoles([{ itemId: 'a', size: 'medium' }], ['a'], geometry('strip'));
     expect(strip[0].r).toBe(5);
   });
   it('perches the moth beside the first hole', () => {
-    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 120, r: 6, seed: 1 })).toEqual({ x: 41, y: 116, size: 22 });
-    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 5, r: 6, seed: 1 }).y).toBe(13);
+    const strip = geometry('strip', 300);
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 30, r: 6, seed: 1 }, strip)).toEqual({ x: 41, y: 26, size: 22 });
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 22, cy: 5, r: 6, seed: 1 }, strip).y).toBe(13);
+  });
+  it('keeps the whole moth on the canvas', () => {
+    const d = geometry('detail'); // 64 x 380
+    const at = (cx: number, cy: number, r: number) => mothPosition({ itemId: 'a', size: 'large', cx, cy, r, seed: 1 }, d);
+    expect(at(20, 100, 5).x).toBe(38); // room on the right: as before
+    expect(at(46, 100, 8).x).toBe(25); // no room on the right: perches on the left
+    expect(at(32, 100, 8).x).toBe(51); // room on neither side: clamped inside the canvas
+    expect(at(32, 379, 8).y).toBe(367);
+    const strip = geometry('strip', 300);
+    expect(mothPosition({ itemId: 'a', size: 'large', cx: 282, cy: 22, r: 7, seed: 1 }, strip).x).toBe(262);
   });
   it('words the text alternative', () => {
     expect(textAlternative('Love', '2.4 ells', 2)).toBe('Love, 2.4 ells, 2 moth holes');

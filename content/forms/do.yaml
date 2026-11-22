@@ -1,0 +1,66 @@
+# Pronominal forms of "do" (W1-J1)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: form:do.1sg
+  lexemeId: lex:do
+  gd: "dhomh"
+  en: "to me"
+  person: 1sg
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.2sg
+  lexemeId: lex:do
+  gd: "dhut"
+  en: "to you"
+  person: 2sg
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.3sg-m
+  lexemeId: lex:do
+  gd: "dha"
+  en: "to him"
+  person: 3sg-m
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.3sg-f
+  lexemeId: lex:do
+  gd: "dhi"
+  en: "to her"
+  person: 3sg-f
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.1pl
+  lexemeId: lex:do
+  gd: "dhuinn"
+  en: "to us"
+  person: 1pl
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.2pl
+  lexemeId: lex:do
+  gd: "dhuibh"
+  en: "to you (plural or formal)"
+  person: 2pl
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: form:do.3pl
+  lexemeId: lex:do
+  gd: "dhaibh"
+  en: "to them"
+  person: 3pl
+  tags: [prep:do, grammar:pronominal-preposition]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

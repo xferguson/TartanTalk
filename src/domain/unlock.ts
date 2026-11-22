@@ -28,13 +28,26 @@ export function isLearned(progress: Progress | undefined): boolean {
   return progress?.wovenAt != null;
 }
 
-/** Items a scarf can still teach: matching its filter and not yet learned in any scarf. */
+/**
+ * Everything a scarf covers: items matching its filter, plus the words its
+ * sentences are built from. Without the second part a preposition scarf could
+ * never teach `tha` or the nouns, so its sentences would stay locked forever.
+ */
+export function scarfItems(items: readonly LearnableItem[], tagFilter: readonly string[]): LearnableItem[] {
+  const needed = new Set<ItemId>();
+  for (const item of items) {
+    if (item.kind === 'sentence' && matchesFilter(item, tagFilter)) trackedTokens(item).forEach((id) => needed.add(id));
+  }
+  return items.filter((item) => matchesFilter(item, tagFilter) || needed.has(item.id));
+}
+
+/** Items a scarf can still teach: covered by it and not yet learned in any scarf. */
 export function candidateItems(
   items: readonly LearnableItem[],
   tagFilter: readonly string[],
   progress: ReadonlyMap<ItemId, Progress>,
 ): LearnableItem[] {
-  return items.filter((item) => matchesFilter(item, tagFilter) && !isLearned(progress.get(item.id)));
+  return scarfItems(items, tagFilter).filter((item) => !isLearned(progress.get(item.id)));
 }
 
 export interface ScarfPreview {
@@ -50,8 +63,7 @@ export function scarfPreview(
 ): ScarfPreview {
   let newItems = 0;
   let wovenElsewhere = 0;
-  for (const item of items) {
-    if (!matchesFilter(item, tagFilter)) continue;
+  for (const item of scarfItems(items, tagFilter)) {
     if (isLearned(progress.get(item.id))) wovenElsewhere++;
     else newItems++;
   }

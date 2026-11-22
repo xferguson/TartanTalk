@@ -1,0 +1,912 @@
+# Sentences for the festivals-ceilidh scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:festivals-ceilidh-001
+  gd: "Tha cèilidh anns an talla a-nochd."
+  en: "There is a ceilidh in the hall tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cèilidh", itemId: lex:ceilidh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "talla", itemId: lex:talla }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-ADV
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-002
+  gd: "Is toigh leam dannsa."
+  en: "I like dancing."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "dannsa", itemId: lex:dannsa }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:festivals-ceilidh, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-003
+  gd: "Bha sinn a' dannsa fad na h-oidhche."
+  en: "We were dancing all night."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dannsa", itemId: lex:dannsa }
+    - { text: "fad", itemId: lex:fad }
+    - { text: "na", itemId: lex:na }
+    - { text: "h-oidhche", itemId: lex:oidhche }
+    - { text: ".", itemId: null }
+  pattern: bha-P-ag-N-N-art-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-004
+  gd: "Tha an dannsair luath."
+  en: "The dancer is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dannsair", itemId: lex:dannsair }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-005
+  gd: "Bidh fèis anns a' bhaile as t-samhradh."
+  en: "There is a festival in the town in the summer."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "fèis", itemId: lex:feis }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: "as", itemId: lex:ann }
+    - { text: "t-samhradh", itemId: lex:samhradh }
+    - { text: ".", itemId: null }
+  pattern: bidh-N-ann-art-N-ann-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-006
+  gd: "Bha mi aig a' Mhòd."
+  en: "I was at the Mòd."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "Mhòd", itemId: lex:mod }
+    - { text: ".", itemId: null }
+  pattern: bha-P-aig-art-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-007
+  gd: "Tha an Nollaig a' tighinn."
+  en: "Christmas is coming."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "Nollaig", itemId: lex:nollaig }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-008
+  gd: "Nollaig Chridheil dhuibh uile!"
+  en: "Merry Christmas to you all!"
+  altGd: []
+  tokens:
+    - { text: "Nollaig Chridheil", itemId: lex:phrase-nollaig-chridheil }
+    - { text: "dhuibh", itemId: form:do.2pl }
+    - { text: "uile", itemId: lex:uile }
+    - { text: "!", itemId: null }
+  pattern: X-do-P-ADJ
+  tags: [topic:festivals-ceilidh, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-009
+  gd: "Bliadhna Mhath Ùr dhut!"
+  en: "Happy New Year to you!"
+  altGd: []
+  tokens:
+    - { text: "Bliadhna Mhath Ùr", itemId: lex:phrase-bliadhna-mhath-ur }
+    - { text: "dhut", itemId: form:do.2sg }
+    - { text: "!", itemId: null }
+  pattern: X-do-P
+  tags: [topic:festivals-ceilidh, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-010
+  gd: "Bidh sinn a' dannsa air Oidhche Challainn."
+  en: "We dance at Hogmanay."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dannsa", itemId: lex:dannsa }
+    - { text: "air", itemId: lex:air }
+    - { text: "Oidhche Challainn", itemId: lex:oidhche-challainn }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-N-air-N
+  tags: [topic:festivals-ceilidh, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-011
+  gd: "Bidh a' chlann a' dol a-mach air Oidhche Shamhna."
+  en: "The children go out at Halloween."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlann", itemId: lex:clann }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "a-mach", itemId: lex:a-mach }
+    - { text: "air", itemId: lex:air }
+    - { text: "Oidhche Shamhna", itemId: lex:oidhche-shamhna }
+    - { text: ".", itemId: null }
+  pattern: bidh-art-N-ag-V-ADV-air-N
+  tags: [topic:festivals-ceilidh, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-012
+  gd: "Tha uighean againn aig a' Chàisg."
+  en: "We have eggs at Easter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uighean", itemId: lex:ugh }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "Chàisg", itemId: lex:caisg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-aig-art-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-013
+  gd: "Tha mo cho-là-breith a-màireach."
+  en: "My birthday is tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "cho-là-breith", itemId: lex:co-la-breith }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADV
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-014
+  gd: "Co-là-breith sona dhut!"
+  en: "Happy birthday to you!"
+  altGd: []
+  tokens:
+    - { text: "Co-là-breith sona", itemId: lex:phrase-co-la-breith-sona }
+    - { text: "dhut", itemId: form:do.2sg }
+    - { text: "!", itemId: null }
+  pattern: X-do-P
+  tags: [topic:festivals-ceilidh, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-015
+  gd: "Fhuair mi tiodhlac."
+  en: "I got a present."
+  altGd: []
+  tokens:
+    - { text: "Fhuair", itemId: lex:faigh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "tiodhlac", itemId: lex:tiodhlac }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-016
+  gd: "Bha am pàrtaidh math."
+  en: "The party was good."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "am", itemId: lex:an }
+    - { text: "pàrtaidh", itemId: lex:partaidh }
+    - { text: "math", itemId: lex:math }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-017
+  gd: "Bha cuirm mhòr anns a' chaisteal."
+  en: "There was a great feast in the castle."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "cuirm", itemId: lex:cuirm }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chaisteal", itemId: lex:caisteal }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-art-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-018
+  gd: "Bidh sinn a' comharrachadh a-nochd."
+  en: "We are celebrating tonight."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "comharrachadh", itemId: lex:comharraich }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-ADV
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-019
+  gd: "Thug e òraid."
+  en: "He gave a speech."
+  altGd: []
+  tokens:
+    - { text: "Thug", itemId: lex:thoir }
+    - { text: "e", itemId: lex:e }
+    - { text: "òraid", itemId: lex:oraid }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-020
+  gd: "Tha àbhachdas aige."
+  en: "He has a sense of humour."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "àbhachdas", itemId: lex:abhachdas }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-021
+  gd: "Is e fealla-dhà a th' ann."
+  en: "It is a joke."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "fealla-dhà", itemId: lex:fealla-dha }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-022
+  gd: "Tha coinneal air a' bhòrd."
+  en: "There is a candle on the table."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "coinneal", itemId: lex:coinneal }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:festivals-ceilidh, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-023
+  gd: "Chunnaic sinn teine-ealain."
+  en: "We saw a firework."
+  altGd: []
+  tokens:
+    - { text: "Chunnaic", itemId: lex:faic }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "teine-ealain", itemId: lex:teine-ealain }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-024
+  gd: "Bha sluagh mòr ann."
+  en: "There was a big crowd."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "sluagh", itemId: lex:sluagh }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-P
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-025
+  gd: "Bha an luchd-èisteachd toilichte."
+  en: "The audience was happy."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "an", itemId: lex:an }
+    - { text: "luchd-èisteachd", itemId: lex:luchd-eisteachd }
+    - { text: "toilichte", itemId: lex:toilichte }
+    - { text: ".", itemId: null }
+  pattern: bha-art-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-026
+  gd: "Is e fear-an-taighe math a th' ann."
+  en: "He is a good host."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "fear-an-taighe", itemId: lex:fear-an-taighe }
+    - { text: "math", itemId: lex:math }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-027
+  gd: "Thug bean-an-taighe cupa tì dhuinn."
+  en: "The hostess gave us a cup of tea."
+  altGd: []
+  tokens:
+    - { text: "Thug", itemId: lex:thoir }
+    - { text: "bean-an-taighe", itemId: lex:bean-an-taighe }
+    - { text: "cupa", itemId: lex:cupa }
+    - { text: "tì", itemId: lex:ti }
+    - { text: "dhuinn", itemId: form:do.1pl }
+    - { text: ".", itemId: null }
+  pattern: V-N-N-N-do-P
+  tags: [topic:festivals-ceilidh, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-028
+  gd: "Is e tachartas mòr a th' ann."
+  en: "It is a big event."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "tachartas", itemId: lex:tachartas }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-029
+  gd: "Tha na saor-làithean a' tòiseachadh."
+  en: "The holidays are beginning."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "saor-làithean", itemId: lex:saor-laithean }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tòiseachadh", itemId: lex:toisich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-030
+  gd: "Dè tha thu a' dèanamh aig an deireadh-sheachdain?"
+  en: "What are you doing at the weekend?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dèanamh", itemId: lex:dean }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "deireadh-sheachdain", itemId: lex:deireadh-seachdain }
+    - { text: "?", itemId: null }
+  pattern: X-tha-P-ag-V-aig-art-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-031
+  gd: "Tha mi ag obair Diluain."
+  en: "I work on Monday."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "Diluain", itemId: lex:diluain }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-N-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-032
+  gd: "Tha clas agam Dimàirt."
+  en: "I have a class on Tuesday."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "clas", itemId: lex:clas }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "Dimàirt", itemId: lex:dimairt }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-033
+  gd: "Bidh sinn a' snàmh Diciadain."
+  en: "We swim on Wednesday."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "snàmh", itemId: lex:snamh }
+    - { text: "Diciadain", itemId: lex:diciadain }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-034
+  gd: "Tha cèilidh ann Diardaoin."
+  en: "There is a ceilidh on Thursday."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cèilidh", itemId: lex:ceilidh }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "Diardaoin", itemId: lex:diardaoin }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-P-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-035
+  gd: "Tha mi saor Dihaoine."
+  en: "I am free on Friday."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "saor", itemId: lex:saor-cheap }
+    - { text: "Dihaoine", itemId: lex:dihaoine }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-036
+  gd: "Bidh sinn a' dol dhan bhaile Disathairne."
+  en: "We go to town on Saturday."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: "Disathairne", itemId: lex:disathairne }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-do-N-N
+  tags: [topic:festivals-ceilidh, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-037
+  gd: "Tha a' chlann aig an taigh Didòmhnaich."
+  en: "The children are at home on Sunday."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlann", itemId: lex:clann }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: "Didòmhnaich", itemId: lex:didomhnaich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-art-N-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-038
+  gd: "Tha fèill anns a' bhaile."
+  en: "There is a fair in the town."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fèill", itemId: lex:feill }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-039
+  gd: "Tha am pìobaire ainmeil."
+  en: "The piper is famous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "pìobaire", itemId: lex:piobaire }
+    - { text: "ainmeil", itemId: lex:ainmeil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-040
+  gd: "Bha a h-uile duine sunndach."
+  en: "Everyone was cheerful."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "a", itemId: lex:a }
+    - { text: "h-uile", itemId: lex:uile }
+    - { text: "duine", itemId: lex:duine }
+    - { text: "sunndach", itemId: lex:sunndach }
+    - { text: ".", itemId: null }
+  pattern: bha-a-ADJ-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-041
+  gd: "Gabh drama!"
+  en: "Have a dram!"
+  altGd: []
+  tokens:
+    - { text: "Gabh", itemId: lex:gabh }
+    - { text: "drama", itemId: lex:drama }
+    - { text: "!", itemId: null }
+  pattern: V-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-042
+  gd: "Òlaidh sinn deoch-slàinte!"
+  en: "We will drink a toast!"
+  altGd: []
+  tokens:
+    - { text: "Òlaidh", itemId: lex:ol }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "deoch-slàinte", itemId: lex:deoch-slainte }
+    - { text: "!", itemId: null }
+  pattern: V-P-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-043
+  gd: "Bha cruinneachadh mòr anns an talla."
+  en: "There was a big gathering in the hall."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "cruinneachadh", itemId: lex:cruinneachadh }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "talla", itemId: lex:talla }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-art-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-044
+  gd: "Tha Latha Naomh Anndrais anns an t-Samhain."
+  en: "St Andrew's Day is in November."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Latha Naomh Anndrais", itemId: lex:latha-naomh-anndrais }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-Samhain", itemId: lex:samhain }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-045
+  gd: "Tha a' bhratach gorm agus geal."
+  en: "The flag is blue and white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhratach", itemId: lex:bratach }
+    - { text: "gorm", itemId: lex:gorm }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-046
+  gd: "Chaidh a' chaismeachd sìos an t-sràid."
+  en: "The parade went down the street."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chaismeachd", itemId: lex:caismeachd }
+    - { text: "sìos", itemId: lex:sios }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sràid", itemId: lex:sraid }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-ADV-art-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-047
+  gd: "Cheannaich mi ticead."
+  en: "I bought a ticket."
+  altGd: []
+  tokens:
+    - { text: "Cheannaich", itemId: lex:ceannaich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ticead", itemId: lex:ticead }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-048
+  gd: "Tha an talla làn."
+  en: "The hall is full."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "talla", itemId: lex:talla }
+    - { text: "làn", itemId: lex:lan }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-049
+  gd: "Bha aoibhneas mòr ann."
+  en: "There was great joy."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "aoibhneas", itemId: lex:aoibhneas }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ADJ-ann-P
+  tags: [topic:festivals-ceilidh, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-050
+  gd: "Tha ceann-bliadhna againn an-diugh."
+  en: "We have an anniversary today."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceann-bliadhna", itemId: lex:ceann-bliadhna }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "an-diugh", itemId: lex:an-diugh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ADV
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-051
+  gd: "Bidh taigeis againn air Oidhche Bhurns."
+  en: "We have haggis on Burns Night."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "taigeis", itemId: lex:taigeis }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "air", itemId: lex:air }
+    - { text: "Oidhche Bhurns", itemId: lex:oidhche-bhurns }
+    - { text: ".", itemId: null }
+  pattern: bidh-N-aig-P-air-N
+  tags: [topic:festivals-ceilidh, prep:aig, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-052
+  gd: "Bha mi aig a' chèilidh a-raoir."
+  en: "I was at the ceilidh last night."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chèilidh", itemId: lex:ceilidh }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: bha-P-aig-art-N-ADV
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-053
+  gd: "An robh thu aig a' chèilidh?"
+  en: "Were you at the ceilidh?"
+  altGd: []
+  tokens:
+    - { text: "An", itemId: lex:an-q }
+    - { text: "robh", itemId: lex:robh }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chèilidh", itemId: lex:ceilidh }
+    - { text: "?", itemId: null }
+  pattern: an-q-robh-P-aig-art-N
+  tags: [topic:festivals-ceilidh, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:festivals-ceilidh-054
+  gd: "Tha mòran dhaoine an-seo."
+  en: "There are many people here."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mòran", itemId: lex:moran }
+    - { text: "dhaoine", itemId: lex:duine }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-ADV
+  tags: [topic:festivals-ceilidh]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

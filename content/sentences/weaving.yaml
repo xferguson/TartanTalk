@@ -1,0 +1,903 @@
+# Sentences for the weaving scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:weaving-001
+  gd: "Tha an clò seo blàth."
+  en: "This tweed is warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "clò", itemId: lex:clo }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-002
+  gd: "Tha breacan air a' bhòrd."
+  en: "There is a plaid on the table."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "breacan", itemId: lex:breacan }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weaving, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-003
+  gd: "Is toigh leam an tartan seo."
+  en: "I like this tartan."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "tartan", itemId: lex:tartan }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N-X
+  tags: [topic:weaving, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-004
+  gd: "Tha i a' fighe clò."
+  en: "She is weaving tweed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fighe", itemId: lex:figh }
+    - { text: "clò", itemId: lex:clo }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-N
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-005
+  gd: "Fighidh mi sgarfa."
+  en: "I will weave a scarf."
+  altGd: []
+  tokens:
+    - { text: "Fighidh", itemId: lex:figh }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "sgarfa", itemId: lex:sgarfa }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-006
+  gd: "Tha beart anns an t-sabhal."
+  en: "There is a loom in the barn."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "beart", itemId: lex:beart }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sabhal", itemId: lex:sabhal }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-007
+  gd: "Tha am breabadair trang."
+  en: "The weaver is busy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "breabadair", itemId: lex:breabadair }
+    - { text: "trang", itemId: lex:trang }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-008
+  gd: "Tha an spàl luath."
+  en: "The shuttle is fast."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "spàl", itemId: lex:spal }
+    - { text: "luath", itemId: lex:luath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-009
+  gd: "Tha snàth dearg agam."
+  en: "I have red yarn."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "snàth", itemId: lex:snath }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:weaving, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-010
+  gd: "Thoir dhomh an t-snàthad."
+  en: "Give me the needle."
+  altGd: []
+  tokens:
+    - { text: "Thoir", itemId: lex:thoir }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-snàthad", itemId: lex:snathad }
+    - { text: ".", itemId: null }
+  pattern: V-do-P-art-N
+  tags: [topic:weaving, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-011
+  gd: "Tha clòimh na caorach bog."
+  en: "The sheep's wool is soft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "clòimh", itemId: lex:cloimh }
+    - { text: "na", itemId: lex:na }
+    - { text: "caorach", itemId: lex:caora }
+    - { text: "bog", itemId: lex:bog }
+    - { text: ".", itemId: null }
+  pattern: tha-N-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-012
+  gd: "Tha an rùsg tiugh."
+  en: "The fleece is thick."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "rùsg", itemId: lex:rusg }
+    - { text: "tiugh", itemId: lex:tiugh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-013
+  gd: "Chleachd i cìr mhòr."
+  en: "She used a big comb."
+  altGd: []
+  tokens:
+    - { text: "Chleachd", itemId: lex:cleachd }
+    - { text: "i", itemId: lex:i }
+    - { text: "cìr", itemId: lex:cir }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-014
+  gd: "Chàrd i a' chlòimh."
+  en: "She carded the wool."
+  altGd: []
+  tokens:
+    - { text: "Chàrd", itemId: lex:card }
+    - { text: "i", itemId: lex:i }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlòimh", itemId: lex:cloimh }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-015
+  gd: "Bidh i a' snìomh air a' chuibhle."
+  en: "She spins on the wheel."
+  altGd: []
+  tokens:
+    - { text: "Bidh", itemId: lex:bidh }
+    - { text: "i", itemId: lex:i }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "snìomh", itemId: lex:sniomh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chuibhle", itemId: lex:cuibhle }
+    - { text: ".", itemId: null }
+  pattern: bidh-P-ag-V-air-art-N
+  tags: [topic:weaving, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-016
+  gd: "Tha cuibhle aig mo sheanmhair."
+  en: "My grandmother has a spinning wheel."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cuibhle", itemId: lex:cuibhle }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanmhair", itemId: lex:seanmhair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:weaving, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-017
+  gd: "Tha an fhearsaid fada."
+  en: "The spindle is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhearsaid", itemId: lex:fearsaid }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-018
+  gd: "Dè an dath a th' air.3sg-m?"
+  en: "What colour is it?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "dath", itemId: lex:dath }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-air-P
+  tags: [topic:weaving, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-019
+  gd: "Dhathaich iad an clò."
+  en: "They dyed the tweed."
+  altGd: []
+  tokens:
+    - { text: "Dhathaich", itemId: lex:dathaich }
+    - { text: "iad", itemId: lex:iad }
+    - { text: "an", itemId: lex:an }
+    - { text: "clò", itemId: lex:clo }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-020
+  gd: "Tha dath donn anns a' chrotal."
+  en: "There is a brown dye in lichen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dath", itemId: lex:dath }
+    - { text: "donn", itemId: lex:donn }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chrotal", itemId: lex:crotal }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-021
+  gd: "Bha luadh ann a-raoir."
+  en: "There was a waulking last night."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "luadh", itemId: lex:luadh }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: bha-N-ann-P-ADV
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-022
+  gd: "Sheinn na mnathan aig an luadh."
+  en: "The women sang at the waulking."
+  altGd: []
+  tokens:
+    - { text: "Sheinn", itemId: lex:seinn }
+    - { text: "na", itemId: lex:na }
+    - { text: "mnathan", itemId: lex:bean }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "luadh", itemId: lex:luadh }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-aig-art-N
+  tags: [topic:weaving, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-023
+  gd: "Tha an dlùth dubh agus tha an t-inneach geal."
+  en: "The warp is black and the weft is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dlùth", itemId: lex:dluth }
+    - { text: "dubh", itemId: lex:dubh }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-inneach", itemId: lex:inneach }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-024
+  gd: "Is toigh leam am pàtran seo."
+  en: "I like this pattern."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "am", itemId: lex:an }
+    - { text: "pàtran", itemId: lex:patran }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-art-N-X
+  tags: [topic:weaving, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-025
+  gd: "Tha stiall dhearg anns a' bhreacan."
+  en: "There is a red stripe in the plaid."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "stiall", itemId: lex:stiall }
+    - { text: "dhearg", itemId: lex:dearg }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhreacan", itemId: lex:breacan }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-026
+  gd: "Tha ceàrnagan anns an tartan."
+  en: "There are squares in the tartan."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceàrnagan", itemId: lex:cearnag }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "tartan", itemId: lex:tartan }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-027
+  gd: "Tharraing i loidhne dhìreach."
+  en: "She drew a straight line."
+  altGd: []
+  tokens:
+    - { text: "Tharraing", itemId: lex:tarraing }
+    - { text: "i", itemId: lex:i }
+    - { text: "loidhne", itemId: lex:loidhne }
+    - { text: "dhìreach", itemId: lex:direach }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADV
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-028
+  gd: "Tha an clò breac."
+  en: "The tweed is checked."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "clò", itemId: lex:clo }
+    - { text: "breac", itemId: lex:breac }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-029
+  gd: "Tha an lèine stiallach."
+  en: "The shirt is striped."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lèine", itemId: lex:leine }
+    - { text: "stiallach", itemId: lex:stiallach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-030
+  gd: "Tha an tartan dearg agus uaine."
+  en: "The tartan is red and green."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tartan", itemId: lex:tartan }
+    - { text: "dearg", itemId: lex:dearg }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "uaine", itemId: lex:uaine }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-031
+  gd: "Tha an clò gorm."
+  en: "The tweed is blue."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "clò", itemId: lex:clo }
+    - { text: "gorm", itemId: lex:gorm }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-032
+  gd: "Tha a' ghrian buidhe."
+  en: "The sun is yellow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghrian", itemId: lex:grian }
+    - { text: "buidhe", itemId: lex:buidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-033
+  gd: "Tha an cat dubh."
+  en: "The cat is black."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cat", itemId: lex:cat }
+    - { text: "dubh", itemId: lex:dubh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-034
+  gd: "Tha an sneachda geal."
+  en: "The snow is white."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "geal", itemId: lex:geal }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-035
+  gd: "Tha an t-adhar glas."
+  en: "The sky is grey."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-adhar", itemId: lex:adhar }
+    - { text: "glas", itemId: lex:glas }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-036
+  gd: "Tha an cù donn."
+  en: "The dog is brown."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cù", itemId: lex:cu }
+    - { text: "donn", itemId: lex:donn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-037
+  gd: "Tha a falt liath."
+  en: "Her hair is grey."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a", itemId: lex:a }
+    - { text: "falt", itemId: lex:falt }
+    - { text: "liath", itemId: lex:liath }
+    - { text: ".", itemId: null }
+  pattern: tha-a-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-038
+  gd: "Tha an dreasa purpaidh."
+  en: "The dress is purple."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "dreasa", itemId: lex:dreasa }
+    - { text: "purpaidh", itemId: lex:purpaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-039
+  gd: "Tha falt ruadh air.3sg-m."
+  en: "He has red hair."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "falt", itemId: lex:falt }
+    - { text: "ruadh", itemId: lex:ruadh }
+    - { text: "air", itemId: form:air.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-P
+  tags: [topic:weaving, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-040
+  gd: "Tha an geansaidh orains."
+  en: "The jumper is orange."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "geansaidh", itemId: lex:geansaidh }
+    - { text: "orains", itemId: lex:orains }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-041
+  gd: "Is e ceàird mhath a th' ann am fighe."
+  en: "Weaving is a good craft."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "ceàird", itemId: lex:ceaird }
+    - { text: "mhath", itemId: lex:math }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann am", itemId: lex:ann }
+    - { text: "fighe", itemId: lex:figh }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-V
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-042
+  gd: "Tha am muileann dùinte."
+  en: "The mill is closed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "muileann", itemId: lex:muileann }
+    - { text: "dùinte", itemId: lex:duin }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-V
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-043
+  gd: "Tha ceirsle mhòr agam."
+  en: "I have a big ball of yarn."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceirsle", itemId: lex:ceirsle }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:weaving, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-044
+  gd: "Tha prìne air a' bhòrd."
+  en: "There is a pin on the table."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "prìne", itemId: lex:prine }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weaving, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-045
+  gd: "Gearr an snàth."
+  en: "Cut the yarn."
+  altGd: []
+  tokens:
+    - { text: "Gearr", itemId: lex:gearr }
+    - { text: "an", itemId: lex:an }
+    - { text: "snàth", itemId: lex:snath }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-046
+  gd: "Tha e a' fuaigheal."
+  en: "He is sewing."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "e", itemId: lex:e }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuaigheal", itemId: lex:fuaigheil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-047
+  gd: "Tha an obair grinn."
+  en: "The work is fine."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "obair", itemId: lex:obair }
+    - { text: "grinn", itemId: lex:grinn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-048
+  gd: "Tha an clò tana."
+  en: "The tweed is thin."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "clò", itemId: lex:clo }
+    - { text: "tana", itemId: lex:tana }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-049
+  gd: "Tha an snàth bog."
+  en: "The yarn is soft."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "snàth", itemId: lex:snath }
+    - { text: "bog", itemId: lex:bog }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-050
+  gd: "Tha am fiodh cruaidh."
+  en: "The wood is hard."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fiodh", itemId: lex:fiodh }
+    - { text: "cruaidh", itemId: lex:cruaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-051
+  gd: "Dè an leud a th' ann?"
+  en: "What width is it?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "leud", itemId: lex:leud }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-ann-P
+  tags: [topic:weaving, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-052
+  gd: "Cheannaich mi slat de chlò."
+  en: "I bought a yard of tweed."
+  altGd: []
+  tokens:
+    - { text: "Cheannaich", itemId: lex:ceannaich }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "slat", itemId: lex:slat }
+    - { text: "de", itemId: lex:de }
+    - { text: "chlò", itemId: lex:clo }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-de-N
+  tags: [topic:weaving, prep:de]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-053
+  gd: "Tha grèis air an aparan."
+  en: "There is embroidery on the apron."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "grèis", itemId: lex:greis }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "aparan", itemId: lex:aparan }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:weaving, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:weaving-054
+  gd: "Fighidh sinn breacan ùr."
+  en: "We will weave a new plaid."
+  altGd: []
+  tokens:
+    - { text: "Fighidh", itemId: lex:figh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "breacan", itemId: lex:breacan }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADJ
+  tags: [topic:weaving]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

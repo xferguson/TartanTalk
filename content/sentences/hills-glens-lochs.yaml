@@ -1,0 +1,1092 @@
+# Sentences for the hills-glens-lochs scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:hills-glens-lochs-001
+  gd: "Tha caisteal air an eilean."
+  en: "There is a castle on the island."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "caisteal", itemId: lex:caisteal }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "eilean", itemId: lex:eilean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-002
+  gd: "Tha taigh-solais air an àird."
+  en: "There is a lighthouse on the headland."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "taigh-solais", itemId: lex:taigh-solais }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "àird", itemId: lex:aird }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-003
+  gd: "Tha an rubha fada."
+  en: "The point is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "rubha", itemId: lex:rubha }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-004
+  gd: "Tha an caolas cumhang."
+  en: "The strait is narrow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "caolas", itemId: lex:caolas }
+    - { text: "cumhang", itemId: lex:cumhang }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-005
+  gd: "Tha an t-inbhir farsaing."
+  en: "The river mouth is wide."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-inbhir", itemId: lex:inbhir }
+    - { text: "farsaing", itemId: lex:farsaing }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-006
+  gd: "Tha tràigh àlainn anns a' chamas."
+  en: "There is a beautiful beach in the bay."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "tràigh", itemId: lex:traigh }
+    - { text: "àlainn", itemId: lex:alainn }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chamas", itemId: lex:camas }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-007
+  gd: "Tha dùn air a' chnoc."
+  en: "There is a fort on the hill."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dùn", itemId: lex:dun }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chnoc", itemId: lex:cnoc }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-008
+  gd: "Cuir clach air a' chàrn."
+  en: "Add a stone to the cairn."
+  altGd: []
+  tokens:
+    - { text: "Cuir", itemId: lex:cuir }
+    - { text: "clach", itemId: lex:cloch }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chàrn", itemId: lex:carn }
+    - { text: ".", itemId: null }
+  pattern: V-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-009
+  gd: "Shuidh sinn air an tom."
+  en: "We sat on the knoll."
+  altGd: []
+  tokens:
+    - { text: "Shuidh", itemId: lex:suidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "tom", itemId: lex:tom }
+    - { text: ".", itemId: null }
+  pattern: V-P-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-010
+  gd: "Tha an leathad cas."
+  en: "The slope is steep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "leathad", itemId: lex:leathad }
+    - { text: "cas", itemId: lex:cas-steep }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-011
+  gd: "Tha bruthach cas ann."
+  en: "There is a steep brae."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bruthach", itemId: lex:bruthach }
+    - { text: "cas", itemId: lex:cas-steep }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-012
+  gd: "Choisich sinn air an aonach."
+  en: "We walked on the ridge."
+  altGd: []
+  tokens:
+    - { text: "Choisich", itemId: lex:coisich }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "aonach", itemId: lex:aonach }
+    - { text: ".", itemId: null }
+  pattern: V-P-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-013
+  gd: "Tha sneachda air an druim."
+  en: "There is snow on the ridge."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "druim", itemId: lex:druim }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-014
+  gd: "Tha an stùc àrd."
+  en: "The peak is high."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "stùc", itemId: lex:stuc }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-015
+  gd: "Tha ceò air a' bhinnean."
+  en: "There is mist on the pinnacle."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceò", itemId: lex:ceo }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhinnean", itemId: lex:binnean }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-016
+  gd: "Tha uamh anns a' chreig."
+  en: "There is a cave in the rock."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "uamh", itemId: lex:uamh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chreig", itemId: lex:creag }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-017
+  gd: "Tha fèidh anns an fhrìth."
+  en: "There are deer in the deer forest."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fèidh", itemId: lex:fiadh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhrìth", itemId: lex:frith }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-018
+  gd: "Thuit e anns a' ghlumaig."
+  en: "He fell in the puddle."
+  altGd: []
+  tokens:
+    - { text: "Thuit", itemId: lex:tuit }
+    - { text: "e", itemId: lex:e }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghlumaig", itemId: lex:glumag }
+    - { text: ".", itemId: null }
+  pattern: V-P-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-019
+  gd: "Tha lùb anns an abhainn."
+  en: "There is a bend in the river."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "lùb", itemId: lex:lub }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "abhainn", itemId: lex:abhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-020
+  gd: "Tha an sruth làidir."
+  en: "The current is strong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sruth", itemId: lex:sruth }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-021
+  gd: "Tha loch-mara ri taobh a' bhaile."
+  en: "There is a sea loch beside the town."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "loch-mara", itemId: lex:loch-mara }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "taobh", itemId: lex:taobh }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhaile", itemId: lex:baile }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ri-N-art-N
+  tags: [topic:hills-glens-lochs, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-022
+  gd: "Tha ròin air an sgeir."
+  en: "There are seals on the skerry."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ròin", itemId: lex:ron }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgeir", itemId: lex:sgeir }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-023
+  gd: "Chaidh sinn air ais gu tìr-mòr."
+  en: "We went back to the mainland."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air ais", itemId: lex:air-ais }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "tìr-mòr", itemId: lex:tir-mor }
+    - { text: ".", itemId: null }
+  pattern: V-P-ADV-gu-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-024
+  gd: "Tha an sgìre seo sàmhach."
+  en: "This district is quiet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgìre", itemId: lex:sgire }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "sàmhach", itemId: lex:samhach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-025
+  gd: "Seo crìoch na sgìre."
+  en: "This is the boundary of the parish."
+  altGd: []
+  tokens:
+    - { text: "Seo", itemId: lex:seo }
+    - { text: "crìoch", itemId: lex:crioch }
+    - { text: "na", itemId: lex:na }
+    - { text: "sgìre", itemId: lex:sgire }
+    - { text: ".", itemId: null }
+  pattern: X-N-art-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-026
+  gd: "Tha fearann math aige."
+  en: "He has good land."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fearann", itemId: lex:fearann }
+    - { text: "math", itemId: lex:math }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:hills-glens-lochs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-027
+  gd: "Tha Inbhir Nis anns an àird a tuath."
+  en: "Inverness is in the north."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Inbhir Nis", itemId: lex:inbhir-nis }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "àird", itemId: lex:aird }
+    - { text: "a", itemId: lex:a }
+    - { text: "tuath", itemId: lex:tuath }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-a-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-028
+  gd: "Tha Dùn Èideann anns an àird an ear."
+  en: "Edinburgh is in the east."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Dùn Èideann", itemId: lex:dun-eideann }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "àird", itemId: lex:aird }
+    - { text: "an", itemId: lex:an }
+    - { text: "ear", itemId: lex:ear }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-029
+  gd: "Tha Leòdhas anns an àird an iar."
+  en: "Lewis is in the west."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Leòdhas", itemId: lex:leodhas }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "àird", itemId: lex:aird }
+    - { text: "an", itemId: lex:an }
+    - { text: "iar", itemId: lex:iar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-030
+  gd: "Tha Sasainn gu deas."
+  en: "England is to the south."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Sasainn", itemId: lex:sasainn }
+    - { text: "gu", itemId: lex:gu }
+    - { text: "deas", itemId: lex:deas }
+    - { text: ".", itemId: null }
+  pattern: tha-N-gu-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-031
+  gd: "Tha mapa agam."
+  en: "I have a map."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mapa", itemId: lex:mapa }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:hills-glens-lochs, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-032
+  gd: "Tha na coisichean sgìth."
+  en: "The walkers are tired."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "coisichean", itemId: lex:coisiche }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-033
+  gd: "Tha an rathad rèidh."
+  en: "The road is level."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "rathad", itemId: lex:rathad }
+    - { text: "rèidh", itemId: lex:reidh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-034
+  gd: "Tha an loch domhainn."
+  en: "The loch is deep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "loch", itemId: lex:loch }
+    - { text: "domhainn", itemId: lex:domhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-035
+  gd: "Tha an gleann farsaing."
+  en: "The glen is wide."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gleann", itemId: lex:gleann }
+    - { text: "farsaing", itemId: lex:farsaing }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-036
+  gd: "Tha an t-àite creagach."
+  en: "The place is rocky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-àite", itemId: lex:aite }
+    - { text: "creagach", itemId: lex:creagach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-037
+  gd: "Tha an t-eilean iomallach."
+  en: "The island is remote."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eilean", itemId: lex:eilean }
+    - { text: "iomallach", itemId: lex:iomallach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-038
+  gd: "Shuidh sinn air leac mhòr."
+  en: "We sat on a big slab."
+  altGd: []
+  tokens:
+    - { text: "Shuidh", itemId: lex:suidh }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "air", itemId: lex:air }
+    - { text: "leac", itemId: lex:leac }
+    - { text: "mhòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: V-P-air-N-ADJ
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-039
+  gd: "Is e Beinn Nibheis a' bheinn as àirde ann am Breatainn."
+  en: "Ben Nevis is the highest mountain in Britain."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "Beinn Nibheis", itemId: lex:beinn-nibheis }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: "as", itemId: lex:as-most }
+    - { text: "àirde", itemId: lex:ard }
+    - { text: "ann am", itemId: lex:ann }
+    - { text: "Breatainn", itemId: lex:breatainn }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-art-N-as-most-ADJ-ann-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-040
+  gd: "Tha Loch Laomainn mòr agus àlainn."
+  en: "Loch Lomond is big and beautiful."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Loch Laomainn", itemId: lex:loch-laomainn }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "àlainn", itemId: lex:alainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-agus-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-041
+  gd: "Tha mi a' fuireach ann an Inbhir Nis."
+  en: "I live in Inverness."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "Inbhir Nis", itemId: lex:inbhir-nis }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-ann-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-042
+  gd: "Chaidh sinn a Dhùn Èideann."
+  en: "We went to Edinburgh."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a", itemId: lex:a }
+    - { text: "Dhùn Èideann", itemId: lex:dun-eideann }
+    - { text: ".", itemId: null }
+  pattern: V-P-a-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-043
+  gd: "Tha Glaschu mòr."
+  en: "Glasgow is big."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Glaschu", itemId: lex:glaschu }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-044
+  gd: "Bha sinn ann an Ìle as t-samhradh."
+  en: "We were in Islay in the summer."
+  altGd: []
+  tokens:
+    - { text: "Bha", itemId: lex:bha }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "Ìle", itemId: lex:ile }
+    - { text: "as", itemId: lex:ann }
+    - { text: "t-samhradh", itemId: lex:samhradh }
+    - { text: ".", itemId: null }
+  pattern: bha-P-ann-N-ann-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-045
+  gd: "Tha Obar Dheathain fuar."
+  en: "Aberdeen is cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Obar Dheathain", itemId: lex:obar-dheathain }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-046
+  gd: "Tha àite snog an-seo."
+  en: "There is a nice place here."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "àite", itemId: lex:aite }
+    - { text: "snog", itemId: lex:snog }
+    - { text: "an-seo", itemId: lex:an-seo }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ADV
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-047
+  gd: "Tha cnocan beag ri taobh an taighe."
+  en: "There is a little hillock beside the house."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "cnocan", itemId: lex:cnocan }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "ri", itemId: lex:ri }
+    - { text: "taobh", itemId: lex:taobh }
+    - { text: "an", itemId: lex:an }
+    - { text: "taighe", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ri-N-art-N
+  tags: [topic:hills-glens-lochs, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-048
+  gd: "Streap sinn a' bheinn."
+  en: "We climbed the mountain."
+  altGd: []
+  tokens:
+    - { text: "Streap", itemId: lex:streap }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-049
+  gd: "Tha an gleann uaine agus sàmhach."
+  en: "The glen is green and quiet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gleann", itemId: lex:gleann }
+    - { text: "uaine", itemId: lex:uaine }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "sàmhach", itemId: lex:samhach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ-agus-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-050
+  gd: "Tha eas mòr anns a' ghleann."
+  en: "There is a big waterfall in the glen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "eas", itemId: lex:eas }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "ghleann", itemId: lex:gleann }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-051
+  gd: "Tha an tobar domhainn."
+  en: "The well is deep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "tobar", itemId: lex:tobar }
+    - { text: "domhainn", itemId: lex:domhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-052
+  gd: "Tha drochaid air an abhainn."
+  en: "There is a bridge over the river."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "drochaid", itemId: lex:drochaid }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "abhainn", itemId: lex:abhainn }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-053
+  gd: "Tha an t-slighe fada."
+  en: "The path is long."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-slighe", itemId: lex:slighe }
+    - { text: "fada", itemId: lex:fada }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-054
+  gd: "Ràinig sinn am mullach!"
+  en: "We reached the summit!"
+  altGd: []
+  tokens:
+    - { text: "Ràinig", itemId: lex:ruig }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "am", itemId: lex:an }
+    - { text: "mullach", itemId: lex:mullach }
+    - { text: "!", itemId: null }
+  pattern: V-P-art-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-055
+  gd: "Tha sneachda anns a' choire."
+  en: "There is snow in the corrie."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sneachda", itemId: lex:sneachda }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "choire", itemId: lex:coire }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-056
+  gd: "Tha bàgh beag ann."
+  en: "There is a little bay."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "bàgh", itemId: lex:bagh }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-ann-P
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-057
+  gd: "Tha an cladach creagach."
+  en: "The shore is rocky."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "cladach", itemId: lex:cladach }
+    - { text: "creagach", itemId: lex:creagach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-058
+  gd: "Tha an sgùrr cas."
+  en: "The peak is steep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgùrr", itemId: lex:sgurr }
+    - { text: "cas", itemId: lex:cas-steep }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-059
+  gd: "Tha an srath farsaing."
+  en: "The strath is wide."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "srath", itemId: lex:srath }
+    - { text: "farsaing", itemId: lex:farsaing }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-060
+  gd: "Tha am monadh fiadhaich."
+  en: "The hill land is wild."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "monadh", itemId: lex:monadh }
+    - { text: "fiadhaich", itemId: lex:fiadhaich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-061
+  gd: "Tha fuaran fuar air a' mhòintich."
+  en: "There is a cold spring on the moor."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fuaran", itemId: lex:fuaran }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "mhòintich", itemId: lex:mointeach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-air-art-N
+  tags: [topic:hills-glens-lochs, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-062
+  gd: "Tha an lochan ciùin."
+  en: "The lochan is calm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "lochan", itemId: lex:lochan }
+    - { text: "ciùin", itemId: lex:ciuin }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-063
+  gd: "An robh thu a-riamh ann an Leòdhas?"
+  en: "Have you ever been in Lewis?"
+  altGd: []
+  tokens:
+    - { text: "An", itemId: lex:an-q }
+    - { text: "robh", itemId: lex:robh }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "a-riamh", itemId: lex:a-riamh }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "Leòdhas", itemId: lex:leodhas }
+    - { text: "?", itemId: null }
+  pattern: an-q-robh-P-ADV-ann-N
+  tags: [topic:hills-glens-lochs, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-064
+  gd: "Chaidh sinn suas a' bheinn."
+  en: "We went up the mountain."
+  altGd: []
+  tokens:
+    - { text: "Chaidh", itemId: lex:rach }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "suas", itemId: lex:suas }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bheinn", itemId: lex:beinn }
+    - { text: ".", itemId: null }
+  pattern: V-P-ADV-art-N
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:hills-glens-lochs-065
+  gd: "Choisich sinn mìle."
+  en: "We walked a mile."
+  altGd: []
+  tokens:
+    - { text: "Choisich", itemId: lex:coisich }
+    - { text: "sinn", itemId: lex:sinn }
+    - { text: "mìle", itemId: lex:mile }
+    - { text: ".", itemId: null }
+  pattern: V-P-NUM
+  tags: [topic:hills-glens-lochs]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

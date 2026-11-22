@@ -1,0 +1,484 @@
+# weather vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:side
+  gd: "sìde"
+  en: "weather"
+  pos: noun
+  gender: f
+  freqRank: 889
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fliuch
+  gd: "fliuch"
+  en: "wet"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tioram
+  gd: "tioram"
+  en: "dry"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teth
+  gd: "teth"
+  en: "hot"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:blath
+  gd: "blàth"
+  en: "warm"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fionnar
+  gd: "fionnar"
+  en: "cool"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grianach
+  gd: "grianach"
+  en: "sunny"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgothach
+  gd: "sgòthach"
+  en: "cloudy"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gaothach
+  gd: "gaothach"
+  en: "windy"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceothach
+  gd: "ceòthach"
+  en: "misty"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stoirmeil
+  gd: "stoirmeil"
+  en: "stormy"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reota
+  gd: "reòta"
+  en: "frozen"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:frasach
+  gd: "frasach"
+  en: "showery"
+  pos: adjective
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:garbh
+  gd: "garbh"
+  en: "rough, wild"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glan
+  gd: "glan"
+  en: "clear, clean"
+  pos: adjective
+  freqRank: 735
+  tags: [pos:adjective, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgoth
+  gd: "sgòth"
+  en: "cloud"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fras
+  gd: "fras"
+  en: "shower"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stoirm
+  gd: "stoirm"
+  en: "storm"
+  pos: noun
+  freqRank: 1550
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tairneanach
+  gd: "tàirneanach"
+  en: "thunder"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dealanach
+  gd: "dealanach"
+  en: "lightning"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clach-mheallain
+  gd: "clach-mheallain"
+  en: "hailstone"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reothadh
+  gd: "reothadh"
+  en: "frost"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deigh
+  gd: "deigh"
+  en: "ice"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceathach
+  gd: "ceathach"
+  en: "fog, mist"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:driuchd
+  gd: "driùchd"
+  en: "dew"
+  pos: noun
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bogha-froise
+  gd: "bogha-froise"
+  en: "rainbow"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teas
+  gd: "teas"
+  en: "heat"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuachd
+  gd: "fuachd"
+  en: "cold, coldness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teothachd
+  gd: "teòthachd"
+  en: "temperature"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuil
+  gd: "tuil"
+  en: "flood"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tart
+  gd: "tart"
+  en: "drought, thirst"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cathadh
+  gd: "cathadh"
+  en: "blizzard, drifting snow"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oiteag
+  gd: "oiteag"
+  en: "breeze"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gailleann
+  gd: "gailleann"
+  en: "tempest, gale"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dile
+  gd: "dìle"
+  en: "downpour"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ro-aithris
+  gd: "ro-aithris"
+  en: "forecast"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sil
+  gd: "sil"
+  en: "rain, drip"
+  pos: verb
+  freqRank: 2749
+  tags: [pos:verb, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seid
+  gd: "sèid"
+  en: "blow"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leagh
+  gd: "leagh"
+  en: "melt"
+  pos: verb
+  tags: [pos:verb, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dearrs
+  gd: "deàrrs"
+  en: "shine"
+  pos: verb
+  freqRank: 2749
+  tags: [pos:verb, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuit
+  gd: "tuit"
+  en: "fall"
+  pos: verb
+  freqRank: 477
+  tags: [pos:verb, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faoilleach
+  gd: "Faoilleach"
+  en: "January (am Faoilleach)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gearran
+  gd: "Gearran"
+  en: "February (an Gearran)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mart
+  gd: "Màrt"
+  en: "March (am Màrt)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:giblean
+  gd: "Giblean"
+  en: "April (an Giblean)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceitean
+  gd: "Cèitean"
+  en: "May (an Cèitean)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ogmhios
+  gd: "Ògmhios"
+  en: "June (an t-Ògmhios)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iuchar
+  gd: "Iuchar"
+  en: "July (an t-Iuchar)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lunastal
+  gd: "Lùnastal"
+  en: "August (an Lùnastal)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sultain
+  gd: "Sultain"
+  en: "September (an t-Sultain)"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:damhair
+  gd: "Dàmhair"
+  en: "October (an Dàmhair)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:samhain
+  gd: "Samhain"
+  en: "November (an t-Samhain)"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dubhlachd
+  gd: "Dùbhlachd"
+  en: "December (an Dùbhlachd)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weather]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

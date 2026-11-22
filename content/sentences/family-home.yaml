@@ -1,0 +1,993 @@
+# Sentences for the family-home scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:family-home-001
+  gd: "Tha teaghlach mòr agam."
+  en: "I have a big family."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "teaghlach", itemId: lex:teaghlach }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-002
+  gd: "Tha mac agus nighean aice."
+  en: "She has a son and a daughter."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mac", itemId: lex:mac }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "nighean", itemId: lex:nighean }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-aig-P
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-003
+  gd: "Tha mo sheanair glè aosta."
+  en: "My grandfather is very old."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanair", itemId: lex:seanair }
+    - { text: "glè", itemId: lex:gle }
+    - { text: "aosta", itemId: lex:aosta }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADV-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-004
+  gd: "Tha mo sheanmhair còmhla ruinn."
+  en: "My grandmother is with us."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanmhair", itemId: lex:seanmhair }
+    - { text: "còmhla", itemId: lex:comhla }
+    - { text: "ruinn", itemId: form:ri.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADV-ri-P
+  tags: [topic:family-home, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-005
+  gd: "Thàinig m' antaidh a-raoir."
+  en: "My aunt came last night."
+  altGd: []
+  tokens:
+    - { text: "Thàinig", itemId: lex:thig }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "antaidh", itemId: lex:antaidh }
+    - { text: "a-raoir", itemId: lex:a-raoir }
+    - { text: ".", itemId: null }
+  pattern: V-P-N-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-006
+  gd: "Tha m' uncail a' fuireach ann an Glaschu."
+  en: "My uncle lives in Glasgow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "uncail", itemId: lex:uncail }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "Glaschu", itemId: lex:glaschu }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ag-V-ann-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-007
+  gd: "Is e mo cho-ogha a th' ann."
+  en: "He is my cousin."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "cho-ogha", itemId: lex:co-ogha }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-P-N-a-tha-ann-P
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-008
+  gd: "Tha na pàrantan agam laghach."
+  en: "My parents are nice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "pàrantan", itemId: lex:parant }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "laghach", itemId: lex:laghach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-009
+  gd: "Tha am pàiste a' cadal."
+  en: "The child is sleeping."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "pàiste", itemId: lex:paiste }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cadal", itemId: lex:caidil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-010
+  gd: "Tha a' chlann a' cluich a-muigh."
+  en: "The children are playing outside."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chlann", itemId: lex:clann }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cluich", itemId: lex:cluich }
+    - { text: "a-muigh", itemId: lex:a-muigh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ag-V-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-011
+  gd: "Tha mi a' dol dhachaigh."
+  en: "I am going home."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "dhachaigh", itemId: lex:dhachaigh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-012
+  gd: "Tha dachaigh bhlàth againn."
+  en: "We have a warm home."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dachaigh", itemId: lex:dachaigh }
+    - { text: "bhlàth", itemId: lex:blath }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-013
+  gd: "Tha trì seòmraichean anns an taigh."
+  en: "There are three rooms in the house."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "trì", itemId: lex:tri }
+    - { text: "seòmraichean", itemId: lex:seomar }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: ".", itemId: null }
+  pattern: tha-NUM-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-014
+  gd: "Tha mo mhàthair anns a' chidsin."
+  en: "My mother is in the kitchen."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "mhàthair", itemId: lex:mathair }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chidsin", itemId: lex:cidsin }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-015
+  gd: "Tha an seòmar-cadail agam beag."
+  en: "My bedroom is small."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seòmar-cadail", itemId: lex:seomar-cadail }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "beag", itemId: lex:beag }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-016
+  gd: "Tha telebhisean anns an t-seòmar-suidhe."
+  en: "There is a television in the living room."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "telebhisean", itemId: lex:telebhisean }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-seòmar-suidhe", itemId: lex:seomar-suidhe }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-017
+  gd: "Tha an seòmar-ionnlaid glan."
+  en: "The bathroom is clean."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "seòmar-ionnlaid", itemId: lex:seomar-ionnlaid }
+    - { text: "glan", itemId: lex:glan }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-018
+  gd: "Tha mi sgìth, tha mi a' dol dhan leabaidh."
+  en: "I am tired, I am going to bed."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: ",", itemId: null }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dol", itemId: lex:rach }
+    - { text: "dhan", itemId: lex:do }
+    - { text: "leabaidh", itemId: lex:leabaidh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-tha-P-ag-V-do-N
+  tags: [topic:family-home, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-019
+  gd: "Suidh air an t-sèithear."
+  en: "Sit on the chair."
+  altGd: []
+  tokens:
+    - { text: "Suidh", itemId: lex:suidh }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sèithear", itemId: lex:seithear }
+    - { text: ".", itemId: null }
+  pattern: V-air-art-N
+  tags: [topic:family-home, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-020
+  gd: "Tha am biadh air a' bhòrd."
+  en: "The food is on the table."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "biadh", itemId: lex:biadh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhòrd", itemId: lex:bord }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-air-art-N
+  tags: [topic:family-home, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-021
+  gd: "Fosgail an uinneag."
+  en: "Open the window."
+  altGd: []
+  tokens:
+    - { text: "Fosgail", itemId: lex:fosgail }
+    - { text: "an", itemId: lex:an }
+    - { text: "uinneag", itemId: lex:uinneag }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-022
+  gd: "Tha dealbh air a' bhalla."
+  en: "There is a picture on the wall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dealbh", itemId: lex:dealbh }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "bhalla", itemId: lex:balla }
+    - { text: ".", itemId: null }
+  pattern: tha-N-air-art-N
+  tags: [topic:family-home, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-023
+  gd: "Tha an staidhre cas."
+  en: "The stairs are steep."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "staidhre", itemId: lex:staidhre }
+    - { text: "cas", itemId: lex:cas-steep }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-024
+  gd: "Tha an làr fliuch."
+  en: "The floor is wet."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "làr", itemId: lex:lar }
+    - { text: "fliuch", itemId: lex:fliuch }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-025
+  gd: "Càite a bheil an iuchair?"
+  en: "Where is the key?"
+  altGd: []
+  tokens:
+    - { text: "Càite", itemId: lex:caite }
+    - { text: "a", itemId: lex:a }
+    - { text: "bheil", itemId: lex:eil }
+    - { text: "an", itemId: lex:an }
+    - { text: "iuchair", itemId: lex:iuchair }
+    - { text: "?", itemId: null }
+  pattern: X-a-eil-art-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-026
+  gd: "Tha ceò a' tighinn às an t-similear."
+  en: "Smoke is coming out of the chimney."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ceò", itemId: lex:ceo }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tighinn", itemId: lex:thig }
+    - { text: "às", itemId: lex:as }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-similear", itemId: lex:similear }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ag-V-as-art-N
+  tags: [topic:family-home, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-027
+  gd: "Tha an telebhisean ro àrd."
+  en: "The television is too loud."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "telebhisean", itemId: lex:telebhisean }
+    - { text: "ro", itemId: lex:ro }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADV-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-028
+  gd: "Tha coimpiutair ùr aig mo bhràthair."
+  en: "My brother has a new computer."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "coimpiutair", itemId: lex:coimpiutair }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhràthair", itemId: lex:brathair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P-N
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-029
+  gd: "Chaill mi m' uaireadair."
+  en: "I lost my watch."
+  altGd: []
+  tokens:
+    - { text: "Chaill", itemId: lex:caill }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "uaireadair", itemId: lex:uaireadair }
+    - { text: ".", itemId: null }
+  pattern: V-P-P-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-030
+  gd: "Tha sgàthan anns an t-seòmar-ionnlaid."
+  en: "There is a mirror in the bathroom."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sgàthan", itemId: lex:sgathan }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-seòmar-ionnlaid", itemId: lex:seomar-ionnlaid }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-031
+  gd: "Dùin na cùirtearan."
+  en: "Close the curtains."
+  altGd: []
+  tokens:
+    - { text: "Dùin", itemId: lex:duin }
+    - { text: "na", itemId: lex:na }
+    - { text: "cùirtearan", itemId: lex:cuirtear }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-032
+  gd: "Tha am brat-ùrlair salach."
+  en: "The carpet is dirty."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "brat-ùrlair", itemId: lex:brat-urlair }
+    - { text: "salach", itemId: lex:salach }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-033
+  gd: "Tha na cupannan anns a' phreas."
+  en: "The cups are in the cupboard."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "na", itemId: lex:na }
+    - { text: "cupannan", itemId: lex:cupa }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "a'", itemId: lex:an }
+    - { text: "phreas", itemId: lex:preas }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-034
+  gd: "Càite a bheil an taigh-beag?"
+  en: "Where is the toilet?"
+  altGd: []
+  tokens:
+    - { text: "Càite", itemId: lex:caite }
+    - { text: "a", itemId: lex:a }
+    - { text: "bheil", itemId: lex:eil }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh-beag", itemId: lex:taigh-beag }
+    - { text: "?", itemId: null }
+  pattern: X-a-eil-art-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-035
+  gd: "Tha am frasair fuar."
+  en: "The shower is cold."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "frasair", itemId: lex:frasair }
+    - { text: "fuar", itemId: lex:fuar }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-036
+  gd: "Tha an leanabh anns an amar."
+  en: "The baby is in the bath."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "leanabh", itemId: lex:leanabh }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "amar", itemId: lex:amar }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-037
+  gd: "Nigh do làmhan."
+  en: "Wash your hands."
+  altGd: []
+  tokens:
+    - { text: "Nigh", itemId: lex:nigh }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "làmhan", itemId: lex:lamh }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-038
+  gd: "Sguab an làr."
+  en: "Sweep the floor."
+  altGd: []
+  tokens:
+    - { text: "Sguab", itemId: lex:sguab }
+    - { text: "an", itemId: lex:an }
+    - { text: "làr", itemId: lex:lar }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-039
+  gd: "Tha mo phiuthar pòsta."
+  en: "My sister is married."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "phiuthar", itemId: lex:piuthar }
+    - { text: "pòsta", itemId: lex:posta }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-040
+  gd: "Tha an duine aosta."
+  en: "The man is elderly."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "duine", itemId: lex:duine }
+    - { text: "aosta", itemId: lex:aosta }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-041
+  gd: "Tha mo sheanair glic."
+  en: "My grandfather is wise."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "sheanair", itemId: lex:seanair }
+    - { text: "glic", itemId: lex:glic }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-042
+  gd: "Tha ogha ùr aice."
+  en: "She has a new grandchild."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "ogha", itemId: lex:ogha }
+    - { text: "ùr", itemId: lex:ur-new }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-043
+  gd: "Tha càraid aig mo phiuthar."
+  en: "My sister has twins."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "càraid", itemId: lex:caraid-twins }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "phiuthar", itemId: lex:piuthar }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-044
+  gd: "Dè an aois a tha thu?"
+  en: "How old are you?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "aois", itemId: lex:aois }
+    - { text: "a", itemId: lex:a }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-P
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-045
+  gd: "Tha am màl daor."
+  en: "The rent is expensive."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "màl", itemId: lex:mal }
+    - { text: "daor", itemId: lex:daor }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-046
+  gd: "Tha mi a' fuireach air an t-sràid seo."
+  en: "I live on this street."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "air", itemId: lex:air }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-sràid", itemId: lex:sraid }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-air-art-N-X
+  tags: [topic:family-home, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-047
+  gd: "Tha fàinne òir aice."
+  en: "She has a gold ring."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fàinne", itemId: lex:fainne }
+    - { text: "òir", itemId: lex:or }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-aig-P
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-048
+  gd: "Is e cinneadh mòr a th' ann."
+  en: "It is a big clan."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "cinneadh", itemId: lex:cinneadh }
+    - { text: "mòr", itemId: lex:mor }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-049
+  gd: "Tha an togalach àrd."
+  en: "The building is tall."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "togalach", itemId: lex:togalach }
+    - { text: "àrd", itemId: lex:ard }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-050
+  gd: "Tha an doras fosgailte."
+  en: "The door is open."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: "fosgailte", itemId: lex:fosgail }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-V
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-051
+  gd: "Tha mo theaghlach à Leòdhas."
+  en: "My family is from Lewis."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "theaghlach", itemId: lex:teaghlach }
+    - { text: "à", itemId: lex:as }
+    - { text: "Leòdhas", itemId: lex:leodhas }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-as-N
+  tags: [topic:family-home, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-052
+  gd: "Tha mo bhràthair agus mo phiuthar anns an sgoil."
+  en: "My brother and my sister are at school."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhràthair", itemId: lex:brathair }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "phiuthar", itemId: lex:piuthar }
+    - { text: "anns", itemId: lex:ann }
+    - { text: "an", itemId: lex:an }
+    - { text: "sgoil", itemId: lex:sgoil }
+    - { text: ".", itemId: null }
+  pattern: tha-P-N-agus-P-N-ann-art-N
+  tags: [topic:family-home, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-053
+  gd: "Tha an taigh againn beag ach blàth."
+  en: "Our house is small but warm."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "taigh", itemId: lex:taigh }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: "beag", itemId: lex:beag }
+    - { text: "ach", itemId: lex:ach }
+    - { text: "blàth", itemId: lex:blath }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ-ach-ADJ
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-054
+  gd: "Is toigh leam mo theaghlach."
+  en: "I like my family."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "theaghlach", itemId: lex:teaghlach }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-P-N
+  tags: [topic:family-home, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-055
+  gd: "Tha fear aig an doras."
+  en: "There is a man at the door."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fear", itemId: lex:fear }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "doras", itemId: lex:doras }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:family-home, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-056
+  gd: "Tha i a' cadal fhathast."
+  en: "She is still sleeping."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "cadal", itemId: lex:caidil }
+    - { text: "fhathast", itemId: lex:fhathast }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-057
+  gd: "Ma tha thu sgìth, suidh sìos."
+  en: "If you are tired, sit down."
+  altGd: []
+  tokens:
+    - { text: "Ma", itemId: lex:ma }
+    - { text: "tha", itemId: lex:tha }
+    - { text: "thu", itemId: lex:thu }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: ",", itemId: null }
+    - { text: "suidh", itemId: lex:suidh }
+    - { text: "sìos", itemId: lex:sios }
+    - { text: ".", itemId: null }
+  pattern: ma-tha-P-ADJ-V-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:family-home-058
+  gd: "Tha i a-staigh."
+  en: "She is inside."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "a-staigh", itemId: lex:a-staigh }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADV
+  tags: [topic:family-home]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

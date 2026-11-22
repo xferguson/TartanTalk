@@ -1,0 +1,469 @@
+# music vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:oran
+  gd: "òran"
+  en: "song"
+  pos: noun
+  gender: m
+  freqRank: 530
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seinneadair
+  gd: "seinneadair"
+  en: "singer"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fidheall
+  gd: "fìdheall"
+  en: "fiddle"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fidhlear
+  gd: "fìdhlear"
+  en: "fiddler"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piob
+  gd: "pìob"
+  en: "pipe"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piob-mhor
+  gd: "pìob-mhòr"
+  en: "bagpipes, Highland pipes"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piobaire
+  gd: "pìobaire"
+  en: "piper"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piobaireachd
+  gd: "pìobaireachd"
+  en: "pipe music, pibroch"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clarsach
+  gd: "clàrsach"
+  en: "harp"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clarsair
+  gd: "clàrsair"
+  en: "harper"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:giotar
+  gd: "giotàr"
+  en: "guitar"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bogsa
+  gd: "bogsa"
+  en: "accordion, box"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:druma
+  gd: "druma"
+  en: "drum"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piana
+  gd: "piàna"
+  en: "piano"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feadag
+  gd: "feadag"
+  en: "whistle (instrument)"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:port
+  gd: "port"
+  en: "tune"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:port-a-beul
+  gd: "port-à-beul"
+  en: "mouth music"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fonn
+  gd: "fonn"
+  en: "tune, air"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rann
+  gd: "rann"
+  en: "verse"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seist
+  gd: "sèist"
+  en: "chorus"
+  pos: noun
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coisir
+  gd: "còisir"
+  en: "choir"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comhlan
+  gd: "còmhlan"
+  en: "band, group"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuirm-chiuil
+  gd: "cuirm-chiùil"
+  en: "concert"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:clar
+  gd: "clàr"
+  en: "record, album"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:binn
+  gd: "binn"
+  en: "sweet, melodious"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ruidhle
+  gd: "ruidhle"
+  en: "reel (dance tune)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:marsail
+  gd: "marsail"
+  en: "march (tune)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cumha
+  gd: "cumha"
+  en: "lament"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taladh
+  gd: "tàladh"
+  en: "lullaby"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceolmhor
+  gd: "ceòlmhor"
+  en: "musical"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceoladair
+  gd: "ceòladair"
+  en: "musician"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionnstramaid
+  gd: "ionnstramaid"
+  en: "instrument"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teud
+  gd: "teud"
+  en: "string (of an instrument)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bogha
+  gd: "bogha"
+  en: "bow"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gleus
+  gd: "gleus"
+  en: "tune, key (of an instrument)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duan
+  gd: "duan"
+  en: "poem, song"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luinneag
+  gd: "luinneag"
+  en: "ditty, song"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sean-nos
+  gd: "sean-nòs"
+  en: "old style (of singing)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:claraich
+  gd: "clàraich"
+  en: "record"
+  pos: verb
+  tags: [pos:verb, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reidio
+  gd: "rèidio"
+  en: "radio"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ard-urlar
+  gd: "àrd-ùrlar"
+  en: "stage"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:binneas
+  gd: "binneas"
+  en: "melody, sweetness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ruitheam
+  gd: "ruitheam"
+  en: "rhythm"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buille
+  gd: "buille"
+  en: "beat, blow"
+  pos: noun
+  gender: f
+  freqRank: 131
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mall
+  gd: "mall"
+  en: "slow"
+  pos: adjective
+  tags: [pos:adjective, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toirm
+  gd: "toirm"
+  en: "noise, din"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:traidiseanta
+  gd: "traidiseanta"
+  en: "traditional"
+  pos: adjective
+  tags: [pos:adjective, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pios
+  gd: "pìos"
+  en: "piece"
+  pos: noun
+  gender: m
+  freqRank: 433
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nota
+  gd: "nòta"
+  en: "note"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fidhleireachd
+  gd: "fìdhleireachd"
+  en: "fiddle playing"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:music]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
