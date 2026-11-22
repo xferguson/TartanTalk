@@ -156,21 +156,26 @@ export interface HoleSplit {
 }
 
 /** Holes stay on their own band (B13): this only sorts them by where they sit relative to the window. */
-export function splitHoles(placed: HolePlacement[], g: Geometry): HoleSplit {
+export function splitHoles(placed: HolePlacement[], g: Geometry, ends?: { newest: boolean; oldest: boolean }): HoleSplit {
   const c = g.cloth;
   const split: HoleSplit = { visible: [], newer: [], older: [] };
+  // An edge with more cloth beyond it fades out. A hole inside that fade cannot be seen, so with
+  // `ends` given it counts as beyond the edge, where its moth marker will stand in for it.
+  const detail = g.variant === 'detail';
+  const lowEdge = ends && (detail ? !ends.newest : !ends.oldest) ? EDGE_FADE_PX : 0;
+  const highEdge = ends && (detail ? !ends.oldest : !ends.newest) ? EDGE_FADE_PX : 0;
+  const lo = detail ? c.y : c.x;
+  const hi = lo + (detail ? c.h : c.w);
   for (const p of placed) {
-    if (g.variant === 'detail') {
-      if (p.cy < c.y) split.newer.push(p);
-      else if (p.cy > c.y + c.h) split.older.push(p);
-      else split.visible.push(p);
-    } else if (p.cx < c.x) split.older.push(p);
-    else if (p.cx > c.x + c.w) split.newer.push(p);
-    else split.visible.push(p);
+    const at = detail ? p.cy : p.cx;
+    const beyondLow = at < lo + lowEdge;
+    const beyondHigh = at > hi - highEdge;
+    if (!beyondLow && !beyondHigh) split.visible.push(p);
+    else if (beyondLow) (detail ? split.newer : split.older).push(p);
+    else (detail ? split.older : split.newer).push(p);
   }
   // Nearest first: by distance from the window, which is the same on both sides of it.
   const along = (p: HolePlacement) => (g.variant === 'detail' ? p.cy : p.cx);
-  const lo = g.variant === 'detail' ? c.y : c.x;
   const gap = (p: HolePlacement) => Math.max(lo - along(p), along(p) - (lo + viewSpan(g)));
   split.newer.sort((a, b) => gap(a) - gap(b));
   split.older.sort((a, b) => gap(a) - gap(b));

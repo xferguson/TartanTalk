@@ -21,6 +21,14 @@ interface Props {
 /** One question in the shared Loom / Reweave pattern (spec B6). */
 export function ExercisePanel({ exercise, feedback, onSubmit, showCorrect = true }: Props) {
   const answered = feedback !== null;
+  // A missed card comes round again with the same item id, so the id alone cannot tell the typed
+  // field to start fresh. Each time an answer is cleared away, count a new attempt.
+  const [attempt, setAttempt] = useState(0);
+  const [wasAnswered, setWasAnswered] = useState(answered);
+  if (answered !== wasAnswered) {
+    setWasAnswered(answered);
+    if (!answered) setAttempt((a) => a + 1);
+  }
   return (
     <div className={styles.panel}>
       <p className={styles.label}>{LABELS[exercise.type]}</p>
@@ -41,7 +49,7 @@ export function ExercisePanel({ exercise, feedback, onSubmit, showCorrect = true
           <Options exercise={exercise} answered={answered} onSubmit={onSubmit} showCorrect={showCorrect} gaelic />
         </>
       )}
-      {exercise.type === 'produce' && <Typed key={exercise.itemId} prompt={exercise.prompt} answered={answered} onSubmit={onSubmit} />}
+      {exercise.type === 'produce' && <Typed key={`${exercise.itemId}:${attempt}`}prompt={exercise.prompt} answered={answered} onSubmit={onSubmit} />}
       {feedback && <FeedbackLine feedback={feedback} answer={feedback.check.matched} />}
     </div>
   );

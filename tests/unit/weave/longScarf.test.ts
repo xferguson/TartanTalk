@@ -120,6 +120,15 @@ describe('where the moth perches on a long scarf', () => {
     expect(perchHole(visible, order.length, strip, 0)?.itemId).toBe('i59');
   });
 
+  it('counts a hole hidden by a faded edge as beyond that edge, so its moth marker shows', () => {
+    const order = ids(60);
+    const holes = [{ itemId: 'i43', size: 'large' as const }]; // inside the strip's faded left edge
+    const ends = clothEnds(order.length, strip, 0);
+    const split = splitHoles(placeHoles(holes, order, strip), strip, ends);
+    expect(split.visible).toEqual([]);
+    expect(split.older.map((p) => p.itemId)).toEqual(['i43']);
+  });
+
   it('perches by the largest hole while the cloth fits', () => {
     const order = ids(3);
     const visible = splitHoles(placeHoles([{ itemId: 'i0', size: 'large' }, { itemId: 'i2', size: 'small' }], order, strip), strip).visible;
