@@ -752,3 +752,19 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** A reweave miss was scheduled 10 minutes out and dropped from the session, so the scarf read "resting" with no hole and the learner never got a second chance. Found by the user in real use.
 - **Resolution:** A miss is due at once (`RELEARN_DELAY_MS = 0`), so its hole stays. The session asks it again at the end, once. A second miss tangles it; a hit mends it on the short interval. Walk each flow from the learner's chair, including leaving part-way.
 - **Status:** resolved
+
+### L27. A hole under a faded scarf edge was neither seen nor counted
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** this PR
+- **Detail:** The strip fades the 28px at an edge with more cloth beyond it. A hole centred inside that fade counted as visible, so no moth marker stood in for it, yet the mask hid it. The shelf said "1 moth hole" with nothing to see. Found by the user in real use.
+- **Resolution:** `splitHoles` takes the cloth ends and counts a hole inside a faded edge as beyond it, so the edge shows its moth and badge. Test the visibility rule the learner sees (mask included), not only the geometry.
+- **Status:** resolved
+
+### L28. A keyed component that stays mounted keeps the learner's last answer
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** this PR
+- **Detail:** The typed answer field was keyed by item id. A missed card returns with the same id, so the old text stayed in the field. Found by the user in real use.
+- **Resolution:** The key also carries an attempt count that rises when an answer is cleared away. Any state that belongs to one attempt must reset per attempt, not per item.
+- **Status:** resolved

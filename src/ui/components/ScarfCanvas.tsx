@@ -284,9 +284,9 @@ export function ScarfCanvas({
   });
 
   const placed = useMemo(() => placeHoles(mothHoles, wovenOrder, geo, offset), [mothHoles, wovenOrder, geo, offset]);
-  const split = useMemo(() => splitHoles(placed, geo), [placed, geo]);
-  const gdOf = new Map(holes.map((h) => [h.itemId, h.gd]));
   const ends = clothEnds(n, geo, offset);
+  const split = splitHoles(placed, geo, n > 0 ? ends : undefined);
+  const gdOf = new Map(holes.map((h) => [h.itemId, h.gd]));
   const moreNewer = n > 0 && !ends.newest;
   const moreOlder = n > 0 && !ends.oldest;
 
