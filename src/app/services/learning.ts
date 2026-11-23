@@ -2,6 +2,7 @@ import { getSetting, setSetting } from '../../db/db';
 import { appendReview, getProgress, getScarf, putProgress, putScarf } from '../../db/repo';
 import type { ImplicitCredit } from '../../domain/credit';
 import { buildCloze, buildProduce, buildRecognise, clozeTargets, type Exercise } from '../../domain/exercises';
+import { wordsNeedingSentences } from '../../domain/context';
 import { markLearned, newProgress } from '../../domain/scheduler';
 import {
   answerCard,
@@ -71,21 +72,27 @@ export async function startLearning(deps: ServiceDeps, scarfId: string, previous
   const snoozed = await loadSnoozed(deps);
   const batchWords = planWordBatch({ candidates, learned, tagFilter: scarf.tagFilter, snoozed, now: deps.clock.now() });
   const recent = scarf.wovenOrder.filter((id) => deps.items.get(id)?.kind !== 'sentence').slice(-DEFAULT_BATCH_SIZE);
-  const backlog = selectSentences({
-    sentences: candidates.filter(isSentence),
-    learned,
-    newWords: recent,
-  }).now;
+  const sentences = candidates.filter(isSentence);
+  const backlog = selectSentences({ sentences, learned, newWords: recent }).now;
+  // Words reviewed a couple of times that have never met a sentence come first, so context is not left waiting.
+  const lacking = wordsNeedingSentences([...deps.items.values()], progress);
+  const priority = selectSentences({ sentences, learned, newWords: lacking, perWord: 1 }).now.slice(0, DEFAULT_BATCH_SIZE);
+  const queued = [...priority, ...backlog.filter((b) => !priority.some((p) => p.id === b.id))];
+
+  const session = startBatch({
+    words: batchWords,
+    sentences: queued,
+    batch: previous ? previous.session.batch + 1 : 1,
+    previous: previous?.session,
+  });
+  // Sentences for words that lack context lead the run; they use only words already known.
+  const first = new Set(priority.map((p) => p.id));
+  const queue = [...session.queue.filter((c) => first.has(c.itemId)), ...session.queue.filter((c) => !first.has(c.itemId))];
 
   return {
     mode: 'learn',
     scarfId,
-    session: startBatch({
-      words: batchWords,
-      sentences: backlog,
-      batch: previous ? previous.session.batch + 1 : 1,
-      previous: previous?.session,
-    }),
+    session: { ...session, queue },
     batchWords,
     sentencesQueued: false,
     woven: [],

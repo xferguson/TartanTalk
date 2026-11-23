@@ -768,3 +768,19 @@ _A smoke test that asserts a placeholder's heading breaks when the real screen l
 - **Detail:** The typed answer field was keyed by item id. A missed card returns with the same id, so the old text stayed in the field. Found by the user in real use.
 - **Resolution:** The key also carries an attempt count that rises when an answer is cleared away. Any state that belongs to one attempt must reset per attempt, not per item.
 - **Status:** resolved
+
+### L29. A review format chosen from the schedule step can send a learner backwards
+- **Type:** mistake
+- **Tally:** 1
+- **Seen in:** (this PR)
+- **Detail:** Reviews picked "choice first, typed later" from `seededStep`, which a miss resets to 0. A learner who had typed a word was shown multiple choice again, and a sentence was blanked before it was typed. The owner spotted it while specifying context-first review.
+- **Resolution:** Choose the format from the best rung passed, read from the review log, and never offer a lower one. `readyForTyped` in `src/domain/context.ts` does this. A missed typed sentence is rated Again for its words, with no easier fallback.
+- **Status:** resolved
+
+### L30. A sentence review that rates several words needs explicit scope
+- **Type:** difficulty
+- **Tally:** 1
+- **Seen in:** (this PR)
+- **Detail:** Implicit credit skips only the cloze target, so a typed sentence that also rates its words would credit them twice. `rateReview` takes `covers` and hands implicit credit only the other words. `contracts` in `types.ts` stayed unchanged: the rung is derived from the existing log.
+- **Resolution:** Rate the covered words explicitly and exclude them from implicit credit.
+- **Status:** resolved
