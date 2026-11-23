@@ -441,6 +441,16 @@ Domain tasks are pure TypeScript with unit tests and no UI. Data tasks are YAML 
 
 - **Depends on:** W2-A
 
+### W-CONTEXT-REVIEW
+
+- **Status:** in progress (ccr-5c729588-t1khlm)
+
+**Review in context, and never backslide.** Single-word cards are a stepping stone: synonyms make a bare word a weak memory. A word that has met a learned sentence is reviewed through sentences from then on. The ladder only climbs: word, then a one-word cloze in a sentence, then typing a full sentence that covers every due word in it, which rates them together and so lines their schedules up. Words due within two days join that sentence. The rung is read from the review log, so a miss never sends a learner back to an easier format. A due sentence is always typed whole. A word reviewed twice with no sentence gets one put first in the next learning session. Domain tests first.
+
+- **Owns:** `src/domain/context.ts`, `src/app/services/{reviews,learning}.ts`, `src/app/store/sessionStore.ts`, `tests/unit/context.test.ts`, `tests/unit/services/**`, `docs/WORKPLAN.md` (this row), `docs/LEARNINGS.md`
+
+- **Depends on:** W2-B
+
 ## Backlog (unscheduled)
 Not part of any wave. Scheduled when the time is right.
 

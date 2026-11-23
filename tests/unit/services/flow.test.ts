@@ -246,20 +246,15 @@ describe('cloze blanks only words in play', () => {
     if (ex.type === 'cloze') expect(loom.woven).toContain(ex.targetId);
   });
 
-  it('in a reweave, types a due sentence whole when none of its words are due', async () => {
+  it('in a reweave, always types a due sentence whole, never an easier format', async () => {
     setup();
     const scarf = await newScarf(h.deps);
     await weaveEverything(h.deps, (await learningPastIntros(h.deps, scarf.id))!);
     h.clock.advance(2 * DAY);
     const due = (await planReweave(h.deps, scarf.id)).due;
     const sentence = due.find((id) => id.startsWith('sent:'))!;
-    const words = due.filter((id) => !id.startsWith('sent:'));
-
-    const withDueWords = await buildReviewExercise(h.deps, sentence);
-    expect(withDueWords.type).toBe('cloze');
-    if (withDueWords.type === 'cloze') expect(words).toContain(withDueWords.targetId);
-
-    for (const id of words) await rateReview(h.deps, id, 'good', await buildReviewExercise(h.deps, id));
+    expect((await buildReviewExercise(h.deps, sentence)).type).toBe('produce');
+    for (const id of due.filter((d) => !d.startsWith('sent:'))) await rateReview(h.deps, id, 'good', await buildReviewExercise(h.deps, id));
     expect((await buildReviewExercise(h.deps, sentence)).type).toBe('produce');
   });
 });

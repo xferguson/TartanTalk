@@ -42,6 +42,8 @@ export interface SessionState {
   loom: LoomSession | null;
   /** Reweave items still to ask, front first. */
   queue: ItemId[];
+  /** Items each reweave question rates together (a typed sentence covers several words). */
+  covers: Record<ItemId, ItemId[]>;
   /** Reweave items waiting for a tangle session instead. */
   tangledLeft: number;
   /** Reweave items missed once this session and already given their second try. */
@@ -92,6 +94,7 @@ const idle: SessionState = {
   queue: [],
   tangledLeft: 0,
   retried: [],
+  covers: {},
   card: null,
   itemId: null,
   exercise: null,
@@ -131,9 +134,9 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
       set({ card: up.card, itemId: up.card.itemId, exercise, feedback: null, weaving: null, credited: [], canClaimKnown: false, waitUntil: null, done: false });
     }
 
-    async function begin(mode: SessionMode, scarfId: string | null, loom: LoomSession | null, queue: ItemId[], tangledLeft = 0) {
+    async function begin(mode: SessionMode, scarfId: string | null, loom: LoomSession | null, queue: ItemId[], tangledLeft = 0, covers: Record<ItemId, ItemId[]> = {}) {
       const total = loom ? loom.session.queue.length : queue.length;
-      set({ ...idle, mode, scarfId, loom, queue, tangledLeft, total });
+      set({ ...idle, mode, scarfId, loom, queue, tangledLeft, total, covers });
       await show();
     }
 
@@ -162,7 +165,7 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
 
       async startReweave(scarfId) {
         const plan = await planReweave(getDeps(), scarfId);
-        await begin('reweave', scarfId ?? null, null, plan.due, plan.tangled.length);
+        await begin('reweave', scarfId ?? null, null, plan.due, plan.tangled.length, plan.covers);
       },
 
       async introduce(response) {
@@ -183,7 +186,7 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
         if (mode === 'reweave') {
           // A miss is saved at once as Again; a correct answer waits for the learner's rating.
           if (!check.correct) {
-            const { progress } = await rateReview(deps, itemId, 'again', exercise);
+            const { progress } = await rateReview(deps, itemId, 'again', exercise, get().covers[itemId]);
             const { queue, retried, tangledLeft, total, answered } = get();
             const rest = queue.slice(1);
             // A first miss earns a second try at the very end of the session. A second miss
@@ -225,7 +228,7 @@ export function createSessionStore(getDeps: () => ServiceDeps) {
         const deps = getDeps();
         const { feedback, exercise, itemId, queue } = get();
         if (!feedback?.awaitingRating || !exercise || !itemId) return;
-        const outcome = await rateReview(deps, itemId, capRating(rating, feedback.check), exercise);
+        const outcome = await rateReview(deps, itemId, capRating(rating, feedback.check), exercise, get().covers[itemId]);
         set({
           feedback: { ...feedback, awaitingRating: false, suggestedRating: capRating(rating, feedback.check) },
           queue: queue.slice(1),
