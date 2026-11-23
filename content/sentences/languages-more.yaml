@@ -1,0 +1,931 @@
+# Sentences for the languages-more scarf (content expansion).
+# AI drafts are review: generated. Traditional sayings recalled from memory are review: unreviewed.
+# Licence: CC BY-SA 4.0
+
+- id: sent:languages-more-001
+  gd: "Tha Eadailtis aice."
+  en: "She speaks Italian."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Eadailtis", itemId: lex:eadailtis }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-002
+  gd: "Tha Duitsis aig mo bhràthair."
+  en: "My brother speaks Dutch."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Duitsis", itemId: lex:duitsis }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "bhràthair", itemId: lex:brathair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-003
+  gd: "Tha Breatnais aig an tidsear."
+  en: "The teacher speaks Breton."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Breatnais", itemId: lex:breatnais }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "tidsear", itemId: lex:tidsear }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-004
+  gd: "Tha beagan Manainnis agam."
+  en: "I have a little Manx."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "beagan", itemId: lex:beagan }
+    - { text: "Manainnis", itemId: lex:manainnis }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-ADV-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-005
+  gd: "Tha Laideann doirbh."
+  en: "Latin is difficult."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Laideann", itemId: lex:laideann }
+    - { text: "doirbh", itemId: lex:doirbh }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-006
+  gd: "Tha Greugais aige."
+  en: "He speaks Greek."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Greugais", itemId: lex:greugais }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-007
+  gd: "Tha Ruisis againn."
+  en: "We speak Russian."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Ruisis", itemId: lex:ruisis }
+    - { text: "againn", itemId: form:aig.1pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-008
+  gd: "Tha Sìnis doirbh dhomh."
+  en: "Chinese is difficult for me."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Sìnis", itemId: lex:sinis }
+    - { text: "doirbh", itemId: lex:doirbh }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-do-P
+  tags: [topic:languages, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-009
+  gd: "Tha Seapanais aca."
+  en: "They speak Japanese."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Seapanais", itemId: lex:seapanais }
+    - { text: "aca", itemId: form:aig.3pl }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-010
+  gd: "Tha Arabais aig mo charaid."
+  en: "My friend speaks Arabic."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Arabais", itemId: lex:arabais }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "charaid", itemId: lex:caraid }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-011
+  gd: "Tha Nirribhis agus Suainis aice."
+  en: "She speaks Norwegian and Swedish."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Nirribhis", itemId: lex:nirribhis }
+    - { text: "agus", itemId: lex:agus }
+    - { text: "Suainis", itemId: lex:suainis }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-agus-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-012
+  gd: "Tha Pòlainnis aig na daoine sin."
+  en: "Those people speak Polish."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Pòlainnis", itemId: lex:polainnis }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "na", itemId: lex:na }
+    - { text: "daoine", itemId: lex:duine }
+    - { text: "sin", itemId: lex:sin }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-art-N-X
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-013
+  gd: "Tha Portagailis aig m' athair."
+  en: "My father speaks Portuguese."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Portagailis", itemId: lex:portagailis }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "athair", itemId: lex:athair }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-N
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-014
+  gd: "Tha mi à Èirinn."
+  en: "I am from Ireland."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "à", itemId: lex:as }
+    - { text: "Èirinn", itemId: lex:eirinn }
+    - { text: ".", itemId: null }
+  pattern: tha-P-as-N
+  tags: [topic:languages, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-015
+  gd: "Tha i à Sasainn."
+  en: "She is from England."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "à", itemId: lex:as }
+    - { text: "Sasainn", itemId: lex:sasainn }
+    - { text: ".", itemId: null }
+  pattern: tha-P-as-N
+  tags: [topic:languages, prep:as]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-016
+  gd: "Tha mi a' fuireach ann am Breatainn."
+  en: "I live in Britain."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "ann am", itemId: lex:ann }
+    - { text: "Breatainn", itemId: lex:breatainn }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-ann-N
+  tags: [topic:languages, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-017
+  gd: "Is e Gàidheal a th' annam."
+  en: "I am a Gael."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "Gàidheal", itemId: lex:gaidheal }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "annam", itemId: form:ann.1sg }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-a-tha-ann-P
+  tags: [topic:languages, prep:ann]
+  isIdiom: true
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-018
+  gd: "Tha mi a' fuireach air a' Ghàidhealtachd."
+  en: "I live in the Highlands."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "fuireach", itemId: lex:fuirich }
+    - { text: "air", itemId: lex:air }
+    - { text: "a'", itemId: lex:an }
+    - { text: "Ghàidhealtachd", itemId: lex:gaidhealtachd }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-air-art-N
+  tags: [topic:languages, prep:air]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-019
+  gd: "Is e dùthaich bhòidheach a th' ann an Alba."
+  en: "Scotland is a beautiful country."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "dùthaich", itemId: lex:duthaich }
+    - { text: "bhòidheach", itemId: lex:boidheach }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann an", itemId: lex:ann }
+    - { text: "Alba", itemId: lex:alba }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-N
+  tags: [topic:languages, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-020
+  gd: "Tha i fileanta ann am Fraingis."
+  en: "She is fluent in French."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "fileanta", itemId: lex:fileanta }
+    - { text: "ann am", itemId: lex:ann }
+    - { text: "Fraingis", itemId: lex:fraingis }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ-ann-N
+  tags: [topic:languages, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-021
+  gd: "Tha dualchainnt làidir aige."
+  en: "He has a strong dialect."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "dualchainnt", itemId: lex:dualchainnt }
+    - { text: "làidir", itemId: lex:laidir }
+    - { text: "aige", itemId: form:aig.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-022
+  gd: "Tha am fuaimneachadh doirbh."
+  en: "The pronunciation is difficult."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "fuaimneachadh", itemId: lex:fuaimneachadh }
+    - { text: "doirbh", itemId: lex:doirbh }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-023
+  gd: "Tha an litreachadh furasta."
+  en: "The spelling is easy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "litreachadh", itemId: lex:litreachadh }
+    - { text: "furasta", itemId: lex:furasta }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-024
+  gd: "Tha an gràmar duilich."
+  en: "The grammar is difficult."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "gràmar", itemId: lex:gramar }
+    - { text: "duilich", itemId: lex:duilich }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-025
+  gd: "Tha faclair agam."
+  en: "I have a dictionary."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "faclair", itemId: lex:faclair }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-026
+  gd: "Tha an t-eadar-theangachadh ceart."
+  en: "The translation is right."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "t-eadar-theangachadh", itemId: lex:eadar-theangachadh }
+    - { text: "ceart", itemId: lex:ceart }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-027
+  gd: "Eadar-theangaich am facal seo."
+  en: "Translate this word."
+  altGd: []
+  tokens:
+    - { text: "Eadar-theangaich", itemId: lex:eadar-theangaich }
+    - { text: "am", itemId: lex:an }
+    - { text: "facal", itemId: lex:facal }
+    - { text: "seo", itemId: lex:seo }
+    - { text: ".", itemId: null }
+  pattern: V-art-N-X
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-028
+  gd: "Sgrìobh an seantans."
+  en: "Write the sentence."
+  altGd: []
+  tokens:
+    - { text: "Sgrìobh", itemId: lex:sgriobh }
+    - { text: "an", itemId: lex:an }
+    - { text: "seantans", itemId: lex:seantans }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-029
+  gd: "'S e abairt mhath a th' ann."
+  en: "That's a good expression."
+  altGd: []
+  tokens:
+    - { text: "'S", itemId: lex:is }
+    - { text: "e", itemId: lex:e }
+    - { text: "abairt", itemId: lex:abairt }
+    - { text: "mhath", itemId: lex:math }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "ann", itemId: form:ann.3sg-m }
+    - { text: ".", itemId: null }
+  pattern: is-P-N-ADJ-a-tha-ann-P
+  tags: [topic:languages, prep:ann]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-030
+  gd: "Dè a' chiall a th' aig an fhacal seo?"
+  en: "What does this word mean?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chiall", itemId: lex:ciall }
+    - { text: "a", itemId: lex:a }
+    - { text: "th'", itemId: lex:tha }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhacal", itemId: lex:facal }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "?", itemId: null }
+  pattern: X-art-N-a-tha-aig-art-N-X
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-031
+  gd: "Tha sin ceart."
+  en: "That's right."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "ceart", itemId: lex:ceart }
+    - { text: ".", itemId: null }
+  pattern: tha-X-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-032
+  gd: "Tha mi ceàrr."
+  en: "I am wrong."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ceàrr", itemId: lex:cearr }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-033
+  gd: "Tha a' chainnt aice soilleir."
+  en: "Her speech is clear."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "a'", itemId: lex:an }
+    - { text: "chainnt", itemId: lex:cainnt }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: "soilleir", itemId: lex:soilleir }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-aig-P-ADJ
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-034
+  gd: "Cleachd do Ghàidhlig."
+  en: "Use your Gaelic."
+  altGd: []
+  tokens:
+    - { text: "Cleachd", itemId: lex:cleachd }
+    - { text: "do", itemId: lex:do-your }
+    - { text: "Ghàidhlig", itemId: lex:gaidhlig }
+    - { text: ".", itemId: null }
+  pattern: V-P-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-035
+  gd: "Mìnich sin dhomh."
+  en: "Explain that to me."
+  altGd: []
+  tokens:
+    - { text: "Mìnich", itemId: lex:minich }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "dhomh", itemId: form:do.1sg }
+    - { text: ".", itemId: null }
+  pattern: V-X-do-P
+  tags: [topic:languages, prep:do]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-036
+  gd: "Tha clas Gàidhlig agam a-nochd."
+  en: "I have a Gaelic class tonight."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "clas", itemId: lex:clas }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "a-nochd", itemId: lex:a-nochd }
+    - { text: ".", itemId: null }
+  pattern: tha-N-N-aig-P-ADV
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-037
+  gd: "Tha an leasan seo furasta."
+  en: "This lesson is easy."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "leasan", itemId: lex:leasan }
+    - { text: "seo", itemId: lex:seo }
+    - { text: "furasta", itemId: lex:furasta }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-X-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-038
+  gd: "Tha mi a' dèanamh cùrsa Gàidhlig."
+  en: "I am doing a Gaelic course."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "dèanamh", itemId: lex:dean }
+    - { text: "cùrsa", itemId: lex:cursa }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-V-N-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-039
+  gd: "Tha deuchainn agam a-màireach."
+  en: "I have an exam tomorrow."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "deuchainn", itemId: lex:deuchainn }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "a-màireach", itemId: lex:a-maireach }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ADV
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-040
+  gd: "Rinn mi m' obair-dachaigh."
+  en: "I did my homework."
+  altGd: []
+  tokens:
+    - { text: "Rinn", itemId: lex:dean }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "m'", itemId: lex:mo }
+    - { text: "obair-dachaigh", itemId: lex:obair-dachaigh }
+    - { text: ".", itemId: null }
+  pattern: V-P-P-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-041
+  gd: "Èist rium."
+  en: "Listen to me."
+  altGd: []
+  tokens:
+    - { text: "Èist", itemId: lex:eist }
+    - { text: "rium", itemId: form:ri.1sg }
+    - { text: ".", itemId: null }
+  pattern: V-ri-P
+  tags: [topic:languages, prep:ri]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-042
+  gd: "Freagair a' cheist."
+  en: "Answer the question."
+  altGd: []
+  tokens:
+    - { text: "Freagair", itemId: lex:freagair }
+    - { text: "a'", itemId: lex:an }
+    - { text: "cheist", itemId: lex:ceist }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-043
+  gd: "Tha an fhreagairt ceart."
+  en: "The answer is right."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "an", itemId: lex:an }
+    - { text: "fhreagairt", itemId: lex:freagairt }
+    - { text: "ceart", itemId: lex:ceart }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-044
+  gd: "Faighnich dhen tidsear."
+  en: "Ask the teacher."
+  altGd: []
+  tokens:
+    - { text: "Faighnich", itemId: lex:faighnich }
+    - { text: "dhen", itemId: lex:de }
+    - { text: "tidsear", itemId: lex:tidsear }
+    - { text: ".", itemId: null }
+  pattern: V-de-N
+  tags: [topic:languages, prep:de]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-045
+  gd: "Ionnsaich an aibidil."
+  en: "Learn the alphabet."
+  altGd: []
+  tokens:
+    - { text: "Ionnsaich", itemId: lex:ionnsaich }
+    - { text: "an", itemId: lex:an }
+    - { text: "aibidil", itemId: lex:aibidil }
+    - { text: ".", itemId: null }
+  pattern: V-art-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-046
+  gd: "Tha fuaim àlainn aig a' Ghàidhlig."
+  en: "Gaelic has a beautiful sound."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "fuaim", itemId: lex:fuaim }
+    - { text: "àlainn", itemId: lex:alainn }
+    - { text: "aig", itemId: lex:aig }
+    - { text: "a'", itemId: lex:an }
+    - { text: "Ghàidhlig", itemId: lex:gaidhlig }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-art-N
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-047
+  gd: "Tha guth binn aice."
+  en: "She has a sweet voice."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "guth", itemId: lex:guth }
+    - { text: "binn", itemId: lex:binn }
+    - { text: "aice", itemId: form:aig.3sg-f }
+    - { text: ".", itemId: null }
+  pattern: tha-N-ADJ-aig-P
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-048
+  gd: "Tha mo theanga sgìth!"
+  en: "My tongue is tired!"
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mo", itemId: lex:mo }
+    - { text: "theanga", itemId: lex:teanga }
+    - { text: "sgìth", itemId: lex:sgith }
+    - { text: "!", itemId: null }
+  pattern: tha-P-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-049
+  gd: "Is toigh leam bàrdachd."
+  en: "I like poetry."
+  altGd: []
+  tokens:
+    - { text: "Is", itemId: lex:is }
+    - { text: "toigh", itemId: lex:toigh }
+    - { text: "leam", itemId: form:le.1sg }
+    - { text: "bàrdachd", itemId: lex:bardachd }
+    - { text: ".", itemId: null }
+  pattern: is-ADJ-le-P-N
+  tags: [topic:languages, prep:le]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-050
+  gd: "Tha am bàrd ainmeil."
+  en: "The poet is famous."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "am", itemId: lex:an }
+    - { text: "bàrd", itemId: lex:bard }
+    - { text: "ainmeil", itemId: lex:ainmeil }
+    - { text: ".", itemId: null }
+  pattern: tha-art-N-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-051
+  gd: "Tha i dà-chànanach."
+  en: "She is bilingual."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "i", itemId: lex:i }
+    - { text: "dà-chànanach", itemId: lex:da-chananach }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-052
+  gd: "Dè an naidheachd?"
+  en: "What's the news?"
+  altGd: []
+  tokens:
+    - { text: "Dè", itemId: lex:de-what }
+    - { text: "an", itemId: lex:an }
+    - { text: "naidheachd", itemId: lex:naidheachd }
+    - { text: "?", itemId: null }
+  pattern: X-art-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-053
+  gd: "Chan eil mi a' tuigsinn."
+  en: "I don't understand."
+  altGd: []
+  tokens:
+    - { text: "Chan", itemId: lex:cha }
+    - { text: "eil", itemId: lex:eil }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "a'", itemId: lex:ag }
+    - { text: "tuigsinn", itemId: lex:tuig }
+    - { text: ".", itemId: null }
+  pattern: cha-eil-P-ag-V
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-054
+  gd: "Abair sin a-rithist."
+  en: "Say that again."
+  altGd: []
+  tokens:
+    - { text: "Abair", itemId: lex:abair }
+    - { text: "sin", itemId: lex:sin }
+    - { text: "a-rithist", itemId: lex:a-rithist }
+    - { text: ".", itemId: null }
+  pattern: V-X-ADV
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-055
+  gd: "Bruidhinn nas slaodaiche."
+  en: "Speak more slowly."
+  altGd: []
+  tokens:
+    - { text: "Bruidhinn", itemId: lex:bruidhinn }
+    - { text: "nas", itemId: lex:nas }
+    - { text: "slaodaiche", itemId: lex:slaodach }
+    - { text: ".", itemId: null }
+  pattern: V-nas-ADJ
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-056
+  gd: "Tha mi ag ionnsachadh Gàidhlig."
+  en: "I am learning Gaelic."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "mi", itemId: lex:mi }
+    - { text: "ag", itemId: lex:ag }
+    - { text: "ionnsachadh", itemId: lex:ionnsachadh }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: ".", itemId: null }
+  pattern: tha-P-ag-N-N
+  tags: [topic:languages]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated
+
+- id: sent:languages-more-057
+  gd: "Tha Gàidhlig agam cuideachd."
+  en: "I speak Gaelic too."
+  altGd: []
+  tokens:
+    - { text: "Tha", itemId: lex:tha }
+    - { text: "Gàidhlig", itemId: lex:gaidhlig }
+    - { text: "agam", itemId: form:aig.1sg }
+    - { text: "cuideachd", itemId: lex:cuideachd }
+    - { text: ".", itemId: null }
+  pattern: tha-N-aig-P-ADV
+  tags: [topic:languages, prep:aig]
+  isIdiom: false
+  source: { ref: "AI draft, hand-built from Tartan Talk vocabulary (no sentence corpus was reachable; see SOURCES.md#sentences)", licence: "CC BY-SA 4.0" }
+  review: generated

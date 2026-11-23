@@ -1,0 +1,453 @@
+# 50 common verbs, given in the root (command) form (W1-J2)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:bi
+  gd: "bi"
+  en: "be"
+  pos: verb
+  freqRank: 2
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:thig
+  gd: "thig"
+  en: "come"
+  pos: verb
+  freqRank: 33
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rach
+  gd: "rach"
+  en: "go"
+  pos: verb
+  freqRank: 14
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faic
+  gd: "faic"
+  en: "see"
+  pos: verb
+  freqRank: 55
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dean
+  gd: "dèan"
+  en: "do, make"
+  pos: verb
+  freqRank: 25
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:thoir
+  gd: "thoir"
+  en: "give, take"
+  pos: verb
+  freqRank: 29
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cluinn
+  gd: "cluinn"
+  en: "hear"
+  pos: verb
+  freqRank: 117
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ith
+  gd: "ith"
+  en: "eat"
+  pos: verb
+  freqRank: 799
+  tags: [pos:verb, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ol
+  gd: "òl"
+  en: "drink"
+  pos: verb
+  freqRank: 1124
+  tags: [pos:verb, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuig
+  gd: "tuig"
+  en: "understand"
+  pos: verb
+  freqRank: 235
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:abair
+  gd: "abair"
+  en: "say"
+  pos: verb
+  freqRank: 28
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:innis
+  gd: "innis"
+  en: "tell"
+  pos: verb
+  freqRank: 416
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:smaoinich
+  gd: "smaoinich"
+  en: "think"
+  pos: verb
+  freqRank: 117
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saoil
+  gd: "saoil"
+  en: "suppose, wonder"
+  pos: verb
+  freqRank: 218
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:creid
+  gd: "creid"
+  en: "believe"
+  pos: verb
+  freqRank: 162
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceannaich
+  gd: "ceannaich"
+  en: "buy"
+  pos: verb
+  freqRank: 404
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuir
+  gd: "cuir"
+  en: "put, send"
+  pos: verb
+  freqRank: 23
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gabh
+  gd: "gabh"
+  en: "take, accept"
+  pos: verb
+  freqRank: 58
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faigh
+  gd: "faigh"
+  en: "get, find"
+  pos: verb
+  freqRank: 24
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuirich
+  gd: "fuirich"
+  en: "stay, wait"
+  pos: verb
+  freqRank: 244
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cum
+  gd: "cùm"
+  en: "keep, hold"
+  pos: verb
+  freqRank: 90
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leugh
+  gd: "leugh"
+  en: "read"
+  pos: verb
+  freqRank: 530
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgriobh
+  gd: "sgrìobh"
+  en: "write"
+  pos: verb
+  freqRank: 244
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bruidhinn
+  gd: "bruidhinn"
+  en: "speak"
+  pos: verb
+  freqRank: 148
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seinn
+  gd: "seinn"
+  en: "sing"
+  pos: verb
+  freqRank: 1124
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cluich
+  gd: "cluich"
+  en: "play"
+  pos: verb
+  freqRank: 209
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:obraich
+  gd: "obraich"
+  en: "work"
+  pos: verb
+  freqRank: 148
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionnsaich
+  gd: "ionnsaich"
+  en: "learn"
+  pos: verb
+  freqRank: 390
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teagaisg
+  gd: "teagaisg"
+  en: "teach"
+  pos: verb
+  freqRank: 1550
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iarr
+  gd: "iarr"
+  en: "ask for, want"
+  pos: verb
+  freqRank: 73
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feuch
+  gd: "feuch"
+  en: "try, look"
+  pos: verb
+  freqRank: 45
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toisich
+  gd: "tòisich"
+  en: "begin"
+  pos: verb
+  freqRank: 146
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:criochnaich
+  gd: "crìochnaich"
+  en: "finish"
+  pos: verb
+  freqRank: 1550
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fag
+  gd: "fàg"
+  en: "leave"
+  pos: verb
+  freqRank: 122
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stad
+  gd: "stad"
+  en: "stop"
+  pos: verb
+  freqRank: 346
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:suidh
+  gd: "suidh"
+  en: "sit"
+  pos: verb
+  freqRank: 290
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eirich
+  gd: "èirich"
+  en: "rise, get up"
+  pos: verb
+  freqRank: 530
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caidil
+  gd: "caidil"
+  en: "sleep"
+  pos: verb
+  freqRank: 995
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coisich
+  gd: "coisich"
+  en: "walk"
+  pos: verb
+  freqRank: 477
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ruith
+  gd: "ruith"
+  en: "run"
+  pos: verb
+  freqRank: 105
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fosgail
+  gd: "fosgail"
+  en: "open"
+  pos: verb
+  freqRank: 504
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duin
+  gd: "dùin"
+  en: "close"
+  pos: verb
+  freqRank: 311
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lorg
+  gd: "lorg"
+  en: "find"
+  pos: verb
+  freqRank: 279
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tog
+  gd: "tog"
+  en: "lift, build"
+  pos: verb
+  freqRank: 117
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuidich
+  gd: "cuidich"
+  en: "help"
+  pos: verb
+  freqRank: 565
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cord
+  gd: "còrd"
+  en: "please, agree"
+  pos: verb
+  freqRank: 371
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buail
+  gd: "buail"
+  en: "hit, meet"
+  pos: verb
+  freqRank: 218
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coimhead
+  gd: "coimhead"
+  en: "look, watch"
+  pos: verb
+  freqRank: 98
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuimhnich
+  gd: "cuimhnich"
+  en: "remember"
+  pos: verb
+  freqRank: 799
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diochuimhnich
+  gd: "dìochuimhnich"
+  en: "forget"
+  pos: verb
+  freqRank: 889
+  tags: [pos:verb]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

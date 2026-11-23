@@ -69,6 +69,8 @@ export function drawFringe(
   threads: string[],
   cloth: { x: number; y: number; w: number; h: number },
   horizontal: boolean,
+  /** Which ends get a fringe: `start` is the left or top end, `end` the right or bottom. */
+  ends: { start: boolean; end: boolean } = { start: true, end: true },
 ): void {
   ctx.lineCap = 'round';
   ctx.lineWidth = 1.6;
@@ -79,10 +81,14 @@ export function drawFringe(
     for (let i = cloth.y; i < cloth.y + cloth.h; i += 3) {
       ctx.strokeStyle = colour(i);
       ctx.beginPath();
-      ctx.moveTo(x0, i + 1);
-      ctx.lineTo(x0 - 8 + (i % 2), i + 2);
-      ctx.moveTo(x1, i + 1);
-      ctx.lineTo(x1 + 8 - (i % 2), i + 2);
+      if (ends.start) {
+        ctx.moveTo(x0, i + 1);
+        ctx.lineTo(x0 - 8 + (i % 2), i + 2);
+      }
+      if (ends.end) {
+        ctx.moveTo(x1, i + 1);
+        ctx.lineTo(x1 + 8 - (i % 2), i + 2);
+      }
       ctx.stroke();
     }
   } else {
@@ -91,10 +97,14 @@ export function drawFringe(
     for (let i = cloth.x; i < cloth.x + cloth.w; i += 3) {
       ctx.strokeStyle = colour(i);
       ctx.beginPath();
-      ctx.moveTo(i + 1, y0);
-      ctx.lineTo(i + 2, y0 - 8 + (i % 2));
-      ctx.moveTo(i + 1, y1);
-      ctx.lineTo(i + 2, y1 + 8 - (i % 2));
+      if (ends.start) {
+        ctx.moveTo(i + 1, y0);
+        ctx.lineTo(i + 2, y0 - 8 + (i % 2));
+      }
+      if (ends.end) {
+        ctx.moveTo(i + 1, y1);
+        ctx.lineTo(i + 2, y1 + 8 - (i % 2));
+      }
       ctx.stroke();
     }
   }

@@ -1,0 +1,470 @@
+# festivals-ceilidh vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:ceilidh
+  gd: "cèilidh"
+  en: "ceilidh, social visit"
+  pos: noun
+  freqRank: 1953
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dannsa
+  gd: "dannsa"
+  en: "dance, dancing"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dannsair
+  gd: "dannsair"
+  en: "dancer"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feis
+  gd: "fèis"
+  en: "festival"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mod
+  gd: "Mòd"
+  en: "the Mòd (Gaelic festival)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nollaig
+  gd: "Nollaig"
+  en: "Christmas"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-nollaig-chridheil
+  gd: "Nollaig Chridheil"
+  en: "Merry Christmas"
+  pos: other
+  tags: [pos:other, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-bliadhna-mhath-ur
+  gd: "Bliadhna Mhath Ùr"
+  en: "Happy New Year"
+  pos: other
+  tags: [pos:other, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oidhche-challainn
+  gd: "Oidhche Challainn"
+  en: "Hogmanay, New Year's Eve"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oidhche-shamhna
+  gd: "Oidhche Shamhna"
+  en: "Halloween"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caisg
+  gd: "Càisg"
+  en: "Easter"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:co-la-breith
+  gd: "co-là-breith"
+  en: "birthday"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:phrase-co-la-breith-sona
+  gd: "Co-là-breith sona"
+  en: "Happy birthday"
+  pos: other
+  tags: [pos:other, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tiodhlac
+  gd: "tiodhlac"
+  en: "gift, present"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:partaidh
+  gd: "pàrtaidh"
+  en: "party"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuirm
+  gd: "cuirm"
+  en: "feast, party"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comharraich
+  gd: "comharraich"
+  en: "celebrate"
+  pos: verb
+  freqRank: 1124
+  tags: [pos:verb, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oraid
+  gd: "òraid"
+  en: "speech, talk"
+  pos: noun
+  gender: f
+  freqRank: 799
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:abhachdas
+  gd: "àbhachdas"
+  en: "humour, fun"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fealla-dha
+  gd: "fealla-dhà"
+  en: "joke, jest"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coinneal
+  gd: "coinneal"
+  en: "candle"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teine-ealain
+  gd: "teine-ealain"
+  en: "firework"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sluagh
+  gd: "sluagh"
+  en: "crowd, people"
+  pos: noun
+  gender: m
+  freqRank: 279
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luchd-eisteachd
+  gd: "luchd-èisteachd"
+  en: "audience"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fear-an-taighe
+  gd: "fear-an-taighe"
+  en: "host, master of ceremonies"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bean-an-taighe
+  gd: "bean-an-taighe"
+  en: "hostess"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tachartas
+  gd: "tachartas"
+  en: "event"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:saor-laithean
+  gd: "saor-làithean"
+  en: "holidays"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deireadh-seachdain
+  gd: "deireadh-seachdain"
+  en: "weekend"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diluain
+  gd: "Diluain"
+  en: "Monday"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dimairt
+  gd: "Dimàirt"
+  en: "Tuesday"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diciadain
+  gd: "Diciadain"
+  en: "Wednesday"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diardaoin
+  gd: "Diardaoin"
+  en: "Thursday"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dihaoine
+  gd: "Dihaoine"
+  en: "Friday"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:disathairne
+  gd: "Disathairne"
+  en: "Saturday"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:didomhnaich
+  gd: "Didòmhnaich"
+  en: "Sunday"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feill
+  gd: "fèill"
+  en: "fair, feast day"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ainmeil
+  gd: "ainmeil"
+  en: "famous"
+  pos: adjective
+  freqRank: 680
+  tags: [pos:adjective, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sunndach
+  gd: "sunndach"
+  en: "cheerful, in good spirits"
+  pos: adjective
+  tags: [pos:adjective, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:drama
+  gd: "drama"
+  en: "dram"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deoch-slainte
+  gd: "deoch-slàinte"
+  en: "toast (drink)"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cruinneachadh
+  gd: "cruinneachadh"
+  en: "gathering"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:latha-naomh-anndrais
+  gd: "Latha Naomh Anndrais"
+  en: "St Andrew's Day"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bratach
+  gd: "bratach"
+  en: "flag, banner"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caismeachd
+  gd: "caismeachd"
+  en: "parade, march"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ticead
+  gd: "ticead"
+  en: "ticket"
+  pos: noun
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:talla
+  gd: "talla"
+  en: "hall"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aoibhneas
+  gd: "aoibhneas"
+  en: "joy, gladness"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceann-bliadhna
+  gd: "ceann-bliadhna"
+  en: "anniversary"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oidhche-bhurns
+  gd: "Oidhche Bhurns"
+  en: "Burns Night"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:festivals-ceilidh]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

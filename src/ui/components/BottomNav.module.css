@@ -18,17 +18,34 @@
   text-decoration: none;
   border-radius: var(--radius-s);
 }
-.dot {
-  width: 18px;
-  height: 18px;
-  border-radius: 6px;
-  background: currentColor;
-  opacity: 0.35;
+.indicator {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+}
+.icon {
+  display: block;
+}
+.thread {
+  opacity: 0.55;
+}
+.knob {
+  fill: var(--surface);
 }
 .active {
   color: var(--heather);
   font-weight: 700;
 }
-.active .dot {
+.active .indicator {
+  background: color-mix(in srgb, var(--heather) 14%, transparent);
+}
+.active .thread {
+  stroke: var(--amber);
   opacity: 1;
+}
+.active .knob {
+  fill: var(--amber);
+  stroke: var(--amber);
 }

@@ -1,0 +1,649 @@
+# Love and feelings vocabulary (W1-J3). cridhe and caraid live in core-nouns.yaml and carry the topic tags there.
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:gaol
+  gd: "gaol"
+  en: "love"
+  pos: noun
+  gender: m
+  freqRank: 799
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gradh
+  gd: "gràdh"
+  en: "love, affection"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leannan
+  gd: "leannan"
+  en: "sweetheart, lover"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:boidheach
+  gd: "bòidheach"
+  en: "beautiful"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:briagha
+  gd: "briagha"
+  en: "lovely, pretty"
+  pos: adjective
+  freqRank: 799
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:toilichte
+  gd: "toilichte"
+  en: "happy"
+  pos: adjective
+  freqRank: 433
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:duilich
+  gd: "duilich"
+  en: "sad, sorry, difficult"
+  pos: adjective
+  freqRank: 889
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgith
+  gd: "sgìth"
+  en: "tired"
+  pos: adjective
+  freqRank: 1124
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuar
+  gd: "fuar"
+  en: "cold"
+  pos: adjective
+  freqRank: 735
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beo
+  gd: "beò"
+  en: "alive, lively"
+  pos: adjective
+  freqRank: 390
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:snog
+  gd: "snog"
+  en: "nice, lovely"
+  pos: adjective
+  freqRank: 799
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gradhach
+  gd: "gràdhach"
+  en: "loving, dear"
+  pos: adjective
+  tags: [pos:adjective, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pog
+  gd: "pòg"
+  en: "kiss"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fearg
+  gd: "fearg"
+  en: "anger"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eagal
+  gd: "eagal"
+  en: "fear"
+  pos: noun
+  gender: m
+  freqRank: 530
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aighear
+  gd: "aighear"
+  en: "joy, mirth"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bron
+  gd: "bròn"
+  en: "sorrow"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deidh
+  gd: "dèidh"
+  en: "liking, fondness (as in \"tha dèidh agam air\")"
+  pos: noun
+  gender: f
+  freqRank: 128
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dochas
+  gd: "dòchas"
+  en: "hope"
+  pos: noun
+  gender: m
+  freqRank: 455
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sonas
+  gd: "sonas"
+  en: "happiness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gaire
+  gd: "gàire"
+  en: "laugh, laughter"
+  pos: noun
+  gender: m
+  freqRank: 477
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:deur
+  gd: "deur"
+  en: "tear (from the eye)"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cianalas
+  gd: "cianalas"
+  en: "homesickness, longing"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomagain
+  gd: "iomagain"
+  en: "worry, anxiety"
+  pos: noun
+  gender: f
+  freqRank: 995
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uaigneas
+  gd: "uaigneas"
+  en: "loneliness"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:naire
+  gd: "nàire"
+  en: "shame, embarrassment"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:moit
+  gd: "moit"
+  en: "pride"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:farmad
+  gd: "farmad"
+  en: "envy"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eud
+  gd: "eud"
+  en: "jealousy"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:truas
+  gd: "truas"
+  en: "pity"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luaidh
+  gd: "luaidh"
+  en: "darling (a luaidh: my darling)"
+  pos: noun
+  freqRank: 1953
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceile
+  gd: "cèile"
+  en: "spouse, partner"
+  pos: noun
+  freqRank: 268
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:posadh
+  gd: "pòsadh"
+  en: "marriage, wedding"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:pos
+  gd: "pòs"
+  en: "marry"
+  pos: verb
+  freqRank: 390
+  tags: [pos:verb, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:faireachdainn
+  gd: "faireachdainn"
+  en: "feeling"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:inntinn
+  gd: "inntinn"
+  en: "mind"
+  pos: noun
+  gender: f
+  freqRank: 565
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:smuain
+  gd: "smuain"
+  en: "thought, idea"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cridheil
+  gd: "cridheil"
+  en: "cheerful, hearty"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bronach
+  gd: "brònach"
+  en: "sad"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feargach
+  gd: "feargach"
+  en: "angry"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iomagaineach
+  gd: "iomagaineach"
+  en: "anxious, worried"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dochasach
+  gd: "dòchasach"
+  en: "hopeful"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sona
+  gd: "sona"
+  en: "happy, content"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aonaranach
+  gd: "aonaranach"
+  en: "lonely"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eudmhor
+  gd: "eudmhor"
+  en: "jealous"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:moiteil
+  gd: "moiteil"
+  en: "proud"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diuid
+  gd: "diùid"
+  en: "shy"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ciuin
+  gd: "ciùin"
+  en: "calm, gentle"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coibhneil
+  gd: "coibhneil"
+  en: "kind"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:laghach
+  gd: "laghach"
+  en: "nice, pleasant"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cairdeil
+  gd: "càirdeil"
+  en: "friendly"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dileas
+  gd: "dìleas"
+  en: "loyal, faithful"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grain
+  gd: "gràin"
+  en: "hatred, disgust"
+  pos: noun
+  gender: f
+  freqRank: 1303
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tlachd
+  gd: "tlachd"
+  en: "pleasure, enjoyment"
+  pos: noun
+  gender: f
+  freqRank: 1124
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caoin
+  gd: "caoin"
+  en: "weep, cry"
+  pos: verb
+  tags: [pos:verb, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gradhaich
+  gd: "gràdhaich"
+  en: "love (verb)"
+  pos: verb
+  tags: [pos:verb, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuath
+  gd: "fuath"
+  en: "hatred (is fuath leam: I hate)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuimhne
+  gd: "cuimhne"
+  en: "memory"
+  pos: noun
+  gender: f
+  freqRank: 279
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ionndrainn
+  gd: "ionndrainn"
+  en: "miss, long for"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:earbsa
+  gd: "earbsa"
+  en: "trust"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:misneachd
+  gd: "misneachd"
+  en: "courage"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sunnd
+  gd: "sunnd"
+  en: "mood, good spirits"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leisg
+  gd: "leisg"
+  en: "lazy, reluctant"
+  pos: adjective
+  freqRank: 1953
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mi-thoilichte
+  gd: "mì-thoilichte"
+  en: "unhappy"
+  pos: adjective
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fiamh-ghaire
+  gd: "fiamh-ghàire"
+  en: "smile"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teagamh
+  gd: "teagamh"
+  en: "doubt"
+  pos: noun
+  gender: m
+  freqRank: 253
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:iongnadh
+  gd: "iongnadh"
+  en: "surprise, wonder"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dragh
+  gd: "dragh"
+  en: "worry, bother"
+  pos: noun
+  gender: m
+  freqRank: 404
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cinnteach
+  gd: "cinnteach"
+  en: "sure, certain"
+  pos: adjective
+  freqRank: 168
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:samhach
+  gd: "sàmhach"
+  en: "quiet"
+  pos: adjective
+  freqRank: 1124
+  tags: [pos:adjective, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

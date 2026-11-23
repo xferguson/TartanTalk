@@ -1,0 +1,16 @@
+.group { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.tag {
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+}
+.toggle { position: relative; cursor: pointer; transition: background 150ms ease-out; }
+/* Expands the hit area to 44px without growing the visible pill. */
+.toggle::after { content: ''; position: absolute; inset: -9px -2px; }
+.toggle:focus-visible { outline: 2px solid var(--heather); outline-offset: 2px; }
+.on { background: var(--heather); border-color: var(--heather); color: var(--on-accent); font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { .toggle { transition: none; } }

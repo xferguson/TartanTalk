@@ -82,9 +82,10 @@ describe('seeded ladder', () => {
 });
 
 describe('misses and tangles', () => {
-  it('a first miss relearns after ten minutes and restarts the ladder, without tangling', () => {
+  it('a first miss is due again at once (the hole stays) and restarts the ladder, without tangling', () => {
     const p = walk(['good', 'again']);
-    expect(p.fsrs!.due - p.fsrs!.lastReview).toBe(RELEARN_DELAY_MS);
+    expect(p.fsrs!.due).toBe(p.fsrs!.lastReview);
+    expect(RELEARN_DELAY_MS).toBe(0);
     expect(p.seededStep).toBe(0);
     expect(p.consecutiveMisses).toBe(1);
     expect(p.tangled).toBe(false);

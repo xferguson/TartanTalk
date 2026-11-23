@@ -1,0 +1,496 @@
+# weaving vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:clo
+  gd: "clò"
+  en: "tweed, cloth"
+  pos: noun
+  gender: m
+  freqRank: 637
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:breacan
+  gd: "breacan"
+  en: "tartan, plaid"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tartan
+  gd: "tartan"
+  en: "tartan"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:figh
+  gd: "figh"
+  en: "weave"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beart
+  gd: "beart"
+  en: "loom"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:breabadair
+  gd: "breabadair"
+  en: "weaver"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:spal
+  gd: "spàl"
+  en: "shuttle"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:snath
+  gd: "snàth"
+  en: "yarn, thread"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:snathad
+  gd: "snàthad"
+  en: "needle"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cloimh
+  gd: "clòimh"
+  en: "wool"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rusg
+  gd: "rùsg"
+  en: "fleece"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cir
+  gd: "cìr"
+  en: "comb"
+  pos: noun
+  gender: f
+  freqRank: 637
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:card
+  gd: "càrd"
+  en: "card (wool)"
+  pos: verb
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sniomh
+  gd: "snìomh"
+  en: "spin"
+  pos: verb
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuibhle
+  gd: "cuibhle"
+  en: "wheel, spinning wheel"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fearsaid
+  gd: "fearsaid"
+  en: "spindle"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dath
+  gd: "dath"
+  en: "colour, dye"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dathaich
+  gd: "dathaich"
+  en: "dye, colour"
+  pos: verb
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crotal
+  gd: "crotal"
+  en: "lichen (for dye)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luadh
+  gd: "luadh"
+  en: "waulking (fulling cloth)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dluth
+  gd: "dlùth"
+  en: "warp"
+  pos: noun
+  gender: m
+  freqRank: 504
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:inneach
+  gd: "inneach"
+  en: "weft"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:patran
+  gd: "pàtran"
+  en: "pattern"
+  pos: noun
+  gender: m
+  freqRank: 1550
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stiall
+  gd: "stiall"
+  en: "stripe"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cearnag
+  gd: "ceàrnag"
+  en: "square"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:loidhne
+  gd: "loidhne"
+  en: "line"
+  pos: noun
+  gender: f
+  freqRank: 565
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:breac
+  gd: "breac"
+  en: "speckled, checked"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:stiallach
+  gd: "stiallach"
+  en: "striped"
+  pos: adjective
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dearg
+  gd: "dearg"
+  en: "red"
+  pos: adjective
+  freqRank: 565
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gorm
+  gd: "gorm"
+  en: "blue"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uaine
+  gd: "uaine"
+  en: "green"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buidhe
+  gd: "buidhe"
+  en: "yellow"
+  pos: adjective
+  freqRank: 637
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:dubh
+  gd: "dubh"
+  en: "black"
+  pos: adjective
+  freqRank: 358
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geal
+  gd: "geal"
+  en: "white"
+  pos: adjective
+  freqRank: 565
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:glas
+  gd: "glas"
+  en: "grey, grey-green"
+  pos: adjective
+  freqRank: 1303
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:donn
+  gd: "donn"
+  en: "brown"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:liath
+  gd: "liath"
+  en: "grey, light blue"
+  pos: adjective
+  freqRank: 735
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:purpaidh
+  gd: "purpaidh"
+  en: "purple"
+  pos: adjective
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ruadh
+  gd: "ruadh"
+  en: "red (of hair), russet"
+  pos: adjective
+  freqRank: 1124
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:orains
+  gd: "orains"
+  en: "orange (colour)"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceaird
+  gd: "ceàird"
+  en: "craft, trade"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:muileann
+  gd: "muileann"
+  en: "mill"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceirsle
+  gd: "ceirsle"
+  en: "ball of yarn"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:prine
+  gd: "prìne"
+  en: "pin"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gearr
+  gd: "gearr"
+  en: "cut"
+  pos: verb
+  freqRank: 680
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fuaigheil
+  gd: "fuaigheil"
+  en: "sew"
+  pos: verb
+  tags: [pos:verb, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:grinn
+  gd: "grinn"
+  en: "fine, neat"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tiugh
+  gd: "tiugh"
+  en: "thick"
+  pos: adjective
+  freqRank: 2749
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tana
+  gd: "tana"
+  en: "thin"
+  pos: adjective
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bog
+  gd: "bog"
+  en: "soft"
+  pos: adjective
+  freqRank: 1550
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cruaidh
+  gd: "cruaidh"
+  en: "hard"
+  pos: adjective
+  freqRank: 371
+  tags: [pos:adjective, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leud
+  gd: "leud"
+  en: "width"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:slat
+  gd: "slat"
+  en: "yard (measure), rod"
+  pos: noun
+  gender: f
+  freqRank: 455
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:greis
+  gd: "grèis"
+  en: "embroidery"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:weaving]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

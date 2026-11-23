@@ -1,0 +1,474 @@
+# farm-animals vocabulary (content expansion). Ordered roughly by everyday usefulness; freqRank comes from the ARCOSG corpus where the word occurs (see content/SOURCES.md).
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:bo
+  gd: "bò"
+  en: "cow"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tarbh
+  gd: "tarbh"
+  en: "bull"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:laogh
+  gd: "laogh"
+  en: "calf"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caora
+  gd: "caora"
+  en: "sheep"
+  pos: noun
+  gender: f
+  freqRank: 455
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:reithe
+  gd: "reithe"
+  en: "ram"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uan
+  gd: "uan"
+  en: "lamb"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:muc
+  gd: "muc"
+  en: "pig"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cearc
+  gd: "cearc"
+  en: "hen"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:coileach
+  gd: "coileach"
+  en: "cockerel"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tunnag
+  gd: "tunnag"
+  en: "duck"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gobhar
+  gd: "gobhar"
+  en: "goat"
+  pos: noun
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:searrach
+  gd: "searrach"
+  en: "foal"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lair
+  gd: "làir"
+  en: "mare"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:asal
+  gd: "asal"
+  en: "donkey"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:crodh
+  gd: "crodh"
+  en: "cattle"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:spreidh
+  gd: "sprèidh"
+  en: "livestock"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:treud
+  gd: "treud"
+  en: "flock, herd"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buachaille
+  gd: "buachaille"
+  en: "herdsman, cowherd"
+  pos: noun
+  gender: m
+  freqRank: 1953
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ciobair
+  gd: "cìobair"
+  en: "shepherd"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cu-chaorach
+  gd: "cù-chaorach"
+  en: "sheepdog"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:isean
+  gd: "isean"
+  en: "chick"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bleoghain
+  gd: "bleoghain"
+  en: "milk (a cow)"
+  pos: verb
+  tags: [pos:verb, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:biath
+  gd: "biath"
+  en: "feed"
+  pos: verb
+  freqRank: 1953
+  tags: [pos:verb, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:buaile
+  gd: "buaile"
+  en: "fold, enclosure"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bathach
+  gd: "bàthach"
+  en: "byre, cowshed"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:staball
+  gd: "stàball"
+  en: "stable"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:fodar
+  gd: "fodar"
+  en: "fodder"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:connlach
+  gd: "connlach"
+  en: "straw"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:adharc
+  gd: "adharc"
+  en: "horn"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:earball
+  gd: "earball"
+  en: "tail"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leathar
+  gd: "leathar"
+  en: "leather"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ponaidh
+  gd: "pònaidh"
+  en: "pony"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piseag
+  gd: "piseag"
+  en: "kitten"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cuilean
+  gd: "cuilean"
+  en: "puppy"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:luch
+  gd: "luch"
+  en: "mouse"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:radan
+  gd: "radan"
+  en: "rat"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:calman
+  gd: "calman"
+  en: "dove, pigeon"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:turcaidh
+  gd: "turcaidh"
+  en: "turkey"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gamhainn
+  gd: "gamhainn"
+  en: "stirk, year-old calf"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:agh
+  gd: "agh"
+  en: "heifer"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:gaidhealach
+  gd: "Gàidhealach"
+  en: "Highland"
+  pos: adjective
+  freqRank: 799
+  tags: [pos:adjective, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:comhart
+  gd: "comhart"
+  en: "bark (of a dog)"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:geum
+  gd: "geum"
+  en: "low, moo"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:meilich
+  gd: "mèilich"
+  en: "bleating"
+  pos: noun
+  gender: f
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:peata
+  gd: "peata"
+  en: "pet"
+  pos: noun
+  gender: m
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beathach
+  gd: "beathach"
+  en: "animal, beast"
+  pos: noun
+  gender: m
+  freqRank: 192
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuathanas
+  gd: "tuathanas"
+  en: "farm"
+  pos: noun
+  gender: m
+  freqRank: 1124
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tuathanach
+  gd: "tuathanach"
+  en: "farmer"
+  pos: noun
+  gender: m
+  freqRank: 390
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:marcaich
+  gd: "marcaich"
+  en: "ride"
+  pos: verb
+  freqRank: 2749
+  tags: [pos:verb, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:diollaid
+  gd: "dìollaid"
+  en: "saddle"
+  pos: noun
+  gender: f
+  freqRank: 2749
+  tags: [pos:noun, topic:farm-animals]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

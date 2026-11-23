@@ -1,0 +1,502 @@
+# 50 common nouns (W1-J2)
+# Source: see content/SOURCES.md. All entries are unreviewed drafts until a Gaelic speaker verifies them.
+# Licence: CC BY-SA 4.0
+
+- id: lex:duine
+  gd: "duine"
+  en: "man, person"
+  pos: noun
+  gender: m
+  freqRank: 31
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bean
+  gd: "bean"
+  en: "woman, wife"
+  pos: noun
+  gender: f
+  freqRank: 455
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:nighean
+  gd: "nighean"
+  en: "girl, daughter"
+  pos: noun
+  gender: f
+  freqRank: 404
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:balach
+  gd: "balach"
+  en: "boy"
+  pos: noun
+  gender: m
+  freqRank: 565
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leanabh
+  gd: "leanabh"
+  en: "child, baby"
+  pos: noun
+  gender: m
+  freqRank: 1303
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:mathair
+  gd: "màthair"
+  en: "mother"
+  pos: noun
+  gender: f
+  freqRank: 244
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:athair
+  gd: "athair"
+  en: "father"
+  pos: noun
+  gender: m
+  freqRank: 235
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:piuthar
+  gd: "piuthar"
+  en: "sister"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:brathair
+  gd: "bràthair"
+  en: "brother"
+  pos: noun
+  gender: m
+  freqRank: 637
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:caraid
+  gd: "caraid"
+  en: "friend"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:love]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:taigh
+  gd: "taigh"
+  en: "house"
+  pos: noun
+  gender: m
+  freqRank: 83
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:baile
+  gd: "baile"
+  en: "town, village"
+  pos: noun
+  gender: m
+  freqRank: 135
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rathad
+  gd: "rathad"
+  en: "road"
+  pos: noun
+  gender: m
+  freqRank: 268
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:uisge
+  gd: "uisge"
+  en: "water, rain"
+  pos: noun
+  gender: m
+  freqRank: 322
+  tags: [pos:noun, topic:nature]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:latha
+  gd: "latha"
+  en: "day"
+  pos: noun
+  gender: m
+  freqRank: 75
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:oidhche
+  gd: "oidhche"
+  en: "night"
+  pos: noun
+  gender: f
+  freqRank: 192
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:madainn
+  gd: "madainn"
+  en: "morning"
+  pos: noun
+  gender: f
+  freqRank: 504
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:feasgar
+  gd: "feasgar"
+  en: "afternoon, evening"
+  pos: noun
+  gender: m
+  freqRank: 680
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:seachdain
+  gd: "seachdain"
+  en: "week"
+  pos: noun
+  gender: f
+  freqRank: 604
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bliadhna
+  gd: "bliadhna"
+  en: "year"
+  pos: noun
+  gender: f
+  freqRank: 41
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:am
+  gd: "àm"
+  en: "time"
+  pos: noun
+  gender: m
+  freqRank: 140
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:lamh
+  gd: "làmh"
+  en: "hand"
+  pos: noun
+  gender: f
+  freqRank: 336
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cas
+  gd: "cas"
+  en: "foot, leg"
+  pos: noun
+  gender: f
+  freqRank: 159
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceann
+  gd: "ceann"
+  en: "head"
+  pos: noun
+  gender: m
+  freqRank: 77
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:suil
+  gd: "sùil"
+  en: "eye"
+  pos: noun
+  gender: f
+  freqRank: 137
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cridhe
+  gd: "cridhe"
+  en: "heart"
+  pos: noun
+  gender: m
+  freqRank: 995
+  tags: [pos:noun, topic:love, topic:feelings]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:facal
+  gd: "facal"
+  en: "word"
+  pos: noun
+  gender: m
+  freqRank: 416
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:canan
+  gd: "cànan"
+  en: "language"
+  pos: noun
+  gender: m
+  freqRank: 244
+  tags: [pos:noun, topic:languages]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:leabhar
+  gd: "leabhar"
+  en: "book"
+  pos: noun
+  gender: m
+  freqRank: 225
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:sgoil
+  gd: "sgoil"
+  en: "school"
+  pos: noun
+  gender: f
+  freqRank: 346
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:obair
+  gd: "obair"
+  en: "work"
+  pos: noun
+  gender: f
+  freqRank: 91
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:airgead
+  gd: "airgead"
+  en: "money, silver"
+  pos: noun
+  gender: m
+  freqRank: 235
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:biadh
+  gd: "biadh"
+  en: "food"
+  pos: noun
+  gender: m
+  freqRank: 455
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bainne
+  gd: "bainne"
+  en: "milk"
+  pos: noun
+  gender: m
+  tags: [pos:noun, topic:food-drink]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:bata
+  gd: "bàta"
+  en: "boat"
+  pos: noun
+  gender: m
+  freqRank: 371
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cu
+  gd: "cù"
+  en: "dog"
+  pos: noun
+  gender: m
+  freqRank: 290
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:cat
+  gd: "cat"
+  en: "cat"
+  pos: noun
+  gender: m
+  freqRank: 735
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:each
+  gd: "each"
+  en: "horse"
+  pos: noun
+  gender: m
+  freqRank: 455
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:eilean
+  gd: "eilean"
+  en: "island"
+  pos: noun
+  gender: m
+  freqRank: 101
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:beinn
+  gd: "beinn"
+  en: "mountain"
+  pos: noun
+  gender: f
+  freqRank: 235
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:loch
+  gd: "loch"
+  en: "loch, lake"
+  pos: noun
+  gender: m
+  freqRank: 390
+  tags: [pos:noun, topic:hills-glens-lochs]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:tir
+  gd: "tìr"
+  en: "land, country"
+  pos: noun
+  gender: f
+  freqRank: 416
+  tags: [pos:noun, topic:nature]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ainm
+  gd: "ainm"
+  en: "name"
+  pos: noun
+  gender: m
+  freqRank: 218
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:litir
+  gd: "litir"
+  en: "letter"
+  pos: noun
+  gender: f
+  freqRank: 1550
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceist
+  gd: "ceist"
+  en: "question"
+  pos: noun
+  gender: f
+  freqRank: 299
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:rud
+  gd: "rud"
+  en: "thing"
+  pos: noun
+  gender: m
+  freqRank: 60
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:doras
+  gd: "doras"
+  en: "door"
+  pos: noun
+  gender: m
+  freqRank: 433
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:teine
+  gd: "teine"
+  en: "fire"
+  pos: noun
+  gender: m
+  freqRank: 530
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:ceol
+  gd: "ceòl"
+  en: "music"
+  pos: noun
+  gender: m
+  freqRank: 735
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed
+
+- id: lex:aimsir
+  gd: "aimsir"
+  en: "weather, time"
+  pos: noun
+  gender: f
+  freqRank: 1953
+  tags: [pos:noun]
+  source: { ref: "Claude draft from general Gàidhlig knowledge; cross-check against Am Faclair Beag and Learn Gaelic (LearnGaelic.scot)", licence: "CC BY-SA 4.0", url: "https://www.faclair.com" }
+  review: unreviewed

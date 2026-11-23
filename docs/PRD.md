@@ -45,7 +45,8 @@ Tartan Talk is a Scottish Gaelic language-learning PWA that replaces streaks and
 **Open workshop:** the learner chooses what to work on; no fixed session length. Sessions can mix new items and reviews.
 
 **First-time learning (Memrise-style, within one session):**
-- A new item is introduced, then tested on a rising ladder of exercises: recognition (multiple choice / word bank), then cloze (fill the blank), then full-sentence or typed production.
+- **Introduce first, never quiz the unseen.** A new word or form first appears on its own card: the word and its meaning, nothing to answer. The learner taps **Got it** (tested straight away with multiple choice), **Later** (held back for 24 hours) or **I already know this** (counted as known and never quizzed, and it unlocks the sentences and words that depend on it, but nothing is woven for it).
+- Then it is tested on a rising ladder of exercises: recognition (multiple choice / word bank), then cloze (fill the blank), then full-sentence or typed production.
 - **Learned = correct twice in the session.** Only then is its block woven into the scarf and the item enters the review schedule.
 - A miss re-queues the item a few cards later (relearn after about 10 minutes or after the rest of the batch, whichever is longer). Its row is not woven until it is answered correctly.
 - Construction practice swaps forms ("Tha gaol agam ort" vs "Tha gaol agad orm") so learners assemble rather than memorise.
@@ -60,7 +61,7 @@ Tartan Talk is a Scottish Gaelic language-learning PWA that replaces streaks and
 
 **Unlocking and pacing of sentences (designed from research; weights are ours to tune):**
 - **Unlock rule:** a sentence is available only when every word and form in it has been learned (woven). Learning a word can unlock several sentences at once.
-- **Rhythm:** alternate small word batches (3-4 words) with the sentences they unlock, then more words, then more sentences. If a batch unlocks nothing, choose the next words to complete a sentence.
+- **Rhythm:** alternate small word batches (3-4 words) with the sentences they unlock, then more words, then more sentences. Words are chosen sentence first: each sentence is scored by the scarf's own words (e.g. the forms of `aig`) it would teach per new word it costs, so a form already known is not taught again just to reuse a noun, while supporting words (`tha`, nouns) overlap freely and count for less. A sentence too big for one batch is started so the next batch finishes it. Supporting words are pulled in even when they do not match the scarf's tags.
 - **Spacing within and across sessions:** at most **2 sentences per newly learned item** in its first session; the rest are held back (like Anki's buried siblings) for later sessions and reviews, preferring sentences that put the item in a different slot or with different partners. Never show the same focal item back to back (minimum gap of about 4 cards), and avoid consecutive sentences with the same skeleton or filler. This reflects research that spacing beats massing for vocabulary, while the exact interval shape matters less. With many new words repetition is unavoidable, so these are soft preferences, not hard blocks.
 - **Implicit credit (positive-only, partial):** a typed full sentence gives full credit to every word and form in it. A cloze on one word fully reviews that word and gives the other words a small partial credit (about a quarter), only when they are due or slipping. Errors penalise only the item actually tested, never the others. Credit can delay or heal moth holes. Inspired by fractional implicit repetition in Math Academy's work; no source tests it for vocabulary, so weights need tuning against real use.
 

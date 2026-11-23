@@ -1,0 +1,12 @@
+# Licence: CC BY-SA 4.0
+id: gordon-modern
+name: Gordon
+clan: Gordon
+variant: Modern
+sett: "B/36 K4 G36 K4 Y4"
+colours: { B: "#2c4084", G: "#0b5a3a", K: "#1c1c1c", Y: "#e3b23c" }
+scale: 0.5
+provenance:
+  ref: "Approximate placeholder sett (not transcribed from any source)"
+  notes: "Written from general knowledge of the tartan's colours only. The stripe counts are NOT the real sett. Replace under W-TARTAN-SOURCES."
+verified: false
